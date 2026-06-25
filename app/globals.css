@@ -1,0 +1,55 @@
+@import "chatbot-page/styles.css";
+
+:root {
+  --cp-background: #f7f7f4;
+  --cp-foreground: #202124;
+  --cp-card: #ffffff;
+  --cp-muted: #ebece7;
+  --cp-muted-foreground: #676b73;
+  --cp-primary: #2563eb;
+  --cp-primary-foreground: #ffffff;
+  --cp-secondary: #e6e8ee;
+  --cp-secondary-foreground: #202124;
+  --cp-accent: #eaf2ff;
+  --cp-accent-foreground: #14325f;
+  --cp-destructive: #dc2626;
+  --cp-border: #dcddd8;
+  --cp-ring: #4c9aff;
+  --cp-sidebar: #efefea;
+  --cp-sidebar-foreground: #202124;
+  --cp-sidebar-accent: #e2e5ec;
+  --cp-sidebar-accent-foreground: #202124;
+  --cp-shadow: 0 18px 55px rgb(25 30 40 / 16%);
+}
+
+.dark {
+  --cp-background: #0d0d0d;
+  --cp-foreground: #f4f4f4;
+  --cp-card: #171717;
+  --cp-muted: #242424;
+  --cp-muted-foreground: #b8b8b8;
+  --cp-primary: #f4f4f4;
+  --cp-primary-foreground: #111111;
+  --cp-secondary: #2f2f2f;
+  --cp-secondary-foreground: #f3f4f6;
+  --cp-accent: #2a2a2a;
+  --cp-accent-foreground: #ffffff;
+  --cp-destructive: #ff6b6b;
+  --cp-border: rgb(255 255 255 / 12%);
+  --cp-ring: #7d7d7d;
+  --cp-sidebar: #171717;
+  --cp-sidebar-foreground: #f3f4f6;
+  --cp-sidebar-accent: #2a2a2a;
+  --cp-sidebar-accent-foreground: #ffffff;
+  --cp-shadow: 0 18px 55px rgb(0 0 0 / 35%);
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+.vlad-avatar {
+  border-radius: 999px;
+  object-fit: cover;
+}
