@@ -16,7 +16,7 @@ const DEFAULT_EXTENSIONS = [
   ".pptx",
 ]
 const SKIPPED_DIRS = new Set([".git", ".next", "node_modules"])
-const DEFAULT_EXCLUDED_PATH_PREFIXES = ["x/txt/"]
+const DEFAULT_EXCLUDED_PATHS = ["x/tweetsForStore.jsonl"]
 const TERMINAL_STATUSES = new Set(["completed", "failed", "cancelled", "expired"])
 
 const args = process.argv.slice(2)
@@ -49,12 +49,12 @@ const supportedExtensions = new Set(
     .filter(Boolean)
     .map((extension) => (extension.startsWith(".") ? extension : `.${extension}`)),
 )
-const excludedPathPrefixes = (
+const excludedPaths = (
   process.env.OPENAI_VECTOR_STORE_EXCLUDED_PATHS ??
-  DEFAULT_EXCLUDED_PATH_PREFIXES.join(",")
+  DEFAULT_EXCLUDED_PATHS.join(",")
 )
   .split(",")
-  .map(normalizeExcludedPathPrefix)
+  .map(normalizeExcludedPath)
   .filter(Boolean)
 
 if (!apiKey) fail("OPENAI_API_KEY is required.")
@@ -99,8 +99,8 @@ for (const remote of managedRemoteFiles) {
 }
 
 console.log(`Docs directory: ${path.relative(process.cwd(), docsDir) || "."}`)
-if (excludedPathPrefixes.length > 0) {
-  console.log(`Excluded path prefixes: ${excludedPathPrefixes.join(", ")}`)
+if (excludedPaths.length > 0) {
+  console.log(`Excluded paths: ${excludedPaths.join(", ")}`)
 }
 console.log(`Local documents: ${localDocuments.length}`)
 console.log(`Managed vector-store files: ${managedRemoteFiles.length}`)
@@ -411,20 +411,26 @@ function contentTypeFor(filePath) {
   }
 }
 
-function normalizeExcludedPathPrefix(value) {
-  const normalized = value
+function normalizeExcludedPath(value) {
+  // Accepts both exact files ("x/tweetsForStore.jsonl") and directory subtrees
+  // ("docs/private", "docs/private/", "docs/private/**"). Trailing slash/glob is
+  // dropped so a single rule covers both cases in shouldSkipRelativePath.
+  return value
     .trim()
     .replaceAll("\\", "/")
     .replace(/^\/+/, "")
-    .replace(/\*+$/, "")
+    .replace(/\/(\*\*?)?$/, "")
     .replace(/\/+$/, "")
-
-  return normalized ? `${normalized}/` : ""
 }
 
 function shouldSkipRelativePath(relativePath) {
-  const normalized = relativePath.replaceAll("\\", "/").replace(/^\/+/, "")
-  return excludedPathPrefixes.some((prefix) => normalized.startsWith(prefix))
+  const normalized = relativePath
+    .replaceAll("\\", "/")
+    .replace(/^\/+/, "")
+    .replace(/\/+$/, "")
+  return excludedPaths.some(
+    (excluded) => normalized === excluded || normalized.startsWith(`${excluded}/`),
+  )
 }
 
 async function readPackageName() {
