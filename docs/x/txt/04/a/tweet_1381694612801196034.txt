@@ -1,0 +1,6 @@
+Question to the ML community - what do you think about SLIDE (Sub-LInear Deep learning Engine)? 🤔 
+
+I got across this paper and need to read the details, but it almost seems too good to be true. I need to find the catch there...
+
+Anybody has experience?
+

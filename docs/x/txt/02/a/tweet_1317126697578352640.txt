@@ -1,0 +1,5 @@
+Very interesting article to read for everybody working in Machine Learning❗
+
+It discusses the gap between how Machine Learning is being tought and what the industry actually needs. Spoiler - the gap is big!
+
+ \n\n---\n\n The basic finding is that universities focus on the methods and provide well prepared and cleaned datasets for the practical exercises. In real world applications, though, the problem is usually collecting and preprocessing the data, where many students lack the skills.

@@ -1,0 +1,26 @@
+It's finally time for some paper review! 📜🔍🧐
+
+I promised the other day to start posting threads with summaries of papers that had a big impact on the field of ML and CV.
+
+Here is the first one - the AlexNet paper!  \n\n---\n\n This is one of the most influential papers in Computer Vision, which spurred a lot of interest in deep learning. AlexNet combined several interesting ideas to make the CNN generalize well on the huge ImageNet dataset. It won the ILSVRC-2012 challenge by a big margin. \n\n---\n\n Architecture 🏗️
+
+The network consists of 5 convolutional layers (some of which followed by max-pooling) and 3 fully-connected layers and has 60M parameters. The network is distributed over two GPUs with only particular layers allowed to communicate between them.  \n\n---\n\n Activation function 📈
+
+AlexNet is one of the first papers to use ReLUs instead of sigmoid or tanh. The network was able to learn much faster (about 6x) and enabled the authors to train such a large network in the first place. 
+
+Btw. ReLU is a complicated way to say max(0,x) 😉  \n\n---\n\n Normalization 🗜️
+
+AlexNet uses Local Response Normalization to improve generalization. It is similar to lateral inhibition in biology, where neurons try to increase contrast to their neighbors. Example image - A and B are the same color, but your brain sees them differently.  \n\n---\n\n Pooling 🔲
+
+Pooling reduces the resolution of the feature maps and adds some translational invariance. Contrary to the traditional non-overlapping pooling methods, AlexNet allows neighbor regions to overlap. This further improves generalization.
+
+Image:   \n\n---\n\n Dropout ⛔
+
+Dropout was a new technique in 2012, but it turns out to be crucial for good generalization in AlexNet. During training, the output of random 50% of the neurons in the first 2 fully-connected layers is set to 0, which reduces co-adaptation of neurons and overfitting. \n\n---\n\n Results 🏆
+
+The results that AlexNet achieved vastly superior to any other method at that time. They won the ILSVRC-2012 challenge with 15.3% top-5 error rate with the second-best method being 26.2%. \n\n---\n\n Feature maps 🌠
+
+A very interesting result is how the two GPUs learned fundamentally different filters in the first convolutional layer. GPU 1 learned frequency and orientation filters, while GPU 2 focused on color. This happened in every run, independent on the initialization.  \n\n---\n\n Even though, CNNs weren't a new thing in 2012, AlexNet was the first method that managed to train such a large network. It employing several techniques that made it possible without severe overfitting.
+
+It is considered by many as the paper that started it all... \n\n---\n\n Btw. there is a minimal implementation of the AlexNet architecture in PyTorch. You can take a look at the code here:
+

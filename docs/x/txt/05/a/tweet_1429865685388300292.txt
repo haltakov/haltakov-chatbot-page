@@ -1,0 +1,7 @@
+Do you want a simple and intuitive explanation of Gradient Descent and Momentum?
+
+Check out my new explanations on SUBOPTIMaL:
+
+  \n\n---\n\n And here you can learn about Momentum:
+
+ 

@@ -1,0 +1,27 @@
+What is backpropagation? ◀️◀️◀️
+
+Backpropagation is an algorithm used to train neural networks. 
+
+It adjusts the weights of the network in a way that minimizes the difference between the predictions of the net and the ground truth labels - the loss function.
+
+More 👇 \n\n---\n\n The math 📐
+
+The math behind it is essentially taking every weight in the network and computing the partial derivative of the loss function for it.
+
+We can then adapt this weight according to the computed gradient and the learning rate - this is called Gradient Descend. \n\n---\n\n How it works? 1️⃣
+
+A naive implementation of this will be super slow - here comes backpropagation.
+
+We start from the last layer where we can directly compute the loss and the effect of every weight on it, so we can do the adaptation easily. \n\n---\n\n How it works?  2️⃣
+
+Then we use the chain rule to move back 
+to the previous layer and reuse the computations we did just before that to compute the gradients and update the weights.
+
+We continue until we reach the first trainable layer. \n\n---\n\n It is fast! 🐇
+
+Backpropagation avoids redundant computation of the intermediate terms and therefore is very efficient.
+
+It is a great example of dynamic programming! \n\n---\n\n And here is one nice visualization of the chain rule 😆 Credits to @Khoa_NguyenTuan
+
+ \n\n---\n\n This is my answer to question #5 from my Machine Learning Interview Questions series:
+

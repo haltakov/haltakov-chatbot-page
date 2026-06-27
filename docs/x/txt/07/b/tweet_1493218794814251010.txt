@@ -1,0 +1,3 @@
+New book by @SimonHoiberg, which I'm sure is worth the $14!  \n\n---\n\n I pretty much expected a link to Gumroad, but it seems you are using Stripe and your own website directly.
+
+How much did you have to build yourself @SimonHoiberg? Or is this straightforward to set up?

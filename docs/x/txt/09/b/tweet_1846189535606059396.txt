@@ -1,0 +1,8 @@
+Skipped Sentry and DataDog, by implementing a simple system myself:
+
+- Log table in the DB to log message, level and user
+- Telegram bot to send message for errors
+- Helper function to add to the log table and notify on Telegram
+- Grafana connected to the DB
+
+Time less than 1h

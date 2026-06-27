@@ -1,0 +1,16 @@
+Machine Learning Interview Question #7 🤖🧠🧐
+
+This is a more difficult and more open question...
+
+❓   You are developing a traffic signs  detector for a self-driving car.
+
+How would you design it in a way that you can quickly add support for new signs, you didn't see before ❓ \n\n---\n\n 🌟 BONUS QUESTION 🌟: 
+
+Can you do this with minimal retrain of your neural network? \n\n---\n\n Looking forward to some creative answers! 😃
+
+Answer in the replies. Read the rules 👇
+
+ \n\n---\n\n OK, here is my answer to this question...
+
+There are many possible ideas here with different tradeoffs. There were also some very creative answers, so make sure you check out all the replies!
+

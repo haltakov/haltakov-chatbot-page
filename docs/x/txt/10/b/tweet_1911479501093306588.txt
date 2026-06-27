@@ -1,0 +1,3 @@
+I really love @coolifyio, but starting to hit some rough edges from time to time.
+
+Last instance - the reverse proxy gzips MP4 videos and strips the Accept-Ranges response header. Now these MP4 videos don't play in Safari...

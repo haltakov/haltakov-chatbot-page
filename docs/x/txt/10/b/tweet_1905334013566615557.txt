@@ -1,0 +1,13 @@
+On my way to the gym, a friend sends me a link to a new fitness app.
+
+I log in with my AI identity, and it recognises my age, fitness level, and preferred exercises from my previous LLM chats. It asks a couple of questions and creates a new plan for me.
+
+After the training...  \n\n---\n\n I come home and decide to try out this fancy new web framework I've been hearing about.
+
+I log in with my AI identity, and it immediately recognizes my coding experience and the libraries I use. It then creates a personalized tutorial for me to try out.
+
+In the evening... \n\n---\n\n My son tells me he wants to try a new AI game.
+
+We log in with his AI identity and choose to use my Claude subscription. The game is great, so we subscribe for $5 instead of paying $20 for the stand-alone game.
+
+It generates an avatar exactly how my son likes it. \n\n---\n\n I want to live in this future! The question is who will take the opportunity to create the AI identity? Seems @openai is working on that...

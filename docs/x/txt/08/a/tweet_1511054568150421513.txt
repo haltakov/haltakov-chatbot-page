@@ -1,0 +1,5 @@
+Do you want to understand convolutions?
+
+This page is full of great animated examples! It covers all important convolution parameters and the authors also have a paper explaining the details.
+
+ 

@@ -1,0 +1,13 @@
+Your software is crashing? Maybe you can blame it on the cosmic rays next time... 🤔
+
+Cosmic rays are high-energy  protons or atomic nuclei  traveling trough space. They have enough energy to corrupt data if they hit an electronic circuit.
+
+ \n\n---\n\n Unlikely to happen?  ☝️
+
+A study from IBM in the 90s shows that computers typically experience  one cosmic-ray-induced error per 256 MB of RAM per month. This is probably even worse with the much smaller transistor sizes today.
+
+This is a real problem for data centers. \n\n---\n\n Popular accidents that are probably caused  by cosmic rays:
+
+🗒️ One candidate getting 4096 additional votes in a Belgian election (2003)
+✈️ Airbus A330 plunges 2.5 km (2008)
+🚗 Toyota's stuck throttle issue (2009)

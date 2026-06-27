@@ -1,0 +1,3 @@
+The crash tests have been there for a long time now, but recently included tests for the safety of pedestrians.
+
+The real deal are the driver assist tests that became much more difficult in 2018. All cars with good rating now have very good safety systems as standard! \n\n---\n\n @mcsee1 😉

@@ -1,0 +1,4 @@
+A high-quality and diverse dataset is more important than your fancy model 🤷‍♂️ \n\n---\n\n That's a good take! The curation of the dataset is something that doesn't get enough attention!
+
+ \n\n---\n\n Yes, label quality is essential for a high-quality dataset! Wrong labels can make you take very wrong decisions!
+

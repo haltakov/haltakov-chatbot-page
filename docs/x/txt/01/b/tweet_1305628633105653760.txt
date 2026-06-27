@@ -1,0 +1,4 @@
+Created a simple and quick landing page for my open-source project Simple Photo Gallery using @tailwindcss.
+
+What do you guys think?
+

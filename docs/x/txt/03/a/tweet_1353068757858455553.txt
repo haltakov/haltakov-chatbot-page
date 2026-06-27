@@ -1,0 +1,9 @@
+Did you know about the Twitter tool "Timing is everything"? 🗓️
+
+You can see when your audience is active thought the day for each day of the week 
+
+Here is how my page for the last week looks like. It is pretty accurate according to my own experiments.
+
+  \n\n---\n\n On the page it says that the tool considers the times, when your followers are watching video, but I think this is a good proxy for general activity.
+
+The only caveat is that it only works for accounts with more than 1000 followers.

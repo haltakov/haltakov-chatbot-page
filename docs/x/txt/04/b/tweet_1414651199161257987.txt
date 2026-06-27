@@ -1,0 +1,8 @@
+Interactive explanations of important AI concepts 🧑‍🏫
+
+A great effort by Google to explain important AI concepts in an accessible, interactive, and "formula-free" way.
+
+They discuss topics like fairness, bias, diversity, and more.
+
+ \n\n---\n\n This is indeed my favorite one!
+

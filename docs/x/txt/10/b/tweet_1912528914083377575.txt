@@ -1,0 +1,7 @@
+Vercel is easy and cheap, but not predictable
+
+Digital Ocean is predictable and easy, but not cheap
+
+Hetzner is cheap and predictable, but not easy
+
+AWS is not cheap, not easy and not predictable

@@ -1,0 +1,12 @@
+How to deploy Neural Networks on the Web 🧑‍🏫 
+
+I got the chance to help create this tutorial for the @neuromatch Academy Deep Learning course. This is an important topic that doesn't get enough attention IMO.
+
+ \n\n---\n\n In this tutorial you are going to learn about:
+
+▪️ Creating web applications with Flask
+▪️ Apply the MVVM design pattern
+▪️ Build a REST API
+▪️ Create an interactive UI with Vue.js
+▪️ Integrate your PyTorch model in the application
+▪️ Deploy your app on Heroku \n\n---\n\n It was a pleasure working on this together with @rayatnia, @KordingLab, and the rest of the awesome people behind Neuromatch Academy!

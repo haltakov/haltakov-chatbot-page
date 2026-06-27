@@ -1,0 +1,3 @@
+Hyperbolic neural networks are an interesting concept that I don't have experience with... 
+
+@lex_akeem can you give a short overview, in which cases they are better than traditional Euclidean NNs? 

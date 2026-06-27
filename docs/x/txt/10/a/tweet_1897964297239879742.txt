@@ -1,0 +1,7 @@
+MCP Reduces Complexity
+
+Some argue MCP adds complexity, but it actually reduces it!
+
+Without MCP, each client needs to integrate with every server/tool, resulting in N×M integrations.
+
+With MCP, every client and every server integrates with MCP, resulting in just N+M connections. 

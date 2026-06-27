@@ -1,0 +1,5 @@
+My theory is that Microsoft and Google are so bad at creating useful AI assistants because of cost.
+
+They have a massive user base and are trying to minimize the cost by using smaller models.
+
+Startups like OpenAI, Cursor, Windsurf etc. go for the best possible experience. 

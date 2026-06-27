@@ -1,0 +1,39 @@
+@TiffanyAndCo launched an expensive, custom-made jewelry collection limited to the owners of a prestigious art collection.
+
+You pay $50K for a pendant that is customized to look like the art piece you own.
+
+This is how they use the blockchain to make this happen
+
+1/8 🧵  \n\n---\n\n @TiffanyAndCo First, $50K may sound like a whole lot of money for a pendant (and it is), but this is nothing new...
+
+Luxus jewelry brands have much more expensive pieces. There are currently 17 more expensive necklaces in the @TiffanyAndCo store. This one is $115K for example. 🤷‍♂️
+
+2/8  \n\n---\n\n @TiffanyAndCo Now, @TiffanyAndCo want to make the new collection more special, so they want to only offer it to people that own a piece of another art collection.
+
+However, imagine how difficult this is to verify this...
+
+3/8 \n\n---\n\n @TiffanyAndCo Let's say they want to sell only to people that own a Picasso painting.
+
+You log into the online store and you need to prove that they own a Picasso.
+
+Do you submit a certificate? Online or per mail? Do you get somebody to come by your house and inspect the painting?
+
+4/8 \n\n---\n\n @TiffanyAndCo Or let's say they want to offer the new collection only to Ferrari owners.
+
+Again, how do you prove you own a Ferrari? You upload your car registration? Oh, it is registered to your company... now you upload the company registration? Who reviews this? Who approves this?
+
+5/8 \n\n---\n\n @TiffanyAndCo @TiffanyAndCo, however, chose to limit their sale to owners of a Crypto Punk NFT (@cryptopunksnfts).
+
+The ownership information of NFTs is stored on the blockchain, which is a public database. Therefore, everybody can easily verify which wallet owns which punk.
+
+6/8 \n\n---\n\n @TiffanyAndCo @cryptopunksnfts Now, in their online store, @TiffanyAndCo only needs to verify that the one who wants to buy their piece is the one that owns this wallet address.
+
+This is again, trivial - the user just needs to sign a message using their crypto wallet.
+
+7/8 \n\n---\n\n @TiffanyAndCo @cryptopunksnfts Many people are mocking @TiffanyAndCo that they are selling an NFT for $50K, but they miss the point...
+
+This is a case of a luxury brand using the blockchain to enable a new use-case - sell limited, custom jewelry to owners of another art collection.
+
+Permissionless.
+
+8/8

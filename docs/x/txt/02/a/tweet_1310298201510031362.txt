@@ -1,0 +1,7 @@
+One of the challenges writing Twitter threads about Machine Learning? Coming up with the right emoji for some terms... 🤦‍♂️. 
+
+Here are some examples, what emojis would you choose?
+- Dropout
+- Feature map
+- Normalization
+- Pooling

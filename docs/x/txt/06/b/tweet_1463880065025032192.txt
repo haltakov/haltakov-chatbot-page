@@ -1,0 +1,2 @@
+We use SVM because it is only three letters, but you can use XGBoost if you want.
+

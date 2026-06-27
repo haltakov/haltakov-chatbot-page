@@ -1,0 +1,8 @@
+If you liked my thread on AI-generated art, you'll like the Botto project by @quasimondo as well.
+
+
+
+Botto is a Decentralized Autonomous Artist that creates AI-generated art. The interesting thing is that the community votes on the style Botto uses. \n\n---\n\n People can vote on different art pieces and styles using the Botto token. The votes are used to guide the prompt of the VQGAN+CLIP model. \n\n---\n\n Every Sunday Botto sells one of its images in an auction. The first two pieces were sold for more than $800,000!
+
+The proceeds from the auction are invested back in the community in a creative way - buying and burning the Botto tokens, which increases the value of the remaining. \n\n---\n\n And here is my thread explaining how this type of models work: 
+

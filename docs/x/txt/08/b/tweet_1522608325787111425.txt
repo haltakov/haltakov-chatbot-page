@@ -1,0 +1,3 @@
+Regularization is very useful to avoid overfitting.
+
+Regularization is a bias 🤷‍♂️  \n\n---\n\n A bias, that your weights should be small.

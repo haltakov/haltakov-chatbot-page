@@ -1,0 +1,6 @@
+Something really cool I recently came across - an AI-generated podcast 🎤
+
+This is an artificially generated podcast using GPT-3 read in a nice robotic voice. It is surprisingly good and funny. Created by @Stavros.
+
+ \n\n---\n\n The code is also open-source if you want to check it out:
+

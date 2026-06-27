@@ -1,0 +1,79 @@
+Can you do everything better with Web 2.0 than web3? 🤔
+
+Another common critique of web3 is that things can be implemented in a cheaper and more efficient way using Web 2.0 tech.
+
+This is indeed true in many cases, but not always. We need to talk trade-offs!
+
+Thread 🧵
+
+1/17 \n\n---\n\n Yesterday, we talked about the energy efficiency of different consensus mechanisms and established that while Proof-of-Work chains consume too much energy, the problem can be solved using Proof-of-Stake.
+
+
+
+However, there is more...
+
+2/17 \n\n---\n\n Energy is not the only cost of decentralization. Using the blockchain to store data or run code increases the complexity of an application and adds latency in the process (waiting for the transaction to be validated).
+
+It's a trade-off, but not as big as you think...
+
+3/17 \n\n---\n\n First, if you are only reading data from the blockchain, the complexity is not higher than using a managed database service!
+
+You need to register with a node service, get your API key and you need to use a small lib in your app to interact with it.
+
+4/17 \n\n---\n\n The node service providers like Alchemy or Infura run full Ethereum nodes so you don't need to do it. Same as AWS running classical servers.
+
+They have generous free tiers that give you access to the blockchain. On the client, you can use a lib like ethers.js or web3.js
+
+5/17 \n\n---\n\n And most importantly, reading from the blockchain is free! Even more, running smart contract functions that only read and not write is free as well. No transactions, no gas fees needed!
+
+If you want to change something on the blockchain you need to pay a transaction fee
+
+6/17 \n\n---\n\n What is important to understand, though, is that you don't need to store everything on the blockchain!
+
+What you need there is the most critical information of your app, especially information on who owns what. The rest doesn't need to be stored there!
+
+7/17 \n\n---\n\n For example, many NFT projects don't store the actual images on the blockchain, but on IPFS.
+
+IPFS is a distributed file system that stores images. If you want to make sure, your files will not be deleted, you can pin them (or use a pinning service, most offer free tiers).
+
+8/17 \n\n---\n\n Now, distributed systems on their own don't offer consensus. IPFS doesn't know who owns the image NFT or which image is the right one. This is what you need to store on the blockchain!
+
+The NFT smart contract then contains a permanent link from your token to the image.
+
+9/17 \n\n---\n\n Having said that, there are NFT projects that store images on centralized servers like AWS or allow the owner to change the image URLs in the contract.
+
+These are bad practices that defeat the purpose of the blockchain. Reputable collections, though, don't do that.
+
+10/17 \n\n---\n\n We need to build better tools to help people easily check such things. We cannot expect everybody to be able to jump in the smart contract and read it to make sure everything is fine.
+
+These tools will be built!
+
+11/17 \n\n---\n\n Another example with a blog. It will be a terrible idea to put the content on the blockchain. Instead, you can put it on IPFS, GitHub, or somewhere where people can make a copy if they want.
+
+Then store a hash of the content on the chain, so everybody can verify it.
+
+12/17 \n\n---\n\n So, now we established that Proof-of-Stake blockchains can vastly reduce the cost of transactions and the environmental impact and that we don't need to store everything on the blockchain.
+
+Now you need to think about what tradeoffs you want to make in your app.
+
+13/17 \n\n---\n\n If you are building an app for people to upload funny cat images, using web3 is a bad idea. The cost and complexity are not worth it.
+
+And this is fine - web3 is a layer in addition to Web 2.0 that is suitable for some use-cases, not a replacement of Web 2.0
+
+14/17 \n\n---\n\n However, if you want to give people ownership of digital assets (art, memberships, game assets, certificates), using the blockchain is a small cost to pay in comparison to your assets being locked up in the central database controlled by a single company.
+
+15/17 \n\n---\n\n Of course, if you don't see value in this particular asset (and many people often don't), the cost will still be too high and you may think the blockchain is still not needed.
+
+However, I'm sure digital assets will grow more important and allow us to do many new things.
+
+16/17 \n\n---\n\n Finally, I just want to repeat myself, but I think this is key.
+
+You don't need to store everything on the blockchain!
+
+And remember, reading from the blockchain is completely free!
+
+17/17 \n\n---\n\n This thread is a part of a series where I comment on common criticism about web3 and decentralization. I strive to have an honest conversation without "NGMI" on one side and "All crypto is a scam" on the other.
+
+Context: ...
+
+Follow me @haltakov for more

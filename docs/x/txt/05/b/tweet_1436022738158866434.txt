@@ -1,0 +1,15 @@
+I highly recommend listening to the latest eposide of @therobotbrains podcast with @ilyasut.
+
+
+
+Here are some insights I found particulalry interesting 👇 \n\n---\n\n "Neural networks are parallel computers"
+
+That is why they are so powerful - you can train a generic computer to solve your problem. This is also the driver behind Software 2.0 - neural network are becoming more and more capable of solving all kinds of problems. \n\n---\n\n "Neural networks perform well on tasks that humans can perform very quickly"
+
+Humans don't think much when listening, observing or performing simple tasks.
+
+This means that a neural network can be trained to be good at it as well: NLP, computer vision and reinforcement learning. \n\n---\n\n "Neural networks are formalized intuition"
+
+Humans and especially experts in some domain are very good at heuristics - they have a gut feeling. Experts playery for exampe can look at a situation and instantly have feeling what is going on.
+
+Same with neural networks.

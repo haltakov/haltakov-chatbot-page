@@ -1,0 +1,3 @@
+My game for #vibejam is taking shape! You can play interactive stories by just talking to the AI.
+
+Adding the ability for users to create story plots themselves to fill the world 

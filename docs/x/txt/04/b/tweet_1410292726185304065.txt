@@ -1,0 +1,13 @@
+Computer Vision Challenge (again) 🏆
+
+Yesterday I asked you about distinguishing red from green tomatoes. There were creative answers for simple systems based on colors and thresholding.
+
+Let's look at classifying red and green traffic lights now. How would you approach this?  \n\n---\n\n Here the tomato challenge from yesterday, if you haven't seen it already.
+
+ \n\n---\n\n To clarify, the goal is to detect the traffic lights from a camera in a self-driving car...
+
+ \n\n---\n\n This is a very good point, indeed! Recognizing if the top or the bottom light is active is a very strong signal. However, it is not enough in all cases...
+
+There are many types of traffic lights around the world!
+
+ 

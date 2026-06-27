@@ -1,0 +1,9 @@
+Tip for dealing smartphone photos in your code 📱
+
+If you process photos from a smartphone (for example creating thumbnails) you may run into problems with the orientation. 
+
+Some photos are displayed correctly in image viewers and browsers, but are stored rotated in the file. \n\n---\n\n Make sure you read the Orientation tag from the EXIF data to see if the image should be rotated, before you process it.
+
+Here is an example in Python using the Pillow library. It is taken from my Simple Photo Gallery project.
+
+ 

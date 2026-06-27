@@ -1,0 +1,5 @@
+Programming humor alert ⚠️
+
+The cooking time of this rice is given as ±20 minutes. I need 15 min to prepare a salad and 10 min for desert. So, in the best case do I only need 5 min to prepare salad, rice and desert? 🤔
+
+Lesson learned: use signed/unsigned integers correctly! 🧐 

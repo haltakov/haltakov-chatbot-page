@@ -1,0 +1,37 @@
+Time for another ML paper review - generating synthetic ground truth data from video games! 🎮
+
+I love this paper, because it pushes the boundaries of creating realistic synthetic ground truth data and shows that you can use it for training and improve your model. 
+
+Details 👇  \n\n---\n\n The Problem 🤬
+
+Creating ground truth for semantic segmentation is very slow and expensive - somebody needs to annotate every pixel in an image!
+
+Labeling a single image takes between 60 and 90 minutes. Scale AI will charge you $6.40 (while a bounding box costs only $0.08).  \n\n---\n\n Idea 💡
+
+The authors used GTA V to capture highly realistic images of traffic scenes in different weather and lighting conditions. They managed to extract a lot of information from the game, so that the labeling process could be accelerated almost 800 times!  \n\n---\n\n How? ⁉️
+
+The authors didn't have access to the source code of GTA V, which could have made everything much easier...
+
+However, they managed to intercept the communication between the CPU and the GPU and capture the rendering commands send by the Direct3D driver. \n\n---\n\n Details ⚙️
+
+They extracted the information from which mesh, texture and shader each pixel was rendered and generated a unique ID from it. When a pixel was annotated, the label could be propagated to all other pixels with the same ID in the image and even across frames.  \n\n---\n\n Labeling Tool ⚒️
+
+The authors created an efficient labeling tool using this method. While images in the beginning took more time, the labeling speed kept increasing, as the existing annotations could be propagated of the other images. On average it took only 7 second per image!  \n\n---\n\n Dataset 💽
+
+The authors created a dataset containing almost 25.000 annotated images, which was much bigger than any dataset containing semantic segmentation ground truth at that time. Labeling took only 49 hours!  \n\n---\n\n Training with synthetic data 🤖
+
+The authors trained a CNN with both synthetic and real data for 2 benchmarks and achieved much better results, than training only with real data.
+
+Even more, they could reduce the amount of real data to 1/3 and still get comparable results!  \n\n---\n\n Conclusion 🏁
+
+Training on synthetic data is already done in several domains like human pose estimation from depth data (Microsoft Kinect) and optical flow, but is still not fully possible for camera images. However, it has a lot of potential to unlock many new applications! \n\n---\n\n Further reading 📖
+
+◾ Original article: 
+◾ Video with explanations and many examples: 
+◾ Code:  \n\n---\n\n And btw. check citation [14] 😉 
+
+I used to work on this topic during my PhD. I modified a open-source driving simulator called VDrift to create GT depth, optical flow and semantic segmentation data. However, the data wasn't as realistic as GTA... 🤷‍♂️
+
+ \n\n---\n\n Let me know if you want to read more details about something or if you want me to review a particular paper.
+
+Next paper for review is DenseNet as requested by @carlosz22! And there will be another surprise review later today... 😉

@@ -1,0 +1,3 @@
+I'm vibe coding a simple game for #vibejam. Honestly, it's something you need to try, if only for the experience!
+
+Sometimes you ask Cursor to implement a simple feature, and it breaks the code, exhausts tool usage, introduces a gazillion changes, and things just get worse.…

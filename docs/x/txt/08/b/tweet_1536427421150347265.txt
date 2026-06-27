@@ -1,0 +1,8 @@
+How to make your day better?
+
+▪️ Open VS Code
+▪️ Go to Settings
+▪️ Search for "Indent"
+▪️ Change this value from 8 to 20
+
+You are welcome 

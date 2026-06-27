@@ -1,0 +1,12 @@
+Computer Vision Challenge 🏆
+
+How would you implement the recognition of the red and green tomatoes?  \n\n---\n\n I really like this idea! Makes the software part almost trivial... 👍
+
+ \n\n---\n\n Another good answer, especially the part with the linear camera. Fully controlling the environment may not be as easy though - some of these are mounted on the machines that collect the tomatoes from the field...
+
+ \n\n---\n\n Making things even easier with a very simple color sensor.
+
+ \n\n---\n\n As many of you pointed out, machine learning is overkill here. 
+
+The problem can probably be solved by very simple sensors and thresholds on the colors to filter red from green tomatoes. \n\n---\n\n This is a great video that explains how it works!
+

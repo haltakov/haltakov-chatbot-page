@@ -1,0 +1,16 @@
+📣 First tutorial of my machine learning course is here 📣
+
+This is an early version, but I want to share it with the ML community and hear your opinion about it!
+
+Every ML project starts with collecting data, so I do as well:
+
+Using a REST API
+
+ \n\n---\n\n I know that the tutorial still lacks polish and has some small problems, but I think getting early feedback is more important now.
+
+I will appreciate filling this short survey after completing it.
+
+Thank you!
+
+ \n\n---\n\n Thanks a lot for the positive feedback! 😃👍
+

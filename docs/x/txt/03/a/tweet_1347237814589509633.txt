@@ -1,0 +1,21 @@
+Machine Learning Interview Question #3  🧠🤖🧐
+
+Let's now move to deep learning and start at a high level...
+
+❓ Why is deep learning called "deep"? Why is it so popular nowadays? Why/when is it better than traditional ML methods?❓
+
+Answer in the replies. Read the rules  👇 \n\n---\n\n  \n\n---\n\n Again, so many good responses. Interesting that, while many people have good internal understanding of DL, some struggled a bit to pinpoint the key reasons why DL is better in many cases than traditional ML
+
+Here my answer 👇 \n\n---\n\n Why is deep learning called "deep" ⁉️
+
+The term deep refers to the neural network having many hidden layers.
+
+There are many challenges that arise from having deep networks and there were many techniques developed in the recent years to allow to train them. \n\n---\n\n Why is DL so popular nowadays ⁉️
+
+Deep learning delivered significantly better results than previous methods for many challenging problems in the fields of computer vision, natural language processing and others. This unlocked lots of new application in many industries. \n\n---\n\n Why/when is DL better than traditional ML methods? ⁉️
+
+The biggest advantage of DL is that it automatically finds the best features for the given problem from the training data. 
+
+Classical ML models usually require the features to be engineered by hand. 1/2 \n\n---\n\n This is particularly beneficial for complex problems dealing with unstructured data (images, audio etc.), where feature engineering is difficult.
+
+Classical ML models are still very useful for problems that have clearly defined features. 2/2

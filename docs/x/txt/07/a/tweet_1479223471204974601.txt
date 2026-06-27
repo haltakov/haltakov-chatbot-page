@@ -1,0 +1,5 @@
+Great thread on NFTs, what they are, and what they can be used for.
+
+Just one addition - there are other blockchains than Ethereum with a well developed NFT ecosystem and very low gas fees and negligible environmental impact. 
+
+Examples: Tezos, Solana, Polygon. 

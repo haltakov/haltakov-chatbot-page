@@ -1,0 +1,47 @@
+How to add new classes to your ML model? 🍏🍎🍊... 🍌?
+
+You have a large multi-class NN in production.
+
+You discover a new important class and want to add support for it *quickly* and with *low* risk.
+
+Example: traffic signs recognition for self-driving cars 🛑🚗
+
+Thread 👇 \n\n---\n\n The naive approach 🤷‍♂️
+
+Collect examples of the new class (for example a new traffic sign), label them and retrain the whole NN.
+
+✅ It will probably work
+
+❌ It will be time consuming, especially for big models.
+❌ Risk for unintended regressions \n\n---\n\n Freezing the first layers 🥶
+
+Typical CNNs learn generic image features in the initial layers and they will likely apply to the new sign as well.
+
+You can freeze the weights of the initial layers and only retrain the last fully connected layer(s). \n\n---\n\n ✅ Faster retrain, because only the last layers are updated
+✅ Lower risk for regressions
+
+❌ For signs that look very differently, the CNN may lack the required features, leading to poor performance
+❌ Still some risk for regression, because we touch all classes. \n\n---\n\n Extracting high-level features ⭕️⚪️6⃣
+
+Train the NN to extract high-level features suitable for traffic signs, like shape, color, text or digits.
+
+Define rules to classify each sign based on these features.
+
+(Special credits to @ernestomancebo and @KwasiRansom for this idea) \n\n---\n\n ✅ No need to retrain
+✅ Low risk because classes can be separated well
+✅ Will work well for speed limits
+
+❌ Won't work for some sign categories, like for example warning signs that only differ by their pictogram
+❌ Won't work for signs with new shapes \n\n---\n\n One-shot learning 🛑▶️🔢
+
+Transform sign images into a latent space, where they can be compared. Each class image is then described by a feature vector.
+
+Siamese NNs can trained to transform images of the same class to very similar feature vectors in a latent space. \n\n---\n\n How it works?
+
+1⃣ Choose examples for the known classes and precompute their feature vectors
+2⃣ Transform new images to the latent space and find the best match to a known class
+3⃣ When a new class is found, simply add an example image to the set of known classes. \n\n---\n\n ✅ No retrain needed
+✅ Low risk for regression
+✅ Only few examples of the new class needed
+
+❌ May not work well if the new sign is very different and not supported well by the encoder \n\n---\n\n And finally some examples of traffic signs that you may not think exist until you encounter them... 😁 

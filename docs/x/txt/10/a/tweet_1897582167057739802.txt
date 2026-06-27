@@ -1,0 +1,5 @@
+TypeScript is my favourite for most cases.
+
+Modern web frameworks like Next.js allow you to mix backend and frontend code and move features between both, which is super powerful. Having both the frontend and backend written in the same language is a massive win.  \n\n---\n\n For some more specific use-cases, some other languages might be better. For example, if you have some machine learning pipeline, you want Python.
+
+But the default is TypeScript

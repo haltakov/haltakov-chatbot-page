@@ -1,0 +1,17 @@
+Is this a photo of a bird or not?
+
+Now you need to take a closer look...  \n\n---\n\n Is this a photo of a bird or not?
+
+Looking even closer...  \n\n---\n\n Is this a photo of a bird or not?
+
+WTF?
+
+(These are the Yulan magnolia flowers, h/t @JBiserkov)  \n\n---\n\n Is this a photo of a bird or not?
+
+OK, there is a bird in the photo, but it is obviously not the main subject. Do you label it? Does it help train your bird's detector or not?  \n\n---\n\n Now imagine doing this 8 hours a day for many days. 
+
+How many mistakes are you going to make? 
+
+How many inconsistent decisions will different people take?
+
+And this is the simplest of all labeling tasks. Don't get me started on bounding boxes or semantic segmentation...

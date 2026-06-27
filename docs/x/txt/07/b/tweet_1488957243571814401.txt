@@ -1,0 +1,34 @@
+Visual Concepts
+
+This is a cool concept in computer vision and now there is a new interesting model called X-VLM coming from ByteDance, the creators of TikTok.
+
+Visual concepts associate parts of the image to a text description allowing for interesting applications.
+
+Thread 🧵  \n\n---\n\n Image classification methods can give you some overall information about the image, but if we are looking at a complex scene, we may want to have more details.
+
+👇  \n\n---\n\n Object detection methods can do better there - they put bounding boxes around objects in an image.
+
+However, they typically cannot recognize areas in the image that don't have a well-defined shape, like the road, buildings etc.
+
+👇  \n\n---\n\n Semantic segmentation methods give you even more information - you now have the boundaries of all objects and areas in the image.
+
+What semantic segmentation has problems with is the relation between objects and actions.
+
+👇  \n\n---\n\n This is where recognizing visual concepts help. They can point us to the locations in the image that answer questions like:
+
+▪️ Which is the car in front?
+▪️ Which traffic light is relevant to me?
+▪️ Which person will cross the road?
+
+👇  \n\n---\n\n X-VLM is improving the state-of-the-art in visual language pre-training and several downstream tasks like image-text retrieval, visual question answering, and visual grounding.
+
+It is based (of course) on transformers and contrastive learning.
+
+👇  \n\n---\n\n You can find the full paper called "Multi-Grained Vision Language Pre-Training: Aligning Texts with Visual Concepts" by Zeng et al. here: 
+
+
+
+Code and some pre-trained models available on GitHub:
+
+
+H/t to @Yacov_Lewis for the paper

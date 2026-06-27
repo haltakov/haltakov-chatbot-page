@@ -1,0 +1,15 @@
+Machine Learning Interview Question #2 🧠🤖🧐
+
+❓ Choose one method for unsupervised learning and explain its idea ❓
+
+No need for exact formulas! I want to hear what it is useful for and roughly how it works.
+
+Answer in the replies. Read the rules 👇 \n\n---\n\n  \n\n---\n\n Again, I'm blown away by your great answers! 🤯 I also learned about some new methods I didn't know about!
+
+One of the most fascinating unsupervised learning methods for me are the Autoencoders 👇 \n\n---\n\n The Autoencoder is a neural network that tries to output the same data as its input. The trick is that the layers in between contain less neurons than the input and the output.
+
+Therefore, the net is "forced" to learn an efficient (compressed) representation of the input data.  \n\n---\n\n This means that the net will learn features that capture the structure of the data in the encoder part. 
+
+After training, the encoder part can be used to compute these features on arbitrary input and use them in a supervised method.
+
+(Image source: Wikipedia)

@@ -1,0 +1,113 @@
+How I made $3000 in 3 weeks selling AI-generated art? 💰
+
+Last week I showed you how you can use VQGAN+CLIP to generate interesting images based on text prompts.
+
+Now, I'll tell you how I sold some of these as NFTs for more than $3000 in less than 3 weeks.
+
+Let's go 👇  \n\n---\n\n Background
+
+I've been interested in NFTs for 2 months now and one collection I find interesting is @cryptoadzNFT. What's special about it is that the creator @supergremplin published all of the art in the public domain. This spurred the creation of many derivative projects.
+
+👇  \n\n---\n\n The Idea 💡
+
+My idea was to use VQGAN+CLIP to create interesting versions of the CrypToadz. So, I started experimenting with my own toad #6741.
+
+I took the original NFT image as a start and experimented a lot with different text prompts. The results were very promising!
+
+👇  \n\n---\n\n Monetizing 💰
+
+But how to sell these? I got inspired by the GelToadz project by @DannyZareto. People that own a CrypToad would be able to commission an AI Toad from me.
+
+I also wanted people to be able to add some personal touch to the AI Toad by specifying some custom theme
+
+👇 \n\n---\n\n Website 🌐
+
+I hacked a minimal single-page website with @tailwindcss and launched it on @Netlify in a day. For orders, I used a free Airtable form where people could enter their CrypToad ID, wallet address, and their custom theme. Keep it simple!
+
+
+
+👇 \n\n---\n\n Price 🏷️
+
+I decided to go with an incremental price:
+▪️ First 10 Ai Toadz cost 0.05 ETH ($230)
+▪️ The next 10 Ai Toadz cost 0.1 ETH ($460)
+▪️ After that each Ai Toadz cost 0.2 ETH ($920)
+
+The update of the price on the website is manual by me changing the HTML 🤷‍♂️
+
+👇 \n\n---\n\n Launch 🚀
+
+I launched it on Twitter and a couple of Discord servers and started getting 1-2 orders per day.
+
+An important step was to also get my project listed on  - a website acting as a directory of all CrypToadz related projects.
+
+👇 \n\n---\n\n Creating NFTs 🎨
+
+I use a popular Colab notebook modified so I can easily run multiple experiments. For each order, I try different prompts and styles until I have 2-3 variants I like and that fit the theme provided by the client.
+
+Experiments for #6067 "War never changes"
+
+👇  \n\n---\n\n After that, I contact the client and show them the variants I have. In some cases, I make some additional experiments based on the feedback. Some people want specific features to be visible, while others like particular styles more.
+
+This is the artistic part of the process!
+
+👇 \n\n---\n\n In some rare cases getting the desired results wasn't easy, so I had to do some tricks. I either modified one of the intermediate images to enforce a particular look or created two separate versions. In the video, I had to blend both versions using DaVinci Resolve.
+
+👇 \n\n---\n\n Compute 💻
+
+Some toadz are easy, but some require a lot of experimentation with the prompt. To be efficient, I  define multiple experiments and let them run for hours in the background. I subscribed to Google Colab Pro+ so I can run 2 notebooks in parallel on a P100.
+
+👇 \n\n---\n\n NFT ⛓️
+
+After an AI Toad is ready I create a video NFT using OpenSea. It is really easy and free! You need to provide:
+▪️ The video
+▪️ A thumbnail
+▪️ Name
+▪️ Description
+▪️ Optional properties (I didn't specify any)
+▪️ Collection
+
+👇  \n\n---\n\n Collection 🏞️
+
+Creating a collection for the AI Toadz NFTs is also easy - you need a description and some images for banner, logo, and social media previews.
+
+Check out the AI Toadz collection on OpenSea here:
+
+
+👇 \n\n---\n\n Sale 🤝
+
+I then list the NFT for the agreed price as a private sale - only for the wallet address holding the original CrypToad.
+
+OpenSea uses a process called lazy minting, so there are no gas fees for the creator! The NFT is minted on the blockchain with the first sale.
+
+👇 \n\n---\n\n Orders 📔 
+
+Now some statistics on the current state of the orders:
+▪️ 15 valid orders for a total of 1 ETH ($4600)
+▪️ 11 AI Toadz actually sold for a total of 0.7 ETH ($3300)
+▪️ 4 AI Toadz in progress
+▪️ Current price 0.1 ETH ($460)
+
+👇 \n\n---\n\n Summary 🏁
+
+To summarize my process:
+▪️ Create a simple website and AIrtable form to collect orders
+▪️ Experiment with different prompts for VQGAN+CLIP
+▪️ Iterate with the client if needed
+▪️ Create NFT on OpenSea and sell it
+
+👇 \n\n---\n\n Next ▶️
+
+I don't plan any big marketing effort. If orders stop coming I may post more about them on Twitter/Discord and also create some free ones for members of the community to boost the visibility. This is supposed to stay a small side-project.
+
+No roadmap - only !vibes 😁 \n\n---\n\n The AI Toadz 🐸
+
+I shared some examples across the thread, but if you want to browse all of them check out the collection on OpenSea:
+
+ \n\n---\n\n Ressources 🔗
+
+If you are interested in how you can use VQGAN+CLIP to generate your own images, check out my thread here
+
+ \n\n---\n\n I regularly post threads on machine learning, but now I'm increasingly looking at the intersection of machine learning with wen3, NFTs, and crypto.
+
+Follow me @haltakov for more!

@@ -1,0 +1,24 @@
+How to become a self-driving car engineer? 💻🧠🚗
+
+Well, there is no easy answer - building a self-driving car requires expertise from many different fields. 
+
+The good new is that there are many paths that will lead you to a job in this industry!
+
+Read more details below 👇 \n\n---\n\n There are many different engineering roles in a self-driving car project: 
+
+💻 Software Development
+🧠 Machine Learning
+👀 Computer Vision
+🏎️ Vehicle Control
+⚙️ Hardware
+💽 Big Data
+🕹️ Simulation
+📍 Mapping
+🚧 Safety
+🔒 Security
+📝 Test and Validation
+🔨 Tooling
+
+and more... 👇 \n\n---\n\n Over the next days I'll share some of my experience working in the industry and describe in more details the different roles and what skills are required to enter the field.
+
+I will link all threads below so stay tuned 👇 \n\n---\n\n  \n\n---\n\n  \n\n---\n\n 

@@ -1,0 +1,6 @@
+The SUBOPTIMaL website is here! 🚀
+
+Simple explanations for seemingly complicated machine learning and math terms.
+
+ \n\n---\n\n The goal of this is to be a community-driven effort - you can contribute an explanation on GitHub:
+

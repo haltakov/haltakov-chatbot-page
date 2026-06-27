@@ -1,0 +1,10 @@
+Just minted my first NFT... 😃
+
+I find the possibility to create interactive NFTs at @hicetnunc2000 inspiring, especially when you can now use HTML!
+
+Check out my point cloud with hidden images from all around Brazil 🇧🇷
+
+ \n\n---\n\n Thanks to @quasimondo and @mtyka for the inspiration about creating interactive NFTs and to @andrevenancio for helping with getting this to work 😃👍 \n\n---\n\n This is based on my project to create point clouds with hidden messages. Next step is cleaning up the code and open-sourcing it.
+
+After that make it in 3D... 😃
+

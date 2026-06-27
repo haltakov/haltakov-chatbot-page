@@ -1,0 +1,35 @@
+Mastering your Machine Learning Interview 🧑‍🏫
+
+I've summarized some great resources for you that will help you with your Machine Learning interview.
+
+Read below 👇 \n\n---\n\n A great book by @chipro distilling a lot of information on preparing for a machine learning interview.
+
+ 
+
+Next 👇 \n\n---\n\n A collection of questions by @svpino who has a lot of experience interviewing people for ML positions.
+
+
+
+Next 👇 \n\n---\n\n Machine Learning "Bites" by @rishabh16_ 
+
+
+
+Next 👇 \n\n---\n\n Some very good advice on how to present yourself in a ML interview by @omarsar0 
+
+
+
+Next 👇 \n\n---\n\n Data science interview questions and answers by the community by @Al_Grigor 
+
+
+
+Next 👇 \n\n---\n\n A big question database on statistics, data science, and machine learning by @mihail_eric and Henry Zhao.
+
+
+
+Next 👇 \n\n---\n\n My thread series of machine learning interview questions. Make sure to also look into the comments for some very interesting and creative answers.
+
+Follow me @haltakov for more information and resources on machine learning and computer vision 👋
+
+ \n\n---\n\n This week I'm reposting some of my best threads from the past months, so I can focus on creating my machine learning course.
+
+Next week I'm back with some new content on machine learning and web3, so make sure you follow me @haltakov.

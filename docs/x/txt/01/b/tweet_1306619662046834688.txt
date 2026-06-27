@@ -1,0 +1,7 @@
+How much money is in the jar full of coins?
+
+People are usually bad at estimating such things...  However, our guesses can often be viewed as samples from a probability distribution which is centered close to the true value. This property can be used to get a good estimate... 👇  \n\n---\n\n We can ask several people to guess the amount of money in the jar. Then, we can take the average of their estimates. There is a good chance that this number will be more accurate than any individual guess.
+
+This is called "Wisdom of the crowd". \n\n---\n\n I tried that in the office some time ago. We had a jar full of spare change from the coffee machine, so I asked my colleagues to guess how much money we had (real data here!)
+
+The real amount was 244.39€, so the average was really the closest value. Our PM did good as well 😀. 

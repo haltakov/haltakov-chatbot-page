@@ -1,0 +1,5 @@
+Free email for your domains
+
+This is super easy to setup with Cloudflare. First, you need to register for Cloudflare and more the DNS servers for your domain there - the free account is very generous.
+
+Then setup Email Routing to point something like info@&lt;your-domain&gt; to your…

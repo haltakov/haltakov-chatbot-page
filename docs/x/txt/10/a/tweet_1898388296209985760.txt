@@ -1,0 +1,5 @@
+Had some fun coding a meme image MCP server.
+
+You can instruct your LLM to generate a meme, and it will create one using @imgflip.
+
+I tried to keep the implementation as minimal and simple as possible. Link to the GitHub repo below 👇  \n\n---\n\n 

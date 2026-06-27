@@ -1,0 +1,105 @@
+Creators only get badges 🏅
+
+There is a problem with how value is distributed in online communities today. It seems we take the status quo for granted and don't discuss it much.
+
+The people that create most of the value, get none of the money! Only badges...
+
+Thread 👇 \n\n---\n\n Online communities
+
+I'm talking about platforms like Twitter, Reddit, Stack Overflow etc. They're wonderful places, where you can discuss interesting topics, get help with a problem, or read the latest news. 
+
+However, the people that make them truly valuable receive nothing 👇 \n\n---\n\n It usually looks like this:
+
+▪️ Company creates a web 2.0 platform
+▪️ Users create content and increase the value
+▪️ Company aggregates the demand
+▪️ Company monetizes with ads and subscriptions
+▪️ Company gets lots of money
+▪️ Creators get badges, karma and virtual gold
+
+👇  \n\n---\n\n You don't believe it? Lets take a look at some examples:
+
+▪️ Stack Overflow
+▪️ Reddit
+▪️ Twitter
+
+👇 \n\n---\n\n Stack Overflow
+
+Our favorite place to look for answers to programming questions. So, who creates all the value of this platform?
+
+The answer is simple - all the people spend countless hours answering questions, explaining concepts, and helping people.
+
+People like U12-Forward 👇 \n\n---\n\n U12-Forward is one of the top contributors in the Python tag. U12-Forward contributed 3389 answers, 166 in the last 30 days. At 2 minutes per answer (likely much more), these are more than 100 hours from this user alone.
+
+U12-Forward has lots of badges, but not much more...
+
+👇  \n\n---\n\n Stack Overflow is building online communities around specific technologies they call Collectives™. Places where answers from "experts" and people that "know the most" about the technology are gathered. And the experts get what?
+
+The Recognized Member badge. Seriously! 🤦‍♂️
+
+👇  \n\n---\n\n At the same time business at Stack Overflow is going great - they got acquired in June for $1.8 billion by Prosus - a faceless investment company. Do you think they contribute useful programming content?
+
+And guess how much money U12-Forward got from the deal? Exactly, $0!
+
+👇 \n\n---\n\n Reddit
+
+Reddit is the go-to place for online communities on virtually every topic. Again, all the value of Reddit is created by the members of the community - the Redditors. Additionally, volunteer mods keep the conversation civilized.
+
+Let's look at two of them as examples 👇 \n\n---\n\n The first one is cavedave, who is a mod in the MachineLearning subreddit. He currently has 280,022 karma, which means that users found his posts helpful 280,022 times and hit the upvote button.
+
+Unfortunately, supermarkets don't accept karma as a payment method yet...
+
+👇  \n\n---\n\n Another interesting example is AsuharietYgvar who recently reverse-engineered Apple's NeuralHash and shared the code with the community. For this, he got many badges, including 2 platinum and 5 gold awards.
+
+Unfortunately, he can't pay his bills with all this gold... 👇  \n\n---\n\n Reddit gold is an award that can be given by subscribers ($6 a month) to other Redditors. The receiver of the award gets a badge (yay!), a couple of days of ad-free browsing, and access to a hidden channel. None of those $6, though...
+
+And then come ads 👇 \n\n---\n\n Reddit is happy to insert ads between all those gold awarded posts, driving $290 million of revenue for 2021. The money goes to the shareholders, mainly Advance Publications - a multi-billion dollar private company owned by a super-rich family. 
+
+The Redditors receive badges
+
+👇 \n\n---\n\n Twitter
+
+Another place to create communities is Twitter. They are actively working on improving the experience with the recently introduced Topics and Communities.
+
+I'm happy to be a part of the Machine Learning community on Twitter and I found many great people there!
+
+👇 \n\n---\n\n So, how does Twitter make money? Like most platforms, mostly with ads. Twitter expects $3.2B from ads in 2021 and additional $500M from data licensing. This money goes to the shareholders, mostly investment companies.
+
+But you need good tweets to insert the ads in between 👇  \n\n---\n\n So here is my friend @svpino giving away his knowledge in Machine Learning to hundres of thousands of people for free. The Twitter algorithm decided to put an ad above his tweet.
+
+Do you think some of the ad money went to him? I don't think so...
+
+👇  \n\n---\n\n To be fair, Twitter is putting a lot of effort to enable content creators to monetize through tipping, ticketed spaces, Super Followers and paid newsletters. These are different revenue streams, though, and nothing from the core Twitter revenue gets distributed!
+
+👇 \n\n---\n\n Of course, big online platfroms like the ones above have many expenses which they need to cover and they provide value by creating the platform. They should earn money! 
+
+However, as of now they get ALL the money and nothing goes back to content creators. Only badges!
+
+👇 \n\n---\n\n And yeah, it seems that people love earning points online and are ready to spend a lot of time contributing to the communities for free.
+
+
+
+However, how much better the content would be if creators would not only earn virtual points, but actual money?
+
+👇 \n\n---\n\n Web3.0 can help here. Example - community tokens:
+
+▪️Tokens are awarded to active members for their contributions
+▪️Content creators increase the value of the community
+▪️Money is distributed proportionally to the ownership
+▪️Tokens can be bought/sold on the market
+
+👇 \n\n---\n\n Web3.0 has the potential to much better align the incentives for the people that create the value in a community.
+
+Imagine how much more awesome content will be created if people can pay their bills with this work and not only do it on the side for free?
+
+👇 \n\n---\n\n This probably sounds too abstract, but I'm working on a detailed list with examples of how this could work for many specific use-cases and will share it soon!
+
+So, stay tuned and make sure you follow me @haltakov.
+
+Until then, I want to hear your opinion on this in the replies! \n\n---\n\n Well said! All the hype is currently around NFTs and speculative tokens, but I think the real benefits of crypto are exactly what you write. Allowing people to not only participate but also to own the community!
+
+ \n\n---\n\n This is already kind of happening with play to search games. In traditional games all the money from in-game purchases goes to the company that created the game (Epic makes more than Prada from virtual costumes).
+
+In play to earn games the majority goes to the good players. \n\n---\n\n This is a great point! Business models like Medium or Substack are cool, but they are less of a community place. I see them as more one-directional channels.
+
+ 

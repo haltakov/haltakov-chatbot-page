@@ -1,0 +1,40 @@
+Useful online courses on self-driving cars 🧠 🚙
+
+Here is a list of useful courses if you want to learn about software for self-driving cars.
+
+Some of the courses are paid, but all platforms offer regular discounts and financial aids if you can't affor them.
+
+Thread 👇 \n\n---\n\n Udacity Self-Driving Car Nanodegree
+
+This program offers hands on experience on all kind of relevant topics like perception, localization, planning and control. It takes a lot of time, but it is worth it.
+
+In the end, your code is run on an actual car!
+
+ \n\n---\n\n Udacity Introduction Course by Apollo
+
+This is a beginner course explaining the different components of a self-driving car. Apollo is the self-driving division of Baidu.
+
+ \n\n---\n\n University of Toronto Self-Driving Cars Specialization at Coursera
+
+Four in depth courses covering different aspects of self-driving:
+▪️ Introduction to self-driving cars
+▪️ State estimation and localization
+▪️ Visual perception
+▪️ Motion planning
+
+ \n\n---\n\n Udemy Self-Driving Car Course
+
+This course focuses a lot on deep learning algorithms especially for perception. It also includes crash courses for some of the basics needed, like Python, Numpy and Keras.
+
+ \n\n---\n\n MIT Courses on Deep Learning and Self-Driving
+
+Great collection of free courses on various relevant topics many of which by @lexfridman. There are also great presentation by some of the leaders in the industry.
+
+ \n\n---\n\n Self-Driving Cars with Duckietown by ETH Zurich
+
+This course covers many of the classical and deep learning algorithms needed to build a self-driving car both in simulation as well as for a real robot - Duckiebot.
+
+ \n\n---\n\n AWS DeepRacer
+
+Not exactly a course, but it is an interesting project by Amazon to build a physical autonomous racing car. 
+

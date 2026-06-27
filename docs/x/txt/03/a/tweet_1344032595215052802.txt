@@ -1,0 +1,8 @@
+This is a must-have VS Code extension if you are using Jupyter!🧩
+
+You can work on your notebook directly from VS Code, instead from a browser. 
+
+✅ Use all the powerful editor features
+✅ Debug your code
+✅ Inspect your variables
+

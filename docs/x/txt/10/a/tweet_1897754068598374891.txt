@@ -1,0 +1,11 @@
+I decided to update my homepage and thought it would be cool to design it as a VS Code Simulator.
+
+You can explore a virtual file system, open files in the actual VS Code editor (Monaco), and even view the Markdown preview.
+
+Link below ⬇️  \n\n---\n\n Try it out here:  \n\n---\n\n Planned Features:
+- Chat with Vlad: A fine-tuned LLM for personalized interactions
+- Terminal Simulator
+- Git Simulator: Connects to the actual Git log to view changes
+- Enhance interface buttons to add exciting functionalities
+
+I may open-source the template if there is interest

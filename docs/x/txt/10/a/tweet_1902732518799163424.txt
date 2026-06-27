@@ -1,0 +1,3 @@
+Doing a lot of research into different TTS providers and generating an overview for myself.
+
+Should I extend it more and publish it somehow? 

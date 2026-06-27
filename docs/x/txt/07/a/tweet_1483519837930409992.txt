@@ -1,0 +1,50 @@
+How decentralized is web3 really?
+
+While there is a lot of hype around web3, NFTs, and decentralized apps (dApps), there is also a lot of criticism. Today, I'll focus on the critique that web3 is actually too centralized.
+
+Let's try to have an honest discussion 👇 \n\n---\n\n These are the main arguments I see regularly. Please add more in the comments.
+
+1️⃣ The Internet is already decentralized
+2️⃣ It is inefficient
+3️⃣ Everything can be implemented better using a centralized approach
+4️⃣ Important services are centralized
+
+👇 \n\n---\n\n I was inspired to write this in part after reading this great article by @moxie pointing some of the problems with the current state of web3. If you've been living under a rock in the last weeks, make sure you check it out:
+
+
+
+👇 \n\n---\n\n @moxie I started this as a single thread, but it became way too long. What I'll do now is create one thread for each of the topics and post one per day. I hope this will also allow for a more focused discussion.
+
+But before we start, let's establish some basic terms.
+
+👇 \n\n---\n\n @moxie What are web3/decentralized apps?
+
+When building a web3 app we are storing important data on the blockchain instead of a centralized database.
+
+Additionally, all code that modified the data in the blockchain runs in smart contracts that are also deployed on the blockchain.
+
+👇 \n\n---\n\n @moxie The key features of the blockchain we are interested in here are:
+
+▪️ All data is public
+▪️ Transactions are permanent
+▪️ Transactions need to be signed with the private key of the wallet that creates them
+▪️ Data is modified by creating a transaction with a smart contract
+
+👇 \n\n---\n\n @moxie And smart contracts:
+
+▪️ Smart contracts store data on-chain
+▪️ Once deployed, the code of the smart contract cannot be changed
+▪️ Smart contracts cannot be destructed
+▪️ Reading data from a contract is free
+▪️ Changing data in a contract requires a transaction and has a fee
+
+👇 \n\n---\n\n @moxie We are now ready to dive deep into the review of the common critiques.
+
+I'll link the separate threads below as well. First one coming right away!
+
+👇 \n\n---\n\n @moxie The first thread is here!
+
+ \n\n---\n\n The second thread
+
+ \n\n---\n\n And the third thread
+

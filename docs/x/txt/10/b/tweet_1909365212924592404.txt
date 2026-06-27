@@ -1,0 +1,5 @@
+What is the best way to create a landing page?
+
+Initially, I started with Webstudio (similar to Webflow, Framer etc.) - it is a nice visual editor that can create static websites.
+
+But now I'm considering rewriting it in static Next.js so that I can use powerful tools like Cursor…

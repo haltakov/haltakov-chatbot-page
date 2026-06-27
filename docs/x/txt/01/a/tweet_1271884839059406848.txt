@@ -1,0 +1,10 @@
+Just released a new version of Simple Photo Gallery. Main improvements:
+
+- Automatically display the date a photo is taken in the caption (requested by @danwri)
+- Improve the quality of the thumbnails for retina displays
+- Fix thumbnails for GIFs
+
+ \n\n---\n\n I had to push a fix, because a bug screwed the thumbnails  on mobile 🤦‍♂️
+
+I also messed up the versions a bit: going from 1.1.0 to 1.1.1 is wrong, because I added new features and not only bug fixes. The version is now 1.2.0 so it should be fine now 😃
+

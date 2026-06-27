@@ -1,0 +1,11 @@
+What is Simpson's Paradox? 🤔
+
+Understanding it will help you avoid pitfalls when evaluating changes (for example new ML algorithm version).
+
+Imagine you come up with a new version of your software, you test it and the results are worse. So it didn't work, right? Not always... 👇 \n\n---\n\n When comparing the results of two versions, they have to be evaluated on the *exact same data*. Otherwise, you may get worse results, even if the new version is better or the other way around. This is called Simpson's paradox.
+
+There are many examples, but here my favorite one 👇 \n\n---\n\n A developer at YouTube managed to reduce the size of the video watch page from 1.2MB to 100KB. He tested it with real users for a week, but the results showed that the average loading time of the page increased!
+
+The problem was that the new version also changed the user base 👇 \n\n---\n\n People on very slow internet connections had to wait for 20 min to load a video - they were mostly giving up. The new faster page took  2 min to load, so it was worth waiting. Many people on slow connections actually started using YouTube and so the average load time increased. \n\n---\n\n Read the full story by @zacman85
+
+ \n\n---\n\n Always keep the Simpson's paradox in mind when comparing different versions of your software. Make sure you test on the same data or that you understand how the underlying data changed between tests.

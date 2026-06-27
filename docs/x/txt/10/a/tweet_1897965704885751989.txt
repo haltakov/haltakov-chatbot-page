@@ -1,0 +1,3 @@
+This is so true. I think MCP can server as a standard interface that will massively unlock all kind of new use-cases by reducing complexity.
+
+Tried to visualize it here:  

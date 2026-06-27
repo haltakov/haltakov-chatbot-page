@@ -1,0 +1,50 @@
+Tesla released a beta version of their Full Self Driving (FSD) software to selected people couple of days ago 🧠🚗. 
+
+The first impressions are quite interesting! Here some comments from my side. 
+
+Thread 👇
+
+ \n\n---\n\n Technology 🤖
+
+A lot of the technology behind the FSD software was presented at a conference in February. Check out this video, it is really interesting!
+
+
+
+Main point is Tesla is using a "Bird's eye view" neural network to predict the layout of the road. \n\n---\n\n You can see this in action in the car - you see all lines defining the lanes and the road boundaries in the display. They seem to be coming from the vision system and not from a map, because they are very unstable and often not very accurate.  \n\n---\n\n The good 👍
+
+Looking at videos, the system seems to work very well in most cases: following cars, stopping at stop signs and traffic lights, taking turns and even driving around wrongly parked vehicles. Check out this video to see an example of the last:
+
+ \n\n---\n\n The bad 👎
+
+However, the lack of (HD) map data combined with weaknesses of the vision system is apparent in many cases.
+
+For example, check out how it has difficulties taking a right turn, because it doesn't "see" the geometry of the road correctly.
+
+ \n\n---\n\n There are also many examples with wrong left turns, where the Tesla tries to enter the lane for the oncoming traffic:
+- 
+- 
+-  \n\n---\n\n And here, it classifies the left lane wrongly as oncoming even though it is going in the same direction. Check how the classification of the left lane boundary is toggling between white and yellow:
+
+ \n\n---\n\n The ugly 🚫
+
+It seems to also have problems with detecting/predicting cross traffic in some cases, which is very dangerous:
+- 
+-  \n\n---\n\n Conclusion 🏁
+
+Overall, it seems to be very early days of the system and the driver needs to be ready to take control all the time, when it does something crazy and dangerous. 
+
+This visualization is amazing, though - it's almost like the dev debug display that others have... 😆 \n\n---\n\n Maps 📍
+
+It seems that Tesla is currently not using HD map data. They have some map, though - you can see the car stopping for traffic lights/stop signs when they are too far away or behind a corner. \n\n---\n\n I would be surprised, though, if Tesla isn't building some kind of "sparse" HD map, containing things like lanes and road geometry and semantics, positions of traffic lights and stop signs etc.
+
+Less like Waymo's map, rather something like Mobileye's REM:
+ \n\n---\n\n Strategy ♟️
+
+The system does mistakes, but the drivers are regularly using the report button to send Tesla feedback when this happens!
+
+You can debate if it is safe to release such an early version (even as limited beta), but the data they get is extremely valuable! 💎 \n\n---\n\n Further reading 📖
+
+Check out these links if you are interested:
+- All the videos that @brandonee916 is uploading with him testing the FSD software.
+- Interesting review of the system by @olivercameron: 
+- Good article by Forbes: 

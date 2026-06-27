@@ -1,0 +1,25 @@
+How to choose a static site generator? 🔎
+
+You want to create a personal website or start a blog? Or maybe you want to create a page describing your product? Using a static site generator is a good fit for all these use-cases, but how to choose one?
+
+Read below for some tips 👇 \n\n---\n\n There are so many different static site generators (SSG), so choosing the right one may not be trivial. A great site that you can use to compare different options is StaticGen: 
+
+Here are the criteria I used to chose one for my personal website and blog 👇 \n\n---\n\n 1. You know the programming language 📜
+
+You probably won't need to write code for a simple site, but being comfortable the language of the SSG will make it easier. You will already know most tools around it and will be able to set things up and configure it faster. \n\n---\n\n 2. The focus of the SSG fits your use-case 👌
+
+Some SSG are specialized for creating blogs, others focus on project documentation. There are also many that try to be as flexible as possible. 
+
+Choosing one suitable for your use-case will save you time when setting it up. \n\n---\n\n 3.  You are familiar with the template engine ⚙️
+
+You can start with a predefined theme, but you will probably want to customize your site. So, you will need to adapt the templates defining the structure of the site. Again, choose a template engine you are already familiar with. \n\n---\n\n 4. It is widely used ⭐
+
+All things equal, I would go for a more popular SSG. When a project has many users, you will usually be able to easily find solutions to common problems. The number of GitHub stars or Twitter followers of a project is usually a good proxy for that. \n\n---\n\n When building my personal website and my side project (both having a blog), I looked at several options and Pelican (@Getpelican) was a perfect fit for me:
+
+1. Language - Python 🐍
+2. Specialization - blogs 📖
+3. Template engine - Jinja2 ⚙️
+4. Popularity - almost 10000 stars 🌟 \n\n---\n\n Stay tuned if you want to read more about my experience working with Pelican and some tips how to setup everything quickly.
+
+Which static site generator do you prefer? What is you experience with it? \n\n---\n\n If you want to read more about the advantages of using a static site generator, check out my other thread:
+

@@ -1,0 +1,1 @@
+It seems that @PlausibleHQ is now popular enough to get on uBlock Origins list. I'm unblocking it permanently, though... 😉  \n\n---\n\n To unblock it click on the uBlock icon -&gt; Open the dashboard -&gt; Whitelist and add .

@@ -1,0 +1,5 @@
+Cursor vs VS Code?
+
+I'm using @cursor_ai lately and it is indeed way better than @code in many of the AI features. The ability of Cursor to use AI to suggest what is the next line to edit and how is really impressive and makes a huge difference.
+
+That being said, Cursor is a fork…

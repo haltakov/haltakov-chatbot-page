@@ -1,0 +1,58 @@
+Launching a charity project for Ukraine 🇺🇦
+
+Me and @ianbydesign teamed up to build @RescueToadz - an NFT collection raising funds for humanitarian aid via @Unchainfund. Many thanks to @cryptoadzNFT for the support!
+
+
+
+It's unlike any other NFT, though👇 \n\n---\n\n @ianbydesign @RescueToadz @Unchainfund @cryptoadzNFT Trustless
+
+Rescue Toadz looks like a regular NFT collection at first - you can mint a toad and you get an NFT in your wallet.
+
+100% of the mint fee is directly sent to @Unchainfund - an organization that provides humanitarian aid to Ukraine and that has already raised $9M!
+
+👇  \n\n---\n\n @ianbydesign @RescueToadz @Unchainfund @cryptoadzNFT The process is completely trustless and automatic! All the logic is coded in the smart contract which cannot be changed and which everybody can inspect.
+
+You trust the code, not us! We have no way to steal the funds even if we wanted (we don't 😀).
+
+
+
+👇  \n\n---\n\n @ianbydesign @RescueToadz @Unchainfund @cryptoadzNFT The power of smart contracts
+
+Then there is the special feature!
+
+We have another function in the smart contract that you can use to match or increase the last owner's donation for a toad and it will be transferred into your wallet.
+
+Again, 100% of the funds go to charity.
+
+👇 \n\n---\n\n @ianbydesign @RescueToadz @Unchainfund @cryptoadzNFT This incentivizes people to donate more. If you want a toad you can mint it. However, anybody can then match your donation and it will go to their wallet.
+
+If you want it back, you need to donate again or even increase the donation to make it harder for others to get it.
+
+👇  \n\n---\n\n @ianbydesign @RescueToadz @Unchainfund @cryptoadzNFT POAP (Proof Of Attendance Protocol)
+
+If your toad hops to another wallet it will leave you its NFT glasses as a memento for your kind donation.
+
+The glasses are inspired by another awesome project - @nounsdao.
+
+👇  \n\n---\n\n CC0
+
+The awesome artwork that @ianbydesign created is a derivative of the @cryptoadzNFT and @nounsdao projects. This is possible because they've licensed all their art as Creative Commons 0 (CC0), making it public domain.
+
+The Rescue Toadz art is CC0 as well!
+
+👇 \n\n---\n\n Avoiding speculation
+
+We wanted this project to be about charity. Therefore, we decided to block the listing of the NFTs on secondary exchanges like OpenSea. You can transfer the NFT to another wallet if you want, but you can't list it for sale!
+
+👇 \n\n---\n\n Funds
+
+100% of the fees go to humanitarian help for Ukraine via @Unchainfund. We don't make any money.
+
+The fee for the contract deployment was kindly funded by the awesome @cryptoadzNFT by @supergremplin community. Several people even offered to fund it personally!
+
+👇  \n\n---\n\n Do you want to help?
+
+If you want to donate some funds I'll appreciate you joining the project or spreading the word!
+
+The donations start at 0.01 ETH (about $34). And you get an NFT 😀
+

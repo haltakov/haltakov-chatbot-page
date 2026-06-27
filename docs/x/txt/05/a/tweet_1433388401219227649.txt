@@ -1,0 +1,7 @@
+I would claim that a PhD in ML is only weekly correlated to the ability to find a job as an ML Engineer.
+
+There are different ways to do your PhD - you can focus on very theoretical problems or deal with practical issues.
+
+👇  \n\n---\n\n There are companies looking for people with deep theoretical understanding to build new models and algorithms. A PhD can help there.
+
+There are also companies focused on creating applications where ML is just one of the tools - practical experience is a bigger advantage there.

@@ -1,0 +1,33 @@
+Self-driving car engineer roles - Software Engineer 💻
+
+There are many specialized roles in a self-driving car project, like ML or CV engineers. However, every projects needs lots of good software devs - you can enter the industry even without specific knowledge!
+
+Thread 👇 \n\n---\n\n Problems to work on 🤔
+
+Some problems that software developers work on to build a self-driving car (the list is not exhaustive):
+- HMI
+- Operating system
+- Logging and tracing
+- Communication between ECUs
+- Internal frameworks and libraries
+- Implementing diagnostic interfaces \n\n---\n\n Software engineers also work closely with many of the more specialized roles. 
+
+For example with Machine Learning engineers to implement models on the ECU or with Vehicle Control engineers to get their algos working efficiently.
+
+And tooling and testing are huge separate topic! \n\n---\n\n Required knowledge 📚
+
+While you may not need any specific domain knowledge, crazy math skills or a PhD, strong fundamentals in software engineering are important:
+- Testing methodologies
+- Good architecture and software design
+- Writing safe, clean and maintainable code \n\n---\n\n Programming language 💻
+
+You will most probably need good C++ knowledge. If you are writing code for an ECU, other languages are not very common, because you usually need full control on the software. You may also need some knowledge of embedded and real-time systems. \n\n---\n\n If you are dealing more with code in the backend, than a whole different set of languages becomes available: Java, Scala and Python are all language that are widely used.
+
+If you are more focused on tooling the choice is even bigger... \n\n---\n\n Who is it for? 👫
+
+The tasks for software devs are so diverse that most software developers will find something suitable for their background!
+
+While C++ and embedded knowledge will increase your chances, don't let anybody tell you that you need to be a math genius or have a PhD! \n\n---\n\n Next, I'll start looking into some of the more specialized roles.
+
+This thread is a part of a series on the different ways to get in the self-driving car industry. For other roles and more information check out this:
+

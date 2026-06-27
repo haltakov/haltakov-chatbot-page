@@ -1,0 +1,12 @@
+You can now play with my natural language photo search project on Colab 🗣️🏞️
+
+It uses @OpenAI's CLIP to search 2M photos from @unsplash.
+
+As always, all code is open-source and now I'm also sharing the precomputed features for all photos.
+
+
+
+Details 👇 \n\n---\n\n If you want to directly jump to Colab, follow the link below and run the notebook. ▶️
+
+ \n\n---\n\n Some more search result examples:
+

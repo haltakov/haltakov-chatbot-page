@@ -1,0 +1,11 @@
+Experienced devs like GitHub Copilot, but it is even more important for beginners!
+
+People learning to code often have ideas they want to implement, but spend a huge amount of time on simple things: reading data from files or visualizing it.
+
+GitHub Copilot can help 👇  \n\n---\n\n Imagine a beginner that wants to work with data from a file, but needs to spend 30 minutes Googling and browsing StackOverflow to find out how to read the file. This can be discouraging and some people give up
+
+Especially for simple tasks, GitHub Copilot can be very helpful!
+
+👇 \n\n---\n\n It is of course very useful for experienced devs as well, but I think many people underestimate the impact it may have for beginners!
+
+If you know somebody that is learning to code, tell them about GitHub Copilot!

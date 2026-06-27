@@ -1,0 +1,38 @@
+How Does a Self-Driving Car Work? 🔧 🧠 🚙 
+
+This is classical self-driving car software stack. Nowadays, all steps in the pipeline are dominated by machine learning.
+
+Read below for details on each step 👇  \n\n---\n\n Sensors 🎥 
+
+There are 3 main sensors for environment perception 360° around the car:
+▪️ Cameras
+▪️ Lidars
+▪️ Radars
+
+Each sensor has different advantages and disadvantages, so combining all 3 is the best strategy to achieve maximum robustness.  \n\n---\n\n Perception 🖼️ 
+
+The perception module processes all the sensor raw data to detect different objects, drivable space, lane boundaries, measure distance etc.
+
+Fusing the information from different sensors usually increases the quality of the data significantly.  \n\n---\n\n Localization 🗺️ 
+
+Most self-driving cars use a HD map. The map provides information about the geometry of the road, traffic rules and position of interesting objects (e.g. traffic lights).
+
+Localization in the map is done using GPS and landmarks detected by the sensors.  \n\n---\n\n Prediction 🔮 
+
+The goal of this module is to predict the actions and trajectories of other traffic participants.
+
+Will the car in front break?
+Will the car cut in front of me?
+Will the pedestrian cross the street? 
+
+This is crucial for the car to plan its own trajectory!  \n\n---\n\n Planning 🔀 
+
+In this step the car plans its own trajectory and actions. It needs to consider all other traffic participants, their intentions and the surrounding infrastructure.
+
+One of the main objectives when planning is to maximize safety, but also to drive naturally.  \n\n---\n\n Control 🚙 
+
+The final step is controlling the throttle, breaks and steering so that the car actually drives the planned trajectory.
+
+Here, it is important to have a smooth and natural control and not a steering wheel that twitches all the time.  \n\n---\n\n If you liked this thread and want to read more about self-driving cars and machine learning give me a follow! 👍 
+
+I have many more threads like this planned 😃

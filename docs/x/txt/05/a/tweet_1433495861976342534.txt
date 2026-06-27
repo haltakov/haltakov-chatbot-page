@@ -1,0 +1,5 @@
+I often get the question what is the best way to gather practical experience in ML.
+
+Online courses and Kaggle competitions are great, but in my experience, nothing beats working on a real-world project.
+
+Are you working on an ML side-project? Drop a link to it below 👇

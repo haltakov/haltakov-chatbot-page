@@ -1,0 +1,47 @@
+A short lesson on object tracking 🧑🏻‍🏫 
+
+Look at this video from a @Tesla Model 3 driving on the highway. The display shows multiple traffic lights coming out of the truck in front towards the car. What's going on? 🤔
+
+This is a typical case of a 𝘁𝗿𝗮𝗰𝗸 𝗹𝗼𝘀𝘀!
+
+Thread 👇  \n\n---\n\n The problem 🤔
+
+The truck in front carries 3 real traffic lights. The problem is that the computer vision system on the Tesla assumes that traffic lights are static (which is a good assumption in general 😄). In this case, though, the traffic lights are moving at 120 km/h...
+
+👇  \n\n---\n\n Object detection 🚦 
+
+A typical object detection system takes a single camera frame and detects all kinds of objects in it. 
+
+One of the best models for object detection is YOLO. I just ran this image through it and sure enough, it detects 2 of the traffic lights!
+
+👇  \n\n---\n\n If you want to learn more about how deep learning based object detection works, check out this thread.
+
+
+
+👇 \n\n---\n\n Object tracking 📏
+
+We now want to track an object over multiple frames. In this way, we can more accurately determine the position of the object. 
+
+Given the detections in two frames, we need to associate each object in the first frame to an object in the second frame.
+
+👇 \n\n---\n\n Static object assumption 🚦 
+
+For traffic lights, it is reasonable to assume they are static. Therefore, the change of its position in the second frame only depends on the speed of our own car.
+
+Since we know it, we can predict where the light will be in the next frame.
+
+👇  \n\n---\n\n Track loss 🤚
+
+The problem is that these 🚦 are actually moving, so the prediction is wrong. The Tesla cannot associate them anymore, so:
+
+1️⃣ The light from the previous frame is counted as lost
+2️⃣ The light from this frame is regarded as a new object seen for the first time
+
+👇 \n\n---\n\n Tracking 🚗
+
+What happens to the lost object? The Tesla assumes the light can't be detected for some reason. Instead, It shows on the display the expected position of the light based on the vehicle speed.
+
+That's why the lights come "flying" towards the car in the display. \n\n---\n\n As you can see in the video, this happens all the time. This is what happens when we make assumptions about the real world, that fail in some situations... 🤷‍♂️
+
+This video was first posted on Reddit here:
+ \n\n---\n\n H/t to @JBiserkov for showing me this Reddit post 😉

@@ -1,0 +1,44 @@
+Why is AI bad at math? 📐
+
+Machine learning models today are good at generating realistic-looking text (see GPT-3), images (VQGAN+CLIP), or even code (GitHub Co-Pilot/Codex).
+
+However, these models only learn to imitate, so the results often contain logical errors.
+
+Thread 👇  \n\n---\n\n Simple math problems, like the ones 10-year-old kids solve, usually require several logical steps involving simple arithmetics.
+
+The problem is that, if the ML model makes a logical mistake anywhere along the way, it will not be able to recover the correct answer.
+
+👇  \n\n---\n\n @OpenAI is now working on tackling this issue. 
+
+In their latest paper, they introduce the so-called verifiers. The generative model generates 100 solutions, but the verifiers select the one that has the highest chance of being factually correct.
+
+
+
+👇 \n\n---\n\n This strategy helps them get much better at solving simple math problems - almost on par with kids aged 9-12. However, they still achieve only 55% correct answers, so there is still some way to go.
+
+It is an interesting research field though, so great to see progress there.
+
+👇 \n\n---\n\n Thanks to @lacker for running and documenting a series of interesting experimets with GPT-3. The example in the first tweet is taken from there. Check all of them in this blog post:
+
+ \n\n---\n\n Yes, this is a good point! AI is not bad at math, language models are still bad at math.
+
+If you converted these problems to mathematical notation, they would be trivial to solve by a computer without any AI. It is how you get there...
+
+ \n\n---\n\n I mostly agree with this and I really like your scrabble example. This perfectly illustrates the point you are trying to make!
+
+And I agree that AI is still far away from human intelligence.
+
+That being said, I think you underestimate its abilities! 👇
+
+ \n\n---\n\n It's true that language models are trained to imitate human written text and that's why you see these stupid mistakes.
+
+However, the fact that the same model can be used to assess if a statement is true or not shows that there is more to that than just imitation! 👇 \n\n---\n\n The English scrabble player is able to imitate French scrabble by remembering the words, but he wasn't able to assess if a particular sentence makes sense, right?
+
+👇 \n\n---\n\n And the human thought process for complicated tasks is somewhat similar. You play around with different possible solutions in your head and assess them if they are real solutions.
+
+Or like brainstorming - people throw ideas around and discuss and assess them. 👇 \n\n---\n\n And maybe AI learns in a different way than humans, but we also learn in different ways. Imagine learning a scientific formula.
+
+One person may learn it by hard, while another one may learn how it is derived and not remember the formula itself by hard. \n\n---\n\n A third person may remember it by some analogy with a formula in another field.
+
+So, AI may find different ways to "learn" things, that are not like the human ways, but are not less effective. I agree we are not there, though... \n\n---\n\n And last tweet - if you are interesting in this topic I recommend this podcast on what intelligence means!
+

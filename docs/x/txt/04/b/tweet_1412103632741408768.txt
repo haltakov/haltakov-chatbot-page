@@ -1,0 +1,4 @@
+What is a Transformer?
+
+Transformers are the newest trend in Machine Learning delivering amazing results over multiple problem domains. Check out this illustrated guide by @JayAlammar in order to learn how they work.
+

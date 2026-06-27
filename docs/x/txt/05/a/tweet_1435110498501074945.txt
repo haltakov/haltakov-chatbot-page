@@ -1,0 +1,36 @@
+Goals for my ML course
+
+▪️ For beginners
+▪️ End-to-end
+▪️ Practice instead of theory
+▪️ Intuition instead of definition
+▪️ Minimum math
+▪️ Real-world dataset
+▪️ Flexible example applications
+▪️ Built with community feedback
+
+Let's go through these points 👇 \n\n---\n\n For beginners
+
+Only Python knowledge will be required to do the course. No previous machine learning experience needed. \n\n---\n\n End-to-end
+
+We will cover the whole pipeline - from collecting and cleaning data to deploying a trained model.
+
+We will also discuss some topics like ethics and bias and problem framing.  \n\n---\n\n Practice instead of theory
+
+The course will be practice-oriented. It will not teach you the latest theoretical advances in the ML field, but it will give you the basics for all the building blocks you need to start building ML applications yourself. \n\n---\n\n Intuition instead of definition
+
+I don't plan to go deep and explain all the details of concepts like backpropagation, optimization etc - there are enough courses that do that.
+
+I will teach you the most important ideas and give you intuition on how you can use these concepts. \n\n---\n\n Minimum math
+
+The point above means also less focus on math. While important to get a deep understanding and develop new techniques, only minimal math knowledge is needed to get started with ML and build a useful application! \n\n---\n\n Real-world dataset
+
+We are not going to use MNIST or CIFAR 😀. All exercises will be using the (amazing) @unsplash dataset!
+
+ \n\n---\n\n Flexible example applications
+
+There will also be no predefined application - you will be able to work on a problem you find interesting! \n\n---\n\n Built with community feedback
+
+I plan to post lots of information about the creation process and collect feedback. I'm just finishing the first tutorial and I'll make it publicly available for anybody who is interested to take a look and share their opinion.
+
+Stay tuned! 😀

@@ -1,0 +1,16 @@
+Can the AI Wolf 🐺 catch the Sheep 🐑 ?
+
+This is a simple game created by students in China. The goal is to train the 🐺 to catch the 🐑 in 20 seconds while staying away from the boulders (see rules).
+
+The wolves started doing something strange, though... Can you guess what? 🤔  \n\n---\n\n More details 🗒️ 
+
+The wolves have information about where the sheep are and how they are moving.
+
+The simulation was run over 20 seconds and the scoring rules from the image above were applied.
+
+The strategy of the wolves was trained in a reinforcement learning scheme. \n\n---\n\n Both @thCharon
+ and @Kelson_SS
+ are right! The best strategy for the Wolf face was to commit suicide as fast as possible in order to avoid losing 2 points just by wandering around without catching any Sheep.
+
+Bad incentives... 🤷‍♂️  \n\n---\n\n More details here:
+

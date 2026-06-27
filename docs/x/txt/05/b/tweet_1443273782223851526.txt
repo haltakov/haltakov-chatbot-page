@@ -1,0 +1,18 @@
+Machine Learning Stages
+
+Stage 1 - Feature Engineering
+Stage 2 - Hyperparameter Tuning
+Stage 3 - Prompt Engineering
+Stage 4 - ❓ \n\n---\n\n To clarify something - I'm not talking about the stages of a machine learning project. I mean general trends in ML that develop over the course of years.
+
+Examples for each stage 👇 \n\n---\n\n Stage 1 - Feature Engineering
+
+The classical Machine Learning methods like SVM, Decision Trees, AdaBoost etc.
+
+They work on predefined features, which developers spent a lot of time engineering. \n\n---\n\n Stage 2 - Hyperparameter Tuning
+
+We now have deep convolutional neural networks and transformers so they can find the best features for us. We just need to make sure that the optimization process converges to a good optimum. \n\n---\n\n Stage 3 - Prompt Engineering
+
+This is relevant for huge large (sometimes multi-modal) models, like GPT-3 and CLIP. They have so much knowledge incorporated in them, you "just" need to ask the model in the right way to get the correct result. \n\n---\n\n Stage 4 - ???
+
+This would be the next paradigm in Machine Learning. What comes beyond the huge language and image models we have today? More modalities? Using more reinforcement learning? Some unexpected effects arising?

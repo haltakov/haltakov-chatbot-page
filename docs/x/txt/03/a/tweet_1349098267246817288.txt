@@ -1,0 +1,78 @@
+What are typical challenges when training a deep neural networks ⁉️
+
+▪️ Overfitting
+▪️ Underfitting
+▪️ Lack of training data
+▪️ Vanishing gradients
+▪️ Exploding gradients
+▪️ Dead ReLUs
+▪️ Network architecture design
+▪️ Hyperparameter tuning
+
+How to solve them 👇 \n\n---\n\n Overfitting 🐘
+
+Your model performs well during training, but poorly during test.
+
+Possible solutions:
+- Reduce the size of your model
+- Add more data
+- Increase dropout
+- Stop the training early
+- Add regularization to your loss
+- Decrease batch size \n\n---\n\n Underfitting 🐁
+
+You model performs poorly both during training and test.
+
+Possible solutions:
+- Increase the size of your model
+- Add more data
+- Train for a longer time
+- Start with a pre-trained network \n\n---\n\n Lack of training data 🤷‍♂️
+
+Deep learning algorithms are hungry for data compared to classical ML methods.
+
+Possible solutions:
+- Get more data (😂)
+- Use data augmentation
+- Use a pre-trained network and fine tune for your problem
+- Try transfer learning \n\n---\n\n Vanishing Gradients 📉
+
+During training the gradients in the first layers become small or 0. Learning is slow or the net doesn't learn at all.
+
+Possible solutions:
+- Use ReLU, which doesn't saturate in the positive direction
+- Add residual/skip connections
+- Batch normalization \n\n---\n\n Exploding Gradients 📈
+
+Gradients become too big, training is unstable.
+
+Possible solutions:
+- Decrease the learning rate
+- Use saturating activation functions, like sigmoid or tanh
+- Gradient clipping
+- Batch normalization \n\n---\n\n Dead ReLUs 😵
+
+When using ReLU as activation function, a large gradient can knock off the weight of certain neurons so that they output 0 for all input data. They become useless.
+
+Possible solutions:
+- Decrease learning rate
+- Use Leaky ReLU, ELU or some other variant \n\n---\n\n Network Architecture Design 🕸️
+
+What and how many layers? How many neurons? Designing a network architecture may not be trivial.
+
+Possible approaches:
+- Find existing architectures for similar problems
+- Trail and error
+- User Network Architecture Search () \n\n---\n\n Hyperparameter Tuning 🔧
+
+Finding the right hyperparameters for your problem is not easy.
+
+Possible approaches:
+- Check out existing parametrizations for similar problems
+- Inspect your data and play around
+- Grid search
+- Bayesian optimization
+- User Auto ML \n\n---\n\n If you wan to get better at training neural networks, this article by @karpathy is a must read!
+
+ \n\n---\n\n This is my answer to my question in the Tweet below. This list is no complete, so make sure you also check out the replies below. There are many other very interesting answers!
+

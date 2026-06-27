@@ -1,0 +1,72 @@
+Most people seem to use matplotlib as a Python plotting library, but is it really the best choice? 🤔 
+
+We are going to compare 5 free and popular libraries:
+▪️ Matplotlib
+▪️ Seaborn
+▪️ Plotly
+▪️ Bokeh
+▪️ Altair
+
+Which one is the best? Find out below 👇  \n\n---\n\n In a survey I did the other day, matplotlib had the most users by a large margin. This was quite surprising to me since I don't really like it...
+
+
+
+But let's first look at each library 👇 \n\n---\n\n Matplotlib 📈
+
+Matplotlib is one of the most popular libraries out there.
+
+✅ Supports many types of plots
+✅ Lots of customization options
+
+❌ Plots look ugly
+❌ Limited interactivity
+❌ Not very intuitive to use  \n\n---\n\n Seaborn 📈
+
+Seaborn is built on top of Matplotlib, so it inherits many of its features.
+
+✅ Supports many types of plots
+✅ Plots look very nice
+
+❌ Limited interactivity
+❌ Not very intuitive to use
+❌ You need to use maplotlib for many configurations  \n\n---\n\n Plotly 📈
+
+Plotly is a popular library for interactive visualizations.
+
+✅ Plots look nice
+✅ Lots of customization options
+✅ Easy to use (especially plotly express)
+✅ Great interactivity (even by default)
+
+❌ Could be slow for big amounts of data  \n\n---\n\n Bokeh 📈
+
+Another cool interactive plotting library.
+
+✅ Plots look nice
+✅ Lots of customization options
+✅ Good interactivity (but not as good as plotly)
+
+❌ Missing plot types (especially 3D)  \n\n---\n\n Altair 📈
+
+A less popular, but very interesting library based on the Vega project.
+
+✅ Plots look nice
+✅ Lots of customization options
+✅ Good interactivity (but not as good as plotly)
+
+❌ Slow
+❌ Cumbersome to use
+❌ Embeds all data in the visualization leading to huge files  \n\n---\n\n The Winner 🥇
+
+My personal favorite is plotly. I like it because it is very easy to use, offers great interactivity by default and the plots look nice.
+
+Furthermore, plotly also offers a JavaScript version, so it can be practical if you need to show some data on the web.  \n\n---\n\n Now it's your turn...
+
+Which Python plotting library do you prefer? Why? Have you tried plotly? Feel free to try to convince me that there is a better library! 😄 \n\n---\n\n If you want to learn plotly I find the official documentation quite good. They also have lots of examples you can build on.
+
+Start here: 
+
+ \n\n---\n\n This is a valid strategy, however, sometimes you just want to do a quick plot to visualize your data.
+
+I think it is very important to keep the friction of displaying data to a minimum. Otherwise you just won't do it sometimes - a missed opportunity.
+

@@ -1,0 +1,18 @@
+How would you implement this? 🤔 
+
+Look at the video - different TV channels see different ads in the live stream of a football game. Not how clear the transition between the ad and the player is!
+
+What you be your approach to design such a computer vision system?  \n\n---\n\n This is a great answer 👍 But what would you do so that the spectators at the stadium also see ads?
+
+ \n\n---\n\n This is surely one way to do that. However, the spectators at the stadium would just see garbage then. How can you solve that?
+
+ \n\n---\n\n This sounds like an overkill solution... Remember, this needs to work live on a high-quality 4K video feed!
+
+ \n\n---\n\n This is true, but you also need to deal with occlusions of the ads by the players. How would you do that?
+
+ \n\n---\n\n This idea came up several times and is certainly interesting. However, this will require special camera equipment that can also record high-quality TV stream.
+
+There is a simpler way... 😉
+
+ \n\n---\n\n Here is a thread explaining how the system is implemented:
+

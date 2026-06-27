@@ -1,0 +1,37 @@
+Last week I did a small quiz about the Gambler's Fallacy 🎰
+
+Most people got it right - the probability of getting heads after we got tails 4 times in a row is still 50%.
+
+
+
+I find it interesting to compare two ways to look at this 👇 \n\n---\n\n Independent events
+
+The key here is that every flip of the coin is independent of the others. The outcome of the previous flip doesn't have any influence on the next one.
+
+In contrast, if you are pulling cards from a deck without returning them, then these are not independent. \n\n---\n\n In mathematical terms, we can write this like:
+
+P(Y | X) = P(Y)
+
+Here X and Y denote the outcome of one flip. You read this formula like:
+
+The probability of getting Y given X is the same as the probability of getting Y - because X and Y are independent. \n\n---\n\n Getting tails 5 times in a row
+
+You can ask, what is the probability of getting tails 5 times in a row and it's small - 3.1%.
+
+If we denote P(T) as the probability to get tails (50%), then:
+
+P(T,T,T,T,T) = P(T)P(T)P(T)P(T)P(T) = 0.03125
+
+This is because each flip is independent. \n\n---\n\n Getting heads after 4 tails
+
+The key difference now is that we are not asking how likely it is to get TTTTH. We are asking how likely is it to get H, *given* TTTT.
+
+Mathematically, we can use the formula from above:
+
+P(H | T,T,T,T) = P(H) = 50% \n\n---\n\n The lesson is that in statistics, it's very important how you formulate your problem, because you may get very different results
+
+▪️What is the probability to get TTTT and then H?      3.1%
+
+▪️What is the probability to get H given TTTT?           50.0%
+
+The Gambler's Fallacy 🤷‍♂️ \n\n---\n\n One more note - this is different than the Monty Hall problem! The Gambler's Fallacy is a much simpler one coming directly from the different ways to look at independent events.

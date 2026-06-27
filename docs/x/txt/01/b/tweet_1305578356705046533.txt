@@ -1,0 +1,5 @@
+If you want to start with @tailwindcss and need some examples for inspiration, check out these two websites:
+
+ - free repository of components
+
+ - free page templates and components

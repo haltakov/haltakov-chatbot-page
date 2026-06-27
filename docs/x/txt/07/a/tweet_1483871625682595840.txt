@@ -1,0 +1,75 @@
+How inefficient is web3? 🤔
+
+Another common critique of blockchain technology is that it is inefficient and it destroys the planet.
+
+Blockchains using Proof-of-Work consensus are very energy-intensive and this is a real problem. There are alternatives, though.
+
+Thread 🧵
+
+1/13 \n\n---\n\n If we don't want to trust a central authority to handle the data, we need a decentralized system that provides consensus. 
+
+And creating this consensus has a very real cost. This is a trade-off we need to be aware of when deciding if we want decentralization or not.
+
+2/13 \n\n---\n\n Proof-of-Work is a problem and the two most popular blockchains currently are using Proof-of-Work - Bitcoin and Ethereum 1.0. PoW requires a huge amount of mathematical computations to validate the chain.
+
+Before discussing the alternatives, let's talk about some numbers.
+
+3/13 \n\n---\n\n This website has a good overview of the annual energy consumption of different blockchains. Here are some of the numbers:
+
+▪️ Bitcoin: around 130 TWh
+▪️ Ethereum 1.0: 75 TWh
+▪️ Polygon (@0xPolygon): &lt;0.001 TWh
+▪️ Tezos (@tezos): &lt;0.0001 TWh
+
+
+
+4/13 \n\n---\n\n @0xPolygon @tezos Now, to put this into perspective, an average US home consumes about 10 KWh per year. Let's convert the numbers:
+
+▪️ Bitcoin: 13,000,000 households
+▪️ Ethereum 1.0: 7,500,000 households
+▪️ Polygon: 100 households
+▪️ Tezos: 10 households
+
+Source: 
+
+5/13 \n\n---\n\n @0xPolygon @tezos Wow, the difference is huge 🤯 (I just did the numbers myself and I'm surprised as well).
+
+Even more, Tezos is not a small chain that nobody uses. It does roughly the same amount of transactions per day as Bitcoin (300,000) and about 25% of Ethereum (1,200,000).
+
+6/13 \n\n---\n\n @0xPolygon @tezos Anybody that claims that the energy consumption of 10 average homes per year is too much energy to validate 300,000 transactions per day is not serious.
+
+On the other hand, I agree with the arguments against the energy consumption of PoW chains
+
+7/13 \n\n---\n\n @0xPolygon @tezos How do Polygon and Tezos manage to be so much more efficient than Bitcoin and Ethereum 1.0?
+
+They use a different consensus mechanism, called Proof-of-Stake. Instead of doing lots of computations, PoS validators stake coins as proof that they are telling the truth.
+
+8/13 \n\n---\n\n @0xPolygon @tezos In PoW, validators that attack the network waste energy which costs them money. In PoS, validators will lose their staked coins if they misbehave.
+
+PoS is also more robust against 51% attacks because it is even less profitable than for PoW chains.
+
+9/13 \n\n---\n\n @0xPolygon @tezos Currently, Ethereum uses Proof-of-Work, but there are plans to transition soon to Ethereum 2.0 which uses Proof-of-Stake.
+
+To be honest, though, this plan is being postponed for several years now, so the word "soon" needs to be taken with a grain of salt.
+
+10/13 \n\n---\n\n @0xPolygon @tezos There are also some critiques regarding the trade-offs that Proof-of-Stake requires in comparison to Proof-of-Work.
+
+I'm not deep enough into the topic and I don't fully understand the argument in the following paper, but wanted to mention it.
+
+
+
+11/13 \n\n---\n\n @0xPolygon @tezos The fact is, however, that Proof-of-Stake chains have been operating and flourishing for years now. I plan to understand the topics in more detail and comment on it in the future - stay tuned 😉
+
+12/13 \n\n---\n\n @0xPolygon @tezos Time for a summary!
+
+We established that decentralization has some penalties because we need to establish consensus. This is a trade-off to be aware of.
+
+We also saw that PoW chains require immense amounts of energy, but we also saw that PoS chains can solve this problem.
+
+13/13 \n\n---\n\n @0xPolygon @tezos This thread is a part of a series where I comment on common criticism about web3 and decentralization. I strive to have an honest conversation without "NGMI" on one side and "All crypto is a scam" on the other.
+
+Context: ...
+
+Follow me @haltakov for more \n\n---\n\n Small mistake in this tweet - it should of course be 10 MWh per year per household! Thanks to @bryankward for pointing this out.
+
+The other numbers are correct.

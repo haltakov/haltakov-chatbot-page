@@ -1,0 +1,5 @@
+Interesting theory by @profgalloway - Walmart having access to the TikTok algorithm may help them learn what products people want to buy. They can then move to a "zero click" purchase subscription model - Walmart chooses the best groceries for you and delivers them.
+
+Discussion👇 \n\n---\n\n @profgalloway calls this Algorithmic Commerce. It would remove the need for you to choose what to buy and just get your $X worth of groceries every couple of days. For more details listen to episode 28 of the Prof G podcast here:
+
+ \n\n---\n\n I think this is doable with the current Machine Learning state-of-the-art. However, I think it will require algorithms specifically developed for this use-case. Recommendation algos for videos and physical products are fundamentally different, so not sure if TikTok's will help. \n\n---\n\n I would love to hear the opinions of @svpino, @AlejandroPiad  and @benthompson on this topic!

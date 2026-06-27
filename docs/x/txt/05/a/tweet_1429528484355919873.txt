@@ -1,0 +1,15 @@
+Interesting question!
+
+If I was a grad student again and wanted to work in self-driving, I would probably focus on unsupervised and self-supervised learning.
+
+There are huge amounts of sensor data that can be used but are very expensive to label.
+
+Some example problems:  \n\n---\n\n 1. Automatic HD map creation from fleet data
+
+2. Machine learning for sensor fusion - automatically fusing data from multiple cameras, radars, lidars
+
+3. Prediction of the actions of other vehicles and pedestrians
+
+4. Road layout prediction from video
+
+5. Mono depth estimation

@@ -1,0 +1,7 @@
+This looks like a really nice tool to build a neural network model in a visual way. As I like to say - always visualize everything!
+
+Unfortunately, only available for TensorFlow, but cool tool anyway.
+
+
+
+(Not affiliated in any way)

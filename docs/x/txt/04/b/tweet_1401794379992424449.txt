@@ -1,0 +1,3 @@
+This is what other car manufacturers are using the driver camera for some time now…
+
+Knowing if the driver is distracted helps find a much better tradeoff between false positives (false braking) and false negatives (crash). 

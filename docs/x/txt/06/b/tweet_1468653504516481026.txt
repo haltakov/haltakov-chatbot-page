@@ -1,0 +1,24 @@
+Learning Session on web3 👨‍🏫
+
+Yesterday, we had a learning session on creating an NFT smart contract with Solidity in the @underfittedio community.
+
+You can watch the recording on YouTube:
+
+
+Details 👇 \n\n---\n\n In this session we go over the NFT smart contract we use for the membership tokens for Underfitted Social Club and talk about:
+
+▪️Smart contract basics
+▪️Using IPFS
+▪️Using @OpenZeppelin
+▪️Using @HardhatHQ
+▪️Programming with Solidity
+▪️Testing and deploying a contract
+
+👇 \n\n---\n\n Thanks to @oliverjumpertz, @sumr1n, and @HardhatHQ for creating great tutorials that help a lot to get started with web3:
+
+▪️
+▪️
+▪️
+
+👇 \n\n---\n\n Here you can learn more about our decentralized machine learning community Underfitted Social Club
+

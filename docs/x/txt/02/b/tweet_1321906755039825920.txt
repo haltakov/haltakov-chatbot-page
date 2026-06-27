@@ -1,0 +1,28 @@
+Self-driving car engineer roles - Safety Engineer  🚧
+
+Let's talk about a role that I think many people don't realize exists, but is extremely important! When we program a 2 ton metal box driving 130 km/h on the highway, we better be sure it is safe! \n\n---\n\n Problems to work on 🤔
+
+There are two main safety aspects that need to be covered, in order to ensure that a system is safe enough.
+
+1️⃣ Functional safety - doing things right
+2️⃣ Safety in use - doing the right things \n\n---\n\n 1️⃣ Functional safety
+
+The goal is to identify all possible problems that may cause a failure of a particular system and define measures to handle them. 
+
+For example, a defect may cause the camera to malfunction, rendering the car "blind". Not a good idea when driving fast!  \n\n---\n\n The safety engineers need to study all possible failure modes, define and implement measures according to a very strict standard (ISO 26262).
+
+In the example above a good measure can be to have a redundant camera or another sensor, like a lidar or a radar. \n\n---\n\n 2️⃣ Safety in use
+
+No system works correctly in 100% of the time. This is especially true for machine learning  algorithms!
+
+The safety engineer needs to analyze what are the cases in which the system has a problem and how to deal with it. \n\n---\n\n For example, we know that a ML model for detecting stop signs will have False Negatives. Ignoring a stop sign can cause a severe accident, so we need so minimize the risk. 
+
+For example, we can have a map where we mark the positions of all stop signs as a redundancy.  \n\n---\n\n Required knowledge 📚
+
+You will need knowledge in designing safe systems. If you have similar experience in other industries, you may be able to get into self-driving with such a role!
+
+There are also many open topics for  designing safe Machine Learning systems... \n\n---\n\n Resources 📖
+
+There are not so many resources as for CV or ML for example, but there are companies offering certification for the topic. You can also take a look at the automotive standards:
+- ISO 26262 (Functional Safety)
+- ISO 21448 (Safety of the Intended Functionality)

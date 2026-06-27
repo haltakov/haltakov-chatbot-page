@@ -1,0 +1,70 @@
+Can you detect COVID-19 using Machine Learning? 🤔
+
+You have an X-ray or CT scan and the task is to detect if the patient has COVID-19 or not. Sounds doable, right?
+
+None of the 415 ML papers published on the subject in 2020 was usable. Not a single one!
+
+Let's see why 👇  \n\n---\n\n Researchers from Cambridge took all papers on the topic published from January to October 2020.
+
+▪️ 2212 papers
+▪️ 415 after initial screening
+▪️ 62 chosen for detailed analysis
+▪️ 0 with potential for clinical use
+
+
+
+There are important lessons here 👇 \n\n---\n\n Small datasets 🐁 
+
+Getting medical data is hard, because of privacy concerns, and at the beginning of the pandemic, there was just not much data in general.
+
+Many papers were using very small datasets often collected from a single hospital - not enough for real evaluation.
+
+👇 \n\n---\n\n Biased datasets 🧒🧑‍🦲
+
+Some papers used a dataset that contained non-COVID images from children and COVID images from adults. These methods probably learned to distinguish children from adults... 🤷‍♂️
+
+👇 \n\n---\n\n Training and testing on the same data ❌
+
+OK, you just never do that! Never!
+
+👇 \n\n---\n\n Unbalanced datasets ⚖️
+
+There are much more non-COVID scans than real COVID cases, but not all papers managed to adequately balance their dataset to account for that.
+
+Check out this thread for more details on how to deal with imbalanced data:
+
+
+👇 \n\n---\n\n Unclear evaluation methodology ⁉️
+
+Many papers failed to disclose the amount of data they were tested or important aspects of how their models work leading to poor reproducibility and biased results.
+
+👇 \n\n---\n\n The problem is in the data 💽
+
+The big problem for most methods was the availability of high-quality data and a deep understanding of the problem - many papers didn't even consult with radiologists.
+
+👇 \n\n---\n\n A high-quality and diverse dataset is more important than your fancy model! \n\n---\n\n References 🗒️ 
+
+Full article in Nature: 
+More detailed coverage: 
+Source for X-Ray image:  \n\n---\n\n I agree with all your points! I'm sure the data basis is much better now and I've seen much larger datasets.
+
+I think the important point is that rushing to publish results based on small and bad quality datasets undermines the credibility of ML...
+
+ \n\n---\n\n There are already much better datasets and I'm sure this problem will get solved at some point. There is also a promising Kaggle challenge:
+
+
+
+The point is that it needs to be done right and the Nature paper gives some guidance how.
+
+ \n\n---\n\n Yes, this is a common problem with such datasets/competitions. At some point people start figuring out how to fine tune on the test set...
+
+One should keep adding data to the test set!
+
+ \n\n---\n\n There is certainly pressure to publish in academia
+
+I think many of the papers really wanted to help with getting results out quickly. However, there are some minimum standards that need to be kept. Such results undermine the credibility of ML...
+
+ \n\n---\n\n They analyzed papers using both CXR and CT. I would argue that you first need to fix the dataset and then optimize your model. You can usually get much better results addressing things in this order.
+
+ \n\n---\n\n An interesting point for the people asking what is the benefit of detecting COVID-19 in X-ray scans at all.
+

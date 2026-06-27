@@ -1,0 +1,17 @@
+Do you know the car that didn't like vanilla ice cream? 🍦
+
+A man went to the store every night after dinner to buy ice cream. If he bought vanilla 🍦 his new Pontiac wouldn't start. If he bought any other kind the car would start fine.
+
+A story about correlation vs causation 👇 \n\n---\n\n The man wrote to Pontiac about the problem acknowledging how crazy it sounds. Pontiac sent an engineer to check it out and sure enough, the problem happened every time the man bought vanilla 🍦.
+
+However, the engineer knew - the ice cream was not *causing* the problem... 👇 \n\n---\n\n What did he do? He gathered statistics! He visited every day and took notes about other things that could have an impact: time of day, type of fuel, time to drive to the store, etc.
+
+This helped him find another correlation that actually caused the problem 👇 \n\n---\n\n It took the man less time to buy the vanilla 🍦 compared to any other kind. The reason was that the store had the popular vanilla 🍦 at the front and all other kinds at the back. So it took longer to fetch the chocolate ice cream for example.
+
+Time was the problem 👇 \n\n---\n\n The cause was vapor lock. This happens when the liquid fuel is heated by the engine so much that it turns into gas in the fuel system. This causes problems with the fuel pump.
+
+Waiting longer allowed the engine to cool down and the fuel to become liquid again...
+
+Lesson 👇 \n\n---\n\n Sometimes we observe two effects at the same time - vanilla 🍦 and car not starting. This is called correlation.
+
+This doesn't mean one causes the other. It is often the case that there is another unobserved effect (timing) that causes the first two effects. This is causation. \n\n---\n\n And as they say, a picture is a worth 1000 words...  \n\n---\n\n Source: 

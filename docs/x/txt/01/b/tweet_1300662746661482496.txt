@@ -1,0 +1,17 @@
+💡 When you have an idea, try to validate it by build a prototype with as little effort as possible. 
+
+When I started writing my blog I had an idea for a tool to help me decide what to write about next. Read below how I hacked Netlify Analytics to build a first prototype.
+
+👇 \n\n---\n\n The idea 💡
+
+I wanted to include voting links in the text at places touching on a topic that I could write more about. If somebody was interested in reading about it, they could just click the link to vote for it. Based on the votes I would decide what my next article would be.  \n\n---\n\n So how to quickly build a prototype? 🤔
+
+I host my site on @Netlify where you can easily create redirects. I created a URL for each topic and redirected it to an empty page. Clicking a voting link would send a GET request to the corresponding voting URL in the background. \n\n---\n\n How it works? ⚙️
+
+While the user only sees a message that the vote was sent, the access to the URL is recorded in the logs and displayed in the Analytics tool. Looking at the number of times each voting URL was accessed, I would know which topic is most interesting to my readers.  \n\n---\n\n It works! 🔥
+
+People were clicking the voting links! Sometimes I was surprised that they wanted to read about topics that I didn't prioritized very high initially.
+
+Since the idea worked for my blog, I decided to turn it into a product and started building  \n\n---\n\n What is your story?
+
+Did you have a similar case where you managed to quickly hack a prototype? I would love to read some stories!

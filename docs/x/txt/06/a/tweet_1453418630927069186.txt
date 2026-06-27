@@ -1,0 +1,55 @@
+My review of the State of AI Report 2021
+
+The State of AI is a fantastic report packed with interesting information, which is created once per year by the AI investors @nathanbenaich and @soundboy.
+
+
+
+Here are the most interesting things for me 👇 \n\n---\n\n Predictions for 2021
+
+They got 5.5 out of 8 predictions right
+
+▪️ Huge NN models
+▪️ Vision transformers
+▪️ AI drug discovery company acquisition
+▪️ AlphaFold 2 breakthrough
+▪️ Nvidia an ARM  \n\n---\n\n Predictions for 2022
+
+They'll probably get many of the predictions for 2022 right again (NIA 😄)
+▪️Transformers for RL
+▪️ASML $500B
+▪️Anthropic 
+▪️Consolidation in AI semiconductors 
+▪️Small transformers reach SotA
+▪️DeepMind breakthrough in physics
+▪️JAX to 5%
+▪️New AGI company  \n\n---\n\n Transformers
+
+Transformers show great results problems outside of NLP
+▪️ Computer vision
+▪️ Speech recognition
+▪️ 3D point classification
+▪️ Chemical reaction prediction \n\n---\n\n AI  in Biology
+
+Machine Learning is increasingly used in biology:
+▪️ AlphaFold 2
+▪️ Artificial proteins generation
+▪️ 3D molecule structure prediction
+▪️ Drug discovery
+▪️ Chemical reaction prediction \n\n---\n\n Large models and zero-shot learning
+
+Large language or multi-modal models (CLIP, DALL-E, GPT-3, Codex) show good zero-shot learning capabilities. The key is to ask the model in the right way - prompt engineering. \n\n---\n\n Graph Neural Networks
+
+GNN are one of the new hot topics. They find application in:
+▪️ Mesh-based simulation
+▪️ Improving routing ETA predictions
+▪️ Improving memory efficiency in large models
+▪️ Reinforcement learning \n\n---\n\n JAX
+
+A new machine learning framework introduced by Google in 2019 is gaining popularity. It is similar to numpy, but includes features like Autograd, vectorization, parallelization etc.
+
+It is mainly used in research, but the community is growing fast and Google is pushing it. \n\n---\n\n Talent
+
+▪️ China and India see big growth in AI talent
+▪️ De-democratization - big tech companies and top universities have more access to computational resources and produce the most high-impact research.
+▪️ Top academics going to big tech companies \n\n---\n\n There is also so much more interesting information in the report! You can check it out here:
+

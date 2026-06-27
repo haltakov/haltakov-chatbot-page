@@ -1,0 +1,6 @@
+Math in Machine Learning is not important!
+
+...when you are just starting. \n\n---\n\n I think it is much easier to start ML without digging deep into complicated formulas, without understanding how they are used.
+
+When you get some feeling and intuition about the methods, the math becomes much easier.
+

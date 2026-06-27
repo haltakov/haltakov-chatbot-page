@@ -1,0 +1,50 @@
+Have you seen these text-based NFTs, like the ones from @lootproject or @developer_dao?
+
+An interesting question is how we can use machine learning to automatically create visuals for them.
+
+Thread 👇
+
+from text                                                        to image  \n\n---\n\n What are text-based NFTs?
+
+Text-based NFTs give you just a bunch of words for several predefined categories. These were pioneered by @lootproject where the NFT represents a bag of loot for an adventure game.
+
+They serve as the base for games built on top of them.
+
+👇  \n\n---\n\n Creating Visuals
+
+Now, let's see how we can create visuals for them. The idea is to use VQGAN+CLIP with some prompt that can be automatically generated from the text.
+
+If you are new to VQGAN+CLIP, you can learn more about it in this thread:
+
+
+
+👇 \n\n---\n\n I took my @developer_dao NFT (#7515) as the basis and played around with the prompt.
+
+There are too many things for the ML models to display accurately, but taking the most interesting ones gave some decent results.
+
+Check out some of them!
+
+👇  \n\n---\n\n The prompt is created like this:
+
+"a person with a &lt;MIND&gt; mind wearing a &lt;CLOTHING | a &lt;VIBE&gt; vibe | &lt;COUNTRY&gt; flag"
+
+For my NFT, the main prompt was:
+
+"a person with an anarchist mind wearing a pink hoodie | a cosmic vibe | Brazilian flag"
+
+👇 \n\n---\n\n I also experimented by adding additional prompts like " | vray" or " | unreal engine" to get some more interesting results (see above).
+
+There is certainly a lot of room to improve the prompt and get even better results.
+
+Some more examples 👇 \n\n---\n\n Developer DAO NFT #1
+
+"a person with a divergent mind wearing a white tanktop | a Jon Gold vibe | Kenyan flag | vray"
+
+👇  \n\n---\n\n Developer DAO NFT #1529
+
+"a person with an analytical mind wearing a purple turtleneck | a phobia vibe | Australian flag | vray"
+
+👇  \n\n---\n\n And thanks to @richardblythman for the interesting discussion on this topic 😀 \n\n---\n\n If you want to learn more about machine learning, web3, and the intersection between both, make sure you follow me @haltakov.
+
+There is some exciting stuff coming soon... 😀 \n\n---\n\n And here is the Google Colab notebook I used to generate the images.
+

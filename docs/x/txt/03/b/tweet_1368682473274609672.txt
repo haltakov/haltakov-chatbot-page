@@ -1,0 +1,3 @@
+Another fun experiment using StyleGAN2 and CLIP by @l4rz 😃
+
+"An old man laughing as a little kid"  \n\n---\n\n Code here: 

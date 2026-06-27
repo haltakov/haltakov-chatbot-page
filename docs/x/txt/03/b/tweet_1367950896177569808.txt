@@ -1,0 +1,10 @@
+I'm experimenting with @OpenAI's CLIP and I'm 🤯 again!
+
+Simple arithmetic in the latent space:
+▪️ Encode the text "Sydney Opera house"
+▪️ Encode a random night photo
+▪️ Add the two feature vectors
+▪️ Search a matching photo on @unsplash 
+
+You get... the Sydney Opera at night!  \n\n---\n\n Now a random mist photo...  \n\n---\n\n A random rain photo...  \n\n---\n\n And a random photo of a building taken from the sea  \n\n---\n\n You can try your own queries in my Google Colab notebook here:
+

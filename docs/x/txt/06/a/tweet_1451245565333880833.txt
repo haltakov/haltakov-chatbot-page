@@ -1,0 +1,87 @@
+How would you curate a dataset for classifying photos of birds as in the @xkcd below?
+
+I asked you this question the other day and again, there were many great answers! Most people seem to be overcomplicating this, though...
+
+Let me explain 👇
+
+ \n\n---\n\n The process of curating a good dataset involves several stages:
+
+1️⃣ Collect images
+2️⃣ Pre-label images
+3️⃣ Label images
+4️⃣ Evaluate problem categories
+5️⃣ Monitor deployed model
+
+Let's look into these in details 👇 \n\n---\n\n 1️⃣ Collect images
+
+The first step is to collect many images both containing birds (positive example) and not containing birds (negative example). At this stage, we only care about collecting a lot of photos with as much variability as possible.
+
+There are various sources 👇 \n\n---\n\n Existing datasets
+
+There are already several public datasets that have labeled images of birds, like PASCAL VOC, MS COCO, ImageNet. We can take these and train our model with them already.
+
+This may not be enough, but it will surely provide a good starting point.
+
+👇 \n\n---\n\n Internet
+
+There are many public sources where we can get photos, that may contain birds:
+▪️ Unsplash
+▪️ Pexels
+▪️ Flickr
+▪️ Reddit /r/itookapicture/
+▪️ Google Images
+
+These provide APIs and in some cases even curated datasets.
+
+👇 \n\n---\n\n Create Yourself
+
+Birds are a very common subject, so this is probably overkilled. However, for some projects, you need to go out and take the photos yourself (or hire people to do that).
+
+👇 \n\n---\n\n 2️⃣ Pre-label images
+
+Before jumping into labeling, we usually want to have a step where we can already filter out the easy cases. This means that we can create some pre-labels that will speed up the actual labeling process.
+
+Let's see how 👇 \n\n---\n\n Text descriptions
+
+Many photos come with some kind of a text description - either in a dedicated description field in the API, the title of the photo, or the ALT attribute. This text can be used to classify photos of birds and others. It won't be perfect, but it is a start.
+
+👇 \n\n---\n\n Pre-trained models
+
+We can use a pre-trained model like YOLO or Mask R-CNN to detect objects in the images and look for birds. Some labeling tools (like CVAT) even have this option integrated. Again, not perfect, but will help speed up the process.
+
+
+
+👇 \n\n---\n\n Train your own model
+
+If you have labeled some part of the data, you can also train a simple model yourself. This is helpful in the case when you are interested in a class that is not supported by existing pre-trained models.
+
+👇 \n\n---\n\n Use a zero-shot model
+
+A special case of pre-trained models is the so-called zero-shot models, like for example CLIP by OpenAI. The idea is that you provide a text prompt describing what you want to classify and the model does it. Figuring out the right prompt is critical!
+
+👇 \n\n---\n\n 3️⃣ Label images
+
+The hard part - the actual labeling. The pre-labels will help you sort through them faster, but still, there is some work to do, especially in the cases where the model wasn't very confident.
+
+You need a good labeling tool or you can hire a labeling company.
+
+👇 \n\n---\n\n Labeling tools
+
+Here is a fantastic repository with links to different label tools. Take one that is designed for your particular use case. I've had some good experience with CVAT - an open-source tool created by Intel.
+
+
+
+👇 \n\n---\n\n 4️⃣ Evaluate problem categories
+
+After you have the first version of the dataset, you will train and evaluate a model. You need to analyze the issues it has and come back to your dataset to:
+▪️ Correct wrong labels
+▪️ Balance the dataset
+▪️ Add more data for problematic cases
+
+👇 \n\n---\n\n 5️⃣ Monitor deployed model
+
+Finally, when you deploy your model, you need to monitor its performance and be prepared to react in case of a problem. Maybe some specific birds species doesn't work? You will need to collect more data and retrain your model.
+
+Example 👇 \n\n---\n\n In the bird identifying app, for example, you can add a "Report problem" button. This will allow you to collect feedback and data from your users and continue improving your dataset and model over time. \n\n---\n\n I regularly write threads like this to help people get started with Machine Learning.
+
+If you are interested in seeing more, follow me @haltakov.

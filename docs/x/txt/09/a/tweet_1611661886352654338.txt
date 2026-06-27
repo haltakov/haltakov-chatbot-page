@@ -1,0 +1,6 @@
+ChatGPT will replace many of the questions typically posted on SO.
+
+There will be new kinds of questions, though:
+- How to prompt ChatGPT to get a particular result?
+- How to use tech that ChatGPT doesn’t know about (yet)
+- Questions that ChatGPT answers incorrectly 

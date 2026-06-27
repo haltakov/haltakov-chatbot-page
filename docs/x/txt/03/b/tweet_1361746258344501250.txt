@@ -1,0 +1,10 @@
+Machine Learning Interview Question #10 🤖🧠🧐
+
+Going deeper into computer vision (pun intended).
+
+❓ What is a Convolutional Neural Network (CNN)? Why does it work well with images ❓
+
+Answer in the replies. Read the rules 👇 \n\n---\n\n  \n\n---\n\n Here is my answer! 
+
+Thanks again for the great contributions in the replies!
+

@@ -1,0 +1,1 @@
+Me adding more layers to my neural network hoping that it will start learning better 

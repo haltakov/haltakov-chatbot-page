@@ -1,0 +1,15 @@
+Coins in a jar 💰
+
+Couple of days ago I asked you to estimate the amount of money in  a jar full of coins. My goal was to demonstrate the "Wisdom of the crowd" effect. 
+
+Today the answer is revealed...   👇
+
+ \n\n---\n\n I'm somehow unlucky finding a bank with a working coins counting machine. I went to 2 banks the other weekend and 2 today and everywhere the machine is out of order. So I had to do it the hard way... 🤷‍♂️  \n\n---\n\n It took me around 22 minutes to count the coins (including the time trying to stop my 2 yo to mess everything up). 
+
+The jar contained exactly 15.37€! See the image for my highly scientific method! 😜  \n\n---\n\n Unfortunately, the Wisdom of the crowd effect didn't work very well...  Most people underestimated the amount of coins. So the average of 11.45€  is lower than the best guess. Which is mine  - 15€  🤔  \n\n---\n\n I assume that the problem was that only me and my wife could take a look at the real jar, so our estimates are very good (15€ and 16€).
+
+Many people also use different currencies so I guess it is much more difficult to them to guess euros. \n\n---\n\n If you want to read more about the "Wisdom of the crowd" effect and my previous experiment with my colleagues (much more successful), check out this thread:
+
+ \n\n---\n\n And finally a challenge for @svpino and @AlejandroPiad - develop a ML/CV algorithm to count the coins automatically... 😉
+
+(This could actually be a nice project to start learning computer vision... 🤔) 

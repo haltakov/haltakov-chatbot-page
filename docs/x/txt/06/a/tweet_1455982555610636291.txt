@@ -1,0 +1,95 @@
+How to create art with Machine Learning? 🎨
+
+You've probably seen these strangely beautiful AI-generated images on Twitter. Have you wondered how they are created?
+
+In this thread, I'll tell you about a method for generating art with ML known as VQGAN+CLIP.
+
+Let's jump in 👇  \n\n---\n\n Short History 📜
+
+In January @OpenAI publicly released CLIP, which is a model that allows matching text to images.
+
+Just days after that, some people like @advadnoun, @RiversHaveWings, and @quasimondo started experimenting using CLIP to guide the output of a GAN using text.
+
+👇 \n\n---\n\n OpenAI published an image generation model together with CLIP, called DALL-E, but without the full code and the pre-trained models. 
+
+The results from guiding StyleGAN2 or BigGAN with CLIP aren't as accurate as DALL-E, but they are weirdly artistic.
+
+
+
+👇 \n\n---\n\n When CLIP was paired with a recent model released by the University of Heidelberg in December 2020 called VQGAN, the quality of the generated images improved dramatically.
+
+VQGAN+CLIP is one of the most commonly used methods today.
+
+
+
+👇 \n\n---\n\n If you are interested in more details about the history of these projects, check out this fantastic article by @sea_snell!
+
+
+
+We are now going to explore how this method works and how you can use it yourself 👇 \n\n---\n\n For the experiments below I'm using this Colab notebook by @jbusted1, which itself is based on one of the original notebooks by @RiversHaveWings.
+
+I only did some modifications on my side to speed up making different experiments.
+
+
+
+👇 \n\n---\n\n The text prompt
+
+To start you need to specify how the final image should look like - the text prompt. You can use natural language for this and you can define several prompts as well.
+
+Let's try the following prompt:
+
+"a car driving on a beautiful mountain road"
+
+Not bad!
+
+👇  \n\n---\n\n However, let's say we want to see some sky on the top and we want the car to be nicer. We can add 2 more prompts describing the scene better.
+
+"a car driving on a beautiful mountain road" 
+"sky on the top mountains on the sides"
+"a beautiful sports car"
+
+Much better!
+
+👇  \n\n---\n\n You can now apply some tricks to improve the visual style of the image. For example, you can use the so-called "unreal engine trick" found by @arankomatsuzaki. You just add another prompt saying "unreal engine" and you will get a more realistic-looking image!
+
+Nice! 👇  \n\n---\n\n The process of tuning the text description is called prompt engineering. CLIP is a very powerful model, but you need to ask it in the right way to get the best results. Try out different things!
+
+Here is an example of the styles you can achieve with different prompts.
+
+👇  \n\n---\n\n Start image
+
+By default, the generation will start from a random noise image. However, you can provide your own image to start the process. This will make the final image look much more like it, so it is a way to guide the model.
+
+Example with the same text prompt
+
+👇  \n\n---\n\n Now, let's look a bit under the hood. What happens is the following:
+
+1️⃣ VQGAN generates an image
+2️⃣ CLIP evaluates how well the image fits the text prompt
+3️⃣ Do a backpropagation pass to the VQGAN
+4️⃣ Go back to 1️⃣
+
+👇 \n\n---\n\n CLIP
+
+The really cool thing about CLIP is that it can take an image or some text end encode them in an intermediate (latent) space.  This space is the same for both, so you can then compare how similar an image is to a sentence. This itself is a 🤯 achievement.
+
+👇 \n\n---\n\n VQGANs
+
+VQGAN is also an interesting method because for the first time it allows the powerful vision transformers to be efficiently used on high-resolution images by decomposing the image into an ordered list of entries from a codebook.
+
+👇 \n\n---\n\n So, we are basically training the VQGAN to produce images that will fit the text prompts. CLIP is used as a powerful judge to guide the GAN in the right direction in order to achieve good results.
+
+The expressive power comes from the vast knowledge CLIP contains and can use.
+
+👇 \n\n---\n\n Unfortunately, this also means that the whole process is rather slow and needs a powerful GPU with lots of RAM. The experiments above were done in a Google Colab Pro notebook with an Nvidia P100 GPU and each image (1000 iterations) takes about 15 minutes to create.
+
+👇 \n\n---\n\n Another interesting feature is that you can take all the intermediate images and create a cool-looking video!
+
+Check out this video of my Halloween pumpkin using the following prompts:
+
+"a scary orange jack-o-lantern"
+"red fire background"
+
+👇  \n\n---\n\n So, that's it for now. In the next thread, I'll tell you how I used this method to create an NFT collection and earn more than $3000 in 2 weeks.
+
+So, follow me @haltakov and stay tuned!

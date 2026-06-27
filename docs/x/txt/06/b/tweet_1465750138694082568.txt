@@ -1,0 +1,8 @@
+NVIDIA is also working on image generation from text 🎨
+
+Their approach is different than the "traditional" VQGAN+CLIP, though. The advantage is that you can combine different inputs like the style from an image or a semantic segmentation input.
+
+ \n\n---\n\n And they have a web app where you can play around with this stuff yourself!
+
+Make sure you do the tutorial. You are welcome!
+

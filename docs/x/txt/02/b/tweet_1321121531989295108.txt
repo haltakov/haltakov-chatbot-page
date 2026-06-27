@@ -1,0 +1,50 @@
+Self-driving car approaches 🧠🚗
+
+Some interesting self-driving news lately:
+- Waymo launching test fleet without safety driver
+- Tesla launching a beta of their Full Self-Driving
+- Mercedes announcing a level 3 traffic jam pilot for 2021
+
+There are 3 very different approaches 👇 \n\n---\n\n 1️⃣  "Everything that fits" approach.
+
+This is Waymo's approach, but other companies like Cruise, Argo, Aurora, Uber, Zoox have a similar strategy.
+
+Fit as much sensors as possible on the car,  build high-definition maps of the environment and throw in lots of compute power. \n\n---\n\n Check out some images of these cars - they all have multiple lidars, cameras and radars all around the car. Waymo now has 29 cameras! 😲
+
+They are not really integrated in a consumer oriented way, but it should be fine for a robotaxi.  \n\n---\n\n The strategy here is to try to find the fastest (and also most expensive) way to self-driving, usually directly to level 5. 
+
+Since all these companies strive to remove the safety driver, they want the system to be extremely safe, but also handle all scenarios. \n\n---\n\n Summary of the "Everything that fits" approach:
+
+✅ Lots of sensor redundancy for a safe system
+✅ Fast development by taking all "shortcuts"
+✅ Straight to L5
+
+❌ Very expensive (both development and product)
+❌ Difficult to scale
+❌ Difficult to collect massive amounts of data \n\n---\n\n 2️⃣  "Ask for permission" approach.
+
+This is the strategy of Mercedes and also many of the other traditional car manufacturers. They prefer to start with a very safe system (automotive safety standards are very hard), but in limited scenarios, like level 3 or only in traffic jams. \n\n---\n\n The sensors are nicely integrated and not really visible if you aren't looking for them. Can you spot the lidars, the cameras and the radars in these cars? 🤔Computation power is more limited.
+
+The goal is to be on the safe side and scale the system slowly as regulations allow.  \n\n---\n\n Summary of the "Ask for permission" approach:
+
+✅ Very safe approach
+✅ Not too expensive
+✅ Easily scalable and can provide lots of data
+
+❌ Slow development
+❌ Only limited use cases in the beginning 
+❌ Not clear if it can easily scale to level 5 \n\n---\n\n 3️⃣  "Ask for forgiveness" approach.
+
+This is where Tesla is going - launch as quickly as possible to the end users and let them test and provide feedback and data. This is not the safest approach, but the one that provides the fastest feedback loop and most data 🤷‍♂️ \n\n---\n\n Tesla famously rejects the use of lidar and HD maps and goes all in using cameras (plus radar) and lots of compute power.
+
+While their system is level 2, it seems that they want to show that it is statistically safer than a regular driver in order to get regulatory approval.  \n\n---\n\n Summary of the "Ask for forgiveness" approach:
+
+✅ Cheap
+✅ Scalable and provides massive amount of feedback and data
+✅ Very fast development
+
+❌ Dangerous (end user testing)
+❌ Bets on CV/ML reaching human like performance 
+❌ Not clear if it can easily scale to level 5 \n\n---\n\n Summary 🏁
+
+It is difficult to tell which approach will be most successful. All approaches have somewhat difference goals and bet on different strategies. Very interesting times are coming...

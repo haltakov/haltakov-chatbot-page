@@ -1,0 +1,4 @@
+Python examples of popular Machine Learning algorithms with interactive demos.
+
+This is an awesome repository if you are getting started with machine learning and you want to look at the implementation of some frequently used algorithms.
+

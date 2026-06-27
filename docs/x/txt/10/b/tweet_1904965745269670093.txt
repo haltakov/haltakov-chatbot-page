@@ -1,0 +1,3 @@
+Seems OpenAI mostly solved that with their new image model. It acts much more intelligently and can be controlled much better.
+
+I think MidJourney still creates more beautiful images, but is much harder to control. 

@@ -1,0 +1,23 @@
+There are different ways to detect concept drift for computer vision, depending on the application.
+
+You will need to set up monitoring of your model in production and continuously evaluate it.
+
+1/6  \n\n---\n\n You can do spot checks on production data by labeling some small amounts and comparing the performance to the performance on the test dataset.
+
+This is of course a very expensive and error prone approach (see Simpson's paradox).
+
+2/6 \n\n---\n\n You can evaluate some high-level statistics about the performance of your application. Usually the CV model is not the last part of the pipeline.
+
+For example, a car recognizing speed limits may check if the driver actually drives at a speed close to the speed limit.
+
+3/6 \n\n---\n\n Another example - you are building a web tool that removes the background from images. You can measure how many corrections the user makes manually after that.
+
+In general, check if your customer uses your model output directly or corrects it somehow.
+
+4/6 \n\n---\n\n Another way is to train an autoencoder on the original dataset and note the reconstruction loss. After that, pass a dataset collected from production and see if the reconstruction loss is larger. This would indicate concept drift.
+
+More on this here: 
+
+5/6 \n\n---\n\n In summary, try to get as much information as possible from your end application. In the end, only issues that affect your final product are worth looking into!
+
+6/6

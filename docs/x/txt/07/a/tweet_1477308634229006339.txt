@@ -1,0 +1,5 @@
+Daily GM NFT Collection 🎨
+
+As promised, I'm starting a new daily tweet combining machine learning and web3. This is a collection of GM images generated using VQGAN+CLIP. The images relate to some event that happened on this day.
+
+The NFTs are sold at an auction on OpenSea 👇  \n\n---\n\n 

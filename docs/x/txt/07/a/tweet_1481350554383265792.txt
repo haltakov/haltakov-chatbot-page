@@ -1,0 +1,3 @@
+Great thread on starting with the Ethereum ecosystem!
+
+One advice that has served me well (not only for web3) - read other people's code! With smart contracts this is easy - most have their code published on sites like etherscan. Check out the contracts of you favorite projects! 

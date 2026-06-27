@@ -1,0 +1,6 @@
+Machine learning jargon explained 🧑‍🏫
+
+What is a 𝐤𝐞𝐫𝐧𝐞𝐥 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧?
+
+Thanks again to @lunarkin for another contribution!  \n\n---\n\n For more explanations of machine learning and math terms check out my new project Suboptimal on GitHub:
+

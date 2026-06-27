@@ -1,0 +1,1 @@
+You are at a disadvantage if your backend is not written in JavaScript/TypeScript

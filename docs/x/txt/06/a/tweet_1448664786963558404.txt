@@ -1,0 +1,3 @@
+This is a very good take! Using different metrics is fine and all that, but you really need to focus on what is important for your application!
+
+Don't forget to tune the thresholds of your model to find the best point on the ROC curve for your application! 

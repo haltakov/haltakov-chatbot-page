@@ -1,0 +1,3 @@
+I had some fun today with the predictive text feature on iOS... 😂
+
+It is very personalized - I tried with my wife's phone and the text is completely different. Do you want to show yours?  \n\n---\n\n If you enter the first work yourself, you get a different output. Let's try machine learning (this is a bit meta... 🤷‍♂️)  \n\n---\n\n And Python... 

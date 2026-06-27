@@ -1,0 +1,18 @@
+Video generation models are impressive, but it's still challenging to get exactly what you want from them.
+
+For my upcoming project, Leoline, I had a character image that I wanted to animate it in different situations: listening, talking, and greeting.
+
+Here some lessons 👇  \n\n---\n\n I tried all the platforms I could get my hands on at the time (this was couple of months ago). Really, only @runwayml was able to do a decent job.
+
+I started with the static image and prompted a 5/10 seconds clips with specific action.
+
+The fails were pretty funny... 👇  \n\n---\n\n Here the rabbit turns into something like a lemon...
+
+👇  \n\n---\n\n Here it gets some very weird hands...
+
+👇  \n\n---\n\n And what about these faces, lol 😂
+
+👇  \n\n---\n\n The thing is that the video depends much more on the seed than on your description. Rerunning the same prompt with different seeds generates massively different results, so it is basically luck to find a good one (and deep pockets to pay for all the experiments)...
+
+👇 \n\n---\n\n Check out this thread for how I generated the image of the character and the challenges of image generation.
+

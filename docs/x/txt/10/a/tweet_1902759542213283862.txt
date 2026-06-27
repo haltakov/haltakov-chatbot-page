@@ -1,0 +1,5 @@
+@OpenAI's audio models pricing is very confusing.
+
+They charge you $80 per 1M "audio" tokens for gpt-4o-audio-preview. However, it is not transparent what an audio token is.
+
+They say that 1 hour audio is about 128K tokens. In my experiments, it seems that for each character they… 

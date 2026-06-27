@@ -1,0 +1,19 @@
+@midjourney has all of their old models still available. I had some fun playing around with them.
+
+In the past 3 years image generation models have come from this to that!
+
+See the thread for images from every model 👇  \n\n---\n\n V1
+
+Barely looks like a car, but the background resembles a mountain.  \n\n---\n\n V2
+
+Definitely a car shape and a mountain, but very bad resolution  \n\n---\n\n V3
+
+Getting better, but still not there  \n\n---\n\n V4
+
+Huge difference in the details, resolution is still low and it kind of looks like a screenshot from a game 20 years ago  \n\n---\n\n V5.2
+
+Much nicer, but still has more of a game look than a realistic photo  \n\n---\n\n V6.1
+
+Now, this is very good!  \n\n---\n\n V7
+
+The level of detail from the just released v7 model is another level compared to v6.1 

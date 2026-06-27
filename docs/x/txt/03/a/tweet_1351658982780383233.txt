@@ -1,0 +1,11 @@
+Code is now on GitHub! 👨‍💻
+
+I downloaded the full @unsplash dataset and processed it with CLIP. You can now search the whole dataset using natural language.
+
+The code is well documented and commented - take a look.
+
+
+
+Examples 👇  \n\n---\n\n I'm now looking into sharing the precomputed features as well, so you don't need to download and process the whole dataset. Currently clarifying with @unsplash.
+
+As soon as I have the go, I'll also create a Colab notebook so you can play around yourself!

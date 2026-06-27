@@ -1,0 +1,4 @@
+Interesting application of GANs for style transfer of clothes by @KatieLewisMIT. Making this work robustly and efficiently can be huge for online shopping!
+
+Btw, I currently need the same for trying out furniture and decoration in my living room... 😆
+

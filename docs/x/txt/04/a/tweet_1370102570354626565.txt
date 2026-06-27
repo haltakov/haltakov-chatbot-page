@@ -1,0 +1,7 @@
+Interesting resources if you want to learn more about @OpenAI's CLIP network.
+
+▪️ Blog: 
+▪️ Paper: 
+▪️ Code: 
+▪️ Multimodal neurons: 
+▪️ Search photos on Unsplash: 

@@ -1,0 +1,18 @@
+Machine learning jargon explained 🧑‍🏫
+
+What is a 𝘁𝗲𝗻𝘀𝗼𝗿?
+
+Tensor is used in TensorFlow and PyTorch to indicate a multidimensional array (like numpy.array). This may be confusing because the mathematical term actually has a different meaning - more like a function.
+
+👇 \n\n---\n\n Tensors are data structures that are used to store data. For example:
+▪️1D tensor could store prices of houses
+▪️2D tensor could store an image
+▪️3D tensor could store multiple images or a single image with 3 color channels
+▪️4D tensor could store multiple color images
+
+👇 \n\n---\n\n For more details check out this awesome thread by @svpino 
+
+
+
+👇 \n\n---\n\n For more explanations of machine learning and math terms check out my new project Suboptimal on GitHub:
+

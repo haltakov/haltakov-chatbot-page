@@ -1,0 +1,4 @@
+I love the story by @rob_pike how Dotfiles were created! A bug turning into a feature!
+
+Somebody wanted to hide . and .. from showing in ls, so they implemented the check a bit wrongly. This lead to all files starting with . not being shown in ls. The rest as they is history...  \n\n---\n\n Unfortunately, the original post from Rob Pike on Google Plus is no longer available, but I found this article as a good source:
+

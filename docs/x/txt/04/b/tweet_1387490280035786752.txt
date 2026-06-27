@@ -1,0 +1,4 @@
+Some interesting statistics about the usage of PyTorch vs. TensorFlow in research from the amazing State of AI report 2020. PyTorch seems to be on the rise...
+
+However, it doesn't really matter which one you use when getting started!  \n\n---\n\n Here are a link to the full report - very well worth reading!
+

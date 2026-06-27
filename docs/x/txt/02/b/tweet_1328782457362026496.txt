@@ -1,0 +1,5 @@
+Visual Studio code is my favorite editor and I use it for most of my work. However, when programming in Python I still kind of like PyCharm better... 🤷‍♂️
+
+I can't pinpoint it - somehow most things work just a bit easier in PyCharm... 
+
+Anybody else feeling the same?

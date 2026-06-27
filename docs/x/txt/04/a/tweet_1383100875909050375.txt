@@ -1,0 +1,5 @@
+Yesterday I wrote about open-source simulators for self-driving cars. Nowadays, there are some amazing ones... 🤯
+
+Back in 2012 this was not the case so I was hacking around the code of an open-source game called VDrift to generate ground truth data... 🤷‍♂️
+
+ 

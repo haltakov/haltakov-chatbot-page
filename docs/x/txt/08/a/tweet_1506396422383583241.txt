@@ -1,0 +1,81 @@
+Machine Learning Explained 👨‍🏫
+
+PCA
+
+Principal Component Analysis is a commonly used method for dimensionality reduction.
+
+It's a good example of how fairly complex math can have an intuitive explanation and be easy to use in practice.
+
+Let's start from the application of PCA 👇  \n\n---\n\n Dimensionality Reduction
+
+This is one of the common uses of PCA in machine learning.
+
+Imagine you want to predict house prices. You get a large table of many houses and different features for them like size, number of rooms, location, age, etc.
+
+Some features seem correlated 👇 \n\n---\n\n Correlated features
+
+For example, the size of the house is correlated with the number of rooms. Bigger houses tend to have more rooms.
+
+Another example could be the age and the year the house was built - they give us pretty much the same information.
+
+We don't want that 👇 \n\n---\n\n Curse of Dimensionality
+
+In general, we want to have fewer features, because of the Curse of Dimensionality.
+
+The amount of data required to fit a model increases exponentially with the number of features. Therefore, having many features telling us the same thing is bad.
+
+👇 \n\n---\n\n Remove features
+
+Then, let's remove the features we don't need. But how do you select these?
+
+Take a look at the code. Using scikit-learn and PCA you can take a dataset containing many features and transform it into a dataset with fewer features (5 in the example).
+
+👇  \n\n---\n\n What you can use PCA for is to essentially create new features that will "compress" the data of the full feature set as well as possible.
+
+In this way, redundant features will effectively be removed. This is what we call dimensionality reduction.
+
+Why does it work 👇 \n\n---\n\n To understand better what happens, let's look at a specific example using the awesome visualization by @vicapow.
+
+I'll post images and videos in this thread, but I encourage you to click the link and experiment yourself a bit.
+
+
+
+Let's start in 3D 👇 \n\n---\n\n @vicapow Take a look at this 3D model
+
+Guess what, you are now doing dimensionality reduction!
+
+You see, you are looking at a 3D model on a screen that is 2D. While every point in the model is defined by 3 features (coordinates), you only select 2 features to look at it.
+
+👇  \n\n---\n\n @vicapow As the model is rotating, you can observe that some views are better at displaying the data than others.
+
+Look at the screenshots I did below. On the first one, you can clearly see that there are 3 clusters in the data, while on the second you only see 2.
+
+Can PCA help? 👇  \n\n---\n\n @vicapow I wrote above that PCA will find a new reduced set of features that optimally encodes the full dataset.
+
+So, if we apply it to the 3D model, we get the following view of the data, which clearly shows the 3 clusters. The optimal view!
+
+👇  \n\n---\n\n @vicapow Now you can imagine that on the 3 dimensions you have features describing a house.
+
+And the good thing is that PCA doesn't care how many dimensions you have and how many you want to reduce your dataset.
+
+Now a bit about the math 👇 \n\n---\n\n @vicapow What happens is that PCA will rotate your dataset in a way that in the first dimension (first principal component) you have the highest variability of the data, on the second dimension - the second-highest, and so on.
+
+The reduction happens by removing the last dimensions.
+
+👇  \n\n---\n\n @vicapow Now, go back to the visualization and play with the 2D example.
+
+Move the points in the left around and observe how the PCA plot changes. Put all points on a diagonal like (highly correlated) and you will see that after PCA the second dimension almost disappears.
+
+👇  \n\n---\n\n @vicapow The math
+
+You saw how you can use PCA in practice and got an intuition of why it works and you haven't seen a single formula!
+
+To perform PCA you need to perform Singular Value Decomposition of the covariance matrix, but I won't go into detail here.
+
+👇 \n\n---\n\n @vicapow If you are interested in math let me know and I can write another thread.
+
+However, I really want to stress that you can understand PCA and use it in practice even without understanding the internals of how it works.
+
+👇 \n\n---\n\n @vicapow I regularly write threads to explain complex concepts in machine learning and web3 in a simple manner.
+
+Follow me @haltakov for more

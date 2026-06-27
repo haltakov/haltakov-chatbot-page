@@ -1,0 +1,88 @@
+Wait what? Smart Contracts and Self-driving cars? 😳
+
+They are so different on the first look - digital vs physical, assets vs transportation, rules vs AI.
+
+However, programming smart contracts and safety-critical features of self-driving cars have a lot in common!
+
+Thread 👇  \n\n---\n\n They are similar in that bugs can have disastrous consequences in both cases. We are not talking about your app crashing or a button on your website not working.
+
+A bug in your smart contract can lose you millions of $.
+
+A bug in your self-driving car can kill somebody.
+
+👇 \n\n---\n\n We need to take extra care of code quality, testing, and programming approach. Some things we strive for in both cases:
+
+▪️ Code is simple
+▪️ Code is well documented
+▪️ Code is well tested
+▪️ Code analysis
+▪️ Code auditing
+▪️ Code is efficient
+
+👇 \n\n---\n\n Wait a minute! Aren't self-driving cars driven all by AI? 🤔
+
+Yes and no.
+
+Many of the functions of a self-driving car like perception, prediction, and planning are nowadays done by complex machine learning models.
+
+However, for safety-critical code there are monitors.
+
+👇 \n\n---\n\n It is common to have the ML model drive the car but to have simple pieces of code called monitors that implement redundant plausibility checks.
+
+For example, the ML model steers, but a monitor could look at the lidar and make sure the car never drives into the side barrier.
+
+👇 \n\n---\n\n Monitors are simple, written according to strict conventions, and rigorously tested. In some cases can even formally verified.
+
+They are also important for detecting faults in hardware systems and sensors and making sure the car doesn't go crazy.
+
+Let's dive into the details👇 \n\n---\n\n 1. Code is simple 🤏
+
+Code complexity can hide a lot of bugs and edge cases. Writing simple and understandable code is very important when writing mission-critical code.
+
+Don't be a smart ass - stick to a simple and understandable style.
+
+👇 \n\n---\n\n 2. Code is well documented 📁
+
+Every dev hates writing documentation. However, in mission-critical code, it is important to document not only the behavior of the code but also why some decisions were taken and trade-offs were made.
+
+👇 \n\n---\n\n 3. Code is well tested ⚙️
+
+Since the code is fairly simple, there is no excuse to not have high test coverage (and not only line coverage ☝️). It is not the time to move fast when writing the code that will hit the car brake in an emergency or transfer millions of $.
+
+👇 \n\n---\n\n 4. Code analysis 🔬
+
+Devs cannot always think about all edge cases. This is where automatic code analysis comes into play. There are two main types:
+▪️ Static analysis
+▪️ Dynamic analysis
+
+👇 \n\n---\n\n Static code analysis 🧍
+
+Static analysis tools go over your code and look for patterns that are known to be a frequent cause of problems or inefficiencies.
+
+For example, having unused variables is not bad in general, but it is an indication that the dev forgot something.
+
+👇 \n\n---\n\n Dynamic code analysis 🏃
+
+Dynamic analysis tools run your application and provide input attempting to find bugs. This is often called fuzzing.
+
+Running fuzzing tools on many of the popular libs will quickly reveal many unnoticed bugs!
+
+👇 \n\n---\n\n 5. Code auditing 🕵️
+
+Another common practice is to hire people specializing in analyzing mission-critical software, assess the quality, and recommend changes if needed.
+
+For cars, there are also standards like ISO 26262 (ASIL) that require you to perform an audit.
+
+👇 \n\n---\n\n 6. Code is efficient 🐇
+
+Efficiency is always important in embedded systems, where we typically have lots of constraints like integration space, temperature, cooling, and cost.
+
+For smart contracts every operation costs gas, so it is critical to be efficient as well.
+
+👇 \n\n---\n\n OK, I hope now you believe me that the development of smart contracts and safety-critical code for self-driving cars is similar in many aspects.
+
+In both cases bugs can have disastrous consequences, so we strive for simple, well-tested, and efficient code.
+
+👇 \n\n---\n\n If you liked this thread, you will also like the other stuff I write about web3 and machine learning.
+
+Follow me @haltakov for more! 😀

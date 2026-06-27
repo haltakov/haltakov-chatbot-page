@@ -1,0 +1,22 @@
+Let me tell you about an awesome online community called @neuromatch 🔥 
+
+It's a non-profit organization of computational neuroscientists organizing the Neuromatch Conference and Academy. 
+
+There's a great Deep Learning course is coming soon!
+
+
+
+Details 👇 \n\n---\n\n Neuromatch Academy 🧑‍🏫 
+
+The Academy is a massive, interactive, online summer school experience covering both computational neuroscience and general deep learning topics. And all videos, code, and notebooks are free! 
+
+A new Deep Learning course is coming on August 2nd... 👇 \n\n---\n\n Deep Learning Course 🕸️ 
+
+The course is created by volunteers including both professors from academia (University of Pennsylvania, Oxford, Stanford etc.) as well as people from companies (Google DeepMind).
+
+You can find a draft of the syllabus here:
+
+
+👇 \n\n---\n\n I got the chance to help a little bit by reviewing some of the tutorials and created exercises on data loaders and PyTorch introduction. Thanks to @Kelson_SS for inviting me! 👍
+
+The course is a massive effort by many awesome people and I can promise you it will be great! 🔥 \n\n---\n\n All materials are accessible even if you didn’t register for the live course! They are not finalized yet, but I’ll share everything once everything is ready. 

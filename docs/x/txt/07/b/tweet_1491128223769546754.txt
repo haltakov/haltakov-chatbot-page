@@ -1,0 +1,47 @@
+You trained your model and tested it in a Jupyter notebook. Now what?
+
+Here are some ways you can deploy your model in production:
+
+▪️ Public cloud providers
+▪️ TensorFlow TFX
+▪️ ONNX
+▪️ Custom web app
+▪️ Embedded platforms
+▪️Specialized services
+
+👇 \n\n---\n\n Public cloud providers (AWS, Microsoft Azure, or GCP)
+
+All big public cloud providers offer specialized services to deploy your model. Examples:
+▪️AWS SageMaker
+▪️Azure Machine Learning
+▪️Google Cloud AI Platform (Vertex AI)
+
+👇 \n\n---\n\n TensorFlow Extended (TFX)
+
+If you used TensorFlow to train your model, you can go with TFX. It is a platform that allows you to easily define the whole pipeline and deploy it using Apache Airflow or Kubeflow in a data center (public or private).
+
+👇 \n\n---\n\n Open Neural Network Exchange (ONNX)
+
+ONNX is an open format to define machine learning models. All popular frameworks like TensorFlow or PyTorch allow you to export your model in ONNX. You can then run inference using the ONNX runtime lib for your language and platform.
+
+👇 \n\n---\n\n Custom web app
+
+In some cases, even a web app that loads your model using TensorFlow or PyTorch and runs inference is sufficient.
+
+A detailed tutorial on this is available in the free Neuromatch deep learning course, which I helped create.
+
+ 
+
+👇 \n\n---\n\n Embedded platforms
+
+Embedded platforms usually come with their own SDK like Apple Core ML or Qualcomm Neural Processing SDK. They usually offer the possibility to deploy models from popular frameworks or at least ONNX.
+
+👇 \n\n---\n\n Specialized services
+
+There are also many specialized services to deploy and serve your models on. They usually offer advantages in some specific use-cases.
+
+👇 \n\n---\n\n And don't forget - just deploying your model and creating an API endpoint is not enough. You should think about monitoring the model and a retraining pipeline ☝️
+
+But this is a topic for another time...
+
+Follow me @haltakov for more!

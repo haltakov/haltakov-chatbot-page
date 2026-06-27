@@ -1,0 +1,87 @@
+Zero-Knowledge Proofs 0️⃣📘
+
+How can I prove to you that I know a secret, without revealing any information about the secret itself?
+
+This is called a zero-knowledge proof and it is a super interesting area of cryptography! But how does it work?
+
+Thread 🧵 \n\n---\n\n Let's start with an example
+
+Peggie and Victor travel between cities A and B. There are two paths - a long path and a short path. The problem is that there is a gate on the short path for which you need a password.
+
+Peggie knows the password, but Victor doesn't.
+
+👇  \n\n---\n\n Victor wants to buy the password from Peggie so he can use the short path.
+
+But what if Victor pays Peggie, but she lied and she didn't know the password? How can Peggie prove to Victor she knows the password, without actually revealing it?
+
+They use a zero-knowledge proof 👇 \n\n---\n\n Victor turns around and Peggie starts walking from A towards B on one of the roads.
+
+After some time, Victor calls Peggie and asks her to come back on either the short path or the long path.
+
+If Peggie took the same path Victor asked her to use she can just come back.
+
+👇  \n\n---\n\n However, if Peggie took the other path, the only way she can fulfill Victor's request is to go through the gate.
+
+For example, if she took the short path, but Victor asked her to come back on the long path, Peggie needs to pass the gate, go to B and then come back.
+
+👇  \n\n---\n\n Now, doing this a single time is not enough - there is 50% chance that Peggie chose the same path that Victor asked her to come back on.
+
+However, if they repeat the experiment many times, Victor can gain confidence (exponentially), that Peggie indeed knows the password.
+
+👇 \n\n---\n\n This is not a mathematical proof, because there is still a tiny chance that Peggie got lucky, even after repeating the experiment many times. However, for practical applications, it is enough.
+
+For example, repeating 20 times gives Victor confidence of 99.9999%.
+
+👇 \n\n---\n\n Now let's see what are the 3 important properties of zero-knowledge proofs:
+
+1️⃣ Completeness
+2️⃣ Soundness
+3️⃣ Zero-knowledge
+
+👇 \n\n---\n\n 1️⃣ Completeness
+
+If the statement to be proven is true, an honest verifier can be convinced that it is true indeed (100% true positive rate).
+
+In the example above, the experiment is enough to convince Victor that Peggy really knows the password.
+
+👇 \n\n---\n\n 2️⃣ Soundness
+
+If the statement is false, with a very high probability the prover cannot cheat and deceive an honest verifier (a very, very low false-positive rate).
+
+In the example, there Peggie has no way to cheat about knowing the password.
+
+👇 \n\n---\n\n 3️⃣ Zero-knowledge
+
+The proof doesn't reveal any information about the secret.
+
+Indeed, Peggie doesn't need to tell anything about the password to Victor. Even more, Victor even cannot prove to anybody else, that Peggie knows the password.
+
+👇 \n\n---\n\n The last point is interesting. Imagine Victor recording the whole process and publishing the video on YouTube.
+
+Watching the video alone is not convincing enough, because Peggie and Victor may have cheated by agreeing on which path to call every time.
+
+👇 \n\n---\n\n More examples 
+
+There are many other examples of zero-knowledge proof. In this thread, I repurposed the famous cave example, but you can find more on Wikipedia .
+
+👇 \n\n---\n\n Applications
+
+There are also many applications of zero-knowledge proofs, for example in authentication systems. In my opinion, one of the most usages is in scaling blockchains.
+
+👇 \n\n---\n\n Blockchain
+
+Blockchains usually rely on the so-called non-interactive zero-knowledge proofs, like ZK-SNARK or ZK-STARK, where there is no need for the prover and the verifier to interact.
+
+👇 \n\n---\n\n The intuition here is that zero-knowledge proofs allow somebody to perform the (expensive) validation of a bunch of transactions and write the proof on the blockchain.
+
+Using zero-knowledge, anybody can verify the proof, without the need to actually verify all transactions.
+
+👇 \n\n---\n\n This method can significantly increase the efficiency of the blockchain allowing for faster execution and lower transaction fees, without compromising security and decentralization.
+
+👇 \n\n---\n\n And while these methods are fairly new (especially the non-interactive proofs), there are already real applications using them.
+
+For example, @Immutable is a carbon-neutral blockchain optimized for NFTs and games without transaction costs. And zk-proofs make this possible.
+
+👇 \n\n---\n\n @Immutable And no, this is not a sponsored post. I just think the tech is really cool and can enable many new blockchain use-cases 🤷‍♂️ \n\n---\n\n @Immutable I regularly write threads to explain complex concepts in machine learning and web3 in a simple manner.
+
+Follow me @haltakov for more.

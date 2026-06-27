@@ -1,0 +1,12 @@
+What is the future of machine learning? 🤔
+
+Labeling more data? Unsupervised learning? No... ✋ 
+
+The answer is self-supervised learning!
+
+Let me tell you why it is so cool! 👇  \n\n---\n\n Contrastive learning is a cool technique! I have to record a video on this.
+
+ \n\n---\n\n You can do data-centric approach for self-supervised learning just as well!
+
+You still need to curate a good dataset - you need to have different examples that sample the whole problem space. You just don't need to label it manually :)
+

@@ -1,0 +1,3 @@
+I find myself using Grok 2 more often than ChatGPT or Claude lately.
+
+It does pretty much the same job with coding questions, but for others it has basically real-time information about the world.

@@ -1,0 +1,6 @@
+Llama 3.2 was just released and it seems very interesting:
+▪️ Small models sizes available 1B and 3B
+▪️ Outperform other small models
+▪️ Heavy use of distillation and pruning
+▪️ Variants with vision capabilities
+

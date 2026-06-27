@@ -1,0 +1,6 @@
+This is mind-blowing 🤯
+
+Open any GitHub repo in a web version of VS Code in 1 second...
+
+Just replace github .com with github1s .com
+

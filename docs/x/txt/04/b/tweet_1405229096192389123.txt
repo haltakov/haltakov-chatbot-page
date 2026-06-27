@@ -1,0 +1,7 @@
+Python Cheat Sheet 🐍 🗒️ 
+
+This is an awesome cheat sheet for Python developers! Thanks to Laurent Pointal for creating it!
+
+  \n\n---\n\n Sorry, I see now that I put the first page two times... 🤦‍♂️
+
+Here both again 

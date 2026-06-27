@@ -1,0 +1,21 @@
+How I improved my Lighthouse Performance from 85 to 99 ? 🏎️
+
+In the first version my side-project website, , I focused on the content, so it wasn't loading very fast. The Lighthouse Performance score was only 85.
+
+Read what I did to improve it to 99 👇  \n\n---\n\n 1. Optimize images 🏞️
+
+This turned out to be the biggest problem - my images were way too big. I got a nice high-quality image for my header from @unsplash, but didn't compress it properly - it was more than 1 MB 🤦‍♂️. After some optimization I got it down to 66KB 😎  \n\n---\n\n 2. Move big images from CSS to HTML 🔁
+
+The big image was loaded in a CSS file as a div background. The CSS file needed to be loaded and parsed first, before the image could start loading. Inlining the image in the HTML (in the style attribute) improved the loading time.  \n\n---\n\n 3. Using Google Fonts 🔤
+
+I was serving font files from my server. While you can get good performance in this way, you need to implement several tricks. Using Google Fonts is actually faster than the naive implementation!
+
+Read more on the topic here:  \n\n---\n\n 4. Deferring non-critical CSS and JavaScript ⌛
+
+The last step was to defer the loading of non-critical CSS and JavaScript files. For JS files you can just add defer or async in the script tag. For CSS you need to use some (ugly IMO) hacks like this:   \n\n---\n\n My side-project is open-sourced on GitHub so you check out how I implemented each of the steps. To do that check this pull request and go through the commits: 
+
+
+
+In the PR I follow the same steps as in this Twitter thread. \n\n---\n\n I know that there is much more to optimize on the website, but this first step already made it so much faster and got the Lighthouse Performance to 99.
+
+Can you share some other tricks to improve Lighthouse Performance?

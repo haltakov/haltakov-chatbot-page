@@ -1,0 +1,31 @@
+ML paper review time - DenseNet! 🕸️
+
+This paper won the Best Paper Award at the 2017 Conference on Computer Vision and Pattern Recognition (CVPR) - the best conference for computer vision problems.
+
+It introduces a new CNN architecture where the layers are densely connected.  \n\n---\n\n I attended a talk by Prof. Weinberger at GCPR 2017. He compared traditional CNNs to playing a game of Chinese Whispers - every layer passes what it learned to the next one. If the some information is wrong, though, it will propagate to the end without being corrected. 🤷‍♂️  \n\n---\n\n The Idea 💡
+
+The main idea of DenseNet is to connect each layer not only to the previous layer, but also to all other layers before that. In this way, the layers will be able to directly access all features that were computed in the chain before.  \n\n---\n\n Details ⚙️
+
+Creating "shortcuts" between layers has been done before DenseNet - important for training very deep networks.
+
+The interesting point here is that the connectivity is dense and that the feature maps from all layers are concatenated and not summed up as in ResNet. \n\n---\n\n Details (2) ⚙️
+
+Sharing feature maps is not possible when the resolution is reduced by pooling, so in practice there are 3-4 dense blocks connected by so called transition layers. The layers in each block are densely connected.  \n\n---\n\n Growth rate 📈
+
+An important hyper parameter is the growth rate - it specifies the number of feature maps that is added after each layer. In contrast to other architectures, DenseNet can use very narrow layers, typically containing only 12 feature maps. \n\n---\n\n Training 🏋️‍♂️
+
+A big advantage of DenseNet is that it is easy and fast to train, because it avoids the Vanishing Gradients problem. During backpropagation, the gradients are free to flow directly to each layer because of the dense connections. It's much faster to train than ResNet.  \n\n---\n\n Size ⭕
+
+Sharing the feature maps between layers also means that the overall size of the network can be reduced. Indeed, DenseNet is able to achieve accuracy similar to ResNet with half of the number of parameters.  \n\n---\n\n Generalization ✅
+
+An nice side effect of having a smaller network is that it is less prone to overfitting. Especially when no data augmentation is performed, DenseNet achieves significantly better results than other methods. \n\n---\n\n Results 🏆
+
+DenseNet is tested on several benchmark datasets (including ImageNet) and either beats all other methods or achieves results comparable to the state-of-the-art, but using much less computational resources. \n\n---\n\n Conclusion 🏁
+
+DenseNet is an architecture where each layer is able to reuse the information in all previous layer. This results in a network that is smaller, faster to train and generalizes better. 
+
+It is implemented in all major DL frameworks: PyTorch, Keras, Tensorflow etc. \n\n---\n\n Further reading 📖
+
+- Original article: 
+- Extended version in TPAMI: 
+- Code: 

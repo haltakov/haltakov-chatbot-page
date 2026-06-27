@@ -1,0 +1,3 @@
+Another cool thing about LLMs is that you can mix languages in your prompt.
+
+I use English, German, and Bulgarian every day, so sometimes words come to mind in different languages. No need to worry about it—just type whatever you like, and the LLM will figure it out. 

@@ -1,0 +1,3 @@
+I've been playing around with @tailwindcss for the last 2 days building a simple landing page for one of my projects. 
+
+I like it more than Bootstrap for now - feels lighter and the utilities are much more powerful.

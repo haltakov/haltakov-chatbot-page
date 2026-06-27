@@ -1,0 +1,1 @@
+I'm now at the stage that I have 2 instances of Cursor opened with the same project and I'm implementing 2 features in parallel using Agent and myself. Nice!

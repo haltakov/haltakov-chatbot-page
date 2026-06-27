@@ -1,0 +1,5 @@
+A can only speak for BMW, but we collect data in all countries, where we launch a function!
+
+We always have dedicated data collection campaigns for training and test data. After that, there are also validation test drives to make sure the performance criteria are reached.  \n\n---\n\n Every country is tested separately and if there is a problem with the performance it needs to be fixed before the function is enabled in this particular country. \n\n---\n\n I've personally organized a worldwide data collection campaign for traffic sign recognition in more than 50 countries.
+
+I assure you that we put HUGE amount of effort in this! \n\n---\n\n We also have an internal testing department completely separate from the dev teams that do the final testing and approval. They are brutal and don't allow cutting corners... 😄

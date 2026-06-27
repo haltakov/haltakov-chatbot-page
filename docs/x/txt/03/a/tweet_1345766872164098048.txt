@@ -1,0 +1,38 @@
+Let me help you ace your Machine Learning job interview! 🤖🧠
+
+I've done many interview for a ML and CV  positions for our self-driving car project over the last years.
+
+ I'll be posting typical interview questions that you can answer in the replies. 🧐
+
+👇 Here are the rules 👇 \n\n---\n\n Rules 🏛️
+
+▪️ I'll post a typical machine learning interview question.
+▪️ You  answer the question in the replies.
+▪️ I'll provide feedback to your replies.
+▪️ I'll post my answer after 1-2 days.
+▪️ I'll highlight the best replies. \n\n---\n\n Answering ✅
+
+When you answer, try to condense your answer to the most essential part! Being able to clearly and concisely express yourself is a very important skill, not only for interviews! 
+
+The 280 chars limit is a feature, not a bug 😀. You can use 2-3 tweets if you need. \n\n---\n\n Question  ❓
+
+I'll post ML, CV and software engineering questions  I found particularly useful when evaluating applicants.
+
+I will focus for now on questions typical for a phone interview, because we won't be able to go into much detail as in an on-site interview here on Twitter. \n\n---\n\n First question is here!  \n\n---\n\n Check out question #2
+
+ \n\n---\n\n Time for question #3!
+
+ \n\n---\n\n Question #4 is there!  \n\n---\n\n Next question #5  \n\n---\n\n Question #6  \n\n---\n\n Question #7 is a bit more difficult...  \n\n---\n\n Question #8
+
+ \n\n---\n\n Question #9
+
+ \n\n---\n\n Question #10
+
+Now going more into computer vision...
+
+ \n\n---\n\n Question #11
+
+ \n\n---\n\n Question #12
+
+Again CNNs...
+

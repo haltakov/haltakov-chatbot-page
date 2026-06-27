@@ -1,0 +1,5 @@
+New debugger for Jupyter notebooks in VS Code
+
+Finally, you can now debug a cell with a breakpoint in another cell (for example for function definitions) in VS Code Jupyter notebooks! Wanted this feature so much!
+
+Source:  

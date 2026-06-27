@@ -1,0 +1,3 @@
+Like it or not Grok backed by the X data is the best LLM to get information about recent events.
+
+I tried asking Grok, ChatGPT, Claude and Gemini about the connection between the UnitedHealthcare CEO shooter and McDonald's and only Grok answered in a meaningful way.  \n\n---\n\n Google search is also not helpful 

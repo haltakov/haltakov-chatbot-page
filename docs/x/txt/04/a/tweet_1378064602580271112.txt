@@ -1,0 +1,1 @@
+Very interesting work combining StyleGAN with CLIP to modify images using natural language! 😃  \n\n---\n\n You can also directly try it on Google Colab: 

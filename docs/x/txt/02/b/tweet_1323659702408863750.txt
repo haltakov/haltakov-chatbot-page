@@ -1,0 +1,35 @@
+Self-driving car engineer roles - Test Engineer  📝
+
+Test and validation is a very important part of building a self-driving vehicle. You want to make sure that it can reliably handle all kinds of situations it will encounter on the road.
+
+Thread 👇 \n\n---\n\n The job of the testing engineer is to design, implement and evaluate testing campaigns to validate the performance of the self-driving car in the field.
+
+This comes on top of the standard software dev testing procedures like unit, acceptance, integration, fuzzing testing etc. \n\n---\n\n Testing on the road 🛣️
+
+Testing on the real roads is important - there is a huge variety of situations that the car will get into. The goal is to collect large amounts of data in order to make statistical evaluations and find hard edge cases. A trained safety driver is essential! \n\n---\n\n The test engineer needs to design such campaigns so that all kind of environment variations are covered well enough:
+🌧️ Weather conditions (sun, clouds, rain, snow...)
+🌒 Day and night driving
+🛣️ Road types
+🗺️ Countries or states
+🚦 Traffic scenarios
+🚒 Rare events \n\n---\n\n Test tracks 🚧
+
+It is difficult to test all kind of situations in the real world, so testing on dedicated test tracks is important. Examples:
+🚶 Emergency braking on pedestrians and kids
+🚗 Emergency cross traffic tests
+🏎 ️Tests requiring high vehicle dynamics  \n\n---\n\n All companies invest heavily in testing facilities where they can play out different scenarios in controlled conditions. Here some examples:
+- The BMW test track in Miramas
+- Waymo's Castle 
+- The Mcity Test Facility
+
+The test engineer needs to plan and execute the tests there.  \n\n---\n\n And here is why you want to test some things with dummies on the test track - sometimes things go wrong...  \n\n---\n\n Required knowledge 📚
+
+The testing engineer needs to have knowledge in testing methodologies and be able to organize large scale campaigns. The test tooling development is also an important part in order to process the scenarios in an efficient way. \n\n---\n\n A big challenge there is the huge amounts of data that the car generates from all of its sensors while driving. Data rates of more than 1 GB per second are quite common! \n\n---\n\n Programming language 💻
+
+Python is a very popular language for developing evaluation tools. When things need to be scaled up for handling huge amounts of data, languages as C++ and Java/Scala come into play as well. \n\n---\n\n Resources 📖
+
+Here some interesting links about how different companies are testing:
+-Waymo's Castle: 
+- Waymo Safety Report: 
+- EuroNCAP: 
+- Mcity: 

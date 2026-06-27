@@ -1,0 +1,3 @@
+Moving all of my projects to my Hetzner VPS with Coolify. The process has been prett smooth so far only with some little hick-ups because of some Coolify quirks.
+
+Big cost savings already!

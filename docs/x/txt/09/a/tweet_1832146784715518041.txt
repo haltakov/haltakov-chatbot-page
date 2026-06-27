@@ -1,0 +1,5 @@
+Naming your state management library "Zustand" is brilliant! 😁
+
+Germans will get it... \n\n---\n\n Seems to be a very good library as well: 
+
+My team integrated it in one of our products and everybody is super happy

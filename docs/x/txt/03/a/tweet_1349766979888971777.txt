@@ -1,0 +1,12 @@
+Machine Learning Interview Question #5 🧠🤖🧐 
+
+Things are getting serious...
+
+❓ What is the idea of backpropagation❓ 
+
+This is difficult without a whiteboard, but try to explain the intuition behind it.
+
+Answer in the replies. Read the rules 👇 \n\n---\n\n  \n\n---\n\n Here my answer 👇
+
+As always, make sure to read the replies for some very interesting perspectives on the problem!
+

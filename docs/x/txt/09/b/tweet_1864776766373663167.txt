@@ -1,0 +1,8 @@
+Free email for your domains
+
+Super easy to setup with Cloudflare:
+- Register for Cloudflare (free tier is generous)
+- Move the DNS servers of your domain
+- Use Email Routing to point info@&lt;domain&gt; for example to your mailbox
+
+All emails to info@&lt;domain&gt; will now be forwarded to… \n\n---\n\n 

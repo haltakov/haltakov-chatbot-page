@@ -1,0 +1,4 @@
+This is a great collection of resources to learn machine learning.
+
+Thank you @d0r1h for putting this together!
+

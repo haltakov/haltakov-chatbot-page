@@ -1,0 +1,10 @@
+How high can you score against my new @DilemmaBot at Prisoner's Dilemma? 💪
+
+Just mention it in a tweet and it will start playing with you.
+
+For now, I won't reveal the strategy it's playing, but I'll write about that later and will publish the code as well. \n\n---\n\n Here some explanation how the game of Prisoner's Dilemma works. The bot will be playing 10 rounds of it.
+
+ \n\n---\n\n @apoorv__tyagi already beat it
+
+ \n\n---\n\n @AlejandroPiad did as well
+

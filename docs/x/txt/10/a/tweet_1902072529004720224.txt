@@ -1,0 +1,5 @@
+Gemini 2.0 Flash is the closest thing I've seen to editing images with AI
+
+Take a look at these edits, they are pretty good.  \n\n---\n\n These are also decent, even though it had problems to understand which trees I mean and after several prompts this is the best one I managed to get. The resolution of the final image is also quite poor.  \n\n---\n\n It is still not very good at editing people, though, lol.  \n\n---\n\n So, we are not there yet, but getting closer. All the problems seem like something that will be solved in the next 6-12 months.
+
+You can try it yourself for free using the Google AI Studio. Make sure as a model you select "Gemini 2.0 Flash (Image Generation) Experimental"…

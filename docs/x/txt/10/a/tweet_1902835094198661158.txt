@@ -1,0 +1,3 @@
+The new gpt-4o-mini-tts model looks great! It is 6.5x cheaper than the gpt-4o-audio-preview and seems to be of a comparable quality of the generated voice!
+
+Integrating into Leoline now... 

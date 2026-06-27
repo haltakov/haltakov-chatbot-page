@@ -1,0 +1,7 @@
+Machine Learning Interview Question #13 🤖🧠🧐
+
+We talked about using CNNs to detect objects. Now imagine we have a self-driving car driving around.
+
+❓ How can we estimate the distance to a detected object (for example a car)❓
+
+Answer in the replies. Read the rules 👇 \n\n---\n\n 

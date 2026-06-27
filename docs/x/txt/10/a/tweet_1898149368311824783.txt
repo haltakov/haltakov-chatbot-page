@@ -1,0 +1,5 @@
+Tried vibe coding a simple MPC server - felt like I'm working with a dumb intern.
+
+I tried using Cursor Agent with Claude Sonnet 3.7 and it failed massively. It was slow, produced huge amounts of unneeded code and it didn't work at all.
+
+My job is safe!

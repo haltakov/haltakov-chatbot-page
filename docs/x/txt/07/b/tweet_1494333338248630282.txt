@@ -1,0 +1,10 @@
+Many don't understand how crypto wallets work...
+
+This is a hands-on video where I share my screen and show you in detail how crypto wallets work.
+
+You will learn about:
+▪️ keys not coins
+▪️ private keys
+▪️ seed phrases 
+▪️ hardware and multi-sig wallets
+

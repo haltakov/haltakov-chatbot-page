@@ -1,0 +1,5 @@
+How I learn new technologies? 📖
+
+1️⃣ Get a high-level overview of the concepts (skim a book or find slides on the topic)
+2️⃣ Start building a project with the new technology. Pick a concept and use it, reading and understanding the details.
+3️ When ready, pick the next concept

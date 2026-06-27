@@ -1,0 +1,3 @@
+One of the important things for me in every project (not only ML) is how to quickly build a prototype and verify the assumptions that were made.
+
+This helps find problems in the concept and saves time in not pursuing things that won't work. 

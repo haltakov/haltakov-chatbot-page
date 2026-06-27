@@ -1,0 +1,7 @@
+Normal people don't realize how hard ML and CV is... 🤷‍♂️
+
+While working on my master's thesis, I complained to another student that I need to do a lot of manual labeling, so I can train my algo. He asked:
+
+"Why don't you just write a program that labels the images for you?" 😂 \n\n---\n\n And my other "favorite" question:
+
+"Why wasn't the object detected? I see it right there it the image..." 🤦‍♂️

@@ -1,0 +1,7 @@
+All LLMs struggle with this question
+
+"What is something that is easier to create than to destroy?"
+
+I think there is a good reason for that, what is your guess?
+
+Examples with other LLMs below 👇  \n\n---\n\n Claude's answer is worse than ChatGPT. While Idea may fit the definition with some imagination, Trust is actually the exact opposite. So is Reputation that ChatGPT suggested.  \n\n---\n\n Gemini 1.5 Pro is actually not that bad, but it kind of uses double negation - you destroying the mess means cleaning up. So I don't think it passes as a correct answer.  \n\n---\n\n Grok 2 completely misses the point and answers the opposite question. Asking it to answer the opposite question explicitly, still doesn't work.  \n\n---\n\n More double negation tactics from Llama 3.1 70b, but some quite creative answers actually. 

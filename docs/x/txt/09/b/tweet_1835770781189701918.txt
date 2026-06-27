@@ -1,0 +1,1 @@
+Serverless is useful for much less stuff than people like to use it for

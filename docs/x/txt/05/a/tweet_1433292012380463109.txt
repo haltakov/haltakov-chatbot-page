@@ -1,0 +1,12 @@
+The ML course I'm working on will be different... 👨‍🏫
+
+ML courses usually focus on modeling, training, and evaluation of models.
+
+I plan to cover the whole pipeline - from data collection to deployment. I don't plan to go very deep in any topics, but focus on doing it end-to-end!  \n\n---\n\n This was my impression as well... Many focus on diving deep into the algorithms and the math, while few focus on many of the other things needed to make ML actually do something useful in real life.
+
+ \n\n---\n\n I haven't decided which platform I'll host the videos on. Maybe YouTube, maybe Vimeo, maybe Gumroad.
+
+The course will be a combination between videos and Jupyter/Colab notebooks.
+
+I'm working on it now, but I guess I'll need 2-3 months to finish it.
+

@@ -1,0 +1,7 @@
+Machine learning jargon explained 🧑‍🏫
+
+What is a 𝗟𝗶𝗽𝘀𝗰𝗵𝗶𝘁𝘇𝗻𝗲𝘀𝘀?
+
+Lipschitzness is a noun coming from the term Lipschitz continuity. A Lipschitz continuous function is simply a function that has a limit on how fast it can change.
+
+Details: 

@@ -1,0 +1,3 @@
+I worked with jQuery in the past, but I decided to go with vanilla JavaScript (ES6) for my new project. It seems that the language did a big leap forward!
+
+One invaluable resource for learning ES6, when you have experience with jQuery is this: 

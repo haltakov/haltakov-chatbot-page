@@ -1,0 +1,9 @@
+Ever wondered how a program will look like in different languages? 🤔
+
+This is a very cool project implementing a simple calculator in 61 programming languages. There are detailed description of each implementation and it's fun to browse through them.
+
+  \n\n---\n\n Here the JavaScript implementation of the RPN calculator:
+
+  \n\n---\n\n And here the Python implementation of the RPN calculator:
+
+  \n\n---\n\n The project is done by Prof. Boyko Bantchev - I took his class on functional programming with Haskell back when I was in university. \n\n---\n\n Which implementation do you like most?

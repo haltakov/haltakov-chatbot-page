@@ -1,0 +1,8 @@
+Exploring different artistic styles with CLIP + VQGAN 🎨
+
+Note, that this is not style transfer! This is generated directly from the GAN only based on a text prompt!
+
+Which artistic interpretation of my @cryptoadzNFT do you like most?  \n\n---\n\n And here is the project's website:
+
+ \n\n---\n\n And the AI Toadz OpenSea collection:
+

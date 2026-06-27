@@ -1,0 +1,41 @@
+Another paper review, but a little different this time... 🤷‍♂️ 
+
+The paper is not published yet, but is submitted for review at ICLR 2021. It is getting a lot of attention from the CV/ML community, though, and many speculate that it is the end of CNNs... 👇
+
+  \n\n---\n\n The paper successfully applies the Transformer deep learning model to the image classification problem. 
+
+Transformers are dominating the field of natural language processing, just look at GPT-3...
+
+However, they have found only limited application in Computer Vision so far... \n\n---\n\n Image as input 🏞️
+
+Transformers take a series of tokens as input - usually the words of a sentence. But what about images? 🤔
+ 
+Treating each pixel as a token would be too computationally expensive 🚫
+
+Taking only a local neighborhood of a pixel will only provide local context 👎 \n\n---\n\n Here, the image is split into patches of 16x16 pixels, which are fed in the Transformer (more accurately a linear transformation of the patch + positional information).
+
+This allows this so called Vision Transformer (ViT) to capture global context, while still being effiecient.  \n\n---\n\n Model ⚙️
+
+What's interesting is that the network itself is a standard Transformer, exactly as used for NLP! 🤯  
+
+It takes as input the sequence of image patches and outputs a classification, which is the Transformer's output for the special [class] token, as done in other models  \n\n---\n\n Results 🏆
+
+Results are impressive! Evaluated on 7 different datasets, ViT achieves results comparable to the state-of-the-art CNN with 15x less computational resources. A deeper version of ViT outperforms the CNN, while still being 4x faster.
+
+It needs 2500 TPU days, though...  \n\n---\n\n Analysis 🔍
+
+Looking at the learned linear transformation of the input patches, we can see that they resemble the first layer of a CNN. The Transformer learned to capture frequency and color information, without any convolutions. This speaks for its good generalization ability!  \n\n---\n\n Analysis  🔍🔍
+
+Even in the first layers, ViT learns to pay attention to almost the whole image and not only to a local neighborhood of each pixel. This is something that CNNs can only do in the deeper layers - in the beginning the receptive fields of the neurons are limited.  \n\n---\n\n Analysis 🔍🔍🔍
+
+The authors also tried using features from the initial layers of a CNN as input to the Transformer instead of the patches. While this showed better results for smaller models, a deeper version of ViT was able to generalize just as good using the images directly. \n\n---\n\n Conclusion 🏁
+
+It is impressive that a very general model (Transformer) is able to outperform a more specialized one (CNN), while being more efficient.
+
+The authors note, though, that this is only possible when training on huge amount of data - 300M images (the JFT-300M dataset). \n\n---\n\n Considering that JFT-300M is a non-public dataset by Google and that it takes 2500 TPUv3 days to train the model, it will not be easy to apply it in practice...
+
+However, this work shows the potential of Transformers for CV and I bet there will be more usable versions soon... 😉 \n\n---\n\n Further reading 📖
+
+◾ Full text of the paper: 
+◾ Very good video with explanation by @ykilcher - 
+◾ General information about Transformers in this thread by @AlejandroPiad: 

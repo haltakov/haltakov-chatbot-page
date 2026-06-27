@@ -1,0 +1,67 @@
+The 5 Levels of Autonomous Driving  🧠 🚙 
+
+There is a lot of talk about level 2, 3, 5 self-driving cars, but what do these levels mean? Which level is Tesla at? What about Waymo?
+
+Let me walk you through the different levels in this thread 👇  \n\n---\n\n Level 0️⃣ - No Automation
+
+Just old fashioned cars here - there are no systems assisting during driving. The human driver needs to do all the work.
+
+▪️ Driving -🧍
+▪️ Monitoring -🧍
+▪️ Fallback -🧍 \n\n---\n\n Level 1️⃣ - Hands-on
+
+The car takes over part of the driving.
+
+Example: adaptive cruise control - the car accelerates and breaks automatically, but the driver needs to steer.
+
+L1 cars have been around for more than 20 years!
+
+▪️ Driving -🧍/🚙
+▪️ Monitoring -🧍
+▪️ Fallback -🧍 \n\n---\n\n Level 2️⃣ - Hands-off
+
+The car takes over both steering and acceleration/breaking, but the driver needs to be able to take over at any time.
+
+All car companies now offer L2 systems as an option.
+
+▪️ Driving - 🚙
+▪️ Monitoring -🧍
+▪️ Fallback -🧍 \n\n---\n\n Going from L2 to L3 📈
+
+The big difference is that the responsibility in case of an accident is transferred from the driver to the car.
+
+This increases complexity significantly, because the car needs to handle all possible edge cases.
+
+Regulations still don't allow L3 systems... \n\n---\n\n Level 3️⃣ - Eyes off
+
+The car does the driving in specific situations (e.g. on the highway). The car may hand back control to the driver, but it needs to give couple of seconds warning, because he may be distracted.
+
+▪️ Driving - 🚙
+▪️ Monitoring - 🚙
+▪️ Fallback -🧍 \n\n---\n\n There are not L3 cars yet.
+
+Many companies are working on L3 systems and BMW, Mercedes and Honda already announced specific plans. However, there are still regulatory hurdles that need to be overcome.
+
+The FSD Beta of Tesla are still a L2 system! \n\n---\n\n Level 4️⃣ - Mind off
+
+The car drives itself and doesn't rely on a human as a fallback - there may be no one behind the steering wheel.
+
+However, the car can only drive in certain areas and conditions, which it supports.
+
+▪️ Driving - 🚙
+▪️ Monitoring - 🚙
+▪️ Fallback -🚙 \n\n---\n\n Objective Design Domain (ODD)
+
+These restrictions are called ODD. Example: Waymo's service in Phoenix, which is geofenced and the safety driver is present if the environmental conditions are challenging.
+
+Another company that is allowed to drive without safety driver is Cruise. \n\n---\n\n Level 5️⃣ - Steering Wheel Optional
+
+The ultimate stage of self-driving - the car can handle all situations under all conditions on its own. At this stage, you don't really need a steering wheel anymore.
+
+However, we are still quite far from this... 🤷‍♂️ \n\n---\n\n Summary 🏁 
+
+So now you know that almost all systems that are today on the market are sill L2. Yes, even Tesla...
+
+The only comany that arguably has a true L4 system is Waymo, but it still operates in very limited situations under optimal conditions. \n\n---\n\n If you liked this thread and want to read more about self-driving cars and machine learning give me a follow! 👍
+
+I have many more threads like this planned 😃

@@ -1,0 +1,5 @@
+AI didn’t take my job - I took someone else’s with AI.
+
+A real story.
+
+About 1.5 years ago, I was leading a team of 10 developers. We didn’t have a DevOps engineer, but we had to deploy a project with a complex infrastructure setup on GCP. Since we lacked the expertise, we hired…

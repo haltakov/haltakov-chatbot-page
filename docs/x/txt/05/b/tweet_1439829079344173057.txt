@@ -1,0 +1,13 @@
+I'm not using any toy datasets in my machine learning course. We are going to work with real data only!
+
+I'm also using the @unsplash dataset for all of the examples.
+
+It is not easy, but I'll make it work! 😀 \n\n---\n\n This is a good question! I mean two things actually:
+
+1. Small artificial datasets, like those created by sklearn.datasets.make_classification for example.
+
+2. Small CV datasets, that are usually used for benchmarks like MNIST, Fashion MNIST, CIFAR
+
+ \n\n---\n\n To make it clear - I do believe these datasets have value in some cases. However, they are too "sterile" - they are clean, well labeled, and well balanced.
+
+My idea is to use some real data with all the problems that come with it, because this is what you have in reality.

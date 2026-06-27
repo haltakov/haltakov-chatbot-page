@@ -1,0 +1,109 @@
+Tesla is getting rid of the radar. But are cameras enough for self-driving? 👀 🧠 🚙 
+
+While most other self-driving companies rely heavily on sensor redundancy, @Tesla now uses only 8 cameras.
+
+Can they (safely) push the limits of computer vision enough?
+
+A thread 🧵  \n\n---\n\n No Lidar 🚨
+
+@elonmusk famously said that lidar is a "crutch" so Teslas never had one.
+
+Lidars, though, are very accurate in measuring distance (and FMCW lidars also measure velocity) and have increasingly higher resolution providing redundancy and increasing safety.
+
+👇 \n\n---\n\n No HD Map 📍 
+
+They also don't use HD maps, which provide information about the surrounding environment that may be difficult to capture with cameras alone.
+
+Well, they clearly do some mapping for their FSD beta, but much less than Waymo for example.
+
+
+
+👇 \n\n---\n\n Drivers and Maps 🗺️ 
+
+Interestingly, human drivers do create a local HD map in their heads.
+
+When you're driving in a familiar area you know where each lane is going, what intersection is coming up, where the traffic lights are etc.
+
+Driving there is easier and safer!
+
+👇 \n\n---\n\n No Radar 📡
+
+Radars are extremely accurate in measuring speed and distance to other vehicles. 
+
+However, they have problems mostly due to their low resolution (Tesla used a fairly standard radar by Continental). This makes fusing camera and radar information tricky.
+
+👇  \n\n---\n\n Vision is all you need 👀 
+
+Tesla will focus on cameras only. This talk by @karpathy from CVPR explains why and how. 
+
+
+
+Well, Tesla have a good argument because humans are able to drive only relying on their eyes.
+
+There are some trade-offs, though 👇 \n\n---\n\n Advantages ✅ 
+
+There are certainly many advantages in getting rid of the radar:
+
+▪️ Reducing costs
+▪️ Reducing effort to fuse radar information
+▪️ Reducing effort to deal with the specific radar failure modes
+▪️ Focusing the team on one technology only - vision
+
+👇 \n\n---\n\n Disadvantages ❌
+
+However, this strategy has drawbacks as well:
+
+▪️ No redundancy to the vision system, potentially impacting safety
+▪️ No radar available for future training data
+▪️ Possibly worse performance in adverse weather conditions
+▪️ Missing on new radar technology
+
+👇 \n\n---\n\n Redundancy and safety 🦺 
+
+Self-driving is far from solved and other companies are using every available technology to increase redundancy and safety. 
+
+Tesla bets on advancing the state-of-the-art in Computer Vision fast enough to compensate for this, but will this work?
+
+👇  \n\n---\n\n As Andrej says in the talk, sensor fusion is difficult, because cameras and radars have different error modes. But this is exactly why there are situations where radar can provide better data than cameras. For example in adverse weather conditions.
+
+👇 \n\n---\n\n Training data 💪 
+
+Tesla trained their neural network to estimate distance, speed, and acceleration on a massive 1.5 PB dataset (1M clips) sourced from the fleet. However, humans are bad at annotating these values to create ground truth...
+
+👇 \n\n---\n\n They use the radar as one source of ground truth for training the vision system. If not available in the fleet this source will not be usable in the future. They will need to rely on object tracking during the processing of the training clips.
+
+👇 \n\n---\n\n New radar technology 🆕
+
+Some companies are working on imaging radars that can provide much higher resolution than the one Tesla is using. Just look at this example from Mobileye's radar!
+
+Tesla not investing in radars will not benefit from this technological advancement.
+
+👇  \n\n---\n\n If somebody can pull this off, this is Tesla! 🤷‍♂️
+
+This is a challenge that they are uniquely positioned to solve, because they:
+
+▪️ have access to huge amount of data from the fleet
+▪️ control their entire stack
+▪️ invest in deep learning infrastructure
+▪️ are focused
+
+👇 \n\n---\n\n Impressive Results 🏆
+
+The results that @karpathy showed in the talk are very impressive! This shows how important it is to focus on building and curating a high-quality dataset (1.5 PB) and having the resources to use it (5th most powerful supercomputer in the world). \n\n---\n\n Summary 🏁
+
+Tesla's strategy to focus on vision only is undoubtedly very brave, but also very risky. But it could work...
+
+They are arguably the only company in the position to do that and what they've achieved already is nothing short of amazing. \n\n---\n\n Tesla using another crutch ♿ 
+
+And finally on a more philosophical level - Tesla's network is estimating distance, speed, and acceleration, but this is *not* how humans drive! We use vision but in quite a different way.
+
+Is Tesla using just another crutch there...? 🤔 \n\n---\n\n I regularly post similar threads on machine learning, computer vision, and self-driving.
+
+Follow me @haltakov for more! \n\n---\n\n This is a great question! Lidars and radars have no problem in the night.
+
+There are camera sensors that with good low light performance, but still it may be difficult. On the front you also have the headlights, but not on the back and on the side...
+
+ \n\n---\n\n This is true, but self-driving cars today (including Tesla) are not really driving like a human does. Why would then Tesla estimate accurate distance, speed and acceleration? People cannot do that either 😃
+
+ \n\n---\n\n The high-level fusion between the camera data and the radar data is not very computationally expensive. The problem is rather writing robust code that can handle the different failure modes and edge cases from both sensors in a robust way.
+

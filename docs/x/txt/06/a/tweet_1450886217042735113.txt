@@ -1,0 +1,42 @@
+My little side project - AI interpretation of crypto art! 🐸
+
+I use CLIP + VQGAN on an image from @cryptoadzNFT by @supergremplin and a heavily tweaked text prompt to create a cool-looking image and incorporate some interesting aspects.
+
+Website:   \n\n---\n\n Here are some other interesting examples that were created by varying the text prompt:
+
+▪️ Pencil sketch style
+▪️ Photo-realistic style
+▪️ Gustav Klimt style
+▪️ Toad in space  \n\n---\n\n If you are interested in getting into this kind of AI-generated art, I recommend starting with this article by @sea_snell.
+
+It will give you some great pointers to code you can try out and to some people on Twitter that are worth following.
+
+ \n\n---\n\n I also created an OpenSea collection to put all the AI Toadz as NFTs. It will (hopefully) get filled when people commission more AI Toadz 😄
+
+ \n\n---\n\n The second AI Toad is here! This is an interpretation in Gustav Klimt style of CrypToad #6089.
+
+Ty @yung50burger.
+
+ \n\n---\n\n The next AI Toad arrived - #5786! It's a smug-looking skeleton.
+
+Ty @topshotandlock1. DM me if you want to see some other variants and we can still change it.
+
+ \n\n---\n\n And another AI Toad is here - #2856! This one is dreaming of some great vibes.
+
+Ty @stueyfresh. DM me if you want to see some other variants and we can still change it. 
+
+ \n\n---\n\n The Krang Toad is here!
+
+Created from CrypToad #868 owned by @CollinCrypto2. Please DM me if you want to see some other variants I created.
+
+ \n\n---\n\n A White Walker Toad with coll shades arrived!
+
+Created from CrypToad #5945 owned by @NRv_gg. 
+Please DM me if you want to see some other variants and we can change it if you like. 
+
+ \n\n---\n\n Hey @harrygodwn, your AI Toad looking like a gangster from the 40s in Nighthawks style is ready!
+
+Please DM me if you want to see some more variants or change something in the name/description before claiming it.
+
+Thank you!
+

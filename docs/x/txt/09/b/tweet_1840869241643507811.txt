@@ -1,0 +1,1 @@
+Nothing beats DigitalOcean and Cloudflare R2 for predictability of costs

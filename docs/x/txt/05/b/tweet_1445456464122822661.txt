@@ -1,0 +1,11 @@
+Data labeling - how hard can it be? 🤷‍♂️
+
+Well, it is *very* hard to curate a dataset with high-quality ground truth labels!
+
+An example - I'll show you a couple of photos. You need to label each one as being a photo of a bird or not. Piece of cake, right? 🍰 
+
+Let's see... 👇 \n\n---\n\n Is this a photo of a bird or not?
+
+That's easy!  \n\n---\n\n Is this a photo of a bird or not?
+
+Pretty easy as well...  \n\n---\n\n The thread got split in the middle somehow. Continue reading here: 

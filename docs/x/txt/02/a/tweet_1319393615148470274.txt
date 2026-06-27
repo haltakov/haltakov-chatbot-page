@@ -1,0 +1,37 @@
+Here comes a review of one of the fundamental papers in CV and ML - ResNet ↩️
+
+Formulating the classical CNN network as a residual network allowed training much deeper (but simpler) networks. ResNet won the first place in the ILSVRC and COCO 2015 challenges.
+
+Thread 👇  \n\n---\n\n Deeper is not always better 🚫
+
+The authors give several examples how adding more layers to a CNN makes the network perform worse on the testing dataset. I hear you saying overfitting...? 🤔 
+
+Actually no! The network also shows both worse test and training error...  \n\n---\n\n When the network gets deeper, it becomes harder to train! In theory, you could just add 36 identity layers to a 20-layer net and get a 56-layer net with the same performance, but the optimizers have problems with the complexity.
+
+Here the authors have an important insight 👇 \n\n---\n\n Residual network ↩️
+
+The idea is to train several layers to learn a residual function H(x) - x instead of the function H(x) itself (as traditional networks do). 
+
+This is achieved elegantly with a simple shortcut connection that adds the input of the layer block to its output.  \n\n---\n\n Think about it - the network now only needs to focus on learning the difference between its input and the final output - the residual.
+
+This modification of the network architecture requires no additional parameters, practically no runtime overhead and is very easy to implement. \n\n---\n\n But why does it work? 🤔
+
+You can now easily create identity mappings - just set all parameters to 0! This is not what we want of course, but it turns out in practice many useful functions are close to the identity mapping - they are much easier to learn in this setting! \n\n---\n\n It does work! 🌟
+
+A comparison between an 18 layer and 34 layer variants of a standard CNN (plain) and ResNet shows that going deeper is beneficial for ResNet, but actually leads to worse results for the classical CNN.  \n\n---\n\n Bottleneck Architecture🍶
+
+The authors also introduce a bottleneck variant that decreases the number of parameters. A 1x1 conv first reduces the number of features and after a regular 3x3 conv another 1x1 is applied to increase it back. The shortcut connections are critical here.  \n\n---\n\n Results 🏆
+
+ResNet is compared to the state-of-the-art methods and a classical CNN with the same architecture apart from the shortcut connections.
+
+It achieve *significantly* better results with *less parameters* on several datasets: ImageNet, CIFAR, MS COCO and PASCAL VOC. 🥇  \n\n---\n\n Going very deep ⏬
+
+An interesting experiment is to go much deeper on the CIFAR dataset - from 110 to 1202 layers... 😲
+
+Impressively, the authors report no difficulties in training the network and getting a very small training error. However, they run into overfitting problems.  \n\n---\n\n Conclusion 🏁
+
+ResNet show that reformulating the CNN architecture to learn residual functions allows to train much deeper and simpler networks that perform much better than their regular counterparts. Great work by Microsoft! 🎖️ \n\n---\n\n Further reading 📖
+
+- Original article: 
+- Implementation in PyTorch: 
+- Implementation in TensorFlow: 

@@ -1,0 +1,4 @@
+This is a serious step towards generating realistic images from synthetic data! Great work coming from Intel.
+
+ \n\n---\n\n Here the project page. Code is open-source!
+

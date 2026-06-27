@@ -1,0 +1,5 @@
+Creating a photo story to share with friends and family is difficult. I couldn't find anything that is easy to use, but  flexible enough so you can tell the story your way...
+
+So I created a tool to do that and I'm open-sourcing it:  \n\n---\n\n Simple Photo Gallery is a Python tool that helps you easily create pretty, but simple static HTML galleries with which you can tell a story. It offers great flexibility, but has sensible defaults so you can start quickly.
+
+ \n\n---\n\n Here is an example gallery created with Simple Photo Gallery: 

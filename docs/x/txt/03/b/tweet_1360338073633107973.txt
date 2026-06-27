@@ -1,0 +1,14 @@
+Let's do some more experiments with my latest project - searching inside YouTube videos using natural language.
+
+Let's see how @OpenAI's CLIP model handles animation. We'll be exploring this clip:
+
+ \n\n---\n\n OK, it seems that CLIP can count pigs quite well... 😂 Here the results for the following queries:
+- "One pig"
+- "Two pigs"
+- "Three pigs"  \n\n---\n\n It can also read the subtitles... 🤯
+
+Search query: "the word alley-oh"  \n\n---\n\n "A wolf stranded on an island"  \n\n---\n\n "A watermelon flying"  \n\n---\n\n "Scared pigs"  \n\n---\n\n If you want to do your own experiments, check out the project page on GitHub:
+
+ \n\n---\n\n Sorry for my choice of the YouTube clip... My 2.5 yo son is allowed to watch 3-4 clips like this every evening and this is his favorite one. I have a permanent earworm...
+
+"Alley-alley-oh..." 🎶

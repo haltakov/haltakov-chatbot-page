@@ -1,0 +1,5 @@
+This looks like a great free online course on deep learning by @ylecun and @alfcnz!
+
+ \n\n---\n\n Interestingly, they have a Discord server for communication with the students. Unfortunately, non-students seem to not have access to it.
+
+I get that resources are limited, but allowing non-students with read-only rights seems like a more inclusive solution...

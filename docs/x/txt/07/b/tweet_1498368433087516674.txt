@@ -1,0 +1,4 @@
+I like Excel for exploring tabular data, but I like Python and pandas for processing it.
+
+Mito (@tryMito) looks like a nice little tool to combine both. It integrates into your Jupyter environment and lets you explore and edit data syncing the changes to the code.  \n\n---\n\n @tryMito And it is open-source as well 😀
+

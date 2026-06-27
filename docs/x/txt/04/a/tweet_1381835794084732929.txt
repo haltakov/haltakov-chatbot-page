@@ -1,0 +1,25 @@
+Self-Driving Cars Thread of Threads 🧠 🚙 
+
+I plan many threads on self-driving cars and how to get into the industry.
+
+I will link all of the individual threads that will be focused on a particular topic below.
+
+🧵 \n\n---\n\n I recently gave a talk on AI for self-driving cars for a @DeepLearningAI_ Pie &amp; AI event hosted by @Jeande_d. You can check out the recording on YouTube.
+
+
+
+I will be posting threads summarizing the talk and link them below 👇 \n\n---\n\n Learn about the 5 levels of autonomous driving.
+
+ \n\n---\n\n The basics software stack of a self-driving car
+
+ \n\n---\n\n Getting started with self-driving cars
+
+ \n\n---\n\n If you want to try out programming a self-driving car try one of these simulators
+
+ \n\n---\n\n More details on the end-to-end approach to self-driving.
+
+ \n\n---\n\n Let's now talk about sensors for self-driving cars.
+
+ \n\n---\n\n Computer vision problems to solve for a self-driving cars
+
+ \n\n---\n\n The different roles in a self-driving car project. 

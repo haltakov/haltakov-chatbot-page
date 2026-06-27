@@ -1,0 +1,27 @@
+Meet Leoline - the character for my upcoming app that tells AI generated stories to kids.
+
+Leoline is 100% AI generated - both the image and the animation, but it wasn't easy!
+
+Today, I'll walk you through the process of creating the image using @midjourney.
+
+Let's get started 👇  \n\n---\n\n I started by prompting for cute characters and experimenting with different descriptions. I wanted something more neutral initially.
+
+You can see, one of the first images was a cute, yellow rabbit-like creature that already caught my eye, but I kept experimenting
+
+👇  \n\n---\n\n The yellow rabbit won the initial selection, so now I started fine-tuning it - both with prompts from scratch and prompts that contained the initial image I liked.
+
+It kept turning more rabbit-like...
+
+👇  \n\n---\n\n Now I had an image I liked a lot and started tuning the background - I wanted the feeling of a friendly foreign planed with fluffy clouds.
+
+I always started with the image I liked and prompted slight modifications to the character and the background.
+
+👇  \n\n---\n\n The clouds were a mistake... They look great, but turned out when trying to animate the rabbit, they were getting in the way and causing a lot of weird artefacts. So back to Midjourney trying to remove the background and to keep the rabbit looking cute...
+
+👇  \n\n---\n\n Midjourney couldn't remove all the background, but got me close. I finished the job in Photoshop and also used Generative Fill feature to expand the image.
+
+This gave me the final, high-res image with the cute rabbit and nice background.
+
+👇  \n\n---\n\n Next, I'll show you how I got the rabbit animated.
+
+Follow me @haltakov as I'm sharing the whole journey of building my products!

@@ -1,0 +1,4 @@
+I've been using GitBook (@GitBookIO) for the last couple of days and I can't describe how good it is! Docs look amazing, the UI is great and it is true to the Git philosophy!
+
+What an upgrade from Confluence... 😁
+

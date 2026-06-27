@@ -1,0 +1,12 @@
+This video is rendered by a neural network 
+
+Neural Radiance Fields (NeRF) are exciting models that learn to synthesize new views of complex scenes.
+
+Notice how the camera in this video from @Waymo flies over the street - it isn't merely replaying the original footage
+
+👇  \n\n---\n\n @Waymo Waymo has now shown how they can learn models of unlimited size by "stitching" multiple NeRF models together. As an example, they modeled a whole neighborhood in San Francisco.
+
+There are many more cool videos you can watch on their page:
+
+ \n\n---\n\n This is actually a cool feature! having recording of multiple drives they can learn which parts of the scene are static and which are dynamic and render only the static ones.
+

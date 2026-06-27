@@ -1,0 +1,55 @@
+How to detect objects using CNNs? 🎥 🕸 🌻
+
+Convolutional Neural Networks (CNNs) are very good at classifying images. 
+
+But how can we use them to detect the presence, class and location of multiple objects in the image? 🤔
+
+Thread 🧵  \n\n---\n\n Naive Approach 🤷‍♂️
+
+The simplest way is to use a sliding window approach and check for each position of the image if it contains one of the objects we are interested in.
+
+▪️ Take an image patch
+▪️ Scale it and run it through the CNN
+▪️ Check if some class has high probability \n\n---\n\n Since objects may appear big or small, we need to process the image at different scales.
+
+This whole process is very slow! The image patches will have a lot of overlap, so the CNN will compute the same features over and over and over again.
+
+There is a better way... 👇 \n\n---\n\n Region Based Convolutional Neural Networks (R-CNN) 🔲
+
+R-CNN, Fast R-CNN and Faster R-CNN are examples of this family of models. The idea:
+
+▪️ Generate many region proposals
+▪️ Pass each region through the CNN
+▪️ Classify each region
+▪️ (optional) regress a tighter bounding box  \n\n---\n\n Region proposals 🔲 🔲 🔲
+
+Region proposals are image patches that are likely to contain objects. We need to generate many of them so that we don't miss some object in the later stage.
+
+Faster R-CNN actually integrates the region proposal finding (selective search) in the net. \n\n---\n\n Bounding box regression ➡️ 🔲 ⬅️
+
+Fast and Faster CNN not only classify the path, but also use a regression to better fit the bounding box around the object.
+
+They estimate the center point, width and height of the bounding box. \n\n---\n\n The problem with region based methods is that they don't look at the whole image - If there is no region proposal covering the object you are looking for it cannot be detected... ❌
+
+We can improve here 👇 \n\n---\n\n You Only Look Once (YOLO) 😎🤙
+
+YOLO (v5) is one of the best performing methods and it is also very fast. The idea:
+
+▪️ Divide the image in a grid (for example 7×7)
+▪️ Each cell predicts a class
+▪️ Each cell predicts several bounding boxes
+▪️ Predictions are combined  \n\n---\n\n Bounding box prediction 🔲
+
+Each cell of the grid is responsible for predicting several bounding boxes (center, width, height) that have their centers in the cell. The amount is usually small though - the original paper uses 2 boxes per cell.
+
+These are examples from YOLO  \n\n---\n\n Non-Maximum Suppression 📉
+
+There may be multiple bounding boxes covering the same object. Non-maximum suppression chooses the best bounding box from all the overlapping ones. \n\n---\n\n If you want to try out YOLO yourself it is actually really easy! Check out this GitHub repository and follow the instructions.
+
+I created the examples in this thread using this lib and some photos from @unsplash.
+
+ \n\n---\n\n Semantic Segmentation 🏞
+
+There are also methods based on Fully Convolutional Nets (consisting only of convolutional layers) that classify each pixel of the image.
+
+They are very powerful, but much slower than object detection methods. I will write about this another time...

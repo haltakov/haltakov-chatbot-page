@@ -1,0 +1,5 @@
+I use OBS Studio to record the videos for my machine learning course.
+
+OBS is a free and open-source software for video recording and broadcasting. It allows you to share your screen, overlay the webcam image etc.
+
+ 

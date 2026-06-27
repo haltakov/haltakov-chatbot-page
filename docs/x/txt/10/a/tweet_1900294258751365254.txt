@@ -1,0 +1,1 @@
+Felt the same way when I found out that in Linux the /usr folder stands for User System Resources and not for a shorthand of user 

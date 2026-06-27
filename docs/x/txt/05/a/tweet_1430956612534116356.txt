@@ -1,0 +1,6 @@
+Interesting article by @doctorow on using bad data for machine learning.
+
+Using biased data will lead to poor performance of our model when deployed. Even worse, since we test in on the bad data as well, we will also wrongly think that it performs well!
+
+ \n\n---\n\n This is a point I was trying to make in this thread - using biased will hide the problem from you until it is too late.
+

@@ -1,0 +1,31 @@
+Machine Learning Interview Question #1 🧠🤖🧐
+
+Let's start with an easy question...
+
+❓ What is the difference between supervised and unsupervised learning❓
+
+❓BONUS QUESTION: What other types of machine learning do you know ❓
+
+Answer in the replies. Read the rules 👇 \n\n---\n\n  \n\n---\n\n Lots of great answers in the replies! Thanks you all for your contribution! 👍
+
+Here is my answer for reference, but you should really go through all others, because there are some great ones there as well! \n\n---\n\n The most distinguishing difference between supervised and unsupervised learning is if we have access to ground truth data during training.
+
+This means, can we tell our model when it is right or wrong or not. \n\n---\n\n Supervised learning 🧑‍🏫
+
+Supervised models learn to predict a certain output from the input data, based on many example input/output pairs.
+
+Typical example is classification - is this an image of a car or not. We train a model using lots of examples of cars and not-cars. \n\n---\n\n Unsupervised learning ⁉️
+
+Here we don't have ground truth, so the model needs to find patterns in the data by itself. 
+
+Typical examples
+▪️ Clustering
+▪️ Dimensionality reduction
+▪️ Anomaly detection
+▪️ Autoencoders \n\n---\n\n Other types of learning 🤔
+
+▪️ Reinforcement - learn trough interaction with an environment
+▪️ Semi-supervised - only part of the data has labels
+▪️ Self-supervised - optimize a criteria based on the input data structure alone
+
+Boundaries between them are sometimes not so clear.

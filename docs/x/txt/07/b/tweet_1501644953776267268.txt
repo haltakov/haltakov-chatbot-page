@@ -1,0 +1,39 @@
+Do you know which tech jobs pay the best salaries? 💰🤔
+
+This report by @talent_io contains some super useful information on the tech salaries in Europe. Even if you don't live there, the general trends probably apply in your country too.
+
+Let's take a look together!
+
+Thread 🧵  \n\n---\n\n @talent_io Where you live matters
+
+This is of course not very surprising. However, it is interesting that the spread in the median salary for experienced developers is much bigger than for devs that are just starting - almost double!
+
+Germany and UK seem to consistently pay more.
+
+👇  \n\n---\n\n @talent_io Data science jobs pay better
+
+Starting your career in data science will give you a higher salary compared to other de jobs.
+
+This doesn't change much with experience - only management positions and architects earn more than data scientists. Same story with freelancers.
+
+👇  \n\n---\n\n @talent_io The hottest programming languages - JavaScript and Python
+
+JavaScript is the clear winner for the most sought-after programming language for backend development. Python follows in second.
+
+For machine learning and data science Python is the most popular language as well.
+
+👇  \n\n---\n\n @talent_io The hottest frontend stack - React
+
+If you are interested in frontend development, React is the clear winner for the most used tech stack followed by Vue.
+
+👇  \n\n---\n\n @talent_io Remote jobs
+
+If you don't live in Europe, you can still find a remote job at a European company.
+
+Companies in Berlin and London seem to be especially friendly towards remote workers abroad, while Paris could do better. The language seems to play a role here...
+
+👇  \n\n---\n\n @talent_io These are just my personal highlights from the report, but you can find much more useful and detailed information in the full report.
+
+It is free, so check it out!
+
+ \n\n---\n\n @talent_io This is a sponsored tweet. I'm sharing it because I've checked the report in detail and I really like the information in it. And it is free 😀

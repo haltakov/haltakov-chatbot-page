@@ -1,0 +1,19 @@
+How to use ML to search photos by natural language? 🗣️🏞️
+
+I created a small project on GitHub to show you how you can use OpenAI's CLIP neural network to do that!
+
+
+
+Let's see how we can find photos for the phrase "a car driving in the woods".
+
+A thread 👇 \n\n---\n\n I first fetch 100 images from the Unsplash API for the keyword "car".
+
+As you can see from the results, it returns various images of cars ("car woods" isn't much better).  \n\n---\n\n Then, I used OpenAI's CLIP to process all 100 images as well as the phrase "a car driving in the woods".
+
+The amazing thing about CLIP is that it then transforms both images and text in the same (latent) space where we can compare them!
+
+Here the top 3 matches 🤯  \n\n---\n\n I created a notebook going in details how this is implemented. I tried to explain in details how it works and to comment the code.
+
+Check it out here:  \n\n---\n\n This was inspired by these 2 awesome projects:
+-  by @ramsri_goutham 
+-  by @metasemantic

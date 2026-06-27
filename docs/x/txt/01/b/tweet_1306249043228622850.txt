@@ -1,0 +1,10 @@
+The Summer Vision Project was originally meant to be done by undergrads over the course of a summer...
+
+Looking at the goals, we see 3 computer vision problems that are still an active research areas today!
+
+- Background subtraction
+- Semantic segmentation
+- Object classification  \n\n---\n\n Seeing how some very smart people at MIT underestimated the complexity of the task in the 60s, I'm wondering what are we underestimating today? 🤔
+
+General Artificial Intelligence? Self-driving cars? Creativity? \n\n---\n\n You can find the full text of the Summer Vision Project here:
+

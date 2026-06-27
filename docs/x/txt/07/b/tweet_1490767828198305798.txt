@@ -1,0 +1,34 @@
+Imagine you are playing a fantastic game 🕹️
+
+It's super interesting and you are hooked up. You are really good at it. You even bought some virtual items to progress faster.
+
+And then the developers pull the plug. The game is dead. Everything's gone.
+
+Except, it may not be... 👇 \n\n---\n\n Now, imagine that the virtual items you bought are stored as NFTs on the blockchain instead of the database of the game company.
+
+So are the achievements that you unlocked, the experience points you gained, maybe even your character's 3D model.
+
+They all still exist on-chain 👇 \n\n---\n\n The gamers are of course very disappointed. They put so many hours into the game.
+
+While they still own their digital assets, they are useless. Without the game itself, they can't use them.
+
+But now imagine you are a game developer - do you see what opportunities you have? 👇 \n\n---\n\n As a developer, you can create a new game that uses the virtual assets from the dead game (remember, they are publicly available on the blockchain).
+
+The new game may have similar gameplay as the old one, but may also be different. However, it reuses the network effects!
+
+👇 \n\n---\n\n All the gamers that have put many hours playing the game and progressing in it (and maybe even putting real money in) now have an alternative to play, reusing their hard-earned virtual assets!
+
+Storing virtual items on the blockchain creates whole new incentives!
+
+👇 \n\n---\n\n Will it work for all players? Of course not.
+
+Is this suitable for all kinds of games? Not all.
+
+But does it create an environment where people are incentivized to build new games and reuse their assets and the network effects from the old game?
+
+Yes, it does!
+
+👇 \n\n---\n\n This thread was motivated by the following article. I'm a big fan of @DataGenetics and his blog, but I think he misses the point on NFTs and games.
+
+It is not about the exact models and gameplay. It is about the new incentives and network effects.
+

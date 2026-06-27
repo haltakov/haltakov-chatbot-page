@@ -1,0 +1,33 @@
+How I format my Jupyter notebooks in VS Code 📒
+
+I like using VS Code when working with Jupyter notebooks. One pain point has always been automatic code formatting, but now I have a good solution.
+
+ You need:
+▪️ VS Code 1.60 (August 2021)
+▪️ YAPF formatter
+
+Details 👇 \n\n---\n\n VS Code 1.60
+
+The latest VS Code version from August 2021 contains many improvements for the native display of Jupyter notebooks (which came in July 2021). They now support the command Format Cell with which you can automatically format your code.
+
+👇 \n\n---\n\n Keyboard shortcuts
+
+You can quickly do it with a keyboard shortcut.
+
+▪️ Windows: Shift + Alt + F
+▪️ Mac: Shift + Option + F
+▪️ Linux: Ctrl + Shift + I
+
+I had to remap Shift + Option + F on my Mac, because it seems to be a macOS shortcut for some strange character... \n\n---\n\n YAPF
+
+I usually use black for formatting my Python code. The problem is that black adds an empty line at the end of each cell which is very annoying. Same for autopep8.
+
+YAPF seems to work fine though, so make sure you set it as your formatter for the notebooks. \n\n---\n\n YAPF config
+
+Here is also my settings.json file - I wanted to increase the line length of YAPF in order to avoid too many line breaks.
+
+I couldn't yet make VS Code reformat the whole notebook automatically on save... \n\n---\n\n Do you have any other tips for using Jupyter in VS Code? Which other environment do you use to work with Jupyter notebooks? \n\n---\n\n This is a really cool tool, thanks for sharing!
+
+I just tried it and it works like charm! It also doesn't add the trailing newline in each cell, so now I can use black 
+
+ \n\n---\n\n It's now part of my setup! 

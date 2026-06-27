@@ -1,0 +1,5 @@
+Stable Diffusion weights are finally publicly available. Downloading... 😈
+
+ \n\n---\n\n I'm using this notebook and it works great: 
+
+You need to register for HuggingFace first, create a token and approve the license for the weights repo.

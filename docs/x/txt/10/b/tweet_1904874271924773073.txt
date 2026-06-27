@@ -1,0 +1,5 @@
+Unpopular opinion - the new ChatGPT image model is not that impressive.
+
+It certainly seems to be very good at style transfer (please I don't want to see another Ghibli image) and text, but I find it lacks creativity compared to MidJourney.
+
+Here an example of an office image 

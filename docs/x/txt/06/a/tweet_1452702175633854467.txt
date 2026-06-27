@@ -1,0 +1,2 @@
+Optimizing a machine learning model to run on a smartphone. Interesting article by Apple!
+

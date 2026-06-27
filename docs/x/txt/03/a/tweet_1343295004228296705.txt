@@ -1,0 +1,28 @@
+Artificial Intelligence and Machine Learning trends in 2020 🧠🤖
+
+Short overview of the fields where AI and ML is growing fast.
+
+👇 Thread 👇 \n\n---\n\n Robotics 🤖
+
+Traditional robotics algorithms like localization, mapping, path planning  and vehicle/robot control are being successfully replaced by AI versions. 
+
+Reinforcement learning is also a big topic here! \n\n---\n\n Computer Vision 📷
+
+Computer vision grew massively in the last years after great improvements in deep learning. This is one of the fields that benefited most from CNNs.
+
+While computer vision problems start getting commoditized now, there are still many interesting challengec. \n\n---\n\n Natural Language Processing 🗣️
+
+NLP is another field where deep learning is particularly well suited and achieved great results in 2020.
+
+The hot topics there now are Transformers, with one notable example being GPT-3.
+
+ \n\n---\n\n Biotech ⚗️
+
+One other field that machine learning is now entering and is expected to grow a lot in the next years is biotech. 
+
+Remember the news around AlphaFold? This is just the beginning. \n\n---\n\n Further reading 📖
+
+You can fined some more information on the recent trends in AI and ML here:
+
+▪️ State of AI report by @soundboy and @nathanbenaich: 
+▪️ The Batch Newsletter year review by @AndrewYNg: 

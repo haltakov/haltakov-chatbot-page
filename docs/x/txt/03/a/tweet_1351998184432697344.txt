@@ -1,0 +1,11 @@
+How to use Machine Learning in Finance? 🧠🤖💰
+
+This is a true story that happened to me 7-8 years ago while working on my PhD. 
+
+By chance, I was located at the same floor as one of the finance departments at the company.
+
+One day one of the finance colleagues came for help...👇 \n\n---\n\n He was working on a big Excel spreadsheet full of finance data. The file grew with the time and got increasingly difficult to work with.
+
+In the end, the file was more than 150MB so the colleague couldn't even open it anymore... \n\n---\n\n So, I let him sit on my workstation with dual Xeons and 100 GB RAM, which I used for training my ML models. He opened his file and exported the data he needed 🤷‍♂️
+
+Machine Learning saved the day once again! 🏅 \n\n---\n\n Sorry, if you somehow expected more... 😂

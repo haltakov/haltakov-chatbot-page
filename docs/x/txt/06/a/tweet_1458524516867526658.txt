@@ -1,0 +1,119 @@
+Wen web3 Machine Learning community? 👀
+
+Not the Web 2.0 ML communities on Reddit, Twitter, StackOverflow where contribution is rewarded with badges.
+
+I mean a web3 community owned and governed by the members and one where all the value is distributed to them.
+
+My vision (V1) 👇 \n\n---\n\n What do I want?
+
+I want to be a part of a machine learning community where I can discuss interesting topics with like-minded people. Where I can learn new things, but also teach what I already know. Where I can help people solve a problem and get help for my problems.
+
+But 👇 \n\n---\n\n I don't want a tech giant inserting ads and taking all the profits.
+
+I want all benefits from the community to be distributed fairly to its members. I want the community to grow in value and to monetize it by offering info content, subscriptions, services...
+
+OK, but how? 👇 \n\n---\n\n You can read my full rant from last week on the current state of Web 2.0 online communities, but today I want to focus on how to solve the problem!
+
+
+
+Let's see 👇 \n\n---\n\n web3 Machine Learning Community DAO
+
+A community where members:
+▪️ Own a community crypto token
+▪️ Discuss and vote how the community should develop
+▪️ Receive tokens as rewards for contributions
+▪️ Receive member-only benefits
+
+Ideas on how to achieve this 👇 \n\n---\n\n ▪️ Crypto token
+
+This is a typical way of organizing a Decentralized Autonomous Organization (DAO). Ownership of a part of the community is represented by a crypto token and is recorded on a blockchain. People can buy or sell the token on exchanges (DEX).
+
+👇 \n\n---\n\n ▪️ Voting and governance
+
+All decisions for the development of the community are made by the community members by voting. A member's vote has a weight proportional to how many tokens they own. Everybody can make a proposal and participate in the discussion.
+
+👇 \n\n---\n\n In a DAO the community members have all the power to decide how the community should involve. 
+
+What will be built? What services will be offered? How to monetize? Which contributions are more valuable?
+
+The community decides and builds everything together!
+
+👇 \n\n---\n\n ▪️ Tokens rewards for contributions
+
+The value of a community is in the people. Members increase the value of the community with their work and are awarded tokens for that. 
+
+What contributions are rewarded? 👇 \n\n---\n\n Contributors receive tokens for different things:
+
+🏅 Building infrastructure (e.g. website, smart contract)
+🏅 Teach ML
+🏅 Explaining ML concepts
+🏅 Helping people solve problems
+🏅 Providing some service (reviewing a paper, writing code, consulting on a problem)
+🏅 ...
+
+👇 \n\n---\n\n Where do the tokens come from?
+
+Initially from a token pool reserved for rewards to kick everything off. Possibilities for later:
+
+📈 Sales of community created info content
+📈 Subscriptions to exclusive content
+📈 Ads on community property
+📈 Other services
+📈 ... 
+
+👇 \n\n---\n\n 📈 Other services
+
+I can imagine people coming to the community, asking for help and paying for it, like for example:
+
+▪️ Find a solution to an ML problem (maybe even debugging code)
+▪️ Getting help with training a model
+▪️ Review of a research paper
+▪️ Implement a method
+
+👇 \n\n---\n\n 💳 Payment
+
+The payment for a service can be either with the community token directly or with fiat. Fiat can be used to buy more tokens for the treasury, which is then used again to reward contributions.
+
+This creates a circle where the tokens flow back to the community.
+
+👇 \n\n---\n\n ▪️ Members-only benefits
+
+Members get benefits for being a part of the community:
+✅ Vote on decisions and shape the community
+✅ Access to exclusive communication channels and events
+✅ Provide a paid service
+✅ Money when selling the token
+
+Let me expand on the last one 👇 \n\n---\n\n ✅ Selling the token
+
+As the community grows and gets more valuable, the value of the tokens members owns raises. Members will be able to sell some of their tokens and receive money.
+
+But how does the community value grow? Let's see 👇 \n\n---\n\n I don't have all the details figured out, but I believe something like this needs to exist and with web3 we have the technology to go it.
+
+There are already some similar projects like @developer_dao or @gitcoin, but not exactly what I imagine.
+
+Now it's your turn 👇 \n\n---\n\n Tell me what you think! Tell me why do you think this might not work. Ask hard questions! 🙏
+
+There are still open questions, I want to start this discussion now... \n\n---\n\n I think this is something what EleutherAI is doing. I'm thinking that a lot of power will come with better aligning incentives for the creators. But this is also an interesting idea further down the road.
+
+ \n\n---\n\n Hmm, interesting... I like the idea of the Fediverse, but I think they still have the problem to pick up popularity. One of the reasons may be that they lack a good financial incentives model, that a token can offer.
+
+ \n\n---\n\n No! I think the token is key here to create the right incentives for the members. It will basically allow you to invest in an idea on a very small scale.
+
+ \n\n---\n\n Yes, this can be one aspect of this! However, you need a model to close the loop and have people wanting to spend the crypto token so that it flows back to the community. Otherwise, you only incentivize people to post and earn, which will not have value.
+
+ \n\n---\n\n I don't think this is necessarily wrong. If somebody buys a lot of tokens to have more voting power, they have an even bigger incentive to increase the value of the community, right?
+
+ \n\n---\n\n Good question! I think the key is to give the power to the community to decide what good content is and what not and to award only the good one.
+
+ \n\n---\n\n Very good questions coming in from Santiago! I'll answer as replies to them!
+
+ \n\n---\n\n Why should it stop? People can continue contributing and receiving the token. Early members will likely have more benefits, but this is fair since they helped more building the whole thing.
+
+ \n\n---\n\n Oh, this is an awesome idea! You could simulate different scenarios to better figure out the tokenomics!
+
+ \n\n---\n\n You are the third person that raises this question so far and I think it is a valid question. I don't think that there should be an artificial limit though. It should be up to the core believers of the community to stop such behavior.
+
+ \n\n---\n\n Also, there should be a way to incentivize people to not list their tokens for sale.
+
+For example, you can allow members to stake their tokens (lock them in a smart contract) in order to get voting rights. If you put them in a liquidity pool, you can't use them to vote!

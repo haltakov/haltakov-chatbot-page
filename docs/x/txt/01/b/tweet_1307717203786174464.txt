@@ -1,0 +1,5 @@
+One of the biggest challenges of Computer Vision is dealing with variability in the real world.
+
+People are very good in recognizing objects in context, so we don't need to stick to strict rules when creating them.
+
+For example traffic lights look very different around the world!  \n\n---\n\n And don't get me started on traffic signs...

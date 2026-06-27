@@ -1,0 +1,34 @@
+Why use a static site generator? 🤔
+
+When creating a website with mostly static content (product page, blog or personal site), using a static site generator may be a good idea. Static sites have several advantages compared to Content Management Systems (CMS).
+
+Read more below 👇 \n\n---\n\n How it works? ⚙️
+
+Static site generators allow you to define the structure of your site as templates, while keeping the content separately (usually in Markdown files). They are then combined to generate the final HTML pages. 
+
+Static sites have several big advantages 👇 \n\n---\n\n Static sites are fast 🏎️
+
+When the web server needs to serve a page, it just needs to open the HTML file and send its content over the network. This is simple and fast.
+
+CMS usually need to query a database first and generate the HTML before serving the request, which takes time. \n\n---\n\n Static sites are cheap 💰
+
+You don't need a database and you don't need to run a script on you server. This makes hosting cheap, so services like GitHub Pages or @Netlify offer generous free tiers. CMS hosting is usually more expensive or the free tier is more restricted. \n\n---\n\n Static sites are scalable 📈
+
+Again, because of the simple web server needed, static sites can be scaled easily. The hosting provider usually takes care of this fully automatically through their edge network. You will be able to easily handle millions of requests! \n\n---\n\n Static sites are secure 🛡️
+
+Since there is no dynamically generated content, there are much less opportunities for exploits. The server needs to run less software so it is more secure as well. This makes development easier and let's you focus on your content. \n\n---\n\n Trade-offs ☝️
+
+Okay, not everything is 🌈 and 🦄 - there are some trade-offs you need to be aware of.
+
+Static sites are, well... static. However, you can add dynamic functionality using JavaScript. There are many popular frameworks that can help you, like React, Vue and Angular. \n\n---\n\n Static site generators can also be a bit difficult to setup and configure, compared to an already installed CMS. However, once everything is ready, publishing new content is easy. Most generators also have large collections of themes to help you start. \n\n---\n\n Here a short summary of the pros and cons of static site generators:
+
+✅ Fast
+✅ Simple
+✅ Secure
+✅ Cheap
+✅ Scalable
+
+⚠️ Setting things up
+⚠️ Dynamic functionality
+
+Tomorrow I will write more about how to choose a suitable static site generator from the many available options. \n\n---\n\n What is your experience with static site generators vs CMS? Where do you host your static site?

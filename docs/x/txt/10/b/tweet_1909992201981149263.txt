@@ -1,0 +1,4 @@
+Llama4 Scout has a huge context window, but it doesn‘t mean it can use it efficiently.
+
+I‘ve seen this many times before in computer vosion too. Neural networks may have the whole image as context but they tend to look in the center to make the decision.
+

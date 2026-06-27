@@ -1,0 +1,3 @@
+The perfect login system is the following:
+- Social logins from Google, Apple, Facebook etc.
+- Email login with One-time-password AND magic link like @stratechery

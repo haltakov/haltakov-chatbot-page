@@ -1,0 +1,5 @@
+Gemini 2.5  in @cursor_ai is lazy
+
+It will make a nice plan for implementation, but then will stop and not actually implement it. Or tell me something like "Ok I have done this and that. Now you need to update this other function so it works".
+
+This is your job Gemini!

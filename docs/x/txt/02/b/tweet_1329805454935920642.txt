@@ -1,0 +1,5 @@
+I'm on an open-source wave this week... 🤷‍♂️
+
+My open-source project Simple Photo Gallery is published as a Python package on PyPI. Turns out that PyPI is the number 2 source of traffic two my personal website...
+
+ 

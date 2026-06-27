@@ -1,0 +1,120 @@
+You think you know what is an NFT? Well, think again...
+
+You are doing it wrong if you think about NFTs as pixelated images of punks, toads, or apes. It is not about the JPEG!
+
+A better mental model for thinking about NFTs 👇 \n\n---\n\n Forget the images for now. Owning an NFT means that your wallet address is listed as the owner of a specific digital asset on the blockchain.
+
+Digital assets are organized in collections and an NFT is one specific piece of this collection.
+
+Let's look at an example 👇 \n\n---\n\n I own an NFT from the @underfittedio membership collection - a membership card.
+
+You can now check the collection on the blockchain and can see that my wallet address is the owner of token ID 4.
+
+Everybody can check this. Nobody can change it - except me!
+
+How is this useful? 👇 \n\n---\n\n @underfittedio I get access to members-only communication channels
+
+In the @underfittedio community, we use Discord for communication (chat, audio, and video). Only people that own a membership NFT get access to the members-only area. Ownership is verified on the blockchain by a bot.
+
+👇 \n\n---\n\n @underfittedio I can vote on decisions for the development of the community
+
+All important decisions in the community are done using voting. To vote, you need to prove that you own a membership NFT. The voting platform (Snapshot) verifies this on the blockchain.
+
+👇 \n\n---\n\n @underfittedio I can participate in the development of community projects
+
+Only members holding the NFT are allowed to participate in building community projects and earn a share of their profit. Again, who is allowed to participate is verified on the blockchain.
+
+👇 \n\n---\n\n @underfittedio Now, let's finally talk about the images!
+
+Every NFT has some additional information (metadata) associated with it. This information is usually not stored directly on the blockchain, but you can get the link to this information from the blockchain (the so-called tokenURI).
+
+👇 \n\n---\n\n @underfittedio The metadata can contain information about different properties on the NFT like a name, description, image, video, 3D model, website... it can really be anything!
+
+Many NFT projects use IPFS as decentralized storage for the metadata.
+
+👇 \n\n---\n\n @underfittedio What do you do with the metadata then? NFT exchanges like OpenSea read the metadata and display it in a nice way on their website, including the image.
+
+So this is how my @underfittedio NFT looks like 🐸
+
+
+
+👇 \n\n---\n\n @underfittedio But wait, the image itself doesn't play any role when I'm using the community Discord or voting on Snapshot?
+
+Exactly!
+
+The image, the JPEG is only a *visualization* of the information stored on the blockchain - it doesn't mean anything by itself.
+
+And how could it... 👇 \n\n---\n\n @underfittedio Think about this for a second! JPEGs are digital assets, so they can be reproduced infinitely at zero cost. You don't own the JPEG, because everybody can copy it. Or as they say "right-click save-as" the image.
+
+What we really care about is the information stored on the chain 👇 \n\n---\n\n @underfittedio The information on the blockchain is what unlocks the utility of an NFT, not the JPEG.
+
+Different NFT projects offer different utilities and you need to decide which is useful for you and which is not when buying an NFT. Additionally, NFTs can be easily traded on exchanges.
+
+👇 \n\n---\n\n @underfittedio NFT utilities are worth a whole thread, but here are some quick examples:
+
+🎫 Membership cards
+🎟️ Event tickets (both in the digital and physical world)
+🎨 Digital art ownership
+🕹️ Virtual objects in games
+🌐 Crypto domain names (like ENS)
+🎖️ Achievement badges
+...
+
+👇 \n\n---\n\n @underfittedio With this mental model, some of the NFT critiques become very easy to answer. 
+
+"I can just right-click and save your NFT"
+
+Yes, you can, but you will only save the image, the metadata. The information on the blockchain is unchanged and this is what gives the whole utility!
+
+👇 \n\n---\n\n @underfittedio "Buying an NFT is not like buying the Mona Lisa, but like buying a receipt for the Mona Lisa"
+
+Sure, digital assets can be copied and distributed at no cost. What I care about is what I can do with the receipt. What if it allowed me to have dinner with Leonardo Da Vinci? 😀
+
+👇 \n\n---\n\n @underfittedio "I can take your image and mint it as an NFT myself"
+
+Sure, but you can't do this in the original collection, so you still can't use the utility. You can't sell it.
+
+That's like writing a check to send money from my bank account, but signing it yourself - it's worthless.
+
+👇 \n\n---\n\n @underfittedio "It makes no sense to pay thousands of dollars for a JPEG"
+
+It may not matter to you, but it matters to some people to have access to the community and events behind projects like Bored Apes.
+
+It's like buying an expensive watch when a $20 one will do the same job 🤷‍♂️
+
+👇 \n\n---\n\n @underfittedio "All NFTs are a scam"
+
+There are many scam projects, but there are many genuine ones. The utility of a project may be worthless to you (and this is fine), but this doesn't automatically make it a scam.
+
+👇 \n\n---\n\n @underfittedio "NFTs are used to sell stolen artist's works"
+
+Yes, some people do this. Technology is amoral - it amplifies people's abilities. Unfortunately, there are both good and bad people in the world.
+
+Same thing happens with torrents, fake watches, and Adibas sneakers.
+
+👇 \n\n---\n\n @underfittedio Let's summarize
+
+Think of NFTs as proving you own a piece of a digital collection. This proof gives you access to the utility associated with the particular project.
+
+The image is just a simple visualization of the proof.
+
+It's not about the JPEG! \n\n---\n\n I'll be sharing more thoughts about crypto, NFTs, and web3 in the future, along with my regular machine learning content.
+
+Follow me @haltakov for an honest, hype-free discussion on these topics 😃 \n\n---\n\n Yes, this is a good point! NFTs help creators go direct to consumers and get paid.
+
+This is possible for some industries for a long time, but not for all. Music is one example that is currently under a big transformation through NFTs
+
+ \n\n---\n\n You can use a centralized database and it will be much more efficient. Using the blockchain is not always the best solution.
+
+However, if you care about avoiding centralization and relying on the mercy of a big tech company, the blockchain is better.
+
+ \n\n---\n\n High gas fees are a big problem currently on Ethereum. However, there are many clever people working hard on Ethereum 2.0 where things will drastically improve.
+
+In the meantime, you can use Polygon, Solana, Tezos where gas fees are less than 1 cent 😉
+
+ \n\n---\n\n This is a good question! Depending on the project, a centralized database may be better because it is way more efficient.
+
+However, then you are at the mercy of a private company that may for example decide to delete your account without any consequences.
+
+ \n\n---\n\n Here one example, but you can find much more with other companies as well.
+

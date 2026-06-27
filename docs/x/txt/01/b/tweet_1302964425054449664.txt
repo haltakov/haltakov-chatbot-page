@@ -1,0 +1,7 @@
+A simple trick to make your website's background images much smaller! 🏎️
+
+Many sites have an image with a transparent overlay on top. This is easy to do with CSS, but if you embed the overlay in the image, you can make it much smaller!
+
+Example: 237 KB vs. 45 KB (5x smaller) 👇  \n\n---\n\n Here is the original image and the variant with a 90% white overlay. Both are compressed quite a lot, because you don't see much details from the overlay (JPEG quality 3/12 in Photoshop).
+
+It works, because the reduction of details makes the JPEG compression much more efficient!  \n\n---\n\n @b_szyk - I think you had some cool background images with overlays on your website. I think you will be able reduce them a lot with this trick 😀

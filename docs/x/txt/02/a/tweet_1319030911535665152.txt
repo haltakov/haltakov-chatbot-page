@@ -1,0 +1,14 @@
+Machine Learning Paper Reviews 🔎📜
+
+Check out this thread for short reviews of some interesting Machine Learning and Computer Vision papers. I explain the basic ideas and main takeaways of each paper in a Twitter thread.
+
+👇 I'm adding new reviews all the time! 👇 \n\n---\n\n AlexNet - the paper that started the deep learning revolution in Computer Vision! 🏃‍♂️
+
+ \n\n---\n\n DenseNet - reducing the size and complexity of CNNs by adding dense connections between layers. 🕸️
+
+ \n\n---\n\n Playing for data - generating synthetic GT from a video game (GTA V) and using it to improving semantic segmentation models. 🕹️
+
+ \n\n---\n\n Transformers for image recognition - a new paper with the potential to replace convolutions with a transformer. 🔁
+
+ \n\n---\n\n ResNet allowed to train very deep and simpler networks for the first time. ↩️
+

@@ -1,0 +1,15 @@
+Loss Landscapes ⛰️
+
+This is an awesome tool by @ideami that lets you explore the shape of the loss functions of some typical NN models!
+
+It makes it clear how easy it is to get stuck in a local minimum and how dependent you are on the initialization.
+
+
+
+👇  \n\n---\n\n Make sure to hit the Gradient Descent button in the bottom left and try out the optimization with different starting points and different learning rates.
+
+Here a small learning rate gets the optimization stuck in a local minimum.
+
+👇  \n\n---\n\n A too high learning rate will get you to the global minimum but will start oscillating and jumping around.
+
+You can really see and feel the tradeoff there! 

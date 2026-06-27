@@ -1,0 +1,10 @@
+I’m very bad at drawing…
+
+But now machine learning comes to the rescue!
+
+Meet DALL-E 2 - a fantastic model from @OpenAI that creates super realistic images from text.
+
+This is a whole new level compared to the VQGAN+CLIP method.
+
+Why? Watch below 👇  \n\n---\n\n Btw. @preslavrachev - every time when I write "amazing" I think about what you tweeted couple of months ago and I replace it with "fantastic". It always sounds better! \n\n---\n\n Check out this blog post for some real-world examples from somebody not working at OpenAI, but got access to the beta:
+

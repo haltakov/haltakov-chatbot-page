@@ -1,0 +1,3 @@
+Math in Machine Learning is useful!
+
+...to understand your models in detail.

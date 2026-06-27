@@ -1,0 +1,7 @@
+This reminds me of an anecdote...
+
+During my master's thesis I complained to another student that I need to label lots of images for my semantic segmentation model.
+
+He asked, why I don't just write an algorithm to label the images automatically
+
+How didn't I think of that... 😁 

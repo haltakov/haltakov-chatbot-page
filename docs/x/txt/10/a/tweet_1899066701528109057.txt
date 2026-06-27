@@ -1,0 +1,8 @@
+Asked LLMs to create a meme image, results are hilarious 🤣
+
+"Create a meme image mocking serverless devs that keep a container running all the time because they cannot solve their latency issues using the Drake meme"
+
+1. Claude Web
+2. Grok
+3. ChatGPT
+4. Claude with Meme MCP  \n\n---\n\n I wrote about the Meme MCP server I created here: 

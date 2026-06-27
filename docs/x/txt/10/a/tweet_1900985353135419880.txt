@@ -1,0 +1,5 @@
+The issue with many AI models is still that you cannot control them well.
+
+Make an experiment - take your favourite image, video, website generation model and run the same prompt 3 times. How different are the results?
+
+It is more about luck than skill in many cases

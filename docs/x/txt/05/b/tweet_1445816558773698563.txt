@@ -1,0 +1,109 @@
+Optimizing the weights of a model is too mainstream, let's optimize the features! 🤗
+
+Why the hell do we want to do that? We are going to hide a secret image in our data using machine learning techniques! 
+
+Let me show you 👇  \n\n---\n\n What do we do?
+
+We want to have a bunch of points that look random on the first look. We can then enter codes that will change the sizes of the points.
+
+Only if we enter the right code, we will see one of the several images hidden in the points.
+
+Demo 👇 \n\n---\n\n I created one and uploaded it on my website here:
+
+
+
+Try out the following codes:
+▪️ 8198399457
+▪️ 6674004952
+▪️ 0856561979
+
+There are 3 more images hidden in there, can you find them?
+
+This is created using linear regression! Let's dive into it 👇 \n\n---\n\n The Secret Images
+
+I first created a black image containing white pixels at the positions where each point should be.
+
+This can be done in any image editor (I use Photoshop) by overlaying a black layer on top of a photo and tracing the contour with white pixels.
+
+👇  \n\n---\n\n Creating the point cloud
+
+A Python script reads every image and creates a point for each white pixel. We store the index of the image as the class of each point. This will be used later to distinguish between the points of different images.
+
+👇  \n\n---\n\n Random points
+
+After that, new random points are generated. We make sure that the new points fall into a circle around the center of the image and that they are not too close to other points. The class is now 255.
+
+Here are the points visualized with Plotly. 
+
+👇  \n\n---\n\n Linear Regression
+
+Typically, we have a feature vector X describing some properties of every data point and weights W that define our classifier and that are optimized during training.
+
+To predict the class of each data point, we simply compute the dot product of X and W.
+
+👇  \n\n---\n\n "Inverted" Linear Regression
+
+Here, we do it differently:
+▪️ Fix a set of weights W for every hidden image - this will be our secret code
+▪️ Change the features X during training
+▪️ The prediction is the size of each point - size of 0 means the point is not visible
+
+👇 \n\n---\n\n The Training
+
+For each hidden image, we have a different fixed vector W - a different classifier.
+
+We use gradient descent to optimize the features X of all points. so that for a given vector W, the points of the corresponding image get size 1 and all others get size 0.
+
+👇 \n\n---\n\n The Weights
+
+We initialize the weights in a random manner and convert them in a way that they can be mapped to the digits from 0 to 9.
+
+▪️ 0 → -1.0
+▪️ 1 → -0.8
+▪️ 2 → -0.6
+...
+▪️ 8 → 0.6
+▪️ 9 → 0.8
+
+👇  \n\n---\n\n The Optimization
+
+The optimization step is similar to linear regression using gradient descent, but we compute the gradients with respect to X and not W. We use the Mean Squared Error loss.
+
+I won't explain details, but make sure to check out the last tweet for more info.
+
+👇  \n\n---\n\n Putting it all together
+
+In the end, we have a feature vector X for each point. 
+
+If we multiply it with the weights of the corresponding hidden image we will get a number close to 1
+
+If we multiply it with the weights of another hidden image we will get a number close to 0
+
+👇 \n\n---\n\n The Interface
+
+We can use plotly and some JavaScript to build a simple web page displaying the points and show a single field to enter a code.
+
+Here is the link once more: 
+
+Give it a try and feel free to poke around the code.
+
+👇 \n\n---\n\n Behind the scenes
+
+What happens is that after a code is entered, the digits are converted back to weights between -1 and 1. 
+
+The features of each point are multiplied by the weights and the size of the points is changed correspondingly. That's it!
+
+👇 \n\n---\n\n Try it out yourself
+
+All code of this project is open-source on GitHub if you want to give it a try and experiment.
+
+I also challenge you to find all the 6 hidden images on my page 😉
+
+
+
+👇 \n\n---\n\n Additional resources
+
+If you are interested in how gradient descent and MSE loss work, make sure to check out my explanations on Suboptimal:
+
+▪️ 
+▪️  \n\n---\n\n Please share your work if you create something! 😃 

@@ -1,0 +1,3 @@
+I just released a new version of Simple Photo Gallery! You can now create your photo story from a shared OneDrive or Google Photos album and automatically upload to @Netlify or AWS S3.
+
+ \n\n---\n\n Check out one of the example galleries to see what you can do with Simple Photo Gallery: 

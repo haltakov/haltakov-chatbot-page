@@ -1,0 +1,20 @@
+I vibe coded a game for #vibejam with Cursor as an experienced developer.
+
+Here are 6 lessons I learned 👇 \n\n---\n\n 1. Vibe coding is great for problems that are narrowed down
+
+Try to ask Cursor Agent a very specific thing to do. Ideally already open the related file so it takes it in the context. Then it usually works well. If the task spans multiple files it often creates a mess. \n\n---\n\n 2. Commit often
+
+Before every new feature, make sure you have commited your work. Often you need to test the code before you can decide if it works or not. git reset --hard is your friend if it goes wrong. \n\n---\n\n 3. Clean the context
+
+For new features, open a new Agent window. Otherwise you risk Cursor continuing fiddling with the code of the previous feature, sometimes even undoing manual changes you made \n\n---\n\n 4. Check the code for duplications
+
+Always check the code the Agent produces, especially for duplications. Several times it added a component a second time or implemented functionality that already exists. \n\n---\n\n 5. Check useEffect dependencies
+
+Another thing that happens often in React is that Agent will add more dependencies to useEffects that may have catastrophic effects of performance and even functionality. Make sure to check that extra carefully \n\n---\n\n 6. Use 2 instances in parallel
+
+It worked very well for me to checkout the repo twice in different folders, run 2 instances of Cursor and work in parallel on 2 features on separate branches. Much more effective, just make sure you merge properly. \n\n---\n\n 7. Refactor the structure
+
+Cursor Agent (with Claude 3.7 Sonnet thinking) is still very bad at overall architecture. Take some time to refactor things, extract components and functions, introduce a better file structure. Cursor will have a much easier time after that as well. \n\n---\n\n 8. Don't ask it to do too much at once
+
+This always creates a mess. Break the problem down in smaller pieces. That being said, you can give it hard problems to solve and usually it works fine if the complexity is contained. \n\n---\n\n You can play my game Vibe Legends here:
+

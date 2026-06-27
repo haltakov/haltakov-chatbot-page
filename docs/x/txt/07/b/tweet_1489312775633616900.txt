@@ -1,0 +1,4 @@
+This is a free VS Code extension that uses @OpenAI Codex to automatically write documentation for your code.
+
+The result usually needs some small adjustments, but it saves a lot of time! Thanks, @mintlify!
+

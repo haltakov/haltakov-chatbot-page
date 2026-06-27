@@ -1,0 +1,1 @@
+Ready to go!  \n\n---\n\n Unfortunately, Grok disqualified itself as it renders the Markdown of the result and doesn't offer an option to copy the raw message

@@ -1,0 +1,5 @@
+Here some great, but not so known people on Twitter writing about Machine Learning!
+
+@gusthema - lots of interesting information around audio
+@SeguraAndres7 - nice explanations of important machine learning concepts 
+@TivadarDanka - great explanations of formulas

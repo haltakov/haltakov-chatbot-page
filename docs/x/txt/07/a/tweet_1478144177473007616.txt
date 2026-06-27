@@ -1,0 +1,28 @@
+(📜,📜), (🧱,🚀), (🐇,🎩), (3,3) - what are these symbols?
+
+You've probably seen such symbols in people's names on Twitter, but do you know what they mean?
+
+People use them to show they are belonging to a Decentralized Autonomous Organization or DAO.
+
+Let me explain 👇 \n\n---\n\n DAOs
+
+In short, DAOs are online organizations formed around a particular cause or governing a project. The DAO members may contribute time and resources, vote on governance decisions, and receive rewards, usually as crypto tokens.
+
+But what about the symbols? 👇 \n\n---\n\n Many members are proud of belonging to the DAO so they are showing their support by adding the DAO symbols to their Twitter name.
+
+One very popular DAO was ConstitutionDAO that tried to buy a copy of the US constitution at a Sotheby's auction - their symbols are (📜,📜)
+
+👇 \n\n---\n\n But why?
+
+The meme started with OlympusDAO and this image from their docs. In short, it describes the game theory behind the different actions DAO members can do with their tokens. Most beneficial for the community is if people stake their tokens giving a (3,3) reward.
+
+👇  \n\n---\n\n People supporting OlympusDAO started putting (3,3) in their names to show they are staking their tokens. This lead to other DAOs coming up with their own symbols.
+
+(📜,📜) - ConstitutionDAO 
+(🧱,🚀) - Developer DAO
+(🐇,🎩) - Rabbithole
+(3,3) - OlympusDAO
+
+👇 \n\n---\n\n I'll be sharing more thoughts about crypto, NFTs, and web3 in the future, along with my regular machine learning content.
+
+Follow me @haltakov for an honest, hype-free discussion on these topics.

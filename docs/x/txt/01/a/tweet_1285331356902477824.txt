@@ -1,0 +1,10 @@
+In the last weeks I have been working on a new SaaS product for bloggers - . 
+
+I decided to build it in the open and share my experience along the way. I will make all code, statistics and decisions public. I will be tweeting about my journey here. (1/5) \n\n---\n\n Open Source - you will find all the code on GitHub. I take my time to keep the git history clean and to put all features in well documented pull requests. This will allow anybody to clearly view all the steps I took while building the product. (2/5)
+
+ \n\n---\n\n Open Statistics - I will make all the statistics open. For now I have a public @PlausibleHQ  dashboard with website analytics. I will keep sharing statistics during the development on Twitter and in the website's blog. (3/5)
+
+ \n\n---\n\n Open Development - while building the project, I will tweet and blog about all the steps in the process. You can start reading about how I got the idea and how I built the first prototype. (4/5)
+
+ \n\n---\n\n I'm also learning lots of new stuff, so I wanted to give back to the amazing community of indie hackers. I will create a tutorial about how I implemented each big feature and why I'm using a particular technology. First tutorial is now available. (5/5)
+

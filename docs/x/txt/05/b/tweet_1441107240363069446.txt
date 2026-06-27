@@ -1,0 +1,5 @@
+The probability of getting heads when flipping a coin is 50% 🟡
+
+The probability of getting at least one heads when flipping a coin 5 times is 96,9% 🟡🟡🟡🟡🟡
+
+If we got tails 4 times in a row, what is the probability to get heads the 5th time? Why?

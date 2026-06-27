@@ -1,0 +1,56 @@
+When machine learning met crypto art... they fell in love ❤️
+
+The Decentralized Autonomous Artist (DAA) is a concept that is uniquely enabled by these technologies.
+
+Meet my favorite DAA - Botto.
+
+Let me tell you how it works 👇  \n\n---\n\n Botto uses a popular technique to create images - VQGAN+CLIP
+
+In simple terms, it uses a neural network model generating images (VQCAN) guided by the powerful CLIP model which can relate images to text.
+
+This method can create stunning visuals from a simple text prompt!
+
+👇  \n\n---\n\n Creating amazing images, though, requires finding the right text prompt
+
+Botto is programmed by its creator - artist Mario Klingemann (@quasimondo), but it creates all art itself. There is no human intervention in the creation of the images!
+
+Botto is trained by the community 👇  \n\n---\n\n @quasimondo The Botto Community
+
+Botto asks its community for feedback and learns from it. Every week, Botto creates 350 new images and the members of the community vote for the pieces they like.
+
+The feedback is then incorporated into the creations for the next weeks.
+
+👇  \n\n---\n\n @quasimondo At the end of every week, the best piece is sold at auction.
+
+And Botto has been quite successful - it has generated $1.9M from 19 auctions. The most expensive piece, Scene Precede, sold for $430,000!
+
+
+
+👇  \n\n---\n\n @quasimondo Now, this is a lot of money, so how are they used?
+
+The money goes back to the community!
+
+The mechanism is quite interesting, but first, I need to tell you about the $BOTTO token.
+
+👇 \n\n---\n\n @quasimondo $BOTTO is a crypto coin that serves as a membership token for the community.
+
+Only people holding $BOTTO are allowed to vote on the art. Every member gets voting points proportional to how much $BOTTO they have staked.
+
+$BOTTO can be bought on decentralized exchanges.
+
+👇  \n\n---\n\n @quasimondo The $BOTTO supply is limited to max 100,000,000 tokens. In fact, the supply is decreasing - after every auction, Botto uses the proceeds to buy $BOTTO and burn it.
+
+This makes the remaining supply more valuable and drives the price up. That's how the Botto community profits.
+
+👇  \n\n---\n\n @quasimondo Additionally, $BOTTO holders can earn more tokens by providing liquidity on UniSwap or by staking.
+
+The tokenomics of the project is quite interesting because it creates incentives for people to stake their tokens and train Botto to become a better artist.
+
+👇 \n\n---\n\n @quasimondo And finally, Botto's presence is not limited to the Metaverse!
+
+It travels the world accompanied by its creator @quasimondo to present its work at various events and in physical galleries.
+
+👇  \n\n---\n\n @quasimondo If you want to learn more about Botto, follow it @bottoproject and visit the website .
+
+I also highly recommend reading this thread about how Botto was created:
+

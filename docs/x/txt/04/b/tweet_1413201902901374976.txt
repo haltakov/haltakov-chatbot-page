@@ -1,0 +1,30 @@
+Dataset bias strikes again! 😬
+
+This is a great example of dataset bias! This ML method classifies skin lesions as being malignant or not.
+
+Can you see the problem from the examples? 🤔 
+
+Let me shortly explain 👇  \n\n---\n\n The dataset used to train the model contains images of both malignant and benign lesions. The problem is that the malignant images often contain rulers printed on the skin. They are used by doctors to assess the lesion over time.
+
+Guess what the model learned... 👇 \n\n---\n\n The ML model learned to detect the rulers... 🤷‍♂️
+
+"In our dataset, images with rulers were more likely to be malignant; thus the algorithm inadvertently “learned” that rulers are malignant."
+
+ \n\n---\n\n To avoid dataset bias it is important to sample all data in the same way (and sample the whole distribution).
+
+This would mean not having the rulers in the image. This may be difficult, though because you need them for doctors to classify correctly.
+
+ \n\n---\n\n From the top of my head you could try the following:
+▪️ Taking the images in a way that the ruler is not visible (may be impossible)
+▪️ Removing the rulers with Photoshop
+▪️ Adding rulers to all healthy examples 😃
+▪️ Marking the ruler in the image as data that may not be used \n\n---\n\n Several people pointed this out and it is a very valid point - another bias could be the skin color!
+
+For this dataset I couldn't find information about that, but it is another thing to consider!
+
+ \n\n---\n\n This is a great point - inspecting what your model does internally can help you find these issues.
+
+ \n\n---\n\n Oh, the model is not stupid at all. It always finds the shortest path to solve the problem 😀
+
+It's up to the model designer to define the problem in such a way that the solution is useful...
+

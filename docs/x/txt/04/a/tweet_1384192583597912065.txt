@@ -1,0 +1,47 @@
+End-to-end approach to self-driving 🎥 🕸️ 🕹️ 
+
+I recently wrote about the classical software architecture for a self-driving car. The end-to-end approach is an interesting alternative.
+
+The idea is to go directly from images to the control commands.
+
+Let me tell you more... 👇  \n\n---\n\n This approach is actually very old, dating back to 1989 and the ALVINN model by CMU. It is a 3-layer neural network using camera images and a laser range finder.
+
+Again, this was back in 1989... 🤯 
+
+  \n\n---\n\n A modern example is Nvidia's PilotNet - a Convolutional Neural Network with 250M parameters, which takes as input the raw camera image and predicts directly the steering angle of the car.
+
+No explicit lane boundary or freespace detection needed!
+
+  \n\n---\n\n How to train such network?
+
+Easy! When a human drives the car, we can record the camera images and the actual steering angle as ground truth 🤷‍♂️ 
+
+The network will then learn to predict a steering angle similar to what the human driver chose - this is called immitation learning. \n\n---\n\n Take a look at this video to see the system in action. Around 8 minutes you can see what the network actually "sees".
+
+ \n\n---\n\n Now, to be clear - this is not really a full self-driving car, but only a model that does the steering! There is much more you need to do to actually let the car drive by itself:
+
+▪️ Longitudinal control (acceleration and breaking)
+▪️ Lane changes
+▪️ Emergency maneuvers \n\n---\n\n A similar approach is implemented by Comma AI in their newest version of Openpilot.
+
+They train a version of EfficientNet combined with a network that predicts the trajectory the car needs to drive.
+
+  \n\n---\n\n The good ✅ 
+
+The advantage of end-to-end networks is that you can get small and efficient models. The net will only focus on solving the final task and no intermediate representations.
+
+Collecting of training data is fairly easy as well - no manual labeling! \n\n---\n\n The bad ❌ 
+
+The disadvantage is that it will be very difficult to understand why the net makes some mistakes - we don't have any explicit intermediate representations, like lane boundaries.
+
+It will also need lots of data to cover all possible scenarios on the road. \n\n---\n\n There is an interesting paper by Prof. Shashua, CEO of Mobileye, arguing that in order to reach very high accuracy, end-to-end methods will require exponentially more training samples, than the more modular approaches.
+
+ \n\n---\n\n The truth lies somewhere in the middle...
+
+There are now approaches that try to combine the advantages of both the modular and the end-to-end approaches. I recommend watching this great talk by Prof. Raquel Urtasun from Uber ATG.
+
+ \n\n---\n\n Read more about the classical software architecture for self-driving cars in my other thread:
+
+ \n\n---\n\n If you liked this thread and want to read more about self-driving cars and machine learning follow me @haltakov!
+
+I have many more threads like this planned 😃

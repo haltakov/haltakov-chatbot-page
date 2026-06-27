@@ -1,0 +1,10 @@
+Data-centric AI Competition
+
+In June @AndrewYNg announced a competition to improve the performance of a deep learning model recognizing roman numerals. However, participants were only allowed to change the data and not the model itself!
+
+
+
+👇 \n\n---\n\n The methods of the winning teams are summarized in a series of blog posts on the @DeepLearningAI_ website. 
+
+I highly recommend reading them to get some ideas and inspiration how you can improve your models as well.
+

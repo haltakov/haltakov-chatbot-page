@@ -1,0 +1,3 @@
+If you are using Git type "alias gcb"  in the terminal
+
+You are welcome! 

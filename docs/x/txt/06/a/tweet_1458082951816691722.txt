@@ -1,0 +1,1 @@
+When you can't figure out why your Python code doesn't work, because you forgot %autoreload 2 in your Jupyter notebook 

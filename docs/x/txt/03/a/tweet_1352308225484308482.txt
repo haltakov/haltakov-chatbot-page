@@ -1,0 +1,10 @@
+Machine Learning Interview Question #6 🧠🤖🧐
+
+Let's continue with training DNNs...
+
+❓ What is the learning rate? How do you choose it? ❓
+ 
+Feel free to draw a small graph if you need it.
+
+Answer in the replies. Read the rules  👇 \n\n---\n\n Check out my answer. Thanks a lot for participating! 
+

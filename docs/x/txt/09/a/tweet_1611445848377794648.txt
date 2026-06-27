@@ -1,0 +1,2 @@
+Localization of a self-driving car in a map is essentially an automated version of @georainbolt 
+

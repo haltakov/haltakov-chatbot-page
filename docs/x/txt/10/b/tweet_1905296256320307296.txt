@@ -1,0 +1,7 @@
+Vibe coding can create simple games.
+Vibe coding can create landing pages.
+Vibe coding can implement simple features.
+
+Vibe coding cannot implement a complex app.
+Vibe coding cannot implement a secure system.
+Vibe coding cannot implement safety critical software.

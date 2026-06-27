@@ -1,0 +1,23 @@
+How I got my Lighthouse scores to 100? 💯
+
+The first version of my side-project  didn't score high in Lighthouse. I already wrote about improving the Performance, so now I'll focus on Accessibility, Best Practices and SEO.
+
+Read how I got them to 100 👇  \n\n---\n\n 1. Accessibility (colors) ♿
+
+The color of my links didn't have enough contrast with the background. I used the color picker in Chrome when inspecting an &lt;a&gt; tag, to help me select a color with a sufficient contrast ratio. I also had to bold the text of my buttons.  \n\n---\n\n 1. Accessibility (headings) ♿
+
+When I used heading tags, they weren't always consistent. For example, sometimes I had &lt;h4&gt; coming after an &lt;h2&gt; or had some tags not in descending order. I cleaned up all the headings and adjusted the size of the elements using CSS. \n\n---\n\n 2. Best Practices 🏅
+
+I had links to external pages that were opened in a new window (GitHub repo and Plausible Analytics dashboard) . Lighthouse recommends adding noopener to the &lt;a&gt; tag to improve security. I have a lot of trust in @github  and @PlausibleHQ, but still... 😁 \n\n---\n\n 3. SEO 🔎
+
+Fixing the SEO problems was easy:
+▪️ Added a robot.txt file
+▪️ Added ALT attributes to all images
+▪️ Added aria-label to all links and buttons
+
+Lighthouse actually complained that some links don't have descriptive names (only symbols), but aria-label worked fine. \n\n---\n\n Here a comparison of my site before and after the optimizations. 
+
+And as always, since my project is open-source, you can check out the exact changes in this PR on GitHub:
+
+  \n\n---\n\n If you are interested how I improved my Performance score from 85 to 99, check out my thread from yesterday, where I wrote about that in more detail.
+

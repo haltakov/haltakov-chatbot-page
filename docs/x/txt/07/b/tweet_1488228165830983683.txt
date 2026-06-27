@@ -1,0 +1,1 @@
+I‘ve explained the Mean Squared Error (MSE) formula before, but let me try another way 😃 

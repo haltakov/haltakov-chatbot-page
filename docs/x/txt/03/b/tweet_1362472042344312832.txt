@@ -1,0 +1,8 @@
+Machine Learning Interview Question #11 🤖🧠🧐
+
+Let's stay with CNNs for a while longer.
+
+❓ How do you choose the size of your convolutions? What tricks can you apply here❓
+
+Answer in the replies. Read the rules 👇 \n\n---\n\n  \n\n---\n\n Here is my answer... with a meme 😁
+

@@ -1,0 +1,54 @@
+Your ML model training code is full of print statements? You are doing it wrong... 🛑
+
+I can't count the number of times that a good visualization has saved me hours debugging my ML model. And as they say, "a picture is worth a 1000 words"!
+
+We can do better than print 👇 \n\n---\n\n Real-world example 👨‍🏫
+
+I was training a semantic segmentation model and the results were horrible. Not completely random, because the model was detecting some objects, but the performance was very bad.
+
+I started looking at my data, hyperparameters, features...
+
+But then 👇 \n\n---\n\n I had a custom visualization showing the probability distribution over all classes on mouseover.
+
+I immediately saw that the output of the model wasn't normalized so I got raw classifier scores, but interpreted them as probabilities! The model and the training were fine!
+
+👇  \n\n---\n\n Btw. this was 2012 - much before all the fancy visualization tools we have today were created. So we had to do most visualizations by ourselves then.
+
+Speaking of modern tools, let's see what we've got! 👇 \n\n---\n\n TensorBoard
+
+One of the most popular tools is TensorBoard. It allows you to display important internals of your model during development:
+▪️ Evaluation metrics
+▪️ Images
+▪️ Embeddings
+▪️ Weights histograms
+▪️ Model graph
+▪️ Experiment management
+▪️ ...
+
+👇 \n\n---\n\n Here are some examples of how it looks like, taken directly from the project homepage:
+
+👇  \n\n---\n\n While initially a part of TensorFlow, TensorBoard is officially supported by PyTorch as well. TensorBoard is also open-source.
+
+
+
+👇 \n\n---\n\n You are running your code in a notebook, like Google Colab? You can integrate TensorBoard there as well.
+
+What I like doing in Colab is to save the results in a Google Drive folder so I can view them by running TensorBoard locally on my machine.
+
+
+
+👇 \n\n---\n\n Weights &amp; Biases
+
+Another popular tool is Weights &amp; Biases. It is a hosted solution and is paid but has a free version for personal projects. It offers more features than TensorBoard especially when it comes to collaboration and integrations.
+
+
+
+👇 \n\n---\n\n Here is the official demo video from Weights and Biases showing how easy it is to integrate it into your code and some of the cool features it supports:
+
+
+
+👇 \n\n---\n\n There are many other tools as well, but I don't have personal experience with them. I found this article, which gives a good summary of more tools for visualization:
+
+
+
+👇 \n\n---\n\n I post regularly about machine learning, self-driving, and web3 tech. Follow me @haltakov for more!

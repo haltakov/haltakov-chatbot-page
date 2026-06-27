@@ -1,0 +1,53 @@
+Self-driving car engineer roles - Computer Vision Engineer 👀
+
+The camera is one of the most important sensors! It is not always the most accurate one, but it can provide much more data than a lidar or radar. Extracting this data is the job of the CV engineer.
+
+Thread 👇 \n\n---\n\n Problems to work on 🤔
+
+Here some typical object classes that need to be detected and classified.
+
+🛑 Traffic signs
+🚦 Traffic lights
+🚘 Vehicles
+🚶 Pedestrians
+🦌 Animals
+🛣️ Lane markings
+🏔️ Landmarks
+🚧 Construction zones
+🧱 Obstacles
+🚔 Police cars \n\n---\n\n Distance estimation 📏
+
+Detecting an object is not enough, though. You also want to know how far the object is from the car.  While the detection part is dominated by deep learning, the traditional CV methods (e.g. Kalman Filter) are still very useful for distance estimation. \n\n---\n\n Semantic segmentation 🎨
+
+Semantic segmentation is useful for detecting objects and areas in the image that don't have a well defined shape, like buildings, trees, the free space on the road and so on. It can also serve as a basis for object detection algorithms.  \n\n---\n\n Depth estimation 🔭
+
+A self-driving car needs a good 3D model of the surrounding. While lidar (and to some extent radar) can provide that, the camera can be seen as a redundant sensor.
+
+There are different approaches:
+- Stereo cameras
+- Structure-from-motion
+- Single frame depth  \n\n---\n\n Relevance ⁉️
+
+Another important aspect is how relevant is an object:
+- Is the car in my lane or not?
+- Is the red or the green traffic light relevant for my lane?
+- Is the pedestrian going to jump on the road in front of the car?
+
+Here, fusion with other sensors can help as well. \n\n---\n\n Required knowledge 📚
+
+Nowadays, deep learning and CNNs are a must for a computer vision engineer. However, don't underestimate the importance of traditional CV methods, especially around tracking, distance estimation and depth estimation! \n\n---\n\n Programming language 💻
+
+Computer vision is very computationally intensive, so good C++ skills are required. However, for training and evaluation CNNs you usually only need Python! \n\n---\n\n Getting started 🏎️
+
+There are again many ways to enter the industry as a CV engineer. Pick one of the problems above and focus on it to gain knowledge and experience!
+
+Example project - 
+
+Check below for some free learning resources 👇 \n\n---\n\n Resources 📖
+
+Check out the following resources to start learning:
+- Deep Learning for CV: 
+- Classical CV: 
+- TensorFlow: 
+- PyTorch: 
+- OpenCV: 

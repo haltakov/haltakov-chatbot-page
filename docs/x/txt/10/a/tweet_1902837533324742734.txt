@@ -1,0 +1,5 @@
+OK, there is an official winner for the TTS model for Leoline!
+
+The new model OpenAI released today (gpt-4o-mini-tts) hits it out of the park! Great quality, the ability to instruct the voice how to speak, support for many languages and very reasonable price.
+
+See for yourself   \n\n---\n\n @OpenAIDevs

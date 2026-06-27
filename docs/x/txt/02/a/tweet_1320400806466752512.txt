@@ -1,0 +1,5 @@
+Back in April I wrote a detailed blog post about Tesla's (then new) traffic light and stop sign control feature. The new FSD BETA software is performing better, but the underlying system seems to be similar with respect to using map data. Read more here:
+
+ \n\n---\n\n I will write in more details about Tesla's new Full Self-Driving software tomorrow.
+
+Recently, I'm also thinking a lot about the differences between the approaches of the different self-driving companies and I'll write more about that soon as well... 🤔

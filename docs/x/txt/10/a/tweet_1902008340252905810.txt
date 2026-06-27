@@ -1,0 +1,3 @@
+I integrated the Google Text-to-Speech API into my project. It is very good, but it is pretty disappointing that it doesn't streaming responses! I mean, come on...
+
+There seems to be a streaming feature in Preview, bit nothing in GA 🤦‍♂️ 

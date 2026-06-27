@@ -1,0 +1,17 @@
+How does decentralization help? An example...
+
+The creator and lead dev of the popular NFT exchange Hic Et Nunc on the Tezos blockchain decided to shut down the project. He pulled the plug on the whole website and the official Twitter account.
+
+Yet, the damage is not fatal 👇 \n\n---\n\n How come?
+
+✅ NFTs are fine - they are stored on the blockchain
+✅ NFT metadata is fine - stored on IPFS
+✅ Exchange backend code is fine - it is in an immutable smart contract
+✅ The website is back online - it is open-source, so a clone was deployed by the community fast
+
+👇 \n\n---\n\n Of course, this is a dramatic event and the quick recovery was only possible because of the immense effort of the community. But it is possible and it took basically 1 day.
+
+Imagine the damage that the creator and lead dev could do if they want to destroy a Web 2.0 company!
+
+👇 \n\n---\n\n For more details on the event consult this thread:
+

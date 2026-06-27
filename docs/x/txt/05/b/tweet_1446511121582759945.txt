@@ -1,0 +1,6 @@
+Auto-complete in the terminal
+
+I've been using this tool called Fig (@fig) for some time now and it is awesome! It gives suggestions like folders, git branch names, command arguments etc.
+
+I'm not affiliated, just wanted to recommend this great tool!
+

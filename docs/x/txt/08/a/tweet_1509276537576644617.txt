@@ -1,0 +1,5 @@
+This is an example of something you can't really do well with Web 2.0.
+
+The powerful thing here is the decentralized nature of the project. You don't need to trust any party that the money will be sent to charity.
+
+It is all fixed in the code! 

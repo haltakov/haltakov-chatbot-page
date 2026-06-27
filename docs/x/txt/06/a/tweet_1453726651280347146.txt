@@ -1,0 +1,3 @@
+Another great course on Deep Learning available online.
+
+I didn’t take this lecture when I was studying at the TUM, since deep learning wasn’t a big thing in 2010, however, I’m sure it is very good! 

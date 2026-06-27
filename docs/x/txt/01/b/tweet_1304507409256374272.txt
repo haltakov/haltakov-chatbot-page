@@ -1,0 +1,10 @@
+When is a machine learning model good enough? 🤔
+
+@AlejandroPiad and @svpino posted some great approaches to this problem from academic and business view point!
+
+However, I would like to talk about the case where the result doesn't depend on the ML algo *directly*.  \n\n---\n\n For example, a self-driving car has a ML algo do detect traffic lights. However, the car will not react directly on the output of a the classifier. It will first do fusion with other sensors and a map, before it decides what action to take: stop or drive through. \n\n---\n\n How do you decide if you should further optimize your traffic lights detection and in what direction? Reduce FP or FN?
+
+I have an idea how to do this, but I would really love to hear some more opinions! \n\n---\n\n Here the great threads from @svpino and @AlejandroPiad  for more context on the discussion and for some great approaches.
+
+
+

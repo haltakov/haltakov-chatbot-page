@@ -1,0 +1,71 @@
+I asked you a question the other day on Twitter
+
+"Your deep learning model has 90% accuracy. What do you do to make it better?"
+
+I wanted to check how many people will come up with a model-centrin vs data-centric approach. The answers were very interesting!
+
+Details 👇 \n\n---\n\n I clustered all 120 replies in different categories to get an overview.
+
+While I wanted to focus on the solution, many people raised some good points around the used metric and the problem framing (90% may actually be enough).
+
+There were also some pretty good jokes 😅
+
+More 👇  \n\n---\n\n I really liked that the data-centric suggestions were twice as much as the model-centric approaches! 
+
+For some more background on the difference between the two, check out this short thread:
+
+
+
+Now, this is what I would do 👇  \n\n---\n\n 1. Check the Metric 📏
+
+Before we do any conclusions about the results, we need to make sure that we are using the correct metric! Just looking at accuracy has many pitfalls!
+
+See this thread for other metrics
+
+
+
+ 👇 \n\n---\n\n 2. Problem Framing 🤔
+
+Now we have to ask if 90% is good enough for the specific application.
+
+Sometimes 90% accuracy can already provide huge value and further improvement may not be worth it because of diminishing returns.
+
+In other cases, 90% may be too low. it depends!
+
+ 👇 \n\n---\n\n 3. Analyze Errors 🔍
+
+Now, before we start improving, we need to understand why does the model fails for 10% of the data. We need to dive deep, look at examples, visualize statistics, analyze and cluster issues and really understand what the problems are.
+
+Then we take action 👇 \n\n---\n\n 4. Improve Data 💽
+
+In practice, more one can usually improve a lot by curating a better dataset so. This involves more than just throwing more data in!
+
+▪️ Clean bad examples
+▪️ Correct labels
+▪️ More data for problem clusters
+▪️ Balance
+▪️ Augmentation
+▪️ Better features
+
+👇 \n\n---\n\n 5. Improve Model 🧠
+
+After we have a nicely curated dataset, we can focus on extracting the most out of our model
+
+▪️ Try different architectures
+▪️ Tune model complexity
+▪️ Hyperparameter tuning
+▪️ Reduce overfitting
+▪️ Regularization
+▪️ Ensembles
+
+👇 \n\n---\n\n 6. Deploy and Monitor 🚀
+
+Finally, we can deploy our model and profit!
+
+But don't forget to set up monitoring and potentially a retraining pipeline in order to detect drift early and take actions to keep the model performing well!
+
+👇 \n\n---\n\n Here is the original question Tweet if you want to take a look yourself
+
+ \n\n---\n\n I regularly post threads like this on topics like machine learning and self-driving cars.
+
+Follow me @haltakov for more!

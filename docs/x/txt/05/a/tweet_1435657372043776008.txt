@@ -1,0 +1,4 @@
+This is an awesome site by MIT with interactive visualization of math formulas - Mathlets.
+
+Play around with this one for example to get a better feeling for linear regression:
+

@@ -1,0 +1,5 @@
+I used to be scared from the git interactive rebase...
+
+But now I use it on a daily basis, because it is a very powerful tool and it helps me a lot to be more productive.
+
+How often do you use interactive rebase in git? 

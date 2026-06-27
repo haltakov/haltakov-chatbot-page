@@ -1,0 +1,25 @@
+How to choose your batch size during training of a deep neural network? 🤔
+
+There are reasons to use both larger and smaller batch sizes and you need to find the right *balance* for your  dataset.
+
+Thread 👇 \n\n---\n\n Why use *larger* batch sizes? 🐘
+
+▪️ Computing the gradients on more data leads to less noise that can be caused by outliers.
+▪️  Increase training speed, by avoiding the optimization jumping in different directions.
+▪️  Reduce oscillation of the loss function. \n\n---\n\n Why use *smaller* batch sizes? 📉
+
+▪️  You training data likely doesn't sample the problem space perfectly. You actually want some noise to avoid overfitting.
+▪️   Smaller batches act as a regularization mechanism.
+▪️  You can't fit all the data in the GPU memory. \n\n---\n\n Why do smaller batch sizes improve generalization? 🤔
+
+There may be multiple reasons. Smaller batches mean that the net will look only on a part of the data, which adds some noise. This forces the network to learn more generic features and specialize too much. \n\n---\n\n Small batch size reduces the network capacity? 😳
+
+This is a very interesting paper by @mehtadushy.
+
+In some common NN setups, many specialized filters are pruned and the effective network capacity is reduced, which leads to better generalization.
+
+ \n\n---\n\n The reason is that specialized filters will not get updates during training from many of the batches (no relevant data). At the same time, their weights will be pushed down by the regularization every time.
+
+This imbalance basically kills (or prunes) the filter. \n\n---\n\n In summary, you want your batch size to not be too large, but also not be too small.
+
+This is a hyper parameter that you will need to tune for your *specific* problem!

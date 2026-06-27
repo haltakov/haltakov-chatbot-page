@@ -1,0 +1,49 @@
+The Kernel Trick
+
+The kernel trick is a cool method that helps efficiently solve some classes of machine learning problems and is used a lot with SVMs.
+
+Here a short intuition without going deep into the math...
+
+Thread 👇  \n\n---\n\n Imagine you have points belonging to 2 classes, which you can't separate by a line - this is basically what SVM does.
+
+(Image source: Wikipedia)
+
+However, you could do something here... 👇  \n\n---\n\n You can transform the points in a 3D space, where the 3rd coordinate is the distance of the point from the center (x^2 + y^2).
+
+Now it is easy to draw a plane here and separate the points - problem solved!
+
+(Image source: Wikipedia)
+
+So far so good, but it gets better... 👇  \n\n---\n\n Transforming all points in another space may be computationally expensive - the Kernel Trick comes to the rescue!
+
+It allows us to draw such decision boundaries in higher dimensional spaces (even infinite ones) without explicitly transforming the data!
+
+How? 👇 \n\n---\n\n In SVMs we need to compute the dot product between points. There is a clever mathematical way to directly compute the dot product of the points in another space without explicitly transforming them!
+
+We can apply a kernel that does that!
+
+😲 👇 \n\n---\n\n Without kernel trick - explicit conversion ❌
+
+1⃣ We have points 𝘅𝟭 and 𝘅𝟮
+2⃣ We transform them into another space using junction 𝗳: 𝗳(𝘅𝟭), 𝗳(𝘅𝟮)
+3⃣ We compute the dot product of the transformed points: 𝗳(𝘅𝟭) · 𝗳(𝘅𝟮)
+
+👇 \n\n---\n\n With kernel trick - implicit conversion ✅
+
+1⃣ We have points 𝘅𝟭 and 𝘅𝟮
+2⃣ We want to implicitly transform them into another space using junction 𝗳
+3⃣ We use the kernel 𝗸 of function f to directly compute the dot product of the transformed points: 𝗸(𝘅𝟭, 𝘅𝟮)
+
+👇 \n\n---\n\n Coming up with the kernel of a specific function may not be trivial and requires some maths, but it is possible for many useful functions!
+
+Scikit-learn for example offers you implementations of different kernels for SVM:
+
+
+
+👇 \n\n---\n\n Conclusion
+
+The kernel trick allows us to efficiently compute the dot product of points that we want to transform in another space, without doing the transformation explicitly.
+
+This helps us solve machine learning problems that can otherwise not be separated by a line/plane. \n\n---\n\n If you liked this thread and want to read more about self-driving cars and machine learning follow me @haltakov!
+
+I have many more threads like this planned

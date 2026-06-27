@@ -1,0 +1,3 @@
+ChatGPT Pro is $200/month but gives you access to o1
+
+If you don't use it a lot it will probably be cheaper to just use the API directly and pay for the actual usage...

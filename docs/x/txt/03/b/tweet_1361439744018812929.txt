@@ -1,0 +1,38 @@
+Prisoner's Dilemma 🤔
+
+Time for some game theory! 👨‍🏫
+
+Prisoner's Dilemma (PD) is an interesting game that explains how two rational individuals may make decisions that seem irrational.
+
+The game has lots of examples and applications in real life!
+
+Thread 👇 \n\n---\n\n There are different examples of PD, but this is the one I like most.
+
+You want to buy something from another person. You exchange closed bags one containing the money and one the goods. 
+
+Both you and the other person can choose to honor the deal ✅ or to give an empty bag ❌. \n\n---\n\n If you both honor the deal ✅ ✅ (cooperate), you both gain something.
+
+If you both exchange empty bags ❌ ❌ (defect), at least nobody loses.
+
+If you leave the bag empty, but get a full bag ✅ ❌, you gain a lot, while the other person is screwed.
+
+Image source: Wikipedia  \n\n---\n\n The optimal move? 💯
+
+If you play only ones, than the only rational move is to defect:
+
+▪️ If the other side cooperates ✅, it is better to defect ❌, get the goods and keep the money.
+▪️ If the other side defects ❌, it is better to also give an empty bag ❌ to not lose money. \n\n---\n\n The dilemma 🤔
+
+But wait, if both people think in this way, the deal will never happen, right? This is obviously suboptimal, because you both actually want to do the dael!
+
+Both sides individuallt act rationally, but the final result seems irrational - this is the dilemma! \n\n---\n\n Playing multiple times 1️⃣, 2️⃣, 3️⃣...
+
+This changes if the game is played multiple times (Iterated Prisoner's Dilemma). Now, people actually start to cooperate more, even if the Nash euqilibrium of the system is still to always defect! People start acting superrationaly! \n\n---\n\n Both sides always cooperating is the optimal strategy, but it is not a stable state. One side will always have the incentive to screw the other side by defecting and increasing its gain in the short term.
+
+IPD is a very interesting psyhological problem! 😀 \n\n---\n\n Real world example - climate change ☀️
+
+All contries agree that they have to cut CO2 emissions, because they need a stable climate. However, every country is hesitant to invest in measures to actually reduce CO2. It is better if everybody else reduces CO2 except you... \n\n---\n\n Real world example - doping 💉
+
+If all atheltes are clean than they stay healthy an dcompete on a level playing field. When somebody starts doping they get an advantage. However, if everybody is doping, the advantage disappears, but everybody incurs the negative side effects. \n\n---\n\n Real world example - advertising 💰
+
+If one of two competing companies starts advertizing, it will make some of the customers of the other company switch and gain an advantage. However, if both companies advertise a lot, they will both have high expenses without any gain. \n\n---\n\n Look around you and I'm sure you will find examples of Prisoner's Dilemma all around you. The question now is how to make the other person always wanting to cooperate? 😄

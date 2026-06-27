@@ -1,0 +1,7 @@
+Here's my go-to web app stack I've converged on over the years - simple to start, but can also scale for big projects:
+
+- @nextjs: frontend and backend
+- @tailwindcss: styling
+- @prisma: ORM
+- @nextauthjs: auth
+- PostgreSQL: database

@@ -1,0 +1,150 @@
+Machine Learning in the Real World 🧠 🤖
+
+ML for real-world applications is much more than designing fancy networks and fine-tuning parameters.
+
+In fact, you will spend most of your time curating a good dataset.
+
+Let's go through the steps of the process together 👇  \n\n---\n\n Collect Data 💽
+
+We need to represent the real world as accurately as possible. If some situations are underrepresented we are introducing Sampling Bias.
+
+Sampling Bias is nasty because we'll have high test accuracy, but our model will perform badly when deployed.
+
+👇 \n\n---\n\n Traffic Lights 🚦
+
+Let's build a model to recognize traffic lights for a self-driving car. We need to collect data for different:
+
+▪️ Lighting conditions
+▪️ Weather conditions
+▪️ Distances and viewpoints
+▪️ Strange variants
+
+And if we sample only 🚦 we won't detect 🚥  🤷‍♂️
+
+👇  \n\n---\n\n Data Cleaning 🧹
+
+Now we need to clean all corrupted and irrelevant samples. We need to remove:
+
+▪️ Overexposed or underexposed images
+▪️ Images in irrelevant situations
+▪️ Faulty images
+
+Leaving them in the dataset will hurt our model's performance!
+
+👇  \n\n---\n\n Preprocess Data ⚙️
+
+Most ML models like their data nicely normalized and properly scaled. Bad normalization can also lead to worse performance (I have a nice story for another time...)
+
+▪️ Crop and resize all images
+▪️ Normalize all values (usually 0 mean and 1 std. dev.)
+
+👇 \n\n---\n\n Label Data 🏷️
+
+Manual labeling is expensive. Try to be clever and automate as much as possible:
+
+▪️ Generate labels from the input data
+▪️ Use slow, but accurate algorithms offline
+▪️ Pre-label data during collection
+▪️ Develop good labeling tools
+▪️ Use synthetic data?
+
+👇 \n\n---\n\n Label Correction ❌
+
+You will always have errors in the labels - humans make mistakes. Review and iterate!
+
+▪️ Spot checks to find systematic problems
+▪️ Improve labeling guidelines and tools
+▪️ Review test results and fix labels
+▪️ Label samples multiple times
+
+👇 \n\n---\n\n The danger of label errors 🧑‍🏫
+
+A recent study by MIT found that 10 of the most popular public datasets had 3.4% label errors on average (ImageNet had 5.8%).
+
+This even lead authors to choose the wrong (and more complex) model as their best one!
+
+
+
+👇 \n\n---\n\n Balance Dataset ⚖️ 
+
+Dealing with imbalanced data can be tricky...
+
+Let's classify the color of the 🚦 - we can get 97% just by learning to recognize 🟢 and 🔴, just because 🟡 is severely underrepresented.
+
+I have a separate thread on this topic:
+
+
+👇 \n\n---\n\n Train and Evaluate Model 💪📏
+
+This is the part that is usually covered by ML courses. Now is the time to try out different features, network architectures, fine-tune parameters etc.
+
+But we are not done yet... 👇 \n\n---\n\n Iterative Process 🔄
+
+In most real-world applications the bottleneck is not the model itself, but the data. After having a first model, we need to review where it has problems and go back to:
+
+▪️ Collecting and labeling more data
+▪️ Correcting labels
+▪️ Balancing the data
+
+👇 \n\n---\n\n Deploy Model 🚢
+
+Deploying the model in production poses some additional constraints:
+
+▪️ Speed
+▪️ Cost
+▪️ Stability
+▪️ Privacy
+▪️ Hardware availability and integration
+
+We have to find a good trade-off between these factors and accuracy.
+
+Now we are done, right? No...👇 \n\n---\n\n Monitoring 🖥️
+
+The performance of the model will start degrading over time because the world keeps changing:
+
+▪️ Concept drift - the real-world distribution changes
+▪️ Data drift - the properties of the data change
+
+We need to detect this, retrain, and deploy again.
+
+Example 👇 \n\n---\n\n Drift ➡️
+
+We now have a trained model to recognize 🚦, but people keep inventing new variants - see what some creative people in Munich came up with 😄
+
+We need a way to detect that we have a problem, collect data, label, and retrain our model.
+
+👇  \n\n---\n\n Summary 🏁 
+
+This is how a typical ML pipeline for real-world applications looks like. Please remember this:
+
+▪️ Curating a good dataset is the most important thing
+▪️ Dataset curation is an iterative process
+▪️ Monitoring is critical to ensure good performance over time  \n\n---\n\n If you liked this thread you will also like the other things I post too. I regularly tweet about machine learning, computer vision, and self-driving cars. 
+
+Follow me @haltakov for more! \n\n---\n\n I've spent a lot of time thinking about this and experimenting with synthetic data.
+
+I think your statement is true, but I think it is missing one important part - in which cases it might be a good idea to go for synthetic data as a primary source.
+
+1/n
+
+ \n\n---\n\n It depends a lot on how good your simulation is with simulating the variety of the domain you are working on.
+
+Synthetic camera images are usually difficult. While there are very realistic simulations, they don't scale easily to many different scenec.
+
+2/n \n\n---\n\n If you need synthetic camera images you probably want to go the way of extending an existing dataset. Something like it is done here:
+
+
+
+However, other modalities are easier!
+
+3/n \n\n---\n\n Depth images contain much less information but are therefore easier to simulate accurately.
+
+Microsoft managed to do this for human pose recognition for the Kinect as their main source of data.
+
+
+
+4/4 \n\n---\n\n This is actually a very good question! You certainly need many examples of such weird traffic lights. At least 20-30. If they are similar to others, it may be a bit easier, because the network can reuse some lower level features.
+
+ \n\n---\n\n If you have much more vertical than horizontal traffic lights, you need to properly balance your dataset. Check out this thread on ideas how to do that: 
+
+You can also build two separate classifiers.

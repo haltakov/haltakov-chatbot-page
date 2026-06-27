@@ -1,0 +1,28 @@
+What is the best Prisoner's Dilemma strategy? ♟
+
+Robert Axelrod, professor at the University of Michigan, wanted to find this out in 1980.
+
+He organized a tournament and invited well known game theory researchers to submit a program playing Prisoner's Dilemma. 
+
+Thread 🧵  \n\n---\n\n The Rules 📜 
+
+The rules of the tournament were simple.
+
+▪️ Programs are paired to play against each other for 200 moves
+▪️ Each program plays in a round robin against each other
+▪️ Each program plays against itself
+▪️ Each program plays against a random generator \n\n---\n\n The Winner 🏅 
+
+Surprisingly, one of the simplest programs won the tournament - tit-for-tat.
+
+Tit-for-tat always starts by cooperating and then repeats its opponent's move. \n\n---\n\n Why? 🤔 
+
+Tit-for-tat can be beaten by strategies - like one that always defects. However, on average it performs very well!
+
+In fact, tit-for-tat can never win, because it will never defect first! However, it will never lose by more than one move. 🤯 \n\n---\n\n So, tit-for-tat managed to beat much more complicated strategies submitted by over 60 other researchers from all over the world...
+
+And it's actually ridiculously easy to implement! You can check out my implementation for my @DilemmaBot project on GitHub:   \n\n---\n\n Further reading 📖 
+
+If you want to learn more about the Axelrod's tournaments check out the original papers:
+▪️ 
+▪️ 

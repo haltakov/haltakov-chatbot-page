@@ -1,0 +1,9 @@
+Here the amount of documents that the 4 big tech companies produced for the antitrust investigation by the House Judiciary Committee:
+- Apple: 2,246
+- Amazon: 24,299
+- Facebook: 125,246
+- Google: wait for it... 1,135,398
+
+Seems like Google is already using GPT-3 in production 🤷‍♂️ \n\n---\n\n The full report can be found here: 
+
+Also, some great commentary by @gruber and @benthompson on Dithering: 

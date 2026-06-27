@@ -1,0 +1,3 @@
+MCP still feels very buggy and difficult to configure, the UI of the clients is not good and debugging is cumbersome.
+
+But once it works it is awesome. Still very bullish on the future of MCP!

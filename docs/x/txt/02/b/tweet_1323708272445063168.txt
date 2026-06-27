@@ -1,0 +1,8 @@
+What is FJCVTZS?
+
+It's a special instruction in the ARM architecture that stands for "Floating-point Javascript Convert to Signed fixed-point, rounding toward Zero".
+
+Yes, the ARM compiler had  create a special instruction, because  JavaScript only supports   float numbers 🤦‍♂️ \n\n---\n\n This instruction helps  convert from double-precision floating-point values to  integer value in order to  help with bitwise operations.
+
+This really is a testimony how important JavaScript performance has become...
+

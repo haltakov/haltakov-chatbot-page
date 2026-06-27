@@ -1,0 +1,3 @@
+The horror of every web developer is trying to make an email look good in the GMail app on iOS when dark mode is turned on.
+
+Can't believe we are dealing with this in 2024... 

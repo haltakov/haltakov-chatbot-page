@@ -1,0 +1,3 @@
+If your .env file leaks the most that can happen should be a compromised DEV environment.
+
+Production secrets go into a secrets manager 

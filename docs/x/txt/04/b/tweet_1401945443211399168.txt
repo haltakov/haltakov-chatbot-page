@@ -1,0 +1,4 @@
+Create AI videos by simply typing in text.
+
+This is a really cool product relying heavily on Deep Learning to automatically create synthetic videos of talking heads in many languages. You just give it the text...
+

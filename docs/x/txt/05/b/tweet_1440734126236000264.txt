@@ -1,0 +1,9 @@
+Fantastic story with VQGAN + CLIP images by @moultano!
+
+"Tour of the Sacred Library"
+
+It is another lesson of how important prompt engineering has become when dealing with these large multi-modal neural networks!
+
+
+
+My favorite images 👇 

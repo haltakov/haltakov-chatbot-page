@@ -1,0 +1,3 @@
+Does anybody know why @Cloudflare is still not supporting .AI domains registration? Doesn't even seem to be coming soon.
+
+Seems like an obvious gap, so pretty sure there is a story there... \n\n---\n\n Currently supported domains on Cloudflare: 

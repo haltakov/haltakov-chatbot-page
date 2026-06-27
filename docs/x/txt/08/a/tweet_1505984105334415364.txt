@@ -1,0 +1,10 @@
+Weakly-supervised and self-supervised learning has huge potential in machine learning!
+
+Just look at this paper - they are able to train a semantic segmentation model just from images and noisy text descriptions!
+
+
+👇 \n\n---\n\n In general, semantic segmentation requires pixel-wise labels which are very expensive and difficult to obtain.
+
+Sure, the results of the paper lack precision around the edges of the objects, but getting this quality just using text descriptions is very impressive!
+
+👇 \n\n---\n\n The full paper is here: 

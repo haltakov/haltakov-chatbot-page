@@ -1,0 +1,13 @@
+PyTorch vs. TensorFlow? 🤔 
+
+Which one should you use when you are starting with machine learning? This thread will tell you everything you need to know to decide!
+
+Thread 🧵
+
+1/n \n\n---\n\n It doesn't matter! 🤷‍♂️ 
+
+They are both wonderful and mature frameworks and when you are starting with ML both are fine!
+
+Focus on choosing a suitable course, tutorial or book and stick with the one they are using. Or choose the one your friends or your company uses.
+
+2/2

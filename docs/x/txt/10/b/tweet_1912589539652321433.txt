@@ -1,0 +1,7 @@
+AI generated commit message:
+"style: update layout background sizes and positions, adjust button positioning in user context, and enhance video component dimensions"
+
+My commit message:
+"chore: make the rabbit bigger"
+
+Before and after images below. AI needs context! 

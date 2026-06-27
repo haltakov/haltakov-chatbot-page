@@ -1,0 +1,1 @@
+Creating an app with serverless backend, but then keeping one container warm all the time to minimise latency sounds like a full circle back to regular servers

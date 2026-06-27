@@ -1,0 +1,7 @@
+Mental models for web3:
+
+▪️ The blockchain is a database
+▪️ Wallets hold keys not tokens
+▪️ Smart contracts are programs
+▪️ NFTs are records in the database
+▪️ Network providers are APIs to the blockchain

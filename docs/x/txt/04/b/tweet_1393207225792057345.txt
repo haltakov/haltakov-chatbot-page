@@ -1,0 +1,6 @@
+Machine learning jargon explained 👨‍🏫 
+
+What is 𝗣𝗖𝗔 (𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹 𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁 𝗮𝗻𝗮𝗹𝘆𝘀𝗶𝘀)?
+
+Thanks to @lunarkin for contributing this explanation!  \n\n---\n\n For more explanations of machine learning and math terms check out my new project Suboptimal on GitHub:
+

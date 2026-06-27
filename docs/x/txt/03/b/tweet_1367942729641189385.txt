@@ -1,0 +1,1 @@
+Very interesting read on the ability of CLIP to learn both visual and textual concepts in the same neuron! 

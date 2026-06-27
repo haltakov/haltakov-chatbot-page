@@ -1,0 +1,1 @@
+When my loss becomes NaN during training of my neural network, but I forgot to implement early stopping 

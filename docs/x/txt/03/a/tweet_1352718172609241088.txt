@@ -1,0 +1,43 @@
+Learning Rate 📉
+
+During training of a neural network, we minimize a loss function using gradient descent.
+
+In each iteration we adapt the weights by changing them a little in the direction of the gradient. How large this change is is defined by the learning rate.
+
+Details 👇 \n\n---\n\n Imagine you are on the top of a mountain and want to get down to the lodge in the valley. The learning rate defines the speed at which you will be going down. ⛷️
+
+A high speed means that you may breeze past the lodge and need to go back. Going to slow will cost you lots of time. \n\n---\n\n It is similar with the learning rate...
+
+🐘 If it is too high, the optimization will be unstable jumping around the optimum.
+
+🐁 It if is too low, the optimization will take too long to converge.
+
+So how to find the best learning rate... 🤔
+
+You have several options 👇 \n\n---\n\n As usual, for hyperparameter tuning, it will require some trail and error. You will try different approaches on your training dataset and check how good it was on the validation set.
+
+You can use the following strategies:
+- Parameter search
+- Schedule
+- Adaptive learning rate \n\n---\n\n Parameter search 🔎
+
+The easiest way is to just try different values and see how it goes. You should select them in a exponential manner: 1, 0.1, 0.01, 0.001... you get the idea...
+
+If the loss goes down, but slowly - increase ⬆️
+
+If the loss starts oscillating - decrease ⬇️ \n\n---\n\n Schedule ⏰
+
+The schedule allows you to apply a decay of the learning rate. You start with a high rate to get close to the optimum fast, but decrease it after that to be more precise.
+
+The LR can be reduced based on the epoch or based on another criteria, like hitting a plateau. \n\n---\n\n Momentum 🎢
+
+You can also apply momentum. Just like a ball rolling down a hill, the optimization will accelerate if it is steadily going down.
+
+Momentum will also help the optimizer jump over small local minima and find a better optimum. \n\n---\n\n Adaptive Learning Rate 📉
+
+There are also optimizers that adapt the learning rate automatically based on the gradients. They introduce other hyperparameters (e.g. the forgetting factor), but they are usually easier to tune.
+
+Prominent examples:
+- Adagrad
+- RMSProp
+- Adam ⭐️

@@ -1,0 +1,10 @@
+A colleague showing me a camera image with a problem
+
+Colleague: Why didn't the model detect this traffic sign?
+
+Me: It is in Chinese, what does it mean?
+
+Colleague: I don't know, it's too small so I can't read it.
+
+Me: ... \n\n---\n\n Thanks for sharing! Image restoration is useful in some cases, but at some point you just don't know what it is - the information is lost. It could be any of couple of meanings, so the GAN will probably just pick the most probable one.
+

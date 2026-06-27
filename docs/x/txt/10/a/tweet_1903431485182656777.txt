@@ -1,0 +1,12 @@
+@xai just released the Edit Image feature in Grok. It seems to be working  better than Gemini 2.0 Flash, but not always.
+
+Removing background clouds was better in Gemini for this image, and the smiling causes too many changes.
+
+👇  \n\n---\n\n Removing a tree from the office worked better than Gemini
+
+👇  \n\n---\n\n Editing people seems to also be much more realistic than Gemini
+
+👇  \n\n---\n\n However it failed miserably on my profile photo adding many unwanted artefacts, lol
+
+👇  \n\n---\n\n Here is my original thread about Gemini image editing
+

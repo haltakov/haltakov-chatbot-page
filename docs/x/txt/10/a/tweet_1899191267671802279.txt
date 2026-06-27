@@ -1,0 +1,3 @@
+I need some AI tool that looks at my landing page and gives me suggestions how to make it better and help me redesign specific sections based on a prompt.
+
+Anybody knows a tool for that?

@@ -1,0 +1,6 @@
+Here are 6 useful ideas for using MCP:
+
+💡 Access Local Folder with Documents: Use the Filesystem server to grant Claude Desktop access to a folder containing your tax return documents and seek assistance with your taxes.
+
+💡 Access Google Drive: Utilize the Google Drive server… \n\n---\n\n You can find some great servers coming directly with the protocol or developed by the community here:
+

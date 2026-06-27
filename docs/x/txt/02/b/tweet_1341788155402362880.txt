@@ -1,0 +1,23 @@
+Very interesting podcast by @lexfridman with Dmitri Dolgov CTO of @Waymo:
+
+
+
+What I liked most was the discussion if lidar is needed for self-driving cars. As with many things in life, there is no universal truth here...
+
+👇 Short thread 👇 \n\n---\n\n Waymo's Strategy
+
+Waymo prioritizes safety for their  use-case - robotaxis. Their 5th gen cars have 5 lidars, along multiple cameras and radars. 
+
+Their viewpoint is that why not use tech  that's available today, if it makes driving safer and more robust?
+
+ \n\n---\n\n Tesla's Strategy
+
+@elonmusk famously said that lidar is a crutch. Tesla is bringing autonomy to consumer vehicles where lidar comes with  trade-offs (cost, integration).
+
+Tesla bet on the massive  amounts of video data they have  and improvements in CV.
+
+ \n\n---\n\n Traditional OEMs Strategy
+
+The traditional OEMs like Audi, BMW and Mercedes all announced using lidar for their L3-4 efforts.
+
+They are not using the big 360° lidars like many other companies. They are going for smaller lidars integrated in the front, for increased redundancy.

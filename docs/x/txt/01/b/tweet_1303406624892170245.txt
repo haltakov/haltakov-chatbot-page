@@ -1,0 +1,12 @@
+I got an idea for a nice weekend computer vision project, while listening to a podcast with @gruber and @JoannaStern. They were complaining about video calls on the iPad, because the camera is usually on your left or right. What if Apple added a second front camera? 🤔 
+
+Thread👇  \n\n---\n\n The problem is that if you put the iPad horizontally and look at the center of the screen, you appear to be looking either left or right, because the camera is on the side.
+
+If we had cameras on both sides, we could compute a 3D model and render a view from the center. 👇  \n\n---\n\n To simulate this I used my wife's iPad Pro and made her take 2 photos of me with the camera on the left and on the right.
+
+I then used a open-source deep learning stereo algorithm called GA-Net to compute a disparity map between the two images in both directions.  \n\n---\n\n The disparity value of a point in the image tells you how many pixels you need to move horizontally in order to find the same pixel in the other image.
+
+Points closer to the camera move more between the images than points further back - this is called the parallax effect. \n\n---\n\n I actually didn't need to compute a 3D model of my face, because I just wanted to move the virtual camera halfway between the two frames. I simply used the disparity values directly dividing them by 2! 🤷‍♂️ \n\n---\n\n Some points on the face are only visible from one side,, so just taking one of the images and translating it didn't work. The occluded regions appear as black shadows in the projected image. I implemented some simple logic in Python to choose the best point from the two images.  \n\n---\n\n And here is the final result! I animated the transition between the two frames to make it look better. 😀
+
+It is far from perfect - you can see many artifacts on the face and on my left shoulder. However, I think it is enough as a proof of concept that this may work...  \n\n---\n\n And as always, you can find all the code and the images I used on GitHub along with documentation how you can do it yourself.
+

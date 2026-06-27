@@ -1,0 +1,7 @@
+For all the vibe coders
+
+1. Install and setup @Tailscale on your phone and computer (takes 5 mins)
+2. Enable Screen Sharing in MacOS
+3. Install a VNC client on your phone (e.g. Real VNC)
+
+Now you can check on your coding agent and give it instructions while not at your desk.

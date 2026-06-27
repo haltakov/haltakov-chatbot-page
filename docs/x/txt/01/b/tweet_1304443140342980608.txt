@@ -1,0 +1,8 @@
+I'm looking to replace some JS/CSS libraries on one of my websites. Any  suggestions?
+
+⚙️ Bootstrap → Tailwind CSS
+🗨️ popper.js → Cooltipz.css by @jackdomleo7 
+🚀 aos.js → plain ES6
+❓ jQuery → plain ES6
+🔤 FontAwesome → tabler-icons
+🖍 highlight.js → will stick with it

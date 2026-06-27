@@ -1,0 +1,11 @@
+Are label errors a big problem in ML? 🤔
+
+There is a new study from MIT that says, yes! They analyzed 10 popular research datasets (incl. ImageNet) and found 3.4% label errors on average in the test set (5.8% for Image net). This is a lot...
+
+
+
+More 👇 \n\n---\n\n Even more interesting - small models that performed worse on the wrong label, were often better than the big models on the corrected data!
+
+I've dealt with lots of labeling problems in the past and they can lead you to a completely wrong conclusion.
+
+Make sure to fix your labels!

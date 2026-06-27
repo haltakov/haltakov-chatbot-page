@@ -1,0 +1,28 @@
+My setup for recording videos for my machine learning course 🎥
+
+A lot of people asked about my setup the other day, so here a short thread on that. It's nothing fancy, but it does a good job 🤷‍♂️
+
+Details 👇  \n\n---\n\n Hardware ⚙️
+
+▪️ MacBook Pro (2015 model) - screen sharing and recording
+▪️ iPhone XS - using the back camera for video recording
+▪️ Omnidiretional external mic - connected to the iPhone
+▪️ Highly professional camera rig - books mostly about cooking and travel 😄
+
+👇  \n\n---\n\n Software 💻
+
+▪️ OBS Studio - recording of the screen and the camera image
+▪️ EpocCam - use your iPhone as a web cam. You can connect your iPhone both over WiFi and cable.
+▪️ Google Slides - for presentation
+▪️ Jupyter notebooks and Google Colab - for experimenting with code
+
+👇  \n\n---\n\n What needs improvement ❓
+
+▪️ Sound - the quality of my external mic is not very good, so I'm looking into better microphones
+▪️ Lighting - I'm currently using natural light, but I don't like how half my face is brither than the other
+▪️ Background - need a better one
+
+👇 \n\n---\n\n Demo 📺
+
+Here is one of the videos from the course. if you are interested in how it looks and what is the quality fot he sound check it our here:
+

@@ -1,0 +1,8 @@
+Machine Learning Interview Question #12 🤖🧠🧐
+
+We talked about CNNs so let's use one of them now...
+
+❓ How can you use a CNN to detect the presence and the location (bounding box) of a specific object in an image (for example car)?❓
+
+Answer in the replies. Read the rules 👇 \n\n---\n\n  \n\n---\n\n Here my answer on object detection with CNNs!
+

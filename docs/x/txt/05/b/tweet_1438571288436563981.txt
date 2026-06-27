@@ -1,0 +1,11 @@
+Cool application of Deep Learning - a 3D Ken Burns effect by @simon_niklaus.
+
+Basically, it is a deep NN that creates a 3D model of the scene, moves the camera, and fills the gaps caused by occlusions.
+
+Here, applied to one of my favorite photos  \n\n---\n\n The code is on GitHub and a pre-trained model is provided as well, so you can try it out yourself: 
+
+You can also use this Colab notebook: 
+
+
+(I had to replace "pip install cupy" with "pip install gevent") \n\n---\n\n And if you are interested in reading the whole paper, check it out here:
+

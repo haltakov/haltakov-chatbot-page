@@ -1,0 +1,3 @@
+dApps should ideally not rely on events to display the activity to the users. It is easier, but not guaranteed to match what is actually happening on the blockchain.
+
+Go for the actual on-chain data instead of the events. 

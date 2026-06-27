@@ -1,0 +1,10 @@
+Machine Learning Interview Question #8 🤖🧠🧐 
+
+Now back to a more general question regarding training of deep neural nets.
+
+❓ How big should be your batch size be? How do you choose it❓
+
+Answer in the replies. Read the rules 👇
+
+ \n\n---\n\n Here my answer. The part explaining why small batch sizes help with generalization is interesting!
+

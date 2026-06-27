@@ -1,0 +1,16 @@
+Garbage in, garbage out... I don't like this phrase! 
+
+I've seen a lot of cases where people use it as an excuse to be lazy and not put in the work.
+
+Let me explain 👇  \n\n---\n\n In most real-world problems, and especially in ML and CV, we are dealing with imperfect data:
+
+▪️There are typos in texts
+▪️There are missing values in tables
+▪️There is background noise in audio
+▪️We try to recognize traffic signs that look like this
+
+Shall we give up? No... 👇  \n\n---\n\n You need to put a lot of work to preprocess and clean up your data and make it usable for your algorithm. 
+
+And often you can find that the garbage is actually not so bad and can help you solve your problem 😃 \n\n---\n\n Of course, there are some limits, and at some point, it really doesn't make sense to do anything with the data.
+
+You should not give up too early, though!

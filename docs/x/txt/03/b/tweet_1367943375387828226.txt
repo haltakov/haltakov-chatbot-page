@@ -1,0 +1,1 @@
+Adversarial attacks on @OpenAI's CLIP. Think about this for a minute... The network has not been trained to explicitly read text, but it learned to do it! 

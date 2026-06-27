@@ -1,0 +1,73 @@
+Let's talk about a common problem in ML - imbalanced data ⚖️ 
+
+Imagine we want to detect all pixels belonging to a traffic light from a self-driving car's camera. We train a model with 99.88% performance. Pretty cool, right?
+
+Actually, this model is useless ❌
+
+Let me explain 👇  \n\n---\n\n The problem is the data is severely imbalanced - the ratio between traffic light pixels and background pixels is 800:1.
+
+If we don't take any measures, our model will learn to classify each pixel as background giving us 99.88% accuracy. But it's useless!
+
+What can we do? 👇 \n\n---\n\n Let me tell you about 3 ways of dealing with imbalanced data:
+
+▪️ Choose the right evaluation metric
+▪️ Undersampling your dataset
+▪️ Oversampling your dataset
+▪️ Adapting the loss
+
+Let's dive in 👇 \n\n---\n\n 1️⃣ Evaluation metrics 
+
+Looking at the overall accuracy is a very bad idea when dealing with imbalanced data. There are other measures that are much better suited:
+▪️ Precision
+▪️ Recall
+▪️ F1 score
+
+I wrote a whole thread on that
+
+ \n\n---\n\n 2️⃣ Undersampling
+
+The idea is to throw away samples of the overrepresented classes.
+
+One way to do this is to randomly throw away samples. However, ideally, we want to make sure we are only throwing away samples that look similar.
+
+Here is a strategy to achieve that 👇  \n\n---\n\n Clever Undersampling
+
+▪️ Compute image features for each sample using a pre-trained CNN
+▪️ Cluster images by visual appearance using k-means, DBSCAN etc.
+▪️ Remove similar samples from the clusters (check out for example the Near-Miss or the Tomek Links strategies)
+
+👇 \n\n---\n\n 3️⃣ Oversampling
+
+The idea here is to generate new samples from underrepresented classes. The easiest way to do this is of course to repeat the samples. However, we are not gaining any new information with this.
+
+Some better strategies 👇  \n\n---\n\n Data Augmentation
+
+Create new samples by modifying the existing ones. You can apply many different transformations like for example:
+
+▪️ Rotation
+▪️ Flipping 
+▪️ Zooming
+▪️ Skewing
+▪️ Color changing
+
+We can do some even more advanced stuff 👇  \n\n---\n\n SMOTE
+
+The idea is to create new samples by combining two existing ones.
+
+This technique is more common when working with tabular data, but can be used for images as well. For that, we can combine the images in feature space and reconstruct them using an autoencoder.  \n\n---\n\n Synthetic Data
+
+Another option is to generate synthetic data to add to our dataset. This can be done either using a GAN or using a realistic simulation to render new images.
+
+There are even companies that specialize in this, like  (not affiliated)
+
+👇  \n\n---\n\n 4️⃣ Adapting the loss function
+
+Finally, an easy way to improve the balance is directly in your loss function. We can specify that samples of the underrepresented class to have more weight and contribute more to the loss function.
+
+Here is an example of how to do it in the code.  \n\n---\n\n So, let's recap the main ideas when dealing with imbalanced data:
+
+▪️ Make sure you are using the right evaluation metric
+▪️ Use undersampling and oversampling techniques to improve your dataset
+▪️ Use class weights in your loss function \n\n---\n\n I regularly write threads like this to help people get started with Machine Learning.
+
+If you are interested in seeing more, follow me @haltakov.

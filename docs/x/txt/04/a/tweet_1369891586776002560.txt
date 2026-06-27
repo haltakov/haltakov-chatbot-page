@@ -1,0 +1,6 @@
+@AllDeepLearning here is what we talked about recently.
+
+It will be a stretch to call this art, but I think it may be an interesting idea to build upon...
+
+What do you think? I'll share more details and code how this is created in the next days.
+

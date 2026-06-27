@@ -1,0 +1,5 @@
+Product Idea 💡 
+
+Train a language ML model on a huge amount of text on the internet and learn which emojis are used in what context.
+
+Then let me give the model a text query so it can return suggestions for the corresponding emojis.

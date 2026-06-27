@@ -1,0 +1,6 @@
+Cool video teaching you about how important the perspective is by @RichardWiseman
+
+This applies both to computer vision and things in life!
+
+I wonder how depth from single image methods will handle this situation... I bet, not worse than a humans 😃
+

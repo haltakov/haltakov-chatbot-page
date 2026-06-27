@@ -1,0 +1,33 @@
+How many parameters do you need in your neural network to solve any problem? 🤔
+
+GPT-3 has 175 billion, MT-NLG has 530 billion and Wu Dao has 1.75 trillion.
+
+But the truth is you only need 1 parameter. No, not 1 billion. Just a single parameter!
+
+Let me explain 👇 \n\n---\n\n Yes, of course, I'm trolling you, but only a little bit 😁
+
+I want to show you this very cool work by @ranlot75 about how to fit an arbitrary dataset with a single parameter and the following function
+
+
+
+👇  \n\n---\n\n @ranlot75 Here are examples of some 2D image datasets. You see the parameter alpha and the reconstructed image.
+
+Now, let me give you some high-level intuition how this works 👇  \n\n---\n\n @ranlot75 There are infinitely many real numbers between 0 and 1. So, what we could do is create a number alpha like this:
+
+alpha = 0.&lt;dataset&gt;...
+
+&lt;dataset&gt; is just a series of numbers and we can encode our entire dataset in there! This is how the whole fish number looks like.
+
+👇  \n\n---\n\n @ranlot75 You need some clever math to encode everything into this format and to define a function that can recover the information back, but it is doable.
+
+Check the full paper and the code on GitHub for details:
+▪️ 
+▪️ 
+
+👇 \n\n---\n\n @ranlot75 Now, does it generalize well? Of course not! 😄 This is the clearest case of overfitting there is...
+
+Is it practical? Lol, no 🤣
+
+Is it very cool? Yes!  \n\n---\n\n @ranlot75 I'm posting similar threads on machine learning and web3 topics on a regular basis.
+
+Follow me @haltakov for more!

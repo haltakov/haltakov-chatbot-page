@@ -1,0 +1,24 @@
+How it works - changing ads in the live stream of a football game ⚽ 📺 
+
+I asked you yesterday how you would implement such a computer vision system and there were some quite interesting answers.
+
+
+
+Let's see how it is done now 👇 \n\n---\n\n Magenta screen 🟣
+
+The LED screens at the stadium show each frame for 20ms in total (50 frames per second), but 2ms are used to show a magenta color, while the other 18ms show the real ad.
+
+This is too short for the people at the stadium to see, but not for the camera... 👇  \n\n---\n\n Cameras 🎥 
+
+The cameras at the stadium are synchronized with the system so they can shoot a frame exactly in the 2ms the magenta "screen" is shown.
+
+Replacing the magenta color with another video is a fairly standard technique in video production (chromakey).
+
+There's more 👇 \n\n---\n\n Camera movement ↔️
+
+The cameras are not static though - they pan, zoom and tilt. Aligning the ad video with the screen is not trivial.
+
+The system uses additional tracking of the cameras to determine their orientation and improve the overlaying of the ad. \n\n---\n\n Performance ⏩ 
+
+This approach is great, because it doesn't require lots of computation ressources. This is important since the system needs to process a high-quality video stream (4K or more) in real-time! \n\n---\n\n If you are interested in more details about this system developed by the Fraunhofer Institute, read the full article:
+

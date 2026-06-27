@@ -1,0 +1,97 @@
+Machine Learning Formulas Explained 👨‍🏫
+
+For regression problems you can use one of several loss functions:
+▪️ MSE
+▪️ MAE
+▪️ Huber loss
+
+But which one is best? When should you prefer one instead of the other?
+
+Thread 🧵  \n\n---\n\n Let's first quickly recap what each of the loss functions does. After that, we can compare them and see the differences based on some examples.
+
+👇 \n\n---\n\n Mean Square Error (MSE)
+
+For every sample, MSE takes the difference between the ground truth and the model's prediction and computes its square. Then, the average over all samples is computed.
+
+For details, check out this thread:
+
+
+👇 \n\n---\n\n Mean Absolute Error (MAE)
+
+MAE is very similar to MSE, but instead of taking the square of the difference between the ground truth and the model's prediction, it takes the absolute value.
+
+👇 \n\n---\n\n Huber Loss
+
+The Huber loss is a combination of both ideas. It behaves like a square function (MSE) for small differences and like a linear function (MAE) for large differences.
+
+I've written in detail about the Huber loss here:
+
+
+👇 \n\n---\n\n Alright, these loss functions are very similar in some aspects:
+
+▪️ They are always positive or 0
+▪️ The loss function increases if our model makes worse predictions
+▪️ They can be used for training machine learning models for regression
+
+But there are important differences 👇 \n\n---\n\n Handling outliers
+
+Big differences between the ground truth and the prediction of the model are amplified by MSE much more than the others.
+
+Imagine predicting a house price of 100K, while the real price is 50K. MSE will give us 2500K, while MAE and Huber loss only 50K.
+
+👇 \n\n---\n\n Therefore, a model trained with MSE as a loss function will focus on removing the large outliers because they will dominate the loss function. Samples with a smaller error will practically be ignored. 
+
+This can be problematic if we don't care about big outliers.
+
+👇 \n\n---\n\n Behavior around 0
+
+MSE and the Huber loss are smooth around 0. This means that their derivative gets gradually smaller, which allows the optimization to converge nicely.
+
+👇 \n\n---\n\n MAE on the other hand has completely different gradients on both sides of the 0. This means that the optimization process may start oscillating when the error becomes small.
+
+👇 \n\n---\n\n OK, but which one is best?
+
+Well, there is no universal answer to this question (you saw that coming, don't you 😉). It really depends on your application and especially how you want to handle outliers.
+
+Let's discuss two examples:
+▪️ House price predictor
+▪️ Trading bot
+
+👇 \n\n---\n\n House prices
+
+Imagine you are a real estate agent. You want an ML model that can estimate the price of a house given properties like its size, location, age etc. You want your model to predict the price so you can compare it with the listing price and find good deals.
+
+👇 \n\n---\n\n You will run your model over many listings and let it filter out potential good deals, which you will then review manually before taking a decision to buy.
+
+A big outlier is not a problem there - if the model makes a very wrong prediction you will spot it and ignore it.
+
+👇 \n\n---\n\n In this case, it is probably a good idea to use MAE or the Huber loss, because you don't want to avoid huge errors in the model at any cost.
+
+On the other hand, you want to model to be fairly accurate for most predictions, so you don't waste your time reviewing bad deals.
+
+👇 \n\n---\n\n Automatic trading bot
+
+Now imagine you are programming an ML model to predict stock prices and automatically buy and sell.
+
+Things are different now - a big error of the model may lead to huge losses in a single trade! You don't want that.
+
+👇 \n\n---\n\n In this case, you should rather use MSE, because it will penalize these huge errors. There may be more cases where the model makes smaller mistakes, but as long as it is profitable, this will not matter that much.
+
+👇 \n\n---\n\n So, you see? Two different applications where we need different approaches. Sometimes MSE is better and sometimes MAE is better.
+
+👇 \n\n---\n\n And the Huber loss?
+
+It kind of combines the advantages of MAE for outliers and MSE for smoothness. However, it adds complexity with the additional hyperparameter δ. It essentially defines which errors are counted as outliers.
+
+It is one more parameter you need to tune...
+
+👇 \n\n---\n\n Let me summarize
+
+▪️ MSE is good to avoid having large outliers
+▪️ MAE is better if you don't care about the outliers too much
+▪️ The Huber loss behaves like MAE for outliers but is smooth like MSE around 0
+▪️ The Huber loss comes with an additional hyperparameter to tune
+
+👇 \n\n---\n\n I regularly write threads to explain complex concepts in machine learning and web3 in a simple manner.
+
+Follow me @haltakov for more

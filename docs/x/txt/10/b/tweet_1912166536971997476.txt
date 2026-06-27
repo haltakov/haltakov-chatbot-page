@@ -1,0 +1,5 @@
+OpenAI knows A LOT about you from your past conversations.
+
+Now imagine the Ads API that takes as input a product description and a username (email) and generates a personalised ad just for you based on your interests.
+
+I tried it with a Tesla ad and here is what I got  \n\n---\n\n That being said, the models are still a bit stupid. I had to iterate 4 times until the image looked reasonable. The fails are hilarious to be honest 😅 

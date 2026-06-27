@@ -1,0 +1,4 @@
+How I create photo stories from my travel?
+
+I created a new Photos page on my website, where I will share photo stories from my travel. I create these stories with my own open-source tool called Simple Photo Gallery. 
+

@@ -1,0 +1,26 @@
+I've been thinking about the problem that new Twitter accounts have - tweeting and nobody seeing their tweets.
+
+There are many small accounts that have very interesting things to say, but cannot spread their message.
+
+I have an idea... 👇  \n\n---\n\n Idea 💡
+
+A website that shows tweets anonymously. It would work like this:
+▪️ Every day show a fixed selection of tweets (e.g. 100) without showing who tweeted
+▪️ People read the tweets and vote for the good ones
+▪️ On the next day, you see who wrote the tweets you voted for \n\n---\n\n Why anonymous? 🤔
+
+I think this is key! The focus should be *only* on the content of the tweet/thread. It should also be stripped from external links, mentions etc. Just content!
+
+Only on the next day when you see the original tweet, you can go and like it, retweet or follow. \n\n---\n\n Ranking 🔽
+
+The votes can be used to rank the anonymous tweets, similarly to Hacker News, Reddit or Product Hunt. This may cause some problems with discoverability, though... \n\n---\n\n Submitting tweets ✉️
+
+Adding a special hashtag to the tweet will "submit" it for display on the next day. All the tweets will be gathered and a selected subset will be shown. \n\n---\n\n Selection 🔍
+
+This is the tricky part - how to choose the tweets to show. Here some ideas:
+▪️ One account may submit only once per week (or month).
+▪️ Accounts that got lots of upvotes previously get priority.
+▪️ Accounts with low quality content get less priority.
+▪️ Randomizer \n\n---\n\n What do you think❓
+
+I'll be curious to hear your opinion on that! Especially from @svpino, @AlejandroPiad and @christian_fei!

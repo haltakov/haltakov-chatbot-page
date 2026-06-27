@@ -1,0 +1,6 @@
+What a cool application for machine learning - rendering new poses of models to show clothes from different angles.
+
+Not yet perfect (look at the eyes), but really impressive quality overall.
+
+ \n\n---\n\n And here is the original article.
+

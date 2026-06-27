@@ -1,0 +1,1 @@
+This is a finny idea 😃 Using TensorFlow .js to detect if you are wearing a mask or not in your browser!  \n\n---\n\n I played around a bit to find the limits... @preslavrachev it seems you didn‘t have a small RC boat in your negative examples 😂 

@@ -1,0 +1,31 @@
+Math is not very important when you are using a machine learning method to solve your problem.
+
+Everybody that disagrees, should study the 92-page appendix of the Self-normalizing networks (SNN) paper, before using 
+torch.nn.SELU.
+
+And the core idea of SNN is actually simple 👇  \n\n---\n\n SNNs use an activation function called Scaled Exponential Linear Unit (SELU) that is pretty simple to define.
+
+It has the advantage that the activations converge to zero mean and unit variance, which allows training of deeper networks and employing strong regularization.
+
+👇  \n\n---\n\n There are implementations both in PyTorch (torch.nn.SELU) and TensorFlow (tf.keras.activations.selu).
+
+You need to be careful to use the correct initialization function and dropout, but this is well documented.
+
+The code is open-source as well: 
+
+👇 \n\n---\n\n There is complicated math to prove that SNNs have some desirable properties, but you don't need to understand the proof in order to use SNNs on your problem.
+
+Like you don't need to understand assembler in order to write python code.
+
+It's a different level of abstraction 👇 \n\n---\n\n And now if you want to read the paper and particularly the legendary appendix, you can do that here:
+
+
+
+Or simply follow the Appendix on Twitter @SELUAppendix 😂 \n\n---\n\n There seems to be a related discussion on Hacker News (I just saw it, the tweet wasn't inspired by it). There are some interesting opinions there... 😄  \n\n---\n\n I would argue that domain knowledge is way more important than advanced math! Some basic math skill are for sure needed.  \n\n---\n\n This is a good point about intuition and experimentation.
+
+Good example is belief propagation in conditional random fields (CRF). You can prove mathematically that it doesn't work in the general case. However, for typical CV problems, it works well!
+
+ \n\n---\n\n Nice analogy! I fully agree
+
+ \n\n---\n\n On this topic
+

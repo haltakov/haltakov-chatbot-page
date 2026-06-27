@@ -1,0 +1,55 @@
+It sucks if your ML model can't achieve good performance, but it is even worse if you don't know it!
+
+Sometimes you follow all the best practices and your experiments show your model performing very well, but it fails when deployed.
+
+A thread about Sampling Bias 👇 \n\n---\n\n There is a lot of information about rules you need to follow when evaluating your machine learning model:
+
+▪️ Balance your dataset
+▪️ Use the right metric
+▪️ Use high-quality labels
+▪️ Split your training and test data
+▪️ Perform cross-validation
+
+But this may not be enough 👇 \n\n---\n\n A common problem when evaluating an ML model is the Sampling Bias.
+
+This means that your dataset contains more samples of some part of the underlying distribution than others.
+
+Some examples 👇 \n\n---\n\n You are training a computer vision model for traffic light detection.
+
+You have many samples of vertical traffic lights, but you don't include any horizontal traffic lights.
+
+👇 \n\n---\n\n You are training a natural language processing model.
+
+You have samples from many people, but you have no samples from a particular language dialect.
+
+👇 \n\n---\n\n You are training a model to predict housing prices.
+
+You have data from the market for the last 10 years, but you don't have any data after the COVID-19 pandemic started.
+
+👇 \n\n---\n\n What is the problem?
+
+The biggest problem is that you usually don't know you have a problem while evaluating your model.
+
+Your data is correctly split for training and testing, but neither dataset contains the problematic examples.
+
+👇 \n\n---\n\n This means that you will be able to reach high accuracy on your test dataset and even on cross-validation.
+
+However, when you encounter the underrepresented or missing samples in production, your model will fail.
+
+So, what can we do about that? 👇 \n\n---\n\n Know your domain
+
+You need to know your domain very well. You need to understand where the data is coming from, how is it collected, what variations exist in the underlying distribution.
+
+You need to think of ways how to get samples covering all cases.
+
+👇 \n\n---\n\n Be prepared to detect problems in the production
+
+Even with the best preparation, there will be cases you didn't think about. Accept that!
+
+Make sure you have good monitoring of your model to detect when it fails and inspect these cases.
+
+👇 \n\n---\n\n Be prepared to retrain your model
+
+You need to be prepared to iterate. Make sure you can collect additional data from the problematic situations, retrain your model and deploy again. \n\n---\n\n If you liked this thread you will also like the other things I post too. I regularly tweet about similar topics. 
+
+Follow me @haltakov for more!

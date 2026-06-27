@@ -1,0 +1,62 @@
+Is web3 compromising decentralization by using centralized services? 🤔
+
+This is another common critique of web3, because dApps often rely on many centralized services. I want to show you that this is not a problem for the decentralization of what matters.
+
+Thread 🧵
+
+1/nn \n\n---\n\n A recent thread by @cdixon makes a very good point on this topic - what is truly important is decentralizing networks. In Web 2.0 all the data and the resulting network effects belong to a company. In web3 the data is public on the blockchain.
+
+
+
+2/nn \n\n---\n\n @cdixon What this means is that it is much easier to create a competing service in web3 than it is in Web 2.0.
+
+An example I gave you last week is LooksRare - an NFT marketplace competing with the dominant OpenSea. When they launched, they could trade the same NFTs as OpenSea!
+
+3/nn \n\n---\n\n @cdixon This is possible because all NFT data is stored on the blockchain. Imagine launching a Facebook clone and asking Facebook to give you access to their social graph for you to kick it off 😂
+
+Facebooks owns the network and this is what makes their moat so powerful.
+
+4/nn \n\n---\n\n @cdixon However, just because something is possible, it doesn't mean it is actually happening. So let's take a look at some important services of the crypto ecosystem.
+
+▪️ Marketplaces
+▪️ Node service providers
+▪️ Metadata providers
+▪️ Community communication
+
+5/nn \n\n---\n\n @cdixon Marketplaces
+
+I already gave an example with LooksRare as a successful competitor marketplace to the very dominant OpenSea. We are seeing other marketplaces popping up every week now, like OnSecondary, Genie, Inifinity, or Vaportrade. Some collections also build their own.
+
+6/nn \n\n---\n\n @cdixon Node Service Providers
+
+If you want to access the blockchain, you either have to run your own full node or use a node service provider like Alchemy or Infura. Contrary to some popular beliefs, there are many alternatives to these 2 companies:
+
+
+
+7/nn \n\n---\n\n @cdixon Metadata Providers
+
+Many dApps use the OpenSea API to fetch metadata for NFT collections like descriptions and images, which makes OpenSea a single point of failure. In many cases, OpenSea even caches the images from IPFS to their own servers.
+
+8/nn \n\n---\n\n @cdixon There are not many alternatives here at the moment, but people are working on different variants, like for example @graphprotocol.
+
+Again, all the data is available on-chain, so it is "just" a matter of implementation.
+
+9/nn \n\n---\n\n @cdixon @graphprotocol Community Communication
+
+Many crypto communities use Discord as their primary means of communication and Discord is a centralized service.
+
+I see this as one of the biggest problems at the moment - web3 communication protocols like @xmtp_ are still under development.
+
+10/nn \n\n---\n\n @cdixon @graphprotocol @xmtp_ If Discord decides to ban a specific server the damage will likely be severe. While the community will likely manage to organize again around different channels like Twitter or Telegram, a lot of information will be lost.
+
+This is where better alternatives are needed!
+
+11/nn \n\n---\n\n @cdixon @graphprotocol @xmtp_ Building a project in a fully decentralized fashion is difficult. You have to choose which parts to keep on-chain and which ones are not so critical.
+
+In this way, when a centralized service behaves badly, you can switch to a competitor taking all your data with you!
+
+12/nn \n\n---\n\n @cdixon @graphprotocol @xmtp_ This thread is a part of a series where I comment on common criticism about web3 and decentralization. I strive to have an honest conversation without "NGMI" on one side and "All crypto is a scam" on the other.
+
+Context: 
+
+Follow me @haltakov for more

@@ -1,0 +1,8 @@
+If you are using PyTorch on Google Colab and you happen to get an A100, make sure you install the latest CUDA version and restart your runtime.
+
+This solves a bug in cudnn that causes huge slowdowns on the A100!
+
+You are welcome!  \n\n---\n\n Here the full command to copy/paste:
+
+pip3 install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio==0.10.0+cu113 -f  \n\n---\n\n And yeah, you can get an A100 (at least on Colab Pro+)
+

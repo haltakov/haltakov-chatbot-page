@@ -1,0 +1,5 @@
+Sampling bias in the wild
+
+This model can have a 99.999% accuracy, on a perfectly labeled and balanced dataset on which you performed 100 fold cross-validation following all the best practices.
+
+However, if you didn't include rugs with black stripes, it will still fail in reality 

@@ -1,0 +1,38 @@
+Open-Source Self-Driving Car Simulators 🕹️ 🚙 
+
+You want to play around with self-driving car software and gather some experience? Check out these open-source self-driving car simulators!
+
+Details below 👇 \n\n---\n\n CARLA
+
+CARLA is a great software developed by Intel. You can use it to work on any step of the pipeline, model different sensors, maps, traffic. It also integrates with ROS.
+
+ \n\n---\n\n Deepdive from Voyage
+
+Another great simulator by Voyage - the self-driving company that was recently acuired by Cruise. It is built on the Unreal Engine and supports lots of features.
+
+ \n\n---\n\n Microsoft AirSim
+
+This one comes from Microsoft and soofers simulation for both drones and cars. It gives you control to the vehicle perception and control and makes it easy to record training data.
+
+ \n\n---\n\n SVL Simulator
+
+This is a professional simulator by LG Electronics America, but it also offers a free version. 
+
+ \n\n---\n\n Gym-Duckietown
+
+This is a fun simulator for Duckietown. Duckietown is a non-profit foundation that promotes robotics and AI. You can actually buy the physical Duckiebot and the Duckietown world!
+
+ \n\n---\n\n Udacity's Self-Driving Car Simulator
+
+It is developed for the Udacity Self-Driving car nanodegree program, but you can use it on your own as well.
+
+  \n\n---\n\n If you liked this thread and want to read more about self-driving cars and machine learning give me a follow! 👍
+
+I have many more threads like this planned 😃 \n\n---\n\n Here I wrote about open-source self-driving simulators, but there are also many commercial solutions.
+
+This one from Nvidia is amazing!
+
+
+
+ \n\n---\n\n  \n\n---\n\n And here one simulator if you want to go offroad. It is free for non-commercial use. Thanks @dcarruth!
+

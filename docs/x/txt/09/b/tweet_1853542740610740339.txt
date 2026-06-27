@@ -1,0 +1,3 @@
+TIL there is a yamlencode function in Terraform that lets you input JSON and transforms it in YAML.
+
+Every programming language needs this!

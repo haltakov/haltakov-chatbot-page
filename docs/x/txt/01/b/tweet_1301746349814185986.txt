@@ -1,0 +1,36 @@
+How to quickly create a minimal static site with a blog using Pelican? 🚀
+
+Pelican (@getpelican) is a static site generator written in Python, which makes it easy to create a blog or a landing page.
+
+Read how you can quickly start with Pelican 👇
+
+ \n\n---\n\n 1. Install pelican
+
+Installing Pelican is very easy using pip. It supports both Markdown and reStructuredText for writing blog articles, but I prefer Markdown.  \n\n---\n\n 2. Create a Pelican project 
+
+Create a new project by typing pelican-quickstart in the terminal. You will then need to answer a couple of questions like website and author name, URL etc. Don't worry - you can always change these settings in the config files later.  \n\n---\n\n 3. Check your project structure
+
+You now have the following structure:
+▪️ content - blog articles (Markdown)
+▪️ themes - website templates (Jinja2)
+▪️  - configuration file
+▪️  - publishing configuration
+▪️ output - generated files \n\n---\n\n 4. Disable unneeded features
+
+When building something I like to start with a minimal version and build on top of it. That's why I recommend leaving only the most important features turned on in the beginning. You can disable features in the  file.  \n\n---\n\n 5. Choose a theme
+
+There are more than 100 predefined themes you can use to get started quickly. Browse through the gallery and see if you find something you like. You can even start with the default theme and customize the design yourself.
+
+ \n\n---\n\n 6. Customizing the templates
+
+The most important templates that you will likely want to customize in the beginning are the following:
+▪️ base.html - main template used for every page
+▪️ index.html - start page of your blog
+▪️ article.html - template for rendering articles \n\n---\n\n 7. Creating pages
+
+By default Pelican gives you the structure for a blog. You can create static pages outside of the blog as well. I usually want the index page to be some kind of a landing page, while the blog is moved to &lt;domain&gt;/blog/. You can easily configure this:  \n\n---\n\n 8. Writing an article
+
+Once everything is setup, writing an article is easy - just add a new .md file in the content folder. Your file should start with a header specifying some important metadata, like title, date and a short summary.  \n\n---\n\n 9. Publishing your site
+
+While you are working on your site or writing articles you can start a local server to preview the changes. Once you are ready you can use the publish command to generate the production HTML files.  \n\n---\n\n Static sites created with Pelican can be easily deployed on any hosting provider, but the integration with @Netlify is especially easy. I will write more about it in one of my next threads. \n\n---\n\n I have also written a more in-depth tutorial how to setup a new site with Pelican. It describes the process I used to create . You can also find the code of the site and the minimal theme I created for it on GitHub.
+

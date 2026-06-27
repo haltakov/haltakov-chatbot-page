@@ -1,0 +1,13 @@
+Which voice do you like most?
+
+I spent a lot of time to find a good text-to-speech model with a child. ElevenLabs does it, but they are super expensive...
+
+Now, thanks to Cursor and Claude 3.7 I managed to modify the adult voice to sound like a child.
+
+This is ElevenLabs
+
+1/3  \n\n---\n\n This is OpenAI Audio Preview with browser based child voice transformation
+
+2/3  \n\n---\n\n And this is Google TTS (Neural2 engine) with browser based child voice transformation
+
+3/3 

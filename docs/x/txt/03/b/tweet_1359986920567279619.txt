@@ -1,0 +1,12 @@
+Search inside YouTube videos using natural language 🗣️🔎📺
+
+This is my new project, which allows you to search for particular moments in any YouTube video using natural language search queries. It is again powered by @OpenAI's CLIP model.
+
+
+
+👇 Examples 👇 \n\n---\n\n I took a dashcam video of a car driving for an hour around San Francisco and played around with searching for some interesting situations.
+
+ \n\n---\n\n "A fire truck"  \n\n---\n\n "Green bike lane"  \n\n---\n\n "A street with tram tracks"  \n\n---\n\n "Road works"  \n\n---\n\n You can try it yourself directly on Google Colab with any YouTube video and any search query!
+
+Please share your experiments! 😃
+

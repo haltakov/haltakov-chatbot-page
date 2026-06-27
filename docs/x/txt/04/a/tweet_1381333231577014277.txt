@@ -1,0 +1,1 @@
+It is a web app that simulates the Samsung S21 user interface on your iPhone so you can try it out. You can even launch and try out many of the apps.

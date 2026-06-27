@@ -1,0 +1,45 @@
+Sensors for self-driving cars  🎥 🧠 🚙 
+
+There are 3 main sensors types used in self-driving cars for environment perception:
+▪️ Camera
+▪️ Radar
+▪️ Lidar
+
+They all have different advantages and disadvantages. Read below to learn more about them.
+
+Thread 👇 \n\n---\n\n 1️⃣ Camera
+
+The camera is arguably the most important sensor - the camera images contain the most information compared to the other sensors.
+
+Modern cars across all self-driving levels have many cameras for a 360° coverage:
+▪️ BMW 8 series - 7
+▪️ Tesla - 8
+▪️ Waymo - 29  \n\n---\n\n This is an example from Tesla of what a typical camera sees and detects in the scene. Videos from other companies look very similar.
+
+ \n\n---\n\n 2️⃣ Radar
+
+The radar is one of the oldest sensors used for automation - it is used since 1999 for adaptive cruise control.
+
+It uses the Doppler effect to measure distance and relative velocity to other objects and is very accurate.
+
+Again, modern cars usually have several radars.  \n\n---\n\n Classical radars have fairly low resolution and the raw data is difficult to interpret visually. There is a new generation of imaging radars that promise much better resolution!
+
+Take a look at this video to get an intuition what a radar "sees".
+
+ \n\n---\n\n 3️⃣ Lidar
+
+This is the hot topic in self-driving cars currently!
+
+A laser scanner shoots multiple rays measuring distance to objects and they do this very accurately.
+
+360° lidars are typical for L4 cars, but smaller lidars are already being integrated into production cars.  \n\n---\n\n There are many companies now working on solid state lidars that can be easily integrated in the grill of a car.
+
+Take a look at this video to see how the point cloud from such a lidar looks like.
+
+ \n\n---\n\n Comparison 🔀 
+
+There is no perfect sensor - each of them has its own advantages and disadvantages! Take a look the the table below for a comparison.
+
+The best way is to combine all of them for maximum redundancy and robustness! No everybody agrees to that, though... 🤷‍♂️  \n\n---\n\n If you liked this thread and want to read more about self-driving cars and machine learning follow me @haltakov!
+
+I have many more threads like this planned 😃

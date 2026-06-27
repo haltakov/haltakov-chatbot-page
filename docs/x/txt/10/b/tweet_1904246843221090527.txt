@@ -1,0 +1,5 @@
+What is the best way the define what an application does?
+
+With traditional programming we describe it using code in a programming logic. Bugs often come from not describing properly to the machine what we want.
+
+With vibe coding we describe the functionality in English and bugs…

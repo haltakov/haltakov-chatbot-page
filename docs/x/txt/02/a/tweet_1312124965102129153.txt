@@ -1,0 +1,7 @@
+I wanted to test this bias on Twitter and asked you to play a game yesterday. The goal was to guess a rule that applies to a sequence of 3 numbers. 
+
+People could give me other sequences and I would tell them it the rule applies or not.
+
+ \n\n---\n\n Check out the replies and you'll see people that gave sequences to which I only answered with "yes" and they then tried to guess the rule. However, they didn't ask a sequences, where they expected a "no", just to test the opposite, which suggests a confirmation bias 😗 \n\n---\n\n See more details about confirmation bias in my recent thread:
+
+ \n\n---\n\n The rule was simply, that every number should be bigger than the previous one.

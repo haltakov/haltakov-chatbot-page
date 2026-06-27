@@ -1,0 +1,5 @@
+Let me show you the importance of context in computer vision 🧑‍🏫
+
+There are many cases in which looking at a small portion of the image will not tell you the whole story. You need step back and look at the big picture!
+
+Here is an example - can you say what this images are? 

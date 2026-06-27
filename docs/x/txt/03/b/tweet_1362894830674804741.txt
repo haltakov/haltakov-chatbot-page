@@ -1,0 +1,28 @@
+How do you choose the kernel size in a CNN? 🤔
+
+Choose 3×3 and go deeper...
+
+Let me explain. Thread 👇  \n\n---\n\n Receptive field 📣👁️
+
+The receptive field of a neuron in a CNN is the size of the original image that contributes to the input of the neuron.
+
+In the first convolutional layer the receptive field equals the kernel size. Going deeper in the network, the receptive field increases. \n\n---\n\n Deeper instead of Wider ↕️ vs ↔️
+
+You can replace a layer with 5×5 convolution filters with two layers of 3×3 convolutional filters.
+
+Look at the image to see how the receptive field remains the same.
+
+Taking 3 layers of 3×3 will give you a 7×7 receptive field and so on.  \n\n---\n\n Parameters count 🔡
+
+The big advantage? Much less parameters!
+
+▪️ 5×5 convolution will require 25 parameters.
+▪️ Two 3×3 convolutions require 2*9 = 18 parameters.
+
+This is a reduction of 28% 📉
+
+For 7×7 the reduction is 45% and for 11×11 we save 70% of the parameters. \n\n---\n\n Different architectures 🏛️
+
+AlexNet used fairly big convolutions (11×11), but after VGG in 2014 3×3 kernels became much more popular. 
+
+Many of the problems of training very deep networks are solved nowadays, so this is a good option. \n\n---\n\n There are network architectures that try to combine different kernel sizes (Inception net) or create feature pyramids (Retina net), but 3×3 seems to work very well enough if you can use more layers... 🤷‍♂️

@@ -1,0 +1,3 @@
+Just setup a VPS from @Hetzner_Online and installed @coolifyio and I'm blown away!
+
+For the past several years I've deployed many apps on AWS, GCP, Azure, Digital Ocean, Vercel and Netlify and honestly this setup is on par with the best, but so much cheaper.

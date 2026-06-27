@@ -1,0 +1,3 @@
+Just learned about @grapesjs - an awesome open-source and free Web Builder.
+
+It seems it can be used as a free alternative to Framer/Webflow. You can use it to build a landing page and then export it as static files and then self-host it. \n\n---\n\n 

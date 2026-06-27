@@ -1,0 +1,13 @@
+Confirmation bias - an important type of cognitive bias! 🧐
+
+When we have a theory about something, we often start looking for information that confirms it, without testing if it could be wrong.
+
+Confirmation bias has real impact on our lives so we need to be aware of it👇  \n\n---\n\n Example when coding 💻
+
+When we write tests for our code, we often focus on creating test cases that show the intended behavior of the code, but we often forget to write negative tests. That's why it is a good idea to do TDD (it won't always be a solution, but it helps). \n\n---\n\n Example when shopping 🛍️
+
+When we want to buy some product that you like, we start looking for reviews where the product performs well. If we see a negative review, we usually find a reason, why it is not representative. \n\n---\n\n Example when driving a car 🚗
+
+When in traffic jam, we always seem to be stuck in the slowest lane, right? This is because we focus on a particular moment when it was true, but ignore all the other time that we are actually moving faster. \n\n---\n\n Example when we have an idea 💡
+
+We want the idea to be good so we start looking for facts that support it. It is useful to put ourselves in the shoes of somebody that thinks the idea is bad and try to find arguments against it. \n\n---\n\n Not being aware of confirmation bias in our choices, often leads us to take wrong decisions. It is useful to consciously think about it and try to avoid it by looking at things from different sides. 👍👎

@@ -1,0 +1,17 @@
+Things are getting more and more interesting for AI-generated images! 🎨
+
+GLIDE is a new model by @OpenAI that can generate images guided by a text prompt. It is based on a diffusion model instead of the more widely used GAN models.
+
+Some details 👇  \n\n---\n\n @OpenAI GLIDE also has the interesting ability to perform inpainting allowing for some interesting usages.
+
+👇  \n\n---\n\n @OpenAI Here is the full paper
+
+
+
+👇 \n\n---\n\n @OpenAI Code and an (unfortunately small) pre-trained model on GitHub:
+
+
+
+👇 \n\n---\n\n @OpenAI You can check out some people experimenting with it already under the #glide hashtag.
+
+I'll play around with it as well in the next few days... 😀

@@ -1,0 +1,17 @@
+First officially approved Level 3 self-driving system in Germany.
+
+This is significant because it is the first time an autonomous system that takes the *driving responsibility* from the driver is approved for mass production!
+
+
+
+👇 \n\n---\n\n The main difference between Level 2 and Level 3 systems is that self-driving systems become legally responsible for the actions of the cars when in autonomous mode!
+
+All driver assist systems on the market now (including Tesla) are Level 2 systems.
+
+
+
+👇 \n\n---\n\n While Waymo and Cruise have Level 4 systems running as a beta in some cities, there are different challenges putting this tech in consumer vehicles and in cars that don't have a huge sensor rack costing tens of thousands of dollars on the roof.
+
+👇 \n\n---\n\n Sure, the use-cases of Mercedes' system are very limited - it only works in traffic jams on the Autobahn, but if you think about it, these are really the cases where you need self-driving most.
+
+It will be interesting to see how this develops and how accidents are handled!

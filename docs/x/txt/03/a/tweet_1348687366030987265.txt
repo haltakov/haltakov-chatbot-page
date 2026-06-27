@@ -1,0 +1,8 @@
+Machine Learning Interview Question #4 🧠🤖🧐
+
+Digging deeper into deep learning... 
+
+❓ What are common challenges encountered during training of a deep neural network? How can you solve them? ❓
+
+Answer in the replies. Read the rules  👇 \n\n---\n\n  \n\n---\n\n And here my answer...
+

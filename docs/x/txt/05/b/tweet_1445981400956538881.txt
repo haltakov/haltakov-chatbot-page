@@ -1,0 +1,25 @@
+How fast can you label images? 🏎️
+
+I'm labeling images of birds and not-birds for my machine learning course. My average velocity:
+
+▪️2.4 images per second with a good tool
+▪️3.2 images per second with a good pre-labeling pipeline
+
+Pre-labeling made this task 33% faster/cheaper! \n\n---\n\n There is almost always a way to do some pre-labeling.
+
+I have two stages:
+1. User-generated tags on the photos
+2. Running YOLO to detect birds
+
+It makes it much easier to review photos of mostly birds and then photos of mostly not-birds.
+
+ \n\n---\n\n I'm using a tool that Intel developed and open-sourced. It's called CVAT - 
+
+It takes care of prefetching and caching. After that, it is one image at a time, but you can flip them very fast!
+
+ \n\n---\n\n It is just a binary label bird or no-bird. CLIP is definitely a good idea as a kind of a better classifier than YOLO for this case.
+
+My main point here is to show how a specific tool is used (CVAT) and YOLO is built in there.
+
+ \n\n---\n\n Interesting question! One possible way would be to run an object detector (like YOLO) and then check if the bounding box is wider (bird flying) or higher (bird not flying).
+

@@ -1,0 +1,23 @@
+Self-driving car engineer roles - Big Data Engineer 💽
+
+Self-driving cars have lots of cameras, lidars and radars. Waymo currently has 29 cameras on a single vehicle! The cars generate huge amounts of data, easily more than 1 GB/s. This data needs to be processed...
+
+Thread 👇 \n\n---\n\n Problems to work on 🤔
+
+The big data engineer needs to design and implement efficient storage and data processing pipelines to handle such large amounts of data.
+
+The data also needs to be made available to the developers in a way that they can efficiently get to what they need. \n\n---\n\n Data 💾
+
+Imagine that the self-driving car is recording data at a rate of 1 GB/s. Going on a test drive for 4 hours means that you'll collect more than 14 TB of data!
+
+There are specialized loggers that can handle such rates, like this beast for example:  \n\n---\n\n Data Centers 💿📄
+
+The processing of such amounts of data happens in distributed data centers. Here are some technologies that are commonly used:
+▪️ Kubernetes (container orchestration)
+▪️ Hadoop (storage and processing)
+▪️ Spark (compute)
+▪️ Airflow (orchestration)  \n\n---\n\n Required knowledge 📚
+
+If you have experience with processing of huge amounts of data you have a good chance of entering the industry. Experience with any of the technologies above or similar ones will help you! \n\n---\n\n Programming language 💻
+
+This depends on the stack a particular company is using, but Java and Scala are popular languages for many of the Big Data frameworks. Python is also used for analyzing data. You may also need to use C++ for code that needs to run in an efficient manner.

@@ -1,0 +1,7 @@
+Cognitive bias demo - let's play a little game! 🧐
+
+I have a simple mathematical rule in mind which applies to the number sequence 2, 4, 8
+
+You can ask me about any 3 number sequence and I'll reply if the rule applies to it or not. Ask as much as you want and then guess the rule. \n\n---\n\n Use the reply function to ask about sequences and once you are ready, just reply with the rule you think I had in mind.
+
+If you know the game, please don't tell the answer yet! You'll have the change later, once I explain the cognitive bias.

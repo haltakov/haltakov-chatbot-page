@@ -1,0 +1,1 @@
+I explained *how* the Mean Squared Error works last week. Now, if you want to know *why* it is defined like that, check this thread by @TivadarDanka 👇 

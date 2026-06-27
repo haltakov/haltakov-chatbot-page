@@ -1,0 +1,11 @@
+Here some more examples for my new project searching photos on @unsplash using natural language
+
+
+
+Examples 👇 \n\n---\n\n "An Italian square with a fountain"
+
+Original search results for "Italy" and the top 3 matches.  \n\n---\n\n "Sunset on a beach with palms"
+
+Original search results for "beach" and the top 3 matches.  \n\n---\n\n "A cat laying in the sun"
+
+Original search results for "cat" and the top 3 matches. 

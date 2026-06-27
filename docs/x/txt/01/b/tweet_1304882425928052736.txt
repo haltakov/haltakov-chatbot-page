@@ -1,0 +1,7 @@
+Yesterday I asked the question below and got some very interesting answers!
+
+@svpino suggested several approaches to focus on the end problem directly: 
+
+@AlejandroPiad suggested using the theoretical framework  AutoML: 
+
+My take 👇  \n\n---\n\n In such situations it is difficult to tune the ML algo by evaluating its output alone. A problem of the model (a FN or a FP) may or may not cause problems in the final result. This depends on many factors and the exact implementation of the function logic. \n\n---\n\n In the self-driving car example, a FN of a red traffic light may lead to an accident if the car enters the junction on red. However, if the ML classifier misses only 1 out of 4 red traffic lights at the junction it is not a big deal. Not all FNs are equal! \n\n---\n\n One possible approach that I always found useful is to measure the performance on the application level. Did the car stop correctly at the red light (TP) or did it run the red light (FN)? This gives us a new way to measure how changes of the ML model affect the final result.

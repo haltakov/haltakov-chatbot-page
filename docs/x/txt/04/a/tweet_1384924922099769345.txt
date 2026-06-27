@@ -1,0 +1,50 @@
+Computer vision for self-driving cars 🧠 🚙 
+
+There are different computer vision problems you need to solve in a self-driving car.
+
+▪️ Object detection
+▪️ Lane detection
+▪️ Drivable space detection
+▪️ Semantic segmentation
+▪️ Depth estimation
+▪️ Visual odometry
+
+Details 👇  \n\n---\n\n Object Detection 🚗🚶‍♂️🚦🛑 
+
+One of the most fundamental tasks - we need to know where other cars and people are, what signs, traffic lights and road markings need to be considered. Objects are identified by 2D or 3D bounding boxes.
+
+Relevant methods: R-CNN, Fast(er) R-CNN, YOLO  \n\n---\n\n Distance Estimation 📏 
+
+After you know what objects are present and where they are in the image, you need to know where they are in the 3D world.
+
+Since the camera is a 2D sensor you need to first estimate the distance to the objects.
+
+Relevant methods: Kalman Filter, Deep SORT  \n\n---\n\n Lane Detection 🛣️ 
+
+Another critical information the car needs to know is where the lane boundaries are. You need to detect not only lane markings, but also curbs, grass edges etc.
+
+There are different methods to do that - from traditional edge detection based methods to CNNs.  \n\n---\n\n Driving Path Prediction ⤴️ 
+
+An alternative is to train a neural network that will directly output the trajectory that the car needs to drive. This can be used as a substitute to centering between the lane markings if they are not visible for example.  \n\n---\n\n Drivable Space Detection ⭕️
+
+The goal here is to detect which parts of the image represent the space where the car can physically drive onto.
+
+The methods here are usually very similar to the semantic segmentation methods (see below).  \n\n---\n\n Semantic Segmentation 🎨
+
+Not all parts of the image can be described by a bounding box or a lane model, e.g. trees, buildings, the sky. Semantic segmentation methods classify each pixel in the image.
+
+Relevant methods: Fully Convolutional NN, UNet, PSPNet  \n\n---\n\n Depth Estimation 📐
+
+The goal is to estimate the distance to every pixel in the image, in order to have a better 3D model of the surrounding.
+
+Methods like stereo and structure-from-motion are now being replaces by self-supervised deep learning models working on single images.  \n\n---\n\n Visual Odometry 🎥 
+
+While we know the movement of the car from the wheel sensors and IMU, determining the actual movement in the camera can be more accurate to get the pitch angle for example.
+
+The visual odometry estimates the 6 DoF movement of the camera between two frames.  \n\n---\n\n Summary 🏁 
+
+There are of course many other computer vision problems that may be helpful, but this thread will give you an overview of the most important ones.
+
+As you see, nowadays, deep learning methods (and especially CNNs) dominate all aspects of computer vision... \n\n---\n\n If you liked this thread and want to read more about self-driving cars and machine learning follow me @haltakov!
+
+I have many more threads like this planned 😃

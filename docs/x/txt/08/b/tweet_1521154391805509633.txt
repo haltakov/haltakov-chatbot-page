@@ -1,0 +1,10 @@
+Tobi was training a spam classification model for emails.
+
+He was looking at the recall and his model performed very well on the test data. He pushed the model to production.
+
+Where is Tobi going?
+
+1. Hell
+2. Special place in hell
+3. Employment agency
+4. Jobs .com 

@@ -1,0 +1,8 @@
+Don't rush training your machine learning model - get to know your data first! 💽
+
+👇 \n\n---\n\n I started experimenting with the @unsplash dataset, so I first want to understand the data it contains.
+
+Check out my Jupyter Notebook where I explore the downloads vs. views ration as a proxy for how good a photo is.
+
+ \n\n---\n\n Here some more info about the Unsplash dataset - there is some very interesting data in there... 🤤
+

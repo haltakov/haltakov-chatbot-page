@@ -1,0 +1,3 @@
+Math in Machine Learning is essential!
+
+...when developing new cutting edge methods.

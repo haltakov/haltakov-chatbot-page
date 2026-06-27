@@ -1,0 +1,20 @@
+Super interesting interview by @benthompson with @sama. My high-level takeaways:
+
+- Sign in with OpenAI
+- Open-source models from OpenAI
+- GPT-5 coming soon
+
+Let's see in details 👇 \n\n---\n\n Sign in with OpenAI
+
+I've been thinking about this for some time and it seems OpenAI is working on that. The idea is that an app signs you in with your OpenAI account (like OAuth) and then can use your OpenAI subscription and benefit from the memory and custom rules you have
+
+👇 \n\n---\n\n Open-source models from OpenAI
+
+There were strong hints that OpenAI will soon release an open-source model. Seems OpenAI was annoyed that DeepSeek got so much attention mostly because they were free to use and many people got to experience it and not because they were better
+
+👇 \n\n---\n\n GPT-5 coming soon
+
+Also strong hints that GPT-5 will be available soon. Remember, GPT-4 came shortly after GPT-3.5. According to Sam, this was so that they don't release too much new stuff at once. Maybe OpenAI wants to ship some new feature before the big GPT-5 release?
+
+👇 \n\n---\n\n And here is a link to the interview:
+

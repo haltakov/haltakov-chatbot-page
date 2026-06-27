@@ -1,0 +1,8 @@
+Hey ML engineers, are you suffering from Modelitis?
+
+The shift from a model-centric to a data-centric approach to AI is getting steam. Check out this new community on Github providing resources around data-centric AI.
+
+ \n\n---\n\n Another good resource to learn more about this topic is the Data-Centric AI Competition by @AndrewYNg.
+
+ \n\n---\n\n And be assured - I'm going to talk a lot about this in my upcoming machine learning course! \n\n---\n\n No, unfortunately not. I wanted to do it and even downloaded the dataset to take a look, but didn't have time to participate.
+

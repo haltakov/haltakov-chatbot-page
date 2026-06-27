@@ -1,0 +1,14 @@
+You are the girl from this @xkcd comic. You need to build a machine learning model that tells you if a photo is of a bird or not.
+
+How are you going to collect and label the dataset?  \n\n---\n\n This is a good approach! However, your model will make many mistakes. How will you deal with that?
+
+ \n\n---\n\n This is an interesting question... Do birds in national parks look different than found in random images on the Internet? This could lead to sampling bias if not done correctly.
+
+What would you do to answer this question?
+
+ \n\n---\n\n This is a fine approach. How would you deal with wrong labels though?
+
+ \n\n---\n\n Sounds very good! One question, though - you cay you are cropping the birds if they are too small. But what do you do when you deploy your model then when the images are not cropped?
+
+ \n\n---\n\n How would you do the feature extraction?
+

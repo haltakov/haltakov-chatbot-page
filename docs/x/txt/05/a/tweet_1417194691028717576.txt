@@ -1,0 +1,2 @@
+This is a beginner-friendly course on PyTorch coning from Microsoft. Looks really great to me! 😃
+

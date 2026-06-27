@@ -1,0 +1,8 @@
+Two talks I gave at the @EmbVisionSummit in May are now available for free!
+
+I talked about the challenges of curating a good dataset and about evaluating a model's performance depending on the application.
+
+Links below 👇  \n\n---\n\n "Data Collection in the Wild"
+
+ \n\n---\n\n "Is my model performing well? It depends..."
+

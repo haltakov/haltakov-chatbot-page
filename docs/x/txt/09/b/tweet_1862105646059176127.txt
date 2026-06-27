@@ -1,0 +1,1 @@
+When you can load test your server using manually submitted requests, you are doing something very wrong

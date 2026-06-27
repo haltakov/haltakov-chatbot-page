@@ -1,0 +1,6 @@
+Machine learning jargon explained 🧑‍🏫
+
+What are 𝗽𝗮𝗿𝗮𝗺𝗲𝘁𝗲𝗿𝘀 and 𝗺𝗼𝗱𝗲𝗹 𝗽𝗮𝗿𝗮𝗺𝗲𝘁𝗲𝗿𝘀? What is the difference between them?
+
+Thanks to @SeguraAndres7 for the contribution!  \n\n---\n\n For more explanations of machine learning and math terms check out my new project Suboptimal on GitHub:
+

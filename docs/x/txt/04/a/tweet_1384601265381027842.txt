@@ -1,0 +1,14 @@
+Interesting results from the small experiment... 😄 
+
+This was actually a study reported in a Nature paper. Most people offer additive solutions (adding bricks) instead of substractive solutions (removing the pillar).
+
+More details 👇 
+
+ \n\n---\n\n In this example, the most elegant solution is to remove the pillar completely and let the roof lie on the block. It will be simpler, more stable and won't cost anything.
+
+Some people quickly dismiss this option assuming this is not allowed, but it actualy is 😃 \n\n---\n\n This isn't because people don't recognize the value, but because many don't consider the substractive solution at all. Me included 🙋‍♂️ 
+
+The paper shows that this happens a lot in real life, especially in regulation. People tend to add new rules, instead of removing old ones. \n\n---\n\n I see this a lot in software development as well. People often tend to start adding new features, instead of refactoring the existing functionality and throwing away a big part that is not needed anymore.
+
+Always think about the substractive solution! \n\n---\n\n Here is a blog post on Nature describing everything in more details.
+

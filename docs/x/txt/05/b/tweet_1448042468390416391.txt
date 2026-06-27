@@ -1,0 +1,6 @@
+Decentralized Autonomous Artist 🎨
+
+The @bottoproject is such a cool idea! It creates AI-generated images (CLIP+VQGAN) and sells them as NFTs.
+
+The nice thing is that the community can vote to change the style of the art using the BOTTO token.
+

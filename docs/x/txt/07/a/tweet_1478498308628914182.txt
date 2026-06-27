@@ -1,0 +1,6 @@
+ENS domains (Ethereum Name Service) connect your public wallet address to a name. You can use your .eth domain wherever you use your wallet address.
+
+You can also provide additional information like website, Twitter account etc.
+
+You give your wallet an identity!  \n\n---\n\n You can buy them from  - they are cheap, but unfortunately have high gas fees because they store a lot of information on chain. \n\n---\n\n Oh and .eth domains are NFTs 😉
+

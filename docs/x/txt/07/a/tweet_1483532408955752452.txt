@@ -1,0 +1,57 @@
+The Internet is already decentralized, why do we need web3? 🤔
+
+This is a common critique of web3. However, decentralization on its own is not always enough - sometimes we need to agree on a set of facts.
+
+Blockchains give us a consensus mechanism for that!
+
+Thread 🧵
+
+1/12 \n\n---\n\n The Internet is built of servers that communicate using open protocols like HTTP, SMTP, WebRTC etc. Everybody can set up a server and participate. It is decentralized!
+
+However, if two servers distribute contradicting information, how do you know which one is right?
+
+2/12 \n\n---\n\n This is what blockchains give us, a way for decentralized parties to agree on one set of facts. They offer a consensus mechanism!
+
+Imagine the blockchain as a global public database that anybody can read and nobody can falsify - every transaction/change needs to be signed.
+
+3/12 \n\n---\n\n Consensus mechanisms like Proof-of-Work (Bitcoin, Ethereum) and Proof-of-Stake (Tezos, Polygon, Ethereum 2.0) allow all participants in the blockchain network to verify all changes and guarantee that nobody is cheating (for example by double-spending coins).
+
+4/12 \n\n---\n\n Of course, many applications don't need that, and supporting this database is not easy (more on that tomorrow).
+
+However, when talking about ownership of digital assets, I really don't want to be dependent on a single company. Let me give you an example...
+
+5/12 \n\n---\n\n Hic Et Nunc is the biggest NFT marketplace on the Tezos blockchain. The founder decided to destroy it and did as much damage as possible.
+
+The website was down, but all ownership information is on the blockchain, so he couldn't delete it. People didn't lose their NFTs.
+
+6/12 \n\n---\n\n Because the website was open source, the community got new forked versions up and running in less than 24 hours. Everything was there. No assets were lost.
+
+Now imagine what will happen if the founder of your favorite startup decides to destroy it...
+
+7/12 \n\n---\n\n Another example - many people in the Ethereum community are not happy with the largest exchange OpenSea. So they build new exchanges - we see new launches all the time!
+
+They trade the same NFTs, because they are stored on the blockchain, not in the OpenSea database.
+
+8/12 \n\n---\n\n You are not happy with Facebook?
+
+Well, good luck setting up a competing website reusing the social graph of Facebook. The data is stored in the centralized Facebook database. And if they decide to close down your account - you are again out of luck.
+
+9/12 \n\n---\n\n Another point against web3 is that it is too difficult for people to run their own node validating the blockchain and that people don't want to run their own servers.
+
+This is true and this is fine. As a web 2.0 app user you also don't need to run your servers, right?
+
+10/12 \n\n---\n\n There are different layers. While it is important that some parties (miners, bakers) take care of validating the blockchain. There are people that want to do that and that can profit from it.
+
+People building and using web3 apps don't need to worry about that.
+
+11/12 \n\n---\n\n To summarize, web3 gives us more than decentralization - it gives us a way to agree on a common set of facts, like who owns which token.
+
+And you don't need to do everything yourself - you need to make sure the really important information is stored on-chain!
+
+12/12 \n\n---\n\n This thread is a part of a series where I comment on common criticism about web3 and decentralization. I strive to have an honest conversation without "NGMI" on one side and "All crypto is a scam" on the other.
+
+Context: 
+
+Follow me @haltakov for more \n\n---\n\n Yes, this is exactly right - it is called the 51% attack. The thing is that if you control 51% of the network, you can generate more profit from mining rewards than you will get by falsifying the latest blocks (and there are limits to what you can do).
+
+ \n\n---\n\n More on this in the following article if you are interested: 

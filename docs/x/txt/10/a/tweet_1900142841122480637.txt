@@ -1,0 +1,1 @@
+Always commit your code before asking Cursor Agent to modify it! Thank me later!

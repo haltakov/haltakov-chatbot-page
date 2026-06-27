@@ -1,0 +1,7 @@
+During our call last week there was a question about ideas for projects to get started with ML/CV.
+
+I suggested to start with a project related to your personal interests. Let me know what you are passionate about and I'll help you with ideas 👇
+
+ \n\n---\n\n For example, I'm interested in photography. I recently found the Unsplash dataset that contains high-quality photographs with interesting metadata. I play around with a CNN that can determine why people like some photos more than others.
+
+ \n\n---\n\n Another option is of course to do a Kaggle challenge, but I prefer to do something that is new and unique if possible 😀

@@ -1,0 +1,3 @@
+I got inspired by @svpino tool for scheduling Twitter threads, so I wrote a small editor for composing threads in a compatible format.
+
+ \n\n---\n\n Context: 

@@ -1,0 +1,5 @@
+I want to try something new... I would pick an interesting Computer Vision/Machine Learning paper that had an impact on the industry and summarize it in a thread. 🤔
+
+I won't explain all details, but I'll rather try to convey the main ideas and learnings.
+
+What do you guys think? \n\n---\n\n So, here is the first paper (finally)! 

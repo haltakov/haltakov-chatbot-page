@@ -1,0 +1,3 @@
+After quite some frustration with vibe coding in general, finally made progress on my submission for #vibejam 
+
+Next comes AI voice integration... 

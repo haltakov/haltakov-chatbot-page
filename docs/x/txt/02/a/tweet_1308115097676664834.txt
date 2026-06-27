@@ -1,0 +1,5 @@
+Dataset bias explained visually 😜
+
+When he was 1.5 yo, my son used to recognize these donkeys as bunnies. This is understandable since the training dataset was quite biased.... 🐰🐇😆
+
+He's now 2 yo and his animal classifier is actually very good! 👦 

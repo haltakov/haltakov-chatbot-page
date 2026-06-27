@@ -1,0 +1,7 @@
+Tailwind CSS v2.0 is out!
+
+It seems that it has some nice new features:
+▪️ New colors
+▪️ Dark mode support
+▪️ @apply for hover, focus etc.
+

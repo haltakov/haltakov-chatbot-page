@@ -1,0 +1,3 @@
+This is how to do HTTP requests using axios without try/catch.
+
+This is very useful if you want to share some logic between the processing of the positive and negative case. Example for this is proxying requests. 

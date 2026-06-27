@@ -1,0 +1,3 @@
+I need help from a JavaScript expert... 🙋‍♂️
+
+Why does this happen in Chrome? It works correctly in Firefox... 

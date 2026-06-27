@@ -1,0 +1,6 @@
+Machine learning jargon explained 🧑‍🏫 
+
+What is a 𝗹𝗼𝘀𝘀 𝗳𝘂𝗻𝗰𝘁𝗶𝗼𝗻?
+
+Thanks to @sahinadirhan for the contribution!  \n\n---\n\n For more explanations of machine learning and math terms check out my new project Suboptimal on GitHub:
+

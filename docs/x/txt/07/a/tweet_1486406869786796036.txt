@@ -1,0 +1,4 @@
+Here is a good example of the problem with ownership of digital assets in Web 2.0.
+
+"Your" frequent flyer points are a row in the database of the airline. They decide when they expire. They decide how you can access them. Who actually owns the points?
+

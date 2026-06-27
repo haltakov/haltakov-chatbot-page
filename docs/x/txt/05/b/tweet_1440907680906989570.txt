@@ -1,0 +1,15 @@
+The Web is readable for humans
+
+Semantic Web is readable for machines
+
+Machine learning enables machines to read human language
+
+Do we need semantic web in the mid/long term? 🤔 \n\n---\n\n Yes, this is true! Semantic web has been around for so long. However, people building websites are too lazy to create the required markup. It's difficult to change that.
+
+ \n\n---\n\n True that large models require a lot of computation, but computation costs go down and we'll get more efficient models.
+
+On the other hand, consider the cost of the human labor required to create the semantic markup.
+
+I bet the second is higher...
+
+ \n\n---\n\n This comment got me thinking - why do we "wait" for people to properly set the alt attribute on their images and add captions in their videos to improve accessibility? Why aren't we using ML to generate the descriptions/captions on the fly? Or maybe this even exists? 🤔
