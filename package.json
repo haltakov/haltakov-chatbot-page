@@ -7,6 +7,7 @@
     "dev": "next dev --webpack",
     "build": "next build --webpack",
     "start": "next start",
+    "sync:vector-store": "node scripts/sync-openai-vector-store.mjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
