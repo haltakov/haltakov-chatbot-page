@@ -4,8 +4,6 @@ import {
   createChatbotErrorResponse,
   createChatbotSseResponse,
   createOpenAIResponsesProvider,
-  createRateLimiter,
-  getClientIp,
   readChatbotRequest,
   streamText,
 } from "chatbot-page/server"
@@ -13,15 +11,8 @@ import { vladSystemPrompt } from "@/lib/vlad-system-prompt"
 
 export const maxDuration = 30
 
-const chatRateLimiter = createRateLimiter({
-  limit: 20,
-  windowMs: 60_000,
-  maxKeys: 10_000,
-})
-
 export async function POST(request: Request) {
   try {
-    chatRateLimiter.check(getClientIp(request))
     const chatRequest = await readChatbotRequest(request, {
       maxMessageLength: 4000,
       maxMessages: 24,
