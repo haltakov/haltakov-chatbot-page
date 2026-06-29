@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import {
   ChatApp,
@@ -8,23 +8,23 @@ import {
   type CannedAnswerEntry,
   type ChatbotConfig,
   type ChatbotFirstLaunchConfig,
-} from "chatbot-page"
-import { VladAvatar } from "@/components/vlad-avatar"
-import { identity, introMessage } from "@/lib/chatbot-base-config"
+} from "chatbot-page";
+import { VladAvatar } from "@/components/vlad-avatar";
+import { identity, introMessage } from "@/lib/chatbot-base-config";
 
 const backendProvider = createApiAnswerProvider({
   endpoint: "/api/chat",
   stream: true,
-})
+});
 
 export function HaltakovChatbot({
   cannedAnswers,
   firstLaunch,
 }: {
-  cannedAnswers: CannedAnswerEntry[]
-  firstLaunch: ChatbotFirstLaunchConfig
+  cannedAnswers: CannedAnswerEntry[];
+  firstLaunch: ChatbotFirstLaunchConfig;
 }) {
-  const canned = createCannedAnswerCollection(cannedAnswers)
+  const canned = createCannedAnswerCollection(cannedAnswers);
 
   const chatbotConfig: ChatbotConfig = {
     identity,
@@ -58,13 +58,12 @@ export function HaltakovChatbot({
         submitLabel: "Send",
         successTitle: "Thanks, I got it",
       },
-      disclaimer:
-        "Curated Markdown answers are used first. Unknown questions stream from the LLM/RAG backend. Prompts may be sent to Vlad.",
+      disclaimer: "Prompts may be sent to Vlad.",
       firstLaunch,
       newChatLabel: "New chat",
       userLabel: "You",
     },
-  }
+  };
 
-  return <ChatApp config={chatbotConfig} />
+  return <ChatApp config={chatbotConfig} />;
 }

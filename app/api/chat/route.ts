@@ -6,18 +6,18 @@ import {
   createOpenAIResponsesProvider,
   readChatbotRequest,
   streamText,
-} from "chatbot-page/server"
-import { vladSystemPrompt } from "@/lib/vlad-system-prompt"
+} from "chatbot-page/server";
+import { vladSystemPrompt } from "@/lib/vlad-system-prompt";
 
-export const maxDuration = 30
+export const maxDuration = 30;
 
 export async function POST(request: Request) {
   try {
     const chatRequest = await readChatbotRequest(request, {
       maxMessageLength: 4000,
       maxMessages: 24,
-    })
-    const modelProvider = createModelProvider()
+    });
+    const modelProvider = createModelProvider();
 
     if (!modelProvider) {
       return createChatbotSseResponse(
@@ -26,36 +26,34 @@ export async function POST(request: Request) {
           {
             chunkSize: 28,
             delayMs: 15,
-          },
-        ),
-      )
+          }
+        )
+      );
     }
 
-    return createChatbotSseResponse(modelProvider.streamAnswer(chatRequest))
+    return createChatbotSseResponse(modelProvider.streamAnswer(chatRequest));
   } catch (error) {
-    return createChatbotErrorResponse(
-      error instanceof ChatbotRequestError ? error : new Error("Chat request failed."),
-    )
+    return createChatbotErrorResponse(error instanceof ChatbotRequestError ? error : new Error("Chat request failed."));
   }
 }
 
 function createModelProvider(): ChatbotModelProvider | null {
-  if (!process.env.OPENAI_API_KEY) return null
+  if (!process.env.OPENAI_API_KEY) return null;
 
   return createOpenAIResponsesProvider({
     apiKey: process.env.OPENAI_API_KEY,
     organization: process.env.OPENAI_ORGANIZATION_ID,
     project: process.env.OPENAI_PROJECT_ID,
-    model: process.env.OPENAI_MODEL ?? "gpt-4o-mini",
+    model: process.env.OPENAI_MODEL ?? "gpt-5.4-mini",
     instructions: vladSystemPrompt,
     vectorStoreIds: parseCsv(process.env.OPENAI_VECTOR_STORE_ID),
-  })
+  });
 }
 
 function parseCsv(value: string | undefined): string[] {
-  if (!value) return []
+  if (!value) return [];
   return value
     .split(",")
     .map((item) => item.trim())
-    .filter(Boolean)
+    .filter(Boolean);
 }
