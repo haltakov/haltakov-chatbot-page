@@ -2,8 +2,8 @@ import { join } from "node:path"
 import {
   loadCannedAnswerDirectory,
   loadFirstLaunchMarkdown,
+  loadMarkdownBody,
 } from "chatbot-page/server"
-import { loadMarkdownBody } from "@/lib/markdown-content"
 import { HaltakovChatbot } from "./chatbot"
 
 export default async function Page() {
