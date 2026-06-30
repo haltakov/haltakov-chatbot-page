@@ -63,6 +63,7 @@ export function HaltakovChatbot({
       disclaimer: "Prompts may be sent to Vlad.",
       firstLaunch,
       newChatLabel: "New chat",
+      suggestionCount: 4,
       userLabel: "You",
     },
   };
