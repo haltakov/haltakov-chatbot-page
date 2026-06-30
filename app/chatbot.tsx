@@ -10,7 +10,7 @@ import {
   type ChatbotFirstLaunchConfig,
 } from "chatbot-page";
 import { VladAvatar } from "@/components/vlad-avatar";
-import { identity, introMessage } from "@/lib/chatbot-base-config";
+import { identity } from "@/lib/chatbot-base-config";
 
 const backendProvider = createApiAnswerProvider({
   endpoint: "/api/chat",
@@ -20,9 +20,11 @@ const backendProvider = createApiAnswerProvider({
 export function HaltakovChatbot({
   cannedAnswers,
   firstLaunch,
+  introMessage,
 }: {
   cannedAnswers: CannedAnswerEntry[];
   firstLaunch: ChatbotFirstLaunchConfig;
+  introMessage: string;
 }) {
   const canned = createCannedAnswerCollection(cannedAnswers);
 
