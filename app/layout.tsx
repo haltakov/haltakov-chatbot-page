@@ -16,17 +16,17 @@ const plausibleScriptProps: ScriptHTMLAttributes<HTMLScriptElement> & {
 }
 
 export const metadata: Metadata = {
-  title: "Chat with Vlad",
+  title: "Vlad's Chatbot Page",
   description:
-    "Ask Vladimir Haltakov about his work in AI, computer vision, BMW, Fr0ntierX, Creafex Lab, and side projects.",
-  authors: [{ name: "Vladimir Haltakov", url: "https://haltakov.net" }],
-  metadataBase: new URL("https://chat.haltakov.net"),
+    "Chat with Vladimir Haltakov AI bot and ask about his work, projects, and personal interests.",
+  authors: [{ name: "Vladimir Haltakov", url: "https://haltakov.com" }],
+  metadataBase: new URL("https://haltakov.com"),
   openGraph: {
-    title: "Chat with Vlad",
+    title: "Vlad's Chatbot Page",
     description:
       "A chatbot-style personal website for Vladimir Haltakov, built with chatbot-page.",
-    url: "https://chat.haltakov.net",
-    siteName: "Chat with Vlad",
+    url: "https://haltakov.com",
+    siteName: "Vlad's Chatbot Page",
     locale: "en_US",
     type: "website",
     images: [
