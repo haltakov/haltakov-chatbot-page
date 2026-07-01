@@ -1,14 +1,6 @@
 ---
 id: leoline
 question: Tell me about Leoline
-keywords:
-  - leoline
-  - kids
-  - children
-  - story
-  - stories
-  - rabbit
-  - voice
 ---
 
 **Leoline** is an AI voice assistant for kids, focused first on telling stories.

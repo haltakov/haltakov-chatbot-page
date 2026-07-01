@@ -1,14 +1,6 @@
 ---
 id: research
 question: What is your AI and research background?
-keywords:
-  - research
-  - phd
-  - thesis
-  - tum
-  - semantic segmentation
-  - computer vision
-  - ai
 ---
 
 My research background is in **machine learning and computer vision**, especially semantic segmentation.

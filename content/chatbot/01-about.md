@@ -1,15 +1,6 @@
 ---
 id: about
 question: Who is Vladimir Haltakov?
-keywords:
-  - who
-  - about
-  - bio
-  - background
-  - vladimir
-  - haltakov
-  - sofia
-  - munich
 ---
 
 I'm **Vladimir Haltakov**, originally from Sofia, Bulgaria, and based in Munich, Germany.

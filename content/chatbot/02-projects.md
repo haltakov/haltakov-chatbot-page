@@ -1,13 +1,6 @@
 ---
 id: projects
 question: What projects are you working on?
-keywords:
-  - project
-  - projects
-  - built
-  - building
-  - products
-  - side project
 ---
 
 Here are some of the projects I usually point people to:

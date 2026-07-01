@@ -1,14 +1,6 @@
 ---
 id: fr0ntierx
 question: What did you do at Fr0ntierX?
-keywords:
-  - fr0ntierx
-  - frontierx
-  - confidential
-  - janus
-  - polaris
-  - blockchain
-  - cybersecurity
 ---
 
 At **Fr0ntierX**, I was VP of Engineering and led a development team of around 10 people.

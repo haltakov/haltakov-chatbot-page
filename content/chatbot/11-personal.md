@@ -1,15 +1,6 @@
 ---
 id: personal
 question: Tell me something personal
-keywords:
-  - personal
-  - family
-  - kids
-  - children
-  - travel
-  - photography
-  - car
-  - cars
 ---
 
 A few personal details about me:

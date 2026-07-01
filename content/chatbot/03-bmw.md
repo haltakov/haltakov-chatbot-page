@@ -1,14 +1,6 @@
 ---
 id: bmw
 question: What did you do at BMW?
-keywords:
-  - bmw
-  - autonomous
-  - adas
-  - parking
-  - traffic light
-  - traffic sign
-  - localization
 ---
 
 I spent about 12 years at **BMW**, starting during my master's studies and later through a PhD cooperation with TUM.

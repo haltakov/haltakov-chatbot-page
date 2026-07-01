@@ -1,12 +1,6 @@
 ---
 id: simple-photo-gallery
 question: What is Simple Photo Gallery?
-keywords:
-  - photo
-  - gallery
-  - simple photo
-  - simple.photo
-  - travel
 ---
 
 **Simple Photo Gallery** started as a personal tool.

@@ -1,17 +1,6 @@
 ---
 id: simplepost
 question: What is SimplePost?
-keywords:
-  - simplepost
-  - social
-  - publish
-  - publishing
-  - schedule
-  - scheduler
-  - twitter
-  - x
-  - mcp
-  - ai
 ---
 
 **SimplePost** is an AI-native social media scheduling platform that connects the AI assistant you already use to all your social accounts.

@@ -1,13 +1,6 @@
 ---
 id: creafex
 question: What is Creafex Lab?
-keywords:
-  - creafex
-  - company
-  - founder
-  - solo
-  - internobot
-  - internobots
 ---
 
 **Creafex Lab** is my company. I started it to build AI-powered products as a solo entrepreneur.

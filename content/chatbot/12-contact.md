@@ -1,15 +1,6 @@
 ---
 id: contact
 question: How can I contact you?
-keywords:
-  - contact
-  - reach
-  - email
-  - linkedin
-  - github
-  - twitter
-  - x
-  - bluesky
 ---
 
 The best public places to find me are:

@@ -1,16 +1,6 @@
 ---
 id: chatbot-page
 question: What is chatbot-page?
-keywords:
-  - chatbot page
-  - chatbot-page
-  - this site
-  - how is this built
-  - open source
-  - rag
-  - vector store
-  - llm
-  - canned answers
 ---
 
 This site is built with **chatbot-page** — a free and open-source tool I made for building a personal or company homepage that works like a chatbot.
