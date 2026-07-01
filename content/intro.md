@@ -5,6 +5,6 @@ I've spent 20+ years turning code into products: from computer vision and autono
 Ask me about:
 
 - My background in AI, computer vision, and autonomous driving
-- My work at BMW and startups
-- Projects like SimplePost, Simple Photo Gallery and Leoline
+- My work at BMW, startups and consulting
+- Projects like SimplePost, Simple Photo Gallery, Chatbot Page and Leoline
 - Research, side projects, writing, personal or how to get in touch

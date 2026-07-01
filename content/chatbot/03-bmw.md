@@ -21,4 +21,4 @@ The main areas I worked on were:
 
 I also coordinated suppliers and test teams, created testing concepts, helped with vehicle integration, and worked on functions that made it into production BMW cars.
 
-According to my notes, some of my work is in production BMW cars since 2016, and almost all new BMW models since 2018 contain work I contributed to.
+Some of my work is in production BMW cars since 2016, and almost all new BMW models since 2018 contain work I contributed to.

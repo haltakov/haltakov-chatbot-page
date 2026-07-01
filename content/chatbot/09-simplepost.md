@@ -6,24 +6,31 @@ keywords:
   - social
   - publish
   - publishing
+  - schedule
+  - scheduler
   - twitter
   - x
-  - youtube
-  - n8n
+  - mcp
+  - ai
 ---
 
-**SimplePost** is a developer-first TypeScript library for publishing to multiple social media platforms from one interface.
+**SimplePost** is an AI-native social media scheduling platform that connects the AI assistant you already use to all your social accounts.
 
-The core idea is simple: avoid paying a recurring SaaS subscription when what you really need is code, documentation, and OAuth setup helpers.
+The idea came from a simple frustration: most social schedulers charge extra for basic AI features, even though I'm already paying for ChatGPT and Claude. So instead of bundling yet another AI markup, SimplePost lets you bring your own assistant and only pay for the publishing workflow itself.
 
-SimplePost targets platforms like:
+You connect your social accounts, plug SimplePost into your AI assistant, and then draft, schedule, and publish straight from the conversation. It handles the annoying parts for you, like platform-aware validation for character limits and formatting, previews, and editing in the web app. There's also a CLI and API so agents and automations can post too.
+
+It currently publishes to 10 platforms:
 
 - X
-- YouTube
-- Instagram
-- TikTok
-- Facebook
 - LinkedIn
+- Instagram
+- Facebook
+- Threads
+- Bluesky
+- TikTok
+- YouTube
 - Pinterest
+- Telegram
 
-The package includes the TypeScript library, OAuth helper tooling, N8N integration, and documentation for setup flows that are usually annoying and poorly documented.
+You can check it out at [simplepost.social](https://simplepost.social).

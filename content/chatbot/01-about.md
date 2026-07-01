@@ -20,7 +20,7 @@ My career has mostly lived at the intersection of **AI, computer vision, product
 
 - PhD work on semantic segmentation and context-aware machine learning
 - 12 years at BMW, bringing camera-based driver assistance and localization systems into production cars
-- VP of Engineering at Fr0ntierX, working on blockchain, enterprise AI, cybersecurity, and confidential computing
-- Founder of Creafex Lab, where I build AI-powered products and tools
+- VP of Engineering at a startup called Fr0ntierX, working on blockchain, enterprise AI, cybersecurity, and confidential computing
+- Founder of Creafex Lab, where I build AI-powered products and tools and consult for other companies
 
-Outside work, I like photography, travel, cars, and building side projects that turn into real products.
+Outside work, I like photography, traveling with my family, cars, and building side projects that turn into real products.

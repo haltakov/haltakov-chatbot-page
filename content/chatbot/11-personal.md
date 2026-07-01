@@ -12,7 +12,7 @@ keywords:
   - cars
 ---
 
-A few personal details from my background notes:
+A few personal details about me:
 
 - I was born in Sofia, Bulgaria
 - I moved to Munich in 2009
