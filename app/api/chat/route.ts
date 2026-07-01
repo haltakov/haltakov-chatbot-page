@@ -7,7 +7,6 @@ import {
   readChatbotRequest,
   streamText,
 } from "chatbot-page/server";
-import { vladSystemPrompt } from "@/lib/vlad-system-prompt";
 
 export const maxDuration = 30;
 
@@ -45,7 +44,7 @@ function createModelProvider(): ChatbotModelProvider | null {
     organization: process.env.OPENAI_ORGANIZATION_ID,
     project: process.env.OPENAI_PROJECT_ID,
     model: process.env.OPENAI_MODEL ?? "gpt-5.4-mini",
-    instructions: vladSystemPrompt,
+    systemPromptPath: "content/system-prompt.md",
     vectorStoreIds: parseCsv(process.env.OPENAI_VECTOR_STORE_ID),
   });
 }

@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       chatbot-page:
-        specifier: ^1.0.5
-        version: 1.0.5(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+        specifier: ^1.0.6
+        version: 1.0.6(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       next:
         specifier: 16.2.6
         version: 16.2.6(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
@@ -294,8 +294,8 @@ packages:
   character-reference-invalid@2.0.1:
     resolution: {integrity: sha512-iBZ4F4wRbyORVsu0jPV7gXkOsGYjGHPmAyv+HiHG8gi5PtC9KI2j1+v8/tlibRvjoWX027ypmG/n0HtO5t7unw==}
 
-  chatbot-page@1.0.5:
-    resolution: {integrity: sha512-qJP4OrJ4E2BYIrq9foFsg984b3flNb/Ab5sEYumDxiDgPpyjBNolTuE1c/q2zu4qv3RyYLs1pFF8eA7CwXMLCQ==}
+  chatbot-page@1.0.6:
+    resolution: {integrity: sha512-63ql1uG/Ntc6wPPBoifv6BsEMJ0WSx25U0uT7OC1bfH/vQt2mYtFbBWnpRWZ9tJ3oX/2A+suHanKfIBuCwKpHg==}
     peerDependencies:
       react: ^18.3.0 || ^19.0.0
       react-dom: ^18.3.0 || ^19.0.0
@@ -860,7 +860,7 @@ snapshots:
 
   character-reference-invalid@2.0.1: {}
 
-  chatbot-page@1.0.5(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6):
+  chatbot-page@1.0.6(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6):
     dependencies:
       clsx: 2.1.1
       lucide-react: 1.21.0(react@19.2.6)
