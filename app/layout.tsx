@@ -1,11 +1,19 @@
 import type { Metadata, Viewport } from "next"
+import type { ScriptHTMLAttributes } from "react"
 import { Inter } from "next/font/google"
+import PlausibleProvider from "next-plausible"
 import "./globals.css"
 
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
 })
+
+const plausibleScriptProps: ScriptHTMLAttributes<HTMLScriptElement> & {
+  "data-domain": string
+} = {
+  "data-domain": "haltakov.com",
+}
 
 export const metadata: Metadata = {
   title: "Chat with Vlad",
@@ -66,7 +74,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} dark`}>
-      <body>{children}</body>
+      <body>
+        <PlausibleProvider
+          src="https://api.haltakov.com/js/script.js"
+          init={{ endpoint: "https://api.haltakov.com/api/event" }}
+          scriptProps={plausibleScriptProps}
+        >
+          {children}
+        </PlausibleProvider>
+      </body>
     </html>
   )
 }
