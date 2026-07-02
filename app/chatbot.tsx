@@ -39,6 +39,10 @@ export function HaltakovChatbot({
       enabled: true,
       endpoint: "/api/chatbot-events",
     },
+    liveReplies: {
+      enabled: true,
+      endpoint: "/api/chatbot-live",
+    },
     answerProvider: createCannedAnswerProvider({
       ...canned,
       fallbackProvider: backendProvider,
