@@ -16,11 +16,18 @@ const plausibleScriptProps: ScriptHTMLAttributes<HTMLScriptElement> & {
 }
 
 export const metadata: Metadata = {
-  title: "Vlad's Chatbot Page",
+  title: {
+    default: "Vlad's Chatbot Page",
+    template: "%s | Vladimir Haltakov",
+  },
   description:
     "Chat with Vladimir Haltakov AI bot and ask about his work, projects, and personal interests.",
   authors: [{ name: "Vladimir Haltakov", url: "https://haltakov.com" }],
+  creator: "Vladimir Haltakov",
+  publisher: "Vladimir Haltakov",
   metadataBase: new URL("https://haltakov.com"),
+  alternates: { canonical: "/" },
+  manifest: "/manifest.webmanifest",
   openGraph: {
     title: "Vlad's Chatbot Page",
     description:

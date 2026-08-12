@@ -5,6 +5,20 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "creafexlab.com",
+      },
+      {
+        protocol: "https",
+        hostname: "leoline.fun",
+      },
+      {
+        protocol: "https",
+        hostname: "raw.githubusercontent.com",
+      },
+    ],
   },
   transpilePackages: ["chatbot-page"],
 }
