@@ -10,6 +10,31 @@ export const metadata: Metadata = {
   description:
     "Projects by Vladimir Haltakov, including SimplePost, Simple Muscle, Simple Photo Gallery, Confidential API Keys, Leoline, and chatbot-page.",
   alternates: { canonical: "/projects" },
+  openGraph: {
+    title: "Projects by Vladimir Haltakov",
+    description:
+      "Software products and open-source projects by Vladimir Haltakov.",
+    url: "/projects",
+    siteName: "Vladimir Haltakov",
+    locale: "en_US",
+    type: "website",
+    images: [
+      {
+        url: "/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Projects by Vladimir Haltakov",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Projects by Vladimir Haltakov",
+    description:
+      "Software products and open-source projects by Vladimir Haltakov.",
+    creator: "@haltakov",
+    images: ["/images/og-image.jpg"],
+  },
 }
 
 export default function ProjectsPage() {

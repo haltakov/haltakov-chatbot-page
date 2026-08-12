@@ -17,11 +17,11 @@ const plausibleScriptProps: ScriptHTMLAttributes<HTMLScriptElement> & {
 
 export const metadata: Metadata = {
   title: {
-    default: "Vlad's Chatbot Page",
+    default: "Vladimir Haltakov — Software Engineer & Founder",
     template: "%s | Vladimir Haltakov",
   },
   description:
-    "Chat with Vladimir Haltakov AI bot and ask about his work, projects, and personal interests.",
+    "Chat with Vladimir Haltakov's AI bot, explore his software projects, and learn about his work in AI, computer vision, and engineering.",
   authors: [{ name: "Vladimir Haltakov", url: "https://haltakov.com" }],
   creator: "Vladimir Haltakov",
   publisher: "Vladimir Haltakov",
@@ -29,11 +29,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   manifest: "/manifest.webmanifest",
   openGraph: {
-    title: "Vlad's Chatbot Page",
+    title: "Vladimir Haltakov — Software Engineer & Founder",
     description:
-      "A chatbot-style personal website for Vladimir Haltakov, built with chatbot-page.",
+      "Chat with Vladimir Haltakov's AI bot and explore his work in AI, computer vision, and software engineering.",
     url: "https://haltakov.com",
-    siteName: "Vlad's Chatbot Page",
+    siteName: "Vladimir Haltakov",
     locale: "en_US",
     type: "website",
     images: [
@@ -47,14 +47,22 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Chat with Vlad",
-    description: "Chat with Vladimir Haltakov's personal website.",
+    title: "Vladimir Haltakov — Software Engineer & Founder",
+    description:
+      "Chat with Vladimir Haltakov's AI bot and explore his software projects.",
     creator: "@haltakov",
     images: ["/images/og-image.jpg"],
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
   icons: {
     icon: [

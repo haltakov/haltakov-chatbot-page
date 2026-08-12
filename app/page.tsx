@@ -27,15 +27,43 @@ export default async function Page() {
       <JsonLd
         data={{
           "@context": "https://schema.org",
-          "@type": "Person",
-          name: "Vladimir Haltakov",
-          url: "https://haltakov.com",
-          image: "https://haltakov.com/images/me.jpg",
-          sameAs: [
-            "https://github.com/haltakov",
-            "https://www.linkedin.com/in/haltakov/",
-            "https://x.com/haltakov",
-            "https://bsky.app/profile/haltakov.bsky.social",
+          "@graph": [
+            {
+              "@type": "Person",
+              "@id": "https://haltakov.com/#person",
+              name: "Vladimir Haltakov",
+              url: "https://haltakov.com",
+              image: "https://haltakov.com/images/me.jpg",
+              jobTitle: "Software engineer and founder",
+              knowsAbout: [
+                "Artificial intelligence",
+                "Computer vision",
+                "Machine learning",
+                "Software engineering",
+              ],
+              worksFor: {
+                "@type": "Organization",
+                "@id": "https://creafexlab.com/#organization",
+                name: "Creafex Lab",
+                url: "https://creafexlab.com",
+              },
+              sameAs: [
+                "https://github.com/haltakov",
+                "https://www.linkedin.com/in/haltakov/",
+                "https://x.com/haltakov",
+                "https://bsky.app/profile/haltakov.net",
+              ],
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://haltakov.com/#website",
+              name: "Vladimir Haltakov",
+              url: "https://haltakov.com",
+              description:
+                "Vladimir Haltakov's chatbot-style personal website and project portfolio.",
+              inLanguage: "en",
+              publisher: { "@id": "https://haltakov.com/#person" },
+            },
           ],
         }}
       />

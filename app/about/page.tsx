@@ -8,8 +8,33 @@ import { socialLinks } from "@/lib/site-data"
 export const metadata: Metadata = {
   title: "About",
   description:
-    "About Vladimir Haltakov, a software engineer and founder based in Munich.",
+    "About Vladimir Haltakov, a Munich-based software engineer and founder with more than 20 years of experience in AI, computer vision, and machine learning.",
   alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About Vladimir Haltakov",
+    description:
+      "Vladimir Haltakov is a software engineer and founder based in Munich, with a background in AI, computer vision, and machine learning.",
+    url: "/about",
+    siteName: "Vladimir Haltakov",
+    locale: "en_US",
+    type: "profile",
+    images: [
+      {
+        url: "/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Vladimir Haltakov",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Vladimir Haltakov",
+    description:
+      "Software engineer and founder working in AI, computer vision, and software engineering.",
+    creator: "@haltakov",
+    images: ["/images/og-image.jpg"],
+  },
 }
 export default function AboutPage() {
   return (

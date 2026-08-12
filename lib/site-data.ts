@@ -8,6 +8,7 @@ export type Project = {
   name: string
   category: string
   summary: string
+  metaDescription?: string
   description: string[]
   links: ProjectLink[]
   image: {
@@ -26,6 +27,8 @@ export const projects: Project[] = [
     category: "Social publishing",
     summary:
       "An AI-native social media scheduler that publishes from ChatGPT, Claude, and other assistants.",
+    metaDescription:
+      "SimplePost is an AI-native social media scheduler for drafting, previewing, scheduling, and publishing from ChatGPT, Claude, and other assistants.",
     description: [
       "SimplePost connects the AI assistant you already use to your social accounts. You can draft, preview, schedule, and publish without moving the conversation to another AI writing tool.",
       "It supports ten social platforms and is also available to developers through an MCP server, CLI, API, and SDK.",
@@ -70,6 +73,8 @@ export const projects: Project[] = [
     category: "Photography",
     summary:
       "A tool for turning a collection of photos into a story-driven gallery that is easy to share.",
+    metaDescription:
+      "Simple Photo Gallery turns photo collections into story-driven public or private galleries with sections, captions, themes, and easy sharing.",
     description: [
       "Simple Photo Gallery started as an open-source command-line tool I built for my own travel photos.",
       "The hosted version lets anyone upload photos, arrange them into sections, add captions, choose a theme, and share a public or private link.",
@@ -125,6 +130,8 @@ export const projects: Project[] = [
     category: "Stories for kids",
     summary:
       "A voice-first storyteller that creates unique, age-appropriate adventures for children.",
+    metaDescription:
+      "Leoline is a voice-first AI storyteller that creates longer, age-appropriate adventures for children, with a simple interface and parental controls.",
     description: [
       "Leoline is an orange rabbit children can talk to when they want a story about a specific idea.",
       "It is designed for longer stories, age-appropriate language, and parental controls in a simple voice interface.",
@@ -168,6 +175,8 @@ export const projects: Project[] = [
     category: "Open source",
     summary:
       "The reusable React package behind this chatbot-style personal website.",
+    metaDescription:
+      "chatbot-page is the open-source React package behind this chatbot-style website, with Markdown answers, an LLM backend, and vector search support.",
     description: [
       "chatbot-page turns a personal or company homepage into a familiar chat interface.",
       "It supports answers stored in Markdown, an LLM backend, and retrieval from a vector store. This website is the production example.",
@@ -191,6 +200,8 @@ export const projects: Project[] = [
     category: "Company",
     summary:
       "My company for building independent software products and working with other teams.",
+    metaDescription:
+      "Creafex Lab is Vladimir Haltakov's independent product company, building focused software products and collaborating on AI and developer tools.",
     description: [
       "Creafex Lab is the company behind SimplePost, Simple Muscle, Simple Photo Gallery, and Leoline.",
       "It is also how I work with other companies on AI products, developer tools, and software engineering.",
@@ -214,5 +225,5 @@ export const socialLinks = [
   { label: "GitHub", href: "https://github.com/haltakov" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/haltakov/" },
   { label: "X", href: "https://x.com/haltakov" },
-  { label: "Bluesky", href: "https://bsky.app/profile/haltakov.bsky.social" },
+  { label: "Bluesky", href: "https://bsky.app/profile/haltakov.net" },
 ]

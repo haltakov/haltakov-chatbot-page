@@ -1,0 +1,25 @@
+# Vladimir Haltakov
+
+Vladimir Haltakov is a software engineer and founder based in Munich. His work focuses on artificial intelligence, computer vision, machine learning, developer tools, and independent software products.
+
+## Main pages
+
+- [About Vladimir Haltakov](https://haltakov.com/about)
+- [Projects by Vladimir Haltakov](https://haltakov.com/projects)
+
+## Selected projects
+
+- [SimplePost](https://haltakov.com/projects/simplepost)
+- [Simple Muscle](https://haltakov.com/projects/simple-muscle)
+- [Simple Photo Gallery](https://haltakov.com/projects/simple-photo-gallery)
+- [Simple Photo Gallery Core](https://haltakov.com/projects/simple-photo-gallery-core)
+- [Confidential API Keys](https://haltakov.com/projects/confidential-api-key)
+- [Leoline](https://haltakov.com/projects/leoline)
+- [chatbot-page](https://haltakov.com/projects/chatbot-page)
+- [Creafex Lab](https://haltakov.com/projects/creafex-lab)
+
+## Profiles
+
+- [GitHub](https://github.com/haltakov)
+- [LinkedIn](https://www.linkedin.com/in/haltakov/)
+- [X](https://x.com/haltakov)

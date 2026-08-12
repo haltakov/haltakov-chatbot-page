@@ -23,12 +23,15 @@ export async function generateMetadata({
 
   return {
     title: project.name,
-    description: project.summary,
+    description: project.metaDescription ?? project.summary,
     alternates: { canonical: `/projects/${project.slug}` },
     openGraph: {
       title: project.name,
       description: project.summary,
       url: `/projects/${project.slug}`,
+      siteName: "Vladimir Haltakov",
+      locale: "en_US",
+      type: "website",
       images: [
         {
           url: project.image.src,
@@ -37,6 +40,13 @@ export async function generateMetadata({
           alt: project.image.alt,
         },
       ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: project.name,
+      description: project.summary,
+      creator: "@haltakov",
+      images: [project.image.src],
     },
   }
 }
@@ -107,20 +117,52 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
       <JsonLd
         data={{
           "@context": "https://schema.org",
-          "@type":
-            project.slug === "creafex-lab" ? "Organization" : "SoftwareApplication",
-          name: project.name,
-          description: project.summary,
-          url: project.links[0].href,
-          mainEntityOfPage: `https://haltakov.com/projects/${project.slug}`,
-          ...(project.slug === "creafex-lab"
-            ? {}
-            : { applicationCategory: project.schemaCategory }),
-          creator: {
-            "@type": "Person",
-            name: "Vladimir Haltakov",
-            url: "https://haltakov.com",
-          },
+          "@graph": [
+            {
+              "@type":
+                project.slug === "creafex-lab"
+                  ? "Organization"
+                  : "SoftwareApplication",
+              name: project.name,
+              description: project.summary,
+              url: project.links[0].href,
+              mainEntityOfPage: `https://haltakov.com/projects/${project.slug}`,
+              ...(project.slug === "creafex-lab"
+                ? {
+                    founder: {
+                      "@type": "Person",
+                      "@id": "https://haltakov.com/#person",
+                      name: "Vladimir Haltakov",
+                    },
+                  }
+                : {
+                    applicationCategory: project.schemaCategory,
+                    creator: {
+                      "@type": "Person",
+                      "@id": "https://haltakov.com/#person",
+                      name: "Vladimir Haltakov",
+                      url: "https://haltakov.com",
+                    },
+                  }),
+            },
+            {
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Projects",
+                  item: "https://haltakov.com/projects",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: project.name,
+                  item: `https://haltakov.com/projects/${project.slug}`,
+                },
+              ],
+            },
+          ],
         }}
       />
     </PortfolioShell>
