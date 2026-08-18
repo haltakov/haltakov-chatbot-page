@@ -63,7 +63,8 @@ export default function AboutPage() {
           </p>
           <p>
             Today I run Creafex Lab, where I build products including
-            SimplePost, Simple Muscle, Simple Photo Gallery, and Leoline.
+            SimplePost, Simple Muscle, Simple Unmark, Simple Photo Gallery, and
+            Leoline.
           </p>
 
           <div className="about-page__links">

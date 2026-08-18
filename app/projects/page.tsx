@@ -8,7 +8,7 @@ import { projects } from "@/lib/site-data"
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Projects by Vladimir Haltakov, including SimplePost, Simple Muscle, Simple Photo Gallery, Confidential API Keys, Leoline, and chatbot-page.",
+    "Projects by Vladimir Haltakov, including SimplePost, Simple Muscle, Simple Unmark, Simple Photo Gallery, Confidential API Keys, Leoline, and chatbot-page.",
   alternates: { canonical: "/projects" },
   openGraph: {
     title: "Projects by Vladimir Haltakov",

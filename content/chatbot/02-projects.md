@@ -17,6 +17,10 @@ A tool for building beautiful, story-driven photo galleries. There is a modern h
 
 An iPhone workout tracker that connects your workout plans and training history to the AI assistant you already use.
 
+### [Simple Unmark](https://simpleunmark.com)
+
+A web app that removes hidden Unicode artifacts and rewrites AI-generated text to reduce statistical watermark patterns while preserving its meaning.
+
 ### [Chatbot Page](https://github.com/haltakov/chatbot-page)
 
 A free and open-source library that allows you to easily create pages like that so your users can chat with your virtual self. It supports canned questions and answers (for lower cost) as well as full RAG and LLM model for more interesting questions.

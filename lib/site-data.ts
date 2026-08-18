@@ -68,6 +68,29 @@ export const projects: Project[] = [
     schemaCategory: "HealthApplication",
   },
   {
+    slug: "simple-unmark",
+    name: "Simple Unmark",
+    category: "AI text tools",
+    summary:
+      "A web app that removes hidden Unicode artifacts and rewrites AI text to reduce statistical watermark patterns.",
+    metaDescription:
+      "Simple Unmark removes hidden Unicode artifacts from AI text and rewrites the wording to reduce SynthID-style statistical watermark patterns while preserving meaning.",
+    description: [
+      "Simple Unmark cleans AI-generated text in one flow. It removes hidden Unicode controls, zero-width characters, unusual spacing, and similar formatting artifacts, then rewrites the text to reduce statistical watermark patterns.",
+      "The rewrite is designed to preserve facts, numbers, proper nouns, tone, and intent. It can reduce SynthID-style detection with high likelihood, but no tool can guarantee a result against every current or future detector.",
+    ],
+    links: [
+      { label: "Visit Simple Unmark", href: "https://simpleunmark.com" },
+    ],
+    image: {
+      src: "/images/simple-unmark.jpg",
+      alt: "Simple Unmark, a tool for removing watermarks from AI text",
+      width: 1440,
+      height: 900,
+    },
+    schemaCategory: "UtilitiesApplication",
+  },
+  {
     slug: "simple-photo-gallery",
     name: "Simple Photo Gallery",
     category: "Photography",
@@ -203,7 +226,7 @@ export const projects: Project[] = [
     metaDescription:
       "Creafex Lab is Vladimir Haltakov's independent product company, building focused software products and collaborating on AI and developer tools.",
     description: [
-      "Creafex Lab is the company behind SimplePost, Simple Muscle, Simple Photo Gallery, and Leoline.",
+      "Creafex Lab is the company behind SimplePost, Simple Muscle, Simple Unmark, Simple Photo Gallery, and Leoline.",
       "It is also how I work with other companies on AI products, developer tools, and software engineering.",
     ],
     links: [{ label: "Visit Creafex Lab", href: "https://creafexlab.com" }],
