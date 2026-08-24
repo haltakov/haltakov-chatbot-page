@@ -8,7 +8,7 @@ export function SiteHeader() {
         <Link className="site-identity" href="/">
           <Image
             src="/images/me.jpg"
-            alt=""
+            alt="Portrait of Vladimir Haltakov"
             width={34}
             height={34}
             priority

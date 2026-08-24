@@ -122,7 +122,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               "@type":
                 project.slug === "creafex-lab"
                   ? "Organization"
-                  : "SoftwareApplication",
+                  : "CreativeWork",
               name: project.name,
               description: project.summary,
               url: project.links[0].href,
@@ -136,7 +136,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                     },
                   }
                 : {
-                    applicationCategory: project.schemaCategory,
+                    genre: project.category,
                     creator: {
                       "@type": "Person",
                       "@id": "https://haltakov.com/#person",
