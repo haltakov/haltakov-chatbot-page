@@ -10,6 +10,7 @@ import {
   type ChatbotFirstLaunchConfig,
 } from "chatbot-page";
 import { VladAvatar } from "@/components/vlad-avatar";
+import { WebMcpProfile } from "@/components/webmcp-profile";
 import { identity } from "@/lib/chatbot-base-config";
 
 const backendProvider = createApiAnswerProvider({
@@ -72,5 +73,10 @@ export function HaltakovChatbot({
     },
   };
 
-  return <ChatApp config={chatbotConfig} />;
+  return (
+    <>
+      <ChatApp config={chatbotConfig} />
+      <WebMcpProfile />
+    </>
+  );
 }

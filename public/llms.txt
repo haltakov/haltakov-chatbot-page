@@ -7,6 +7,13 @@ Vladimir Haltakov is a software engineer and founder based in Munich. His work f
 - [About Vladimir Haltakov](https://haltakov.com/about)
 - [Projects by Vladimir Haltakov](https://haltakov.com/projects)
 
+## Agent interaction
+
+The homepage exposes two WebMCP tools to visiting browser agents:
+
+- `ask_vlad` asks Vlad's maintained site agent one focused question and preserves Vlad's conversation context across calls.
+- `show_interest_summary` renders a personalized “Why Vlad is interesting to you” report after the visiting agent has connected its own knowledge of the visitor with Vlad's answers.
+
 ## Selected projects
 
 - [SimplePost](https://haltakov.com/projects/simplepost)

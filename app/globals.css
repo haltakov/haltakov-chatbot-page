@@ -73,6 +73,284 @@ body {
   min-height: 100dvh;
 }
 
+.interest-report-reopen {
+  position: fixed;
+  z-index: 45;
+  right: 20px;
+  bottom: 20px;
+  padding: 11px 15px;
+  border: 1px solid rgb(125 178 255 / 55%);
+  border-radius: 999px;
+  background: #13253f;
+  color: #eaf2ff;
+  box-shadow: 0 12px 35px rgb(0 0 0 / 32%);
+  cursor: pointer;
+  font: 600 12px/1 var(--font-inter), Inter, sans-serif;
+}
+
+.interest-report-reopen:focus-visible,
+.interest-report button:focus-visible,
+.interest-report a:focus-visible {
+  outline: 2px solid #80b6ff;
+  outline-offset: 3px;
+}
+
+.interest-report {
+  position: fixed;
+  z-index: 100;
+  inset: 0;
+  display: grid;
+  visibility: hidden;
+  place-items: center;
+  padding: 22px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 220ms ease, visibility 220ms ease;
+}
+
+.interest-report--open {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.interest-report__scrim {
+  position: absolute;
+  inset: 0;
+  background: rgb(4 7 12 / 82%);
+  backdrop-filter: blur(10px);
+}
+
+.interest-report__sheet {
+  position: relative;
+  width: min(100%, 1040px);
+  max-height: calc(100dvh - 44px);
+  overflow: auto;
+  border: 1px solid rgb(255 255 255 / 13%);
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at 82% 8%, rgb(45 102 183 / 22%), transparent 27%),
+    #111318;
+  color: #f4f4f2;
+  box-shadow: 0 30px 100px rgb(0 0 0 / 55%);
+  font-family: var(--font-inter), Inter, sans-serif;
+}
+
+.interest-report__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 34px 38px 28px;
+  border-bottom: 1px solid rgb(255 255 255 / 11%);
+}
+
+.interest-report__eyebrow,
+.interest-report__section > h3,
+.interest-report__footer {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+}
+
+.interest-report__eyebrow {
+  margin: 0 0 9px;
+  color: #80b6ff;
+  font-size: 11px;
+}
+
+.interest-report__header h2 {
+  max-width: 720px;
+  margin: 0;
+  font-size: clamp(30px, 5vw, 52px);
+  font-weight: 570;
+  letter-spacing: -0.045em;
+  line-height: 1.02;
+}
+
+.interest-report__header h2:focus {
+  outline: none;
+}
+
+.interest-report__close {
+  padding: 8px 0;
+  border: 0;
+  background: transparent;
+  color: #9ca3af;
+  cursor: pointer;
+  font: 500 12px/1 var(--font-inter), Inter, sans-serif;
+}
+
+.interest-report__close:hover {
+  color: #ffffff;
+}
+
+.interest-report__thesis {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 780px);
+  gap: 14px;
+  padding: 36px 38px 38px;
+  border-bottom: 1px solid rgb(255 255 255 / 11%);
+}
+
+.interest-report__thesis > span {
+  color: #80b6ff;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 24px;
+}
+
+.interest-report__thesis h3 {
+  margin: 0;
+  font-size: clamp(21px, 3vw, 30px);
+  font-weight: 560;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+}
+
+.interest-report__thesis p {
+  max-width: 720px;
+  margin: 14px 0 0;
+  color: #b8bec8;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.interest-report__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.interest-report__section {
+  padding: 30px 38px 34px;
+  border-bottom: 1px solid rgb(255 255 255 / 11%);
+}
+
+.interest-report__section:nth-child(even) {
+  border-left: 1px solid rgb(255 255 255 / 11%);
+}
+
+.interest-report__section--wide {
+  grid-column: 1 / -1;
+}
+
+.interest-report__section--wide:nth-child(even) {
+  border-left: 0;
+}
+
+.interest-report__section > h3 {
+  margin: 0 0 22px;
+  color: #8f98a5;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.interest-report__connections {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.interest-report__connection {
+  position: relative;
+  padding-left: 18px;
+}
+
+.interest-report__connection::before {
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 0;
+  width: 2px;
+  border-radius: 2px;
+  background: linear-gradient(#80b6ff 0 45%, rgb(128 182 255 / 18%) 45% 100%);
+  content: "";
+}
+
+.interest-report__connection h4,
+.interest-report__projects strong,
+.interest-report__projects a {
+  margin: 0;
+  color: #f7f7f5;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.interest-report__connection p,
+.interest-report__projects p,
+.interest-report__numbered-list p {
+  margin: 8px 0 0;
+  color: #afb5bf;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.interest-report__projects,
+.interest-report__numbered-list,
+.interest-report__questions {
+  display: grid;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.interest-report__projects a {
+  text-decoration: underline;
+  text-decoration-color: rgb(128 182 255 / 45%);
+  text-underline-offset: 4px;
+}
+
+.interest-report__projects a:hover {
+  text-decoration-color: #80b6ff;
+}
+
+.interest-report__numbered-list li {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 12px;
+}
+
+.interest-report__numbered-list span {
+  padding-top: 2px;
+  color: #80b6ff;
+  font: 11px/1.5 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.interest-report__numbered-list p {
+  margin-top: 0;
+}
+
+.interest-report__questions {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.interest-report__questions li {
+  position: relative;
+  padding: 14px 16px 14px 38px;
+  border: 1px solid rgb(255 255 255 / 10%);
+  border-radius: 10px;
+  background: rgb(255 255 255 / 3%);
+  color: #d4d7dc;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.interest-report__questions li::before {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  color: #80b6ff;
+  content: "?";
+  font: 600 12px/1.45 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.interest-report__footer {
+  padding: 18px 38px 22px;
+  color: #6f7885;
+  font-size: 9px;
+}
+
 .chat-site-nav {
   position: fixed;
   z-index: 50;
@@ -412,6 +690,49 @@ body {
 }
 
 @media (max-width: 720px) {
+  .interest-report {
+    place-items: end center;
+    padding: 0;
+  }
+
+  .interest-report__sheet {
+    width: 100%;
+    max-height: 94dvh;
+    border-width: 1px 0 0;
+    border-radius: 18px 18px 0 0;
+  }
+
+  .interest-report__header,
+  .interest-report__thesis,
+  .interest-report__section {
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+
+  .interest-report__thesis {
+    grid-template-columns: 28px minmax(0, 1fr);
+  }
+
+  .interest-report__grid,
+  .interest-report__connections,
+  .interest-report__questions {
+    grid-template-columns: 1fr;
+  }
+
+  .interest-report__section,
+  .interest-report__section:nth-child(even) {
+    grid-column: auto;
+    border-left: 0;
+  }
+
+  .interest-report__section--wide {
+    grid-column: auto;
+  }
+
+  .interest-report__footer {
+    padding-inline: 22px;
+  }
+
   .site-shell {
     width: min(100% - 30px, 1040px);
   }
