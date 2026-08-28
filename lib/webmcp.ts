@@ -229,14 +229,59 @@ export async function askVlad(
     const payload = (await response.json()) as { answer?: unknown; content?: unknown; error?: unknown }
     if (typeof payload.error === "string") throw new Error(payload.error)
     const answer = typeof payload.answer === "string" ? payload.answer : payload.content
-    if (typeof answer === "string" && answer.trim()) return answer.trim()
+    if (typeof answer === "string" && answer.trim()) return finalizeVladAnswer(answer)
     throw new Error("Vlad's agent returned an empty answer.")
   }
 
   const body = await response.text()
   const answer = readSseAnswer(body)
   if (!answer) throw new Error("Vlad's agent returned an empty answer.")
-  return answer
+  return finalizeVladAnswer(answer)
+}
+
+const SUPPORTING_LINKS = [
+  { pattern: /\bsimple\s?post\b/i, label: "SimplePost", url: "https://simplepost.social" },
+  { pattern: /\bsimple muscle\b/i, label: "Simple Muscle", url: "https://simplemuscle.ai" },
+  { pattern: /\bsimple unmark\b/i, label: "Simple Unmark", url: "https://simpleunmark.com" },
+  {
+    pattern: /\bsimple photo gallery\b/i,
+    label: "Simple Photo Gallery",
+    url: "https://simple.photo",
+  },
+  {
+    pattern: /\bconfidential api keys?\b/i,
+    label: "Confidential API Keys",
+    url: "https://github.com/haltakov/confidential-api-key",
+  },
+  { pattern: /\bleoline\b/i, label: "Leoline", url: "https://leoline.fun" },
+  {
+    pattern: /\b(?:chatbot-page|chatbot page)\b/i,
+    label: "chatbot-page",
+    url: "https://github.com/haltakov/chatbot-page",
+  },
+  { pattern: /\bcreafex lab\b/i, label: "Creafex Lab", url: "https://creafexlab.com" },
+  {
+    pattern: /\b(?:BMW|computer vision|machine learning|Fr0ntierX|career|background)\b/i,
+    label: "About Vlad",
+    url: "https://haltakov.com/about",
+  },
+] as const
+
+function finalizeVladAnswer(answer: string): string {
+  const cleanAnswer = answer
+    .replace(/\s*(?:filecite|cite)[^]+/g, "")
+    .replace(/[ \t]+\n/g, "\n")
+    .trim()
+
+  const links = SUPPORTING_LINKS.filter(
+    ({ pattern, url }) => pattern.test(cleanAnswer) && !cleanAnswer.includes(url),
+  ).slice(0, 4)
+
+  if (links.length === 0) return cleanAnswer
+
+  return `${cleanAnswer}\n\nSupporting links:\n${links
+    .map(({ label, url }) => `- [${label}](${url})`)
+    .join("\n")}`
 }
 
 function readSseAnswer(body: string): string {
