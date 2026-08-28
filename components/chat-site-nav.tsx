@@ -4,7 +4,7 @@ import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
 
 const AGENT_TEST_PROMPT =
-  "Visit https://haltakov.com. Based on what you know about me, use ask_vlad to ask Vlad’s site agent 4–6 focused questions. Then call show_interest_summary with what makes Vlad relevant to me."
+  "Visit haltakov.com and find out why Vlad might be interesting to me. Talk to his site agent, ask 4–6 relevant questions based on what you know about me, then show me a personalized report."
 
 export function ChatSiteNav() {
   const [isOpen, setIsOpen] = useState(false)
