@@ -1,0 +1,16 @@
+[variables]
+NIXPACKS_NODE_VERSION = "22"
+
+
+[phases.setup]
+aptPkgs = ["...", "curl", "xz-utils", "ca-certificates"]
+
+# Install the exact security release, independent of Nixpkgs' cached Node.
+[phases.patched-node]
+dependsOn = ["setup"]
+cmds = ["sh scripts/install-patched-node.sh"]
+paths = ["/opt/node/bin"]
+
+[phases.install]
+dependsOn = ["...", "patched-node"]
+cmds = ["corepack enable && pnpm install --frozen-lockfile"]
