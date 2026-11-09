@@ -3,23 +3,27 @@ id: projects
 question: What projects are you working on?
 ---
 
-Here are some of the projects I usually point people to:
+Here are the five Simple projects I build at Creafex Lab, plus some of my other work.
 
 ### [SimplePost](https://simplepost.social)
 
-An AI-native social media scheduler that you connect to your own AI agent (ChatGPT, Claude, OpenClaw etc) so it can post and schedule. You can use the best AI model you are already paying for and posting at a much lower price than the others.
-
-### [Simple Photo Gallery](https://simple.photo)
-
-A tool for building beautiful, story-driven photo galleries. There is a modern hosted platform and a free [open-source CLI](https://github.com/SimplePhotoGallery/core) that generates static galleries you can self-host.
+Connect your social accounts to the assistant you already use, such as ChatGPT or Claude. You can draft a post in chat, preview how it will look on each platform, then schedule or publish it.
 
 ### [Simple Muscle](https://simplemuscle.ai)
 
-An iPhone workout tracker that connects your workout plans and training history to the AI assistant you already use.
+Log strength workouts on your iPhone or Apple Watch. Connect your AI assistant to create workout plans and review your training history.
+
+### [SimpleListen](https://simplelisten.com)
+
+Turn articles, newsletters, notes, and AI research into narrated episodes in your own private podcast feed. Pick a voice and listen in the podcast app you already use.
 
 ### [Simple Unmark](https://simpleunmark.com)
 
-A web app that removes hidden Unicode artifacts and rewrites AI-generated text to reduce statistical watermark patterns while preserving its meaning.
+A web app that removes invisible Unicode characters and unusual spacing from AI-generated text. It also rewrites the text to reduce statistical watermark patterns while preserving the meaning.
+
+### [Simple Photo Gallery](https://simple.photo)
+
+Build a photo story with sections and captions, then share it as a public or private gallery. The free [open-source CLI](https://github.com/SimplePhotoGallery/core) generates static galleries you can host yourself.
 
 ### [Chatbot Page](https://github.com/haltakov/chatbot-page)
 

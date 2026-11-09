@@ -18,6 +18,7 @@ The homepage exposes two WebMCP tools to visiting browser agents:
 
 - [SimplePost](https://haltakov.com/projects/simplepost)
 - [Simple Muscle](https://haltakov.com/projects/simple-muscle)
+- [SimpleListen](https://haltakov.com/projects/simple-listen)
 - [Simple Unmark](https://haltakov.com/projects/simple-unmark)
 - [Simple Photo Gallery](https://haltakov.com/projects/simple-photo-gallery)
 - [Simple Photo Gallery Core](https://haltakov.com/projects/simple-photo-gallery-core)

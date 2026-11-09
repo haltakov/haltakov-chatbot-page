@@ -68,6 +68,27 @@ export const projects: Project[] = [
     schemaCategory: "HealthApplication",
   },
   {
+    slug: "simple-listen",
+    name: "SimpleListen",
+    category: "Personal audio",
+    summary:
+      "Turn your reading backlog into narrated episodes in your own private podcast feed.",
+    description: [
+      "Send SimpleListen an article link, paste your notes, or forward a newsletter by email. You can also ask your AI assistant to adapt a finished research report for listening while keeping its detail and original language.",
+      "Choose a narration voice and listen on the web or in a podcast app that supports private RSS feeds, such as Apple Podcasts, Overcast, or Pocket Casts.",
+    ],
+    links: [
+      { label: "Visit SimpleListen", href: "https://simplelisten.com" },
+    ],
+    image: {
+      src: "/images/simple-listen.png",
+      alt: "SimpleListen artwork for turning articles and emails into a personal podcast",
+      width: 1200,
+      height: 630,
+    },
+    schemaCategory: "MultimediaApplication",
+  },
+  {
     slug: "simple-unmark",
     name: "Simple Unmark",
     category: "AI text tools",
@@ -226,7 +247,7 @@ export const projects: Project[] = [
     metaDescription:
       "Creafex Lab is Vladimir Haltakov's independent product company, building focused software products and collaborating on AI and developer tools.",
     description: [
-      "Creafex Lab is the company behind SimplePost, Simple Muscle, Simple Unmark, Simple Photo Gallery, and Leoline.",
+      "Creafex Lab is the company behind SimplePost, Simple Muscle, SimpleListen, Simple Unmark, Simple Photo Gallery, and Leoline.",
       "It is also how I work with other companies on AI products, developer tools, and software engineering.",
     ],
     links: [{ label: "Visit Creafex Lab", href: "https://creafexlab.com" }],

@@ -8,5 +8,6 @@ Ask me about:
 
 - My background in AI, computer vision, and autonomous driving
 - My work at BMW, startups and consulting
-- Projects like SimplePost, Simple Muscle, Simple Unmark, Simple Photo Gallery, Chatbot Page and Leoline
+- The five Simple projects I build at Creafex Lab (SimplePost, Simple Muscle, SimpleListen, Simple Unmark, and Simple Photo Gallery)
+- Other projects like Chatbot Page and Leoline
 - Research, side projects, writing, personal or how to get in touch

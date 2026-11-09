@@ -242,6 +242,7 @@ export async function askVlad(
 const SUPPORTING_LINKS = [
   { pattern: /\bsimple\s?post\b/i, label: "SimplePost", url: "https://simplepost.social" },
   { pattern: /\bsimple muscle\b/i, label: "Simple Muscle", url: "https://simplemuscle.ai" },
+  { pattern: /\bsimple\s?listen\b/i, label: "SimpleListen", url: "https://simplelisten.com" },
   { pattern: /\bsimple unmark\b/i, label: "Simple Unmark", url: "https://simpleunmark.com" },
   {
     pattern: /\bsimple photo gallery\b/i,
